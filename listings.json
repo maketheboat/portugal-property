@@ -17,7 +17,11 @@
   "size_m2": 122,
   "garden_yes": true,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImRzMWg4NDdveG5xdS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.5H-mJ-bHrluDfEbWEdVr3QfVwvvrnrA1xj7p6o09Siw/image;s=655x491;q=80",
-  "title": "Moradia T2 para venda"
+  "title": "Moradia T2 para venda",
+  "lat": 39.3621,
+  "lon": -9.39423,
+  "coord_approx": false,
+  "coord_note": "listing map pin"
  },
  {
   "section": "ready",
@@ -37,7 +41,11 @@
   "size_m2": 100,
   "garden_yes": true,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InA2eXlvNnJmYXA2by1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.0h__pQbk-AhL1qPkPmipSijtvQTB4igg1vGBRhjOABE/image;s=655x491;q=80",
-  "title": "Moradia T2 com quintal e vista mar junto aos Supertubos"
+  "title": "Moradia T2 com quintal e vista mar junto aos Supertubos",
+  "lat": 39.34539,
+  "lon": -9.35272,
+  "coord_approx": true,
+  "coord_note": "listing map pin (approximate area)"
  },
  {
   "section": "ready",
@@ -57,7 +65,11 @@
   "size_m2": 103,
   "garden_yes": true,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjA5NnA3bXV1MXhwOS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.BucBV5kJwPVu6k-aRRlkU1dBIoQ50sxo-v6FNl_a03c/image;s=655x491;q=80",
-  "title": "MORADIA TÉRREA T2+2 COM GARAGEM E PISCINA AQUECIDA, NA SILVEIRA, A 5 M"
+  "title": "MORADIA TÉRREA T2+2 COM GARAGEM E PISCINA AQUECIDA, NA SILVEIRA, A 5 M",
+  "lat": 39.12603,
+  "lon": -9.37334,
+  "coord_approx": false,
+  "coord_note": "listing map pin"
  },
  {
   "section": "ready",
@@ -77,7 +89,11 @@
   "size_m2": 134,
   "garden_yes": true,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InZxM3N2c2xoeTk5YjMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.6MwN_T295O3kdcc_NGyNDY_40xLj4lPp7C05cSgpMA0/image;s=655x491;q=80",
-  "title": "Moradia T2 Venda em Ribamar,Lourinhã"
+  "title": "Moradia T2 Venda em Ribamar,Lourinhã",
+  "lat": 39.20186,
+  "lon": -9.3322,
+  "coord_approx": false,
+  "coord_note": "listing map pin"
  },
  {
   "section": "ready",
@@ -97,7 +113,11 @@
   "size_m2": 202,
   "garden_yes": true,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjE1MjA4ZDZlbHMzcTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.pHtGx1xB3-32ZpRN8gNUZAgDdF-cj3prZXe--0WZl0w/image;s=655x491;q=80",
-  "title": "Moradia T4 com jardim e anexos na Nazaré"
+  "title": "Moradia T4 com jardim e anexos na Nazaré",
+  "lat": 39.59991,
+  "lon": -9.05896,
+  "coord_approx": true,
+  "coord_note": "listing map pin (approximate area)"
  },
  {
   "section": "ready",
@@ -117,7 +137,11 @@
   "size_m2": 130,
   "garden_yes": true,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InFsdDRpd2lsbGdkLUVDT1NZU1RFTSIsInciOlt7ImZuIjoiNjlubHBhN2VjcW03MS1BUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.t7p0pP2MACFA4rZJYAedMfdBfIUxkRjTXofre43p_r0/image;s=655x491;q=80",
-  "title": "Moradia T2 com piscina, Bom Sucesso Resort, em Óbidos"
+  "title": "Moradia T2 com piscina, Bom Sucesso Resort, em Óbidos",
+  "lat": 39.37946,
+  "lon": -9.25171,
+  "coord_approx": true,
+  "coord_note": "listing map pin (approximate area)"
  },
  {
   "section": "ready",
@@ -137,7 +161,11 @@
   "size_m2": 75,
   "garden_yes": true,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImlpbTJvdTl3NnE2aDEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.ngR9SAz3Yk0H_JFKUFzSrpTtkYDNmQ_Nfz4D7LIlyEk/image;s=655x491;q=80",
-  "title": "Moradia T2 Nova com Jardim e Estacionamento em Fontanelas"
+  "title": "Moradia T2 Nova com Jardim e Estacionamento em Fontanelas",
+  "lat": 38.84919,
+  "lon": -9.43578,
+  "coord_approx": true,
+  "coord_note": "listing map pin (approximate area)"
  },
  {
   "section": "ready",
@@ -157,7 +185,11 @@
   "size_m2": 60,
   "garden_yes": true,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjZkb21oNHN0aDFxcC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.p8y0jfT9YGttvPoHX_fPy6WeBuLJwoRzeof42IwpCYM/image;s=655x491;q=80",
-  "title": "Moradia T2 térrea em Colares, Sintra"
+  "title": "Moradia T2 térrea em Colares, Sintra",
+  "lat": 38.77723,
+  "lon": -9.4836,
+  "coord_approx": false,
+  "coord_note": "listing map pin"
  },
  {
   "section": "ready",
@@ -177,7 +209,11 @@
   "size_m2": 120,
   "garden_yes": true,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Imo4dDFjd3pyeGZ6dDMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.uGgf8YLYPVo-lATV9dBEqswrV8qtQWEqsg8d8-iok1s/image;s=655x491;q=80",
-  "title": "Moradia T3 com 183 m², Garagem e Logradouro com Churrasqueira - Maçã,"
+  "title": "Moradia T3 com 183 m², Garagem e Logradouro com Churrasqueira - Maçã,",
+  "lat": 38.47369,
+  "lon": -9.08041,
+  "coord_approx": false,
+  "coord_note": "listing map pin"
  },
  {
   "section": "ready",
@@ -197,7 +233,11 @@
   "size_m2": 83,
   "garden_yes": true,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Im1kbWlqdm53NmtmbC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.i-7QjvY4yPTPxlCoC82652Cqc95Dt1fVUueUfceDNTk/image;s=655x491;q=80",
-  "title": "Moradia T3 para venda"
+  "title": "Moradia T3 para venda",
+  "lat": 37.65308,
+  "lon": -8.79533,
+  "coord_approx": false,
+  "coord_note": "listing map pin"
  },
  {
   "section": "ready",
@@ -217,7 +257,11 @@
   "size_m2": 172,
   "garden_yes": true,
   "image": "https://media.casasapo.pt/Z720x540/OAYES/S5/C4691/P25390767/Tphoto/IDaf6e8301-0000-0500-0000-000013eb1b9e.jpg",
-  "title": "Moradia T3 Venda 365.000 € em Aljezur, Odeceixe, Odeceixe"
+  "title": "Moradia T3 Venda 365.000 € em Aljezur, Odeceixe, Odeceixe",
+  "lat": 37.43323,
+  "lon": -8.7702,
+  "coord_approx": true,
+  "coord_note": "approx. – centre of Odeceixe, Aljezur"
  },
  {
   "section": "ready",
@@ -237,7 +281,11 @@
   "size_m2": 83,
   "garden_yes": true,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImtlN2Vlc25wcjl4ei1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ._1bVpvy8f15JDoXUymwgnudLJ_Zydf09Q79FuKT60j0/image;s=655x491;q=80",
-  "title": "Moradia T3 em Alagoachos"
+  "title": "Moradia T3 em Alagoachos",
+  "lat": 37.7391,
+  "lon": -8.76944,
+  "coord_approx": true,
+  "coord_note": "listing map pin (approximate area)"
  },
  {
   "section": "ready",
@@ -257,7 +305,11 @@
   "size_m2": 200,
   "garden_yes": true,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjcxM3ZmdWdkbjZsZTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.iV4yMOApwanv4Rl0EBmoupS9YS1oSRDNRqdHzLlOLHI/image;s=655x491;q=80",
-  "title": "Moradia T3 Odeceixe"
+  "title": "Moradia T3 Odeceixe",
+  "lat": 37.31411,
+  "lon": -8.80362,
+  "coord_approx": true,
+  "coord_note": "listing map pin (approximate area)"
  },
  {
   "section": "reno",
@@ -277,7 +329,11 @@
   "size_m2": 133,
   "garden_yes": true,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjEyYmh2eWM3a242ZjItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.Ux4BH8URf_Z_SWSla519LWF_lqtKOYRYwt08k13Ogjw/image;s=655x491;q=80",
-  "title": "Moradia T3 com projeto aprovado e vista mar na Areia Branca"
+  "title": "Moradia T3 com projeto aprovado e vista mar na Areia Branca",
+  "lat": 39.2543,
+  "lon": -9.33078,
+  "coord_approx": true,
+  "coord_note": "listing map pin (approximate area)"
  },
  {
   "section": "reno",
@@ -297,7 +353,11 @@
   "size_m2": 152,
   "garden_yes": true,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImgwY3U5dWllbjh1cTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.SColvyn10I78YEG2gUwNkfIqm3b7utA8kVPPh0PNIkU/image;s=655x491;q=80",
-  "title": "Moradia T2 para venda"
+  "title": "Moradia T2 para venda",
+  "lat": 39.25522,
+  "lon": -9.33018,
+  "coord_approx": false,
+  "coord_note": "listing map pin"
  },
  {
   "section": "reno",
@@ -317,7 +377,11 @@
   "size_m2": 67,
   "garden_yes": true,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjgyN2V5dW82Z3ByaTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.EEOSC8GwGtIfLn9drxN4qasS2yEo3EF1ER5CSz6hGWE/image;s=655x491;q=80",
-  "title": "Ruína com projeto aprovado, Serra da Azoia , Sesimbra"
+  "title": "Ruína com projeto aprovado, Serra da Azoia , Sesimbra",
+  "lat": 38.42781,
+  "lon": -9.18079,
+  "coord_approx": false,
+  "coord_note": "listing map pin"
  },
  {
   "section": "reno",
@@ -337,7 +401,11 @@
   "size_m2": 69,
   "garden_yes": true,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImtkOWtiZ3AwamUzMzEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.dKqbAVas6sLUNuzDASeSCxmGVeLVElR6CqsG9OwfU-k/image;s=655x491;q=80",
-  "title": "Moradia para reabilitar em Sesimbra ( Santiago ), com vista mar."
+  "title": "Moradia para reabilitar em Sesimbra ( Santiago ), com vista mar.",
+  "lat": 38.44924,
+  "lon": -9.10569,
+  "coord_approx": true,
+  "coord_note": "listing map pin (approximate area)"
  },
  {
   "section": "reno",
@@ -357,7 +425,11 @@
   "size_m2": 189,
   "garden_yes": true,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjhtMnNiNnEzcjdxMjItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.uTf7rPaos2JgBT2FKFtT1MOKD6nOkibA0PA3sToEp6Q/image;s=655x491;q=80",
-  "title": "Moradia para recuperar, inserida num terreno com 728,5 m2, a cerca de"
+  "title": "Moradia para recuperar, inserida num terreno com 728,5 m2, a cerca de",
+  "lat": 39.53644,
+  "lon": -9.08252,
+  "coord_approx": false,
+  "coord_note": "listing map pin"
  },
  {
   "section": "reno",
@@ -377,7 +449,11 @@
   "size_m2": 200,
   "garden_yes": false,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InA2MzdpN2ZvbmNqbTMtQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.tLcAvhquAmCODoMZ5-uqQHg8elQJOnEW04oOLpf2Itw/image;s=655x491;q=80",
-  "title": "Moradia para restaurar no centro de Valado dos Frades"
+  "title": "Moradia para restaurar no centro de Valado dos Frades",
+  "lat": 39.5962,
+  "lon": -9.06212,
+  "coord_approx": false,
+  "coord_note": "listing map pin"
  },
  {
   "section": "reno",
@@ -397,7 +473,11 @@
   "size_m2": 109,
   "garden_yes": true,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InM1Mjd4OHY0NTY2aTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.O6woSom-0OA_g8XbHRqqCDLB2GJk-KqwWYWNwe3j0jU/image;s=655x491;q=80",
-  "title": "Ruína para Reabilitação apenas a 5 min da Praia"
+  "title": "Ruína para Reabilitação apenas a 5 min da Praia",
+  "lat": 39.50319,
+  "lon": -9.10052,
+  "coord_approx": false,
+  "coord_note": "listing map pin"
  },
  {
   "section": "reno",
@@ -417,7 +497,11 @@
   "size_m2": 225,
   "garden_yes": true,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Im5tcTNzM2l2NTRiNy1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.3k2MHOClHVR49NNeGgVLJUoIwQOphXNF-bPsWruriVI/image;s=655x491;q=80",
-  "title": "Moradia p/a restaurar c/ 225m2 de área em terreno c/ 6.473m2"
+  "title": "Moradia p/a restaurar c/ 225m2 de área em terreno c/ 6.473m2",
+  "lat": 39.42305,
+  "lon": -9.15125,
+  "coord_approx": true,
+  "coord_note": "listing map pin (approximate area)"
  },
  {
   "section": "reno",
@@ -437,7 +521,11 @@
   "size_m2": 107,
   "garden_yes": true,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjZyY25mZmlpZWZiejEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.HwHVt3oTcGndH-_76gRToxzt3CmkvCD5PxO31NhrXeE/image;s=655x491;q=80",
-  "title": "Moradia Térrea para Reabilitar com Terreno, Vista Mar e Vista Síti..."
+  "title": "Moradia Térrea para Reabilitar com Terreno, Vista Mar e Vista Síti...",
+  "lat": 39.55235,
+  "lon": -9.01956,
+  "coord_approx": true,
+  "coord_note": "listing map pin (approximate area)"
  },
  {
   "section": "reno",
@@ -457,7 +545,11 @@
   "size_m2": 90,
   "garden_yes": true,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImpiZ2ZjMnY4cGVyNzItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.KNsQVVBFJ8MytMkZnwAKgusVdTF7n2sziARqncMqrp8/image;s=655x491;q=80",
-  "title": "Moradia T3 para recuperar, para venda, Vimeiro - Lourinhã"
+  "title": "Moradia T3 para recuperar, para venda, Vimeiro - Lourinhã",
+  "lat": 39.23299,
+  "lon": -9.31701,
+  "coord_approx": false,
+  "coord_note": "listing map pin"
  },
  {
   "section": "reno",
@@ -477,7 +569,11 @@
   "size_m2": 116,
   "garden_yes": false,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Im9leWtkaDE4cXMyei1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.OK854khCHXTwrrOANcGc1aK5bZR8ZVLpzdNEBtU98TY/image;s=655x491;q=80",
-  "title": "Moradias para recuperar Aljezur"
+  "title": "Moradias para recuperar Aljezur",
+  "lat": 37.31337,
+  "lon": -8.80463,
+  "coord_approx": true,
+  "coord_note": "listing map pin (approximate area)"
  },
  {
   "section": "reno",
@@ -499,7 +595,11 @@
   "size_m2": 279,
   "garden_yes": true,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjB4bW41ZDdjeWJzbTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.bjAzz5ezYALEL32iZdj7s4fyerJWNPQJzqF1y7KSy4o/image;s=655x491;q=80",
-  "title": "Moradia + Adega Zambujeira do Mar - Lourinhã"
+  "title": "Moradia + Adega Zambujeira do Mar - Lourinhã",
+  "lat": 39.26797,
+  "lon": -9.31302,
+  "coord_approx": true,
+  "coord_note": "listing map pin (approximate area)"
  },
  {
   "section": "reno",
@@ -521,7 +621,11 @@
   "size_m2": 75,
   "garden_yes": true,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjczcTR5cHRheDE3YjEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.clUSGLNWM2HCAJiiGZdlzR2Mex9khubDC45I9h7w8b8/image;s=655x491;q=80",
-  "title": "Moradia T2 para venda"
+  "title": "Moradia T2 para venda",
+  "lat": 38.52761,
+  "lon": -8.86704,
+  "coord_approx": false,
+  "coord_note": "listing map pin"
  },
  {
   "section": "reno",
@@ -543,7 +647,11 @@
   "size_m2": 49,
   "garden_yes": true,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImhmczYwbGIya21uYjEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.FSY4edKNtbbh5uXvjQtkz59q7SwDT1SyE8ZmUpuWncM/image;s=655x491;q=80",
-  "title": "Casa Térrea"
+  "title": "Casa Térrea",
+  "lat": 38.64231,
+  "lon": -9.21041,
+  "coord_approx": true,
+  "coord_note": "listing map pin (approximate area)"
  },
  {
   "section": "reno",
@@ -565,7 +673,11 @@
   "size_m2": 16080,
   "garden_yes": true,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImxsN2xteHFxN3l0MjEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.b3Lv8xOyKIL1L5ObodZW_vEa7ZoXQ2k9DIyPKCi56FA/image;s=655x491;q=80",
-  "title": "Quinta  para venda"
+  "title": "Quinta  para venda",
+  "lat": 39.30052,
+  "lon": -9.30793,
+  "coord_approx": false,
+  "coord_note": "listing map pin"
  },
  {
   "section": "ready",
@@ -587,7 +699,11 @@
   "size_m2": 125,
   "garden_yes": true,
   "image": "https://media.casasapo.pt/Z720x540/OAYES/S5/C6288/P30309423/Tphoto/ID2f7cce01-0000-0500-0000-000019985be4.jpg",
-  "title": "Moradia em Banda T3 Venda 415.000 € em Óbidos, Vau"
+  "title": "Moradia em Banda T3 Venda 415.000 € em Óbidos, Vau",
+  "lat": 39.3658,
+  "lon": -9.21736,
+  "coord_approx": true,
+  "coord_note": "approx. – centre of Vau, Óbidos"
  },
  {
   "section": "ready",
@@ -609,7 +725,11 @@
   "size_m2": 230,
   "garden_yes": true,
   "image": "https://media.casasapo.pt/Z720x540/OAYES/S5/C5304/P25506670/Tphoto/ID6e338501-0000-0500-0000-00001781ba41.jpg",
-  "title": "Moradia T6 Venda 450.000 € em Peniche, Atouguia da Baleia"
+  "title": "Moradia T6 Venda 450.000 € em Peniche, Atouguia da Baleia",
+  "lat": 39.32497,
+  "lon": -9.32266,
+  "coord_approx": true,
+  "coord_note": "approx. – centre of Atouguia da Baleia, Peniche"
  },
  {
   "section": "ready",
@@ -631,7 +751,11 @@
   "size_m2": 290,
   "garden_yes": true,
   "image": "https://media.casasapo.pt/Z720x540/OAYES/S5/C40480/P30555499/Tphoto/ID6b3dd201-0000-0500-0000-000019d05008.jpg",
-  "title": "Moradia Isolada T7 Venda 425.000 € em Peniche, Atouguia da Baleia"
+  "title": "Moradia Isolada T7 Venda 425.000 € em Peniche, Atouguia da Baleia",
+  "lat": 39.32497,
+  "lon": -9.32266,
+  "coord_approx": true,
+  "coord_note": "approx. – centre of Atouguia da Baleia, Peniche"
  },
  {
   "section": "ready",
@@ -653,7 +777,11 @@
   "size_m2": 164,
   "garden_yes": true,
   "image": "https://media.casasapo.pt/Z720x540/OAYES/S5/C12375/P30323247/Tphoto/ID2fb2ce01-0000-0500-0000-0000199b1a0b.jpg",
-  "title": "Moradia T4 Duplex Venda 369.000 € em Peniche, Atouguia da Baleia, São Bernardino"
+  "title": "Moradia T4 Duplex Venda 369.000 € em Peniche, Atouguia da Baleia, São Bernardino",
+  "lat": 39.30909,
+  "lon": -9.34052,
+  "coord_approx": true,
+  "coord_note": "approx. – centre of São Bernardino, Peniche"
  },
  {
   "section": "ready",
@@ -675,7 +803,11 @@
   "size_m2": 173,
   "garden_yes": true,
   "image": "https://media.casasapo.pt/Z720x540/OAYES/S5/C8388/P24622767/Tphoto/IDafb67701-0000-0500-0000-0000129bdf7c.jpg",
-  "title": "Moradia T4 Duplex Venda 425.000 € em Lourinhã, Reguengo Grande, Cezaredas"
+  "title": "Moradia T4 Duplex Venda 425.000 € em Lourinhã, Reguengo Grande, Cezaredas",
+  "lat": 39.30166,
+  "lon": -9.23969,
+  "coord_approx": true,
+  "coord_note": "approx. – centre of Cezaredas, Lourinhã"
  },
  {
   "section": "reno",
@@ -697,6 +829,10 @@
   "size_m2": 104,
   "garden_yes": true,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InQwNHI5NnAzMHd2bzMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.CldSGl6_jC5pBHSYJQm_gF4ty0l2VGc2c8-Mefocldk/image;s=655x491;q=80",
-  "title": "Moradia T2 para venda"
+  "title": "Moradia T2 para venda",
+  "lat": 39.3283,
+  "lon": -9.29917,
+  "coord_approx": false,
+  "coord_note": "listing map pin"
  }
 ]
