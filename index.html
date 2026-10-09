@@ -1,290 +1,176 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>West Coast Portugal property – Nazaré to Arrifana</title>
+<meta name="description" content="Curated houses for sale on Portugal's west coast, Nazaré to Arrifana.">
 <style>
-:root{--bg:#f6f4ef;--card:#fff;--ink:#1d2a33;--muted:#6b7780;--accent:#0f6e8c;--new:#e4572e}
+:root{--bg:#f6f4ef;--card:#fff;--ink:#1d2a33;--muted:#6b7780;--accent:#0f6e8c;--accent2:#2a9d8f;--new:#e4572e;--line:#e3e0d8}
 *{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.45}
-header{background:linear-gradient(135deg,#0f6e8c,#2a9d8f);color:#fff;padding:28px 18px}header h1{margin:0 0 6px;font-size:1.6rem}header p{margin:0;opacity:.9}
-main{max-width:1150px;margin:0 auto;padding:18px}h2{margin:28px 0 12px;font-size:1.3rem}h2 small{color:var(--muted);font-weight:400}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:14px}
-.card{background:var(--card);border-radius:12px;padding:14px 16px;box-shadow:0 1px 4px rgba(0,0,0,.08);display:flex;flex-direction:column}
-.card h3{margin:4px 0 6px;font-size:1.05rem}.top{display:flex;justify-content:space-between;align-items:center}
-.price{font-size:1.25rem;font-weight:700;color:var(--accent)}.badge{background:var(--new);color:#fff;font-size:.75rem;padding:2px 8px;border-radius:99px;font-weight:600}
-.meta{display:flex;gap:8px;flex-wrap:wrap}.meta span{background:#eef3f5;border-radius:6px;padding:2px 8px;font-size:.85rem}
-.garden{margin-top:8px;font-size:.9rem}.card p{margin:8px 0;font-size:.92rem;flex:1}
-.foot{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;font-size:.85rem}.foot a{color:var(--accent);font-weight:600;text-decoration:none}.seen{color:var(--muted)}
-footer{max-width:1150px;margin:0 auto;padding:18px;color:var(--muted);font-size:.85rem}
+header{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;padding:22px 18px}
+header .wrap{max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
+header h1{margin:0 0 4px;font-size:1.55rem}header p{margin:0;opacity:.9;font-size:.92rem}
+.hbtn{background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.4);border-radius:8px;padding:7px 12px;cursor:pointer;font-size:.9rem}
+#filters{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 2px 6px rgba(0,0,0,.05)}
+#filters .wrap{max-width:1200px;margin:0 auto;padding:10px 18px;display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center}
+#filters input,#filters select{font:inherit;font-size:.88rem;padding:6px 8px;border:1px solid var(--line);border-radius:7px;background:#fff;color:var(--ink)}
+#q{flex:1 1 220px;min-width:180px}.num{width:92px}
+.tog{display:inline-flex;align-items:center;gap:4px;font-size:.86rem;white-space:nowrap;cursor:pointer}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:7px;overflow:hidden}.seg button{border:0;background:#fff;padding:6px 10px;font:inherit;font-size:.86rem;cursor:pointer}
+.seg button.on{background:var(--accent);color:#fff}
+#ftoggle{display:none}
+.bar2{max-width:1200px;margin:0 auto;padding:12px 18px 0;display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;font-size:.9rem;color:var(--muted)}
+.link{background:none;border:0;color:var(--accent);cursor:pointer;font:inherit;padding:0;text-decoration:underline}
+main{max-width:1200px;margin:0 auto;padding:12px 18px 24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(285px,1fr));gap:16px}
+.card{background:var(--card);border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.08);display:flex;flex-direction:column;overflow:hidden;position:relative}
+.card.removed{opacity:.5}
+.thumb{position:relative;aspect-ratio:4/3;background:linear-gradient(135deg,#cfe3e8,#e9efe6);display:block}
+.thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.thumb .ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:2.4rem;color:#8fb3bd}
+.chips{position:absolute;left:8px;top:8px;display:flex;gap:5px;flex-wrap:wrap}
+.chip{font-size:.72rem;font-weight:700;padding:3px 8px;border-radius:99px;background:rgba(255,255,255,.92);color:var(--ink)}
+.chip.new{background:var(--new);color:#fff}.chip.shared{background:#f4b400;color:#3a2a00}.chip.reno{background:#6d4c41;color:#fff}.chip.ready{background:var(--accent);color:#fff}
+.acts{position:absolute;right:8px;top:8px;display:flex;gap:6px}
+.acts button{width:34px;height:34px;border-radius:50%;border:0;background:rgba(255,255,255,.92);cursor:pointer;font-size:1.05rem;line-height:1;box-shadow:0 1px 3px rgba(0,0,0,.2)}
+.acts .fav.on{color:#e0245e}
+.body{padding:12px 14px;display:flex;flex-direction:column;flex:1}
+.price{font-size:1.3rem;font-weight:700;color:var(--accent)}
+.card h3{margin:2px 0 6px;font-size:1rem}
+.meta{display:flex;gap:6px;flex-wrap:wrap}.meta span{background:#eef3f5;border-radius:6px;padding:2px 8px;font-size:.82rem}
+.garden{margin-top:7px;font-size:.86rem}.body p{margin:7px 0;font-size:.9rem;flex:1}
+.foot{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;font-size:.83rem}
+.foot a{color:var(--accent);font-weight:600;text-decoration:none}.seen{color:var(--muted)}
+.restore{margin-top:8px;background:var(--accent);color:#fff;border:0;border-radius:7px;padding:6px 10px;cursor:pointer}
+.empty{padding:40px;text-align:center;color:var(--muted)}
+#panel{display:none;max-width:1200px;margin:12px auto 0;padding:0 18px}
+#panel .box{background:#fff;border-radius:12px;padding:14px 16px;box-shadow:0 1px 4px rgba(0,0,0,.08);font-size:.9rem}
+#panel textarea{width:100%;min-height:64px;font-family:ui-monospace,monospace;font-size:.82rem;border:1px solid var(--line);border-radius:7px;padding:6px}
+#panel .row{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0}
+#panel button{background:var(--accent);color:#fff;border:0;border-radius:7px;padding:6px 12px;cursor:pointer}
+#toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#1d2a33;color:#fff;padding:9px 14px;border-radius:9px;font-size:.9rem;display:none;z-index:50}
+#toast button{margin-left:10px;background:none;border:0;color:#7fd3e6;cursor:pointer;font:inherit;text-decoration:underline}
+footer{max-width:1200px;margin:0 auto;padding:18px;color:var(--muted);font-size:.83rem}
+@media (max-width:760px){
+ #ftoggle{display:inline-block}
+ #filters .wrap{display:none}#filters.open .wrap{display:flex}
+ #filters .wrap>*{flex:1 1 45%}#q{flex-basis:100%}
+ #filters{position:static}
+}
 </style></head><body>
-<header><h1>West Coast Portugal property – Nazaré to Arrifana</h1><p>Curated houses for sale near the coast. Last updated 09 Oct 2026, 17:59 (Lisbon time)</p></header>
-<main><section><h2>Move-in ready €350k–450k <small>(18)</small></h2><div class="grid"><article class="card">
- <div class="top"><span class="price">€350,000</span><span class="badge">New</span></div>
- <h3>Peniche</h3>
- <div class="meta"><span>T2</span><span>122 m²</span></div>
- <div class="garden">🌿 Garden/land: Yes – quintal + garage</div>
- <p>Fully renovated, in town ~0.1 km from the sea.</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/moradia-t2-para-venda-ID1iRqo" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€385,000</span><span class="badge">New</span></div>
- <h3>Atouguia da Baleia (Supertubos), Peniche</h3>
- <div class="meta"><span>T2</span><span>100 m²</span></div>
- <div class="garden">🌿 Garden/land: Yes – quintal</div>
- <p>Fully renovated, two suites, sea view, steps from Supertubos beach.</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/moradia-t2-com-quintal-e-vista-mar-junto-aos-supertubos-ID1hmmf" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€430,000</span><span class="badge">New</span></div>
- <h3>Silveira (Santa Cruz), Torres Vedras</h3>
- <div class="meta"><span>T2+2</span><span>103 m²</span></div>
- <div class="garden">🌿 Garden/land: Yes – 411 m² plot</div>
- <p>Single-storey, heated pool, garage, barbecue annex; attic with 2 extra rooms.</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/moradia-terrea-t2-2-com-garagem-e-piscina-aquecida-na-silveira-a-5-m-ID1iOOT" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€350,000</span><span class="badge">New</span></div>
- <h3>Ribamar, Lourinhã</h3>
- <div class="meta"><span>T2</span><span>134 m²</span></div>
- <div class="garden">🌿 Garden/land: Yes – large plot</div>
- <p>2 min from the beaches; convertible to T3.</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/moradia-t2-venda-em-ribamar-lourinha-ID1iayS" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€430,000</span><span class="badge">New</span></div>
- <h3>Nazaré</h3>
- <div class="meta"><span>T4</span><span>202 m²</span></div>
- <div class="garden">🌿 Garden/land: Yes – garden + annexes</div>
- <p>Contemporary house with garage, ~1.8 km from the coast.</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/moradia-t4-com-jardim-e-anexos-na-nazare-ID1hw4d" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€350,000</span><span class="badge">New</span></div>
- <h3>Bom Sucesso Resort, Óbidos</h3>
- <div class="meta"><span>T2</span><span>130 m²</span></div>
- <div class="garden">🌿 Garden/land: Yes – 41 m² private garden</div>
- <p>Pool, gated resort with 24h security, by Óbidos lagoon.</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/moradia-t2-com-piscina-bom-sucesso-resort-em-obidos-ID1ix7Q" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€410,000</span><span class="badge">New</span></div>
- <h3>Fontanelas, Sintra</h3>
- <div class="meta"><span>T2</span><span>75 m²</span></div>
- <div class="garden">🌿 Garden/land: Yes – garden + parking</div>
- <p>Single-storey new build between hills and sea; completion was due end of March 2026, check it is finished.</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/moradia-t2-nova-com-jardim-e-estacionamento-em-fontanelas-ID1hZnq" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€420,000</span><span class="badge">New</span></div>
- <h3>Azóia (Colares), Sintra</h3>
- <div class="meta"><span>T2</span><span>60 m²</span></div>
- <div class="garden">🌿 Garden/land: Yes – outdoor space</div>
- <p>Single-storey, restored 2021, 1.5 km from Cabo da Roca. Small inside.</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/moradia-t2-terrea-em-colares-sintra-ID1iXWO" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€410,000</span><span class="badge">New</span></div>
- <h3>Maçã, Sesimbra</h3>
- <div class="meta"><span>T3</span><span>120 m² (183 m² gross)</span></div>
- <div class="garden">🌿 Garden/land: Yes – yard with barbecue</div>
- <p>Excellent condition, garage, minutes from Sesimbra beaches.</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/moradia-t3-com-183-m-garagem-e-logradouro-com-churrasqueira-maca-ID1iZoj" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€399,000</span><span class="badge">New</span></div>
- <h3>Almograve, Odemira</h3>
- <div class="meta"><span>T2+1</span><span>83 m²</span></div>
- <div class="garden">🌿 Garden/land: Yes – quintal</div>
- <p>Semi-detached on two floors, walk to the beach.</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1iKLX" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€365,000</span><span class="badge">New</span></div>
- <h3>Odeceixe, Aljezur</h3>
- <div class="meta"><span>T3</span><span>172 m²</span></div>
- <div class="garden">🌿 Garden/land: Likely (check listing)</div>
- <p>Two floors plus garage in Malhadais, ~4 km from Odeceixe beach.</p>
- <div class="foot"><a href="https://casa.sapo.pt/comprar-moradia-t3-aljezur-odeceixe-c7c2a96b-9c2b-11ef-8add-060000000054.html" target="_blank" rel="noopener">View listing (Casa Sapo) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€415,000</span><span class="badge">New</span></div>
- <h3>Vau, Óbidos</h3>
- <div class="meta"><span>T3</span><span>125 m²</span></div>
- <div class="garden">🌿 Garden/land: Yes – mentions &#x27;jardim&#x27; (check listing)</div>
- <p>Moradia Geminada de 3 Quartos com Jardim Privado e Acesso à Piscina Bom Sucesso Resort, Óbidos Situada no premiado Bom Sucesso Architecture &amp; Golf Resort, es…</p>
- <div class="foot"><a href="https://casa.sapo.pt/comprar-moradia-em-banda-t3-obidos-vau-80dd8d57-5f3b-11f1-90a1-060000000056.html" target="_blank" rel="noopener">View listing (Casa Sapo) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€450,000</span><span class="badge">New</span></div>
- <h3>Atouguia da Baleia, Peniche</h3>
- <div class="meta"><span>T6</span><span>230 m²</span></div>
- <div class="garden">🌿 Garden/land: Yes – mentions &#x27;terreno&#x27; (check listing)</div>
- <p>Moradia T6 situada na Atouguia da Baleia, implantada num terreno de 900m²,com 203m² de área privativa, inclui dois pisos, garagem enorme, logradouro e mais u…</p>
- <div class="foot"><a href="https://casa.sapo.pt/comprar-moradia-t6-ou-superior-peniche-atouguia-da-baleia-e84dcda5-b870-11ef-8359-060000000051.html" target="_blank" rel="noopener">View listing (Casa Sapo) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€425,000</span><span class="badge">New</span></div>
- <h3>Atouguia da Baleia, Peniche</h3>
- <div class="meta"><span>T7</span><span>290 m²</span></div>
- <div class="garden">🌿 Garden/land: Yes – mentions &#x27;terreno&#x27; (check listing)</div>
- <p>Moradia T7, inserida em terreno com 4880 m2, com potencial como residência ou para investimento (ARRENDAMENTO Á EPOCA).</p>
- <div class="foot"><a href="https://casa.sapo.pt/comprar-moradia-isolada-t6-ou-superior-peniche-atouguia-da-baleia-b2a08bd5-73bb-11f1-ba38-060000000058.html" target="_blank" rel="noopener">View listing (Casa Sapo) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€369,000</span><span class="badge">New</span></div>
- <h3>São Bernardino, Atouguia da Baleia, Peniche</h3>
- <div class="meta"><span>T4</span><span>164 m²</span></div>
- <div class="garden">🌿 Garden/land: Yes – mentions &#x27;jardim&#x27; (check listing)</div>
- <p>Moradia T4+1 em bom estado de conservação, localizada em São Bernardino, a menos de dez minutos a pé da praia, inserida numa zona tranquila, sem tráfego.</p>
- <div class="foot"><a href="https://casa.sapo.pt/comprar-moradia-t4-peniche-atouguia-da-baleia-sao-bernardino-207d9bbe-63f5-11f1-90a1-060000000056.html" target="_blank" rel="noopener">View listing (Casa Sapo) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€425,000</span><span class="badge">New</span></div>
- <h3>Cezaredas, Reguengo Grande, Lourinhã</h3>
- <div class="meta"><span>T4</span><span>173 m²</span></div>
- <div class="garden">🌿 Garden/land: Yes – mentions &#x27;terreno&#x27; (check listing)</div>
- <p>Viver entre o Mar, a Praia e o Campo West Silver Coast Moradia T4 e Anexos.</p>
- <div class="foot"><a href="https://casa.sapo.pt/comprar-moradia-t4-lourinha-reguengo-grande-cezaredas-9d554358-bc52-11ee-91bc-060000000057.html" target="_blank" rel="noopener">View listing (Casa Sapo) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€350,000</span><span class="badge">New</span></div>
- <h3>Vila Nova de Milfontes, Odemira</h3>
- <div class="meta"><span>T3</span><span>83 m²</span></div>
- <div class="garden">🌿 Garden/land: Yes – ~59 m² yard</div>
- <p>Quiet area (Alagoachos), two balconies.</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/moradia-t3-em-alagoachos-ID1iPAO" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€380,000</span><span class="badge">New</span></div>
- <h3>Odeceixe, Aljezur</h3>
- <div class="meta"><span>T3</span><span>200 m²</span></div>
- <div class="garden">🌿 Garden/land: Yes – ~100 m² garden</div>
- <p>3 km from the beach; ground floor needs work.</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/moradia-t3-odeceixe-ID1ib5W" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article></div></section><section><h2>Renovation projects €100k–200k <small>(16)</small></h2><div class="grid"><article class="card">
- <div class="top"><span class="price">€130,000</span><span class="badge">New</span></div>
- <h3>Praia da Areia Branca, Lourinhã</h3>
- <div class="meta"><span>T3 (approved project)</span><span>133 m²</span></div>
- <div class="garden">🌿 Garden/land: Yes – outdoor space</div>
- <p>Approved project for a modern T3 with pool, 500 m from the beach, sea view.</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/moradia-t3-com-projeto-aprovado-e-vista-mar-na-areia-branca-ID1iMQz" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€179,000</span><span class="badge">New</span></div>
- <h3>Areia Branca, Lourinhã</h3>
- <div class="meta"><span>House + annexes</span><span>152 m² gross</span></div>
- <div class="garden">🌿 Garden/land: Yes – yard</div>
- <p>Sea view, end of a private road; rebuild or 1–4 houses subject to approval.</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/moradia-t2-para-venda-ID1ieDz" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€152,500</span><span class="badge">New</span></div>
- <h3>Serra da Azóia, Sesimbra</h3>
- <div class="meta"><span>Ruin (approved project)</span><span>67 m² now → 149 m²</span></div>
- <div class="garden">🌿 Garden/land: Yes – land</div>
- <p>Approved project for a 149 m² single-storey house, near the beaches.</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/ruina-com-projeto-aprovado-serra-da-azoia-sesimbra-ID1hpSg" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€195,000</span><span class="badge">New</span></div>
- <h3>Santiago, Sesimbra</h3>
- <div class="meta"><span>Ruin</span><span>69 m² on 199 m² plot</span></div>
- <div class="garden">🌿 Garden/land: Yes – outdoor space</div>
- <p>Sea view, ~1 km from the coast.</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/moradia-para-reabilitar-em-sesimbra-santiago-com-vista-mar-ID1iu02" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€150,000</span><span class="badge">New</span></div>
- <h3>Famalicão, Nazaré</h3>
- <div class="meta"><span>House to recover</span><span>189 m² on 728.5 m² plot</span></div>
- <div class="garden">🌿 Garden/land: Yes – land</div>
- <p>Ground floor + attic + garage, needs work; 10 min to Nazaré.</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/moradia-para-recuperar-inserida-num-terreno-com-728-5-m2-a-cerca-de-ID1iXgz" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€110,000</span><span class="badge">New</span></div>
- <h3>Valado dos Frades, Nazaré</h3>
- <div class="meta"><span>T4</span><span>200 m²</span></div>
- <div class="garden">🌿 Garden/land: Terrace only</div>
- <p>Built 1951, two floors, garage. Cheapest option.</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/moradia-para-restaurar-no-centro-de-valado-dos-frades-ID1iJtP" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€120,000</span><span class="badge">New</span></div>
- <h3>Alfeizerão, Alcobaça</h3>
- <div class="meta"><span>Ruin</span><span>109 m² on 509 m² plot</span></div>
- <div class="garden">🌿 Garden/land: Yes – land</div>
- <p>Could expand to ~245 m² footprint (subject to approval); 5 min to São Martinho beaches.</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/ruina-para-reabilitacao-apenas-a-5-min-da-praia-ID1iwYn" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€169,000</span><span class="badge">New</span></div>
- <h3>Serra do Bouro, Caldas da Rainha</h3>
- <div class="meta"><span>House to restore</span><span>225 m² footprint on 6,473 m²</span></div>
- <div class="garden">🌿 Garden/land: Yes – flat land</div>
- <p>Part old house, part newer shell to finish; near Foz do Arelho.</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/moradia-p-a-restaurar-c-225m2-de-area-em-terreno-c-6-473m2-ID1ijO8" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€169,990</span><span class="badge">New</span></div>
- <h3>Bárrio, Alcobaça</h3>
- <div class="meta"><span>Single-storey ruin</span><span>107 m² living (416 m² gross) on 3,092 m²</span></div>
- <div class="garden">🌿 Garden/land: Yes – land</div>
- <p>Sea view, ~7 km inland.</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/moradia-terrea-para-reabilitar-com-terreno-vista-mar-e-vista-siti-ID1ibtb" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€160,000</span><span class="badge">New</span></div>
- <h3>Lourinhã e Atalaia, Lourinhã</h3>
- <div class="meta"><span>T4</span><span>279 m²</span></div>
- <div class="garden">🌿 Garden/land: Yes – mentions &#x27;terreno&#x27; (check listing)</div>
- <p>EXCLUSIVO T- Ideal - Dois artigos urbanos independentes, lado a lado, com 342 m² de área bruta de construção..</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/moradia-adega-zambujeira-do-mar-lourinha-ID1iUZn" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€200,000</span><span class="badge">New</span></div>
- <h3>Camarinha - Peixe Frito, Setúbal (São Sebastião)</h3>
- <div class="meta"><span>T2</span><span>75 m²</span></div>
- <div class="garden">🌿 Garden/land: Yes – mentions &#x27;logradouro&#x27; (check listing)</div>
- <p>Moradia T2 no Bairro do Peixe Frito - Setúbal Moradia térrea para recuperação total com 59,50 m2 de área privativa e 15,50 m2 de logradouro, localizada em pl…</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/moradia-t2-para-venda-ID1ih2D" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€160,000</span><span class="badge">New</span></div>
- <h3>Caparica, Caparica e Trafaria</h3>
- <div class="meta"><span>T3</span><span>49 m²</span></div>
- <div class="garden">🌿 Garden/land: Yes – mentions &#x27;terreno&#x27; (check listing)</div>
- <p>Pequena casa térrea com 49m2 de área bruta de construção, e 430m2 de terreno privativo.</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/casa-terrea-ID1iMOA" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€160,000</span><span class="badge">New</span></div>
- <h3>Atouguia da Baleia, Peniche</h3>
- <div class="meta"><span>Quinta</span><span>16080 m²</span></div>
- <div class="garden">🌿 Garden/land: Yes – mentions &#x27;logradouro&#x27; (check listing)</div>
- <p>Quinta encantadora, inserida num ambiente de plena harmonia com a natureza, ideal para quem valoriza tranquilidade e privacidade.</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/quinta-para-venda-ID1ikWM" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€160,000</span><span class="badge">New</span></div>
- <h3>Atouguia da Baleia, Peniche</h3>
- <div class="meta"><span>T2</span><span>104 m²</span></div>
- <div class="garden">🌿 Garden/land: Yes – mentions &#x27;logradouro&#x27; (check listing)</div>
- <p>Localizada a 2 kms da Vila de Atouguia da Baleia.</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/moradia-t2-para-venda-ID1iVKq" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€180,000</span><span class="badge">New</span></div>
- <h3>Vimeiro, Lourinhã</h3>
- <div class="meta"><span>T3</span><span>90 m²</span></div>
- <div class="garden">🌿 Garden/land: Yes – 53 m² yard</div>
- <p>In an urban rehab zone (tax breaks); attic with potential.</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/moradia-t3-para-recuperar-para-venda-vimeiro-lourinha-ID1igNK" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article>
-<article class="card">
- <div class="top"><span class="price">€180,000</span><span class="badge">New</span></div>
- <h3>Aljezur</h3>
- <div class="meta"><span>3 small houses</span><span>116.5 m² total</span></div>
- <div class="garden">🌿 Garden/land: No</div>
- <p>3 houses to recover, 10 min to Arrifana and Monte Clérigo.</p>
- <div class="foot"><a href="https://www.imovirtual.com/pt/anuncio/moradias-para-recuperar-aljezur-ID1fJ1N" target="_blank" rel="noopener">View listing (Imovirtual) →</a><span class="seen">First seen 09 Oct 2026</span></div>
-</article></div></section></main>
-<footer>Sources: Imovirtual and Casa Sapo listings. Prices, sizes, garden details and distances to the coast are taken from the adverts and approximations. Always check them on the original listing before acting. Listings may be sold or withdrawn at any time.</footer>
-</body></html>
+<header><div class="wrap"><div><h1>West Coast Portugal property</h1><p>Nazaré to Arrifana · curated houses for sale · Last updated <span id="upd"></span> (Lisbon)</p></div>
+<div><button class="hbtn" id="ftoggle" type="button">☰ Filters</button> <button class="hbtn" id="sharebtn" type="button">♥ My lists / share</button></div></div></header>
+<div id="filters"><div class="wrap">
+ <input id="q" type="search" placeholder="Search town, area, notes…" aria-label="Search">
+ <div class="seg" id="sec"><button data-v="all" class="on">All</button><button data-v="ready">Move-in ready</button><button data-v="reno">Renovation</button></div>
+ <input id="pmin" class="num" type="number" step="5000" placeholder="Min €" aria-label="Min price">
+ <input id="pmax" class="num" type="number" step="5000" placeholder="Max €" aria-label="Max price">
+ <select id="beds" aria-label="Min bedrooms"><option value="">Any beds</option><option value="2">T2+</option><option value="3">T3+</option><option value="4">T4+</option></select>
+ <input id="size" class="num" type="number" step="10" placeholder="Min m²" aria-label="Min size">
+ <select id="muni" aria-label="Area"><option value="">All areas</option></select>
+ <select id="src" aria-label="Source"><option value="">All portals</option><option value="imovirtual">Imovirtual</option><option value="casasapo">Casa Sapo</option></select>
+ <select id="sort" aria-label="Sort"><option value="newest">Newest</option><option value="price_asc">Price ↑</option><option value="price_desc">Price ↓</option><option value="size_desc">Size ↓</option><option value="size_asc">Size ↑</option></select>
+ <label class="tog"><input type="checkbox" id="garden"> Garden/land</label>
+ <label class="tog"><input type="checkbox" id="new"> New (7 days)</label>
+ <label class="tog"><input type="checkbox" id="fav"> ♥ Favourites</label>
+ <label class="tog"><input type="checkbox" id="showrem"> Show removed</label>
+ <button class="link" id="reset" type="button">Reset</button>
+</div></div>
+<div id="panel"><div class="box">
+ <b>Your favourites & removed listings</b> are saved in this browser only. To move them to another device, or to send them to us so we can add them to the shared list, copy this code:
+ <textarea id="code" readonly></textarea>
+ <div class="row"><button id="copy" type="button">Copy code</button><button id="copylink" type="button">Copy link to this filtered view</button></div>
+ Paste a code from another device or person (it is added to what you already have):
+ <textarea id="incode" placeholder="PP1:…"></textarea>
+ <div class="row"><button id="apply" type="button">Import code</button><button id="clearrem" type="button">Restore all removed</button></div>
+</div></div>
+<div class="bar2"><span id="count"></span><span id="remnote"></span></div>
+<main><div class="grid" id="grid"></div></main>
+<div id="toast"></div>
+<footer>Sources: Imovirtual and Casa Sapo listings, curated and refreshed daily. Prices, sizes, garden/land details and distances come from the adverts or are approximate. Always check them on the original listing. Listings may be sold or withdrawn at any time. ♥ and × are saved only in your browser.</footer>
+<script>
+"use strict";
+const DATA={"listings": [{"id": "0c7f1bc376", "section": "ready", "town": "Peniche", "municipality": "Peniche", "typology": "T2", "bedrooms": 2, "price": 350000, "size": "122 m²", "size_m2": 122, "garden": "Yes – quintal + garage", "garden_yes": true, "note": "Fully renovated, in town ~0.1 km from the sea.", "url": "https://www.imovirtual.com/pt/anuncio/moradia-t2-para-venda-ID1iRqo", "also": false, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImRzMWg4NDdveG5xdS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.5H-mJ-bHrluDfEbWEdVr3QfVwvvrnrA1xj7p6o09Siw/image;s=655x491;q=80", "title": "Moradia T2 para venda", "coast_km": null}, {"id": "e613e464cc", "section": "ready", "town": "Atouguia da Baleia (Supertubos), Peniche", "municipality": "Peniche", "typology": "T2", "bedrooms": 2, "price": 385000, "size": "100 m²", "size_m2": 100, "garden": "Yes – quintal", "garden_yes": true, "note": "Fully renovated, two suites, sea view, steps from Supertubos beach.", "url": "https://www.imovirtual.com/pt/anuncio/moradia-t2-com-quintal-e-vista-mar-junto-aos-supertubos-ID1hmmf", "also": false, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InA2eXlvNnJmYXA2by1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.0h__pQbk-AhL1qPkPmipSijtvQTB4igg1vGBRhjOABE/image;s=655x491;q=80", "title": "Moradia T2 com quintal e vista mar junto aos Supertubos", "coast_km": null}, {"id": "a0f41248a3", "section": "ready", "town": "Silveira (Santa Cruz), Torres Vedras", "municipality": "Torres Vedras", "typology": "T2+2", "bedrooms": 2, "price": 430000, "size": "103 m²", "size_m2": 103, "garden": "Yes – 411 m² plot", "garden_yes": true, "note": "Single-storey, heated pool, garage, barbecue annex; attic with 2 extra rooms.", "url": "https://www.imovirtual.com/pt/anuncio/moradia-terrea-t2-2-com-garagem-e-piscina-aquecida-na-silveira-a-5-m-ID1iOOT", "also": false, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjA5NnA3bXV1MXhwOS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.BucBV5kJwPVu6k-aRRlkU1dBIoQ50sxo-v6FNl_a03c/image;s=655x491;q=80", "title": "MORADIA TÉRREA T2+2 COM GARAGEM E PISCINA AQUECIDA, NA SILVEIRA, A 5 M", "coast_km": null}, {"id": "29acde7242", "section": "ready", "town": "Ribamar, Lourinhã", "municipality": "Lourinhã", "typology": "T2", "bedrooms": 2, "price": 350000, "size": "134 m²", "size_m2": 134, "garden": "Yes – large plot", "garden_yes": true, "note": "2 min from the beaches; convertible to T3.", "url": "https://www.imovirtual.com/pt/anuncio/moradia-t2-venda-em-ribamar-lourinha-ID1iayS", "also": false, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InZxM3N2c2xoeTk5YjMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.6MwN_T295O3kdcc_NGyNDY_40xLj4lPp7C05cSgpMA0/image;s=655x491;q=80", "title": "Moradia T2 Venda em Ribamar,Lourinhã", "coast_km": null}, {"id": "813f30df4c", "section": "ready", "town": "Nazaré", "municipality": "Nazaré", "typology": "T4", "bedrooms": 4, "price": 430000, "size": "202 m²", "size_m2": 202, "garden": "Yes – garden + annexes", "garden_yes": true, "note": "Contemporary house with garage, ~1.8 km from the coast.", "url": "https://www.imovirtual.com/pt/anuncio/moradia-t4-com-jardim-e-anexos-na-nazare-ID1hw4d", "also": false, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjE1MjA4ZDZlbHMzcTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.pHtGx1xB3-32ZpRN8gNUZAgDdF-cj3prZXe--0WZl0w/image;s=655x491;q=80", "title": "Moradia T4 com jardim e anexos na Nazaré", "coast_km": null}, {"id": "aefcbf551f", "section": "ready", "town": "Bom Sucesso Resort, Óbidos", "municipality": "Óbidos", "typology": "T2", "bedrooms": 2, "price": 350000, "size": "130 m²", "size_m2": 130, "garden": "Yes – 41 m² private garden", "garden_yes": true, "note": "Pool, gated resort with 24h security, by Óbidos lagoon.", "url": "https://www.imovirtual.com/pt/anuncio/moradia-t2-com-piscina-bom-sucesso-resort-em-obidos-ID1ix7Q", "also": false, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InFsdDRpd2lsbGdkLUVDT1NZU1RFTSIsInciOlt7ImZuIjoiNjlubHBhN2VjcW03MS1BUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.t7p0pP2MACFA4rZJYAedMfdBfIUxkRjTXofre43p_r0/image;s=655x491;q=80", "title": "Moradia T2 com piscina, Bom Sucesso Resort, em Óbidos", "coast_km": null}, {"id": "6b884fd7fe", "section": "ready", "town": "Fontanelas, Sintra", "municipality": "Sintra", "typology": "T2", "bedrooms": 2, "price": 410000, "size": "75 m²", "size_m2": 75, "garden": "Yes – garden + parking", "garden_yes": true, "note": "Single-storey new build between hills and sea; completion was due end of March 2026, check it is finished.", "url": "https://www.imovirtual.com/pt/anuncio/moradia-t2-nova-com-jardim-e-estacionamento-em-fontanelas-ID1hZnq", "also": false, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImlpbTJvdTl3NnE2aDEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.ngR9SAz3Yk0H_JFKUFzSrpTtkYDNmQ_Nfz4D7LIlyEk/image;s=655x491;q=80", "title": "Moradia T2 Nova com Jardim e Estacionamento em Fontanelas", "coast_km": null}, {"id": "b6352bbe5b", "section": "ready", "town": "Azóia (Colares), Sintra", "municipality": "Sintra", "typology": "T2", "bedrooms": 2, "price": 420000, "size": "60 m²", "size_m2": 60, "garden": "Yes – outdoor space", "garden_yes": true, "note": "Single-storey, restored 2021, 1.5 km from Cabo da Roca. Small inside.", "url": "https://www.imovirtual.com/pt/anuncio/moradia-t2-terrea-em-colares-sintra-ID1iXWO", "also": false, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjZkb21oNHN0aDFxcC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.p8y0jfT9YGttvPoHX_fPy6WeBuLJwoRzeof42IwpCYM/image;s=655x491;q=80", "title": "Moradia T2 térrea em Colares, Sintra", "coast_km": null}, {"id": "22e3e5b1cc", "section": "ready", "town": "Maçã, Sesimbra", "municipality": "Sesimbra", "typology": "T3", "bedrooms": 3, "price": 410000, "size": "120 m² (183 m² gross)", "size_m2": 120, "garden": "Yes – yard with barbecue", "garden_yes": true, "note": "Excellent condition, garage, minutes from Sesimbra beaches.", "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-com-183-m-garagem-e-logradouro-com-churrasqueira-maca-ID1iZoj", "also": false, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Imo4dDFjd3pyeGZ6dDMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.uGgf8YLYPVo-lATV9dBEqswrV8qtQWEqsg8d8-iok1s/image;s=655x491;q=80", "title": "Moradia T3 com 183 m², Garagem e Logradouro com Churrasqueira - Maçã,", "coast_km": null}, {"id": "a76803ce89", "section": "ready", "town": "Almograve, Odemira", "municipality": "Odemira", "typology": "T2+1", "bedrooms": 2, "price": 399000, "size": "83 m²", "size_m2": 83, "garden": "Yes – quintal", "garden_yes": true, "note": "Semi-detached on two floors, walk to the beach.", "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1iKLX", "also": false, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Im1kbWlqdm53NmtmbC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.i-7QjvY4yPTPxlCoC82652Cqc95Dt1fVUueUfceDNTk/image;s=655x491;q=80", "title": "Moradia T3 para venda", "coast_km": null}, {"id": "c58b9af304", "section": "ready", "town": "Odeceixe, Aljezur", "municipality": "Aljezur", "typology": "T3", "bedrooms": 3, "price": 365000, "size": "172 m²", "size_m2": 172, "garden": "Likely (check listing)", "garden_yes": true, "note": "Two floors plus garage in Malhadais, ~4 km from Odeceixe beach.", "url": "https://casa.sapo.pt/comprar-moradia-t3-aljezur-odeceixe-c7c2a96b-9c2b-11ef-8add-060000000054.html", "also": false, "first_seen": "2026-10-09", "source": "casasapo", "image": "https://media.casasapo.pt/Z720x540/OAYES/S5/C4691/P25390767/Tphoto/IDaf6e8301-0000-0500-0000-000013eb1b9e.jpg", "title": "Moradia T3 Venda 365.000 € em Aljezur, Odeceixe, Odeceixe", "coast_km": null}, {"id": "86384b1c67", "section": "ready", "town": "Vila Nova de Milfontes, Odemira", "municipality": "Odemira", "typology": "T3", "bedrooms": 3, "price": 350000, "size": "83 m²", "size_m2": 83, "garden": "Yes – ~59 m² yard", "garden_yes": true, "note": "Quiet area (Alagoachos), two balconies.", "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-em-alagoachos-ID1iPAO", "also": true, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImtlN2Vlc25wcjl4ei1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ._1bVpvy8f15JDoXUymwgnudLJ_Zydf09Q79FuKT60j0/image;s=655x491;q=80", "title": "Moradia T3 em Alagoachos", "coast_km": null}, {"id": "3c3bca6ef8", "section": "ready", "town": "Odeceixe, Aljezur", "municipality": "Aljezur", "typology": "T3", "bedrooms": 3, "price": 380000, "size": "200 m²", "size_m2": 200, "garden": "Yes – ~100 m² garden", "garden_yes": true, "note": "3 km from the beach; ground floor needs work.", "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-odeceixe-ID1ib5W", "also": true, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjcxM3ZmdWdkbjZsZTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.iV4yMOApwanv4Rl0EBmoupS9YS1oSRDNRqdHzLlOLHI/image;s=655x491;q=80", "title": "Moradia T3 Odeceixe", "coast_km": null}, {"id": "bc33eb7896", "section": "reno", "town": "Praia da Areia Branca, Lourinhã", "municipality": "Lourinhã", "typology": "T3 (approved project)", "bedrooms": 3, "price": 130000, "size": "133 m²", "size_m2": 133, "garden": "Yes – outdoor space", "garden_yes": true, "note": "Approved project for a modern T3 with pool, 500 m from the beach, sea view.", "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-com-projeto-aprovado-e-vista-mar-na-areia-branca-ID1iMQz", "also": false, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjEyYmh2eWM3a242ZjItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.Ux4BH8URf_Z_SWSla519LWF_lqtKOYRYwt08k13Ogjw/image;s=655x491;q=80", "title": "Moradia T3 com projeto aprovado e vista mar na Areia Branca", "coast_km": null}, {"id": "203566bd46", "section": "reno", "town": "Areia Branca, Lourinhã", "municipality": "Lourinhã", "typology": "House + annexes", "bedrooms": 2, "price": 179000, "size": "152 m² gross", "size_m2": 152, "garden": "Yes – yard", "garden_yes": true, "note": "Sea view, end of a private road; rebuild or 1–4 houses subject to approval.", "url": "https://www.imovirtual.com/pt/anuncio/moradia-t2-para-venda-ID1ieDz", "also": false, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImgwY3U5dWllbjh1cTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.SColvyn10I78YEG2gUwNkfIqm3b7utA8kVPPh0PNIkU/image;s=655x491;q=80", "title": "Moradia T2 para venda", "coast_km": null}, {"id": "1dc2d363da", "section": "reno", "town": "Serra da Azóia, Sesimbra", "municipality": "Sesimbra", "typology": "Ruin (approved project)", "bedrooms": null, "price": 152500, "size": "67 m² now → 149 m²", "size_m2": 67, "garden": "Yes – land", "garden_yes": true, "note": "Approved project for a 149 m² single-storey house, near the beaches.", "url": "https://www.imovirtual.com/pt/anuncio/ruina-com-projeto-aprovado-serra-da-azoia-sesimbra-ID1hpSg", "also": false, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjgyN2V5dW82Z3ByaTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.EEOSC8GwGtIfLn9drxN4qasS2yEo3EF1ER5CSz6hGWE/image;s=655x491;q=80", "title": "Ruína com projeto aprovado, Serra da Azoia , Sesimbra", "coast_km": null}, {"id": "1ccd54343e", "section": "reno", "town": "Santiago, Sesimbra", "municipality": "Sesimbra", "typology": "Ruin", "bedrooms": null, "price": 195000, "size": "69 m² on 199 m² plot", "size_m2": 69, "garden": "Yes – outdoor space", "garden_yes": true, "note": "Sea view, ~1 km from the coast.", "url": "https://www.imovirtual.com/pt/anuncio/moradia-para-reabilitar-em-sesimbra-santiago-com-vista-mar-ID1iu02", "also": false, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImtkOWtiZ3AwamUzMzEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.dKqbAVas6sLUNuzDASeSCxmGVeLVElR6CqsG9OwfU-k/image;s=655x491;q=80", "title": "Moradia para reabilitar em Sesimbra ( Santiago ), com vista mar.", "coast_km": null}, {"id": "dbb132da2d", "section": "reno", "town": "Famalicão, Nazaré", "municipality": "Nazaré", "typology": "House to recover", "bedrooms": null, "price": 150000, "size": "189 m² on 728.5 m² plot", "size_m2": 189, "garden": "Yes – land", "garden_yes": true, "note": "Ground floor + attic + garage, needs work; 10 min to Nazaré.", "url": "https://www.imovirtual.com/pt/anuncio/moradia-para-recuperar-inserida-num-terreno-com-728-5-m2-a-cerca-de-ID1iXgz", "also": false, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjhtMnNiNnEzcjdxMjItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.uTf7rPaos2JgBT2FKFtT1MOKD6nOkibA0PA3sToEp6Q/image;s=655x491;q=80", "title": "Moradia para recuperar, inserida num terreno com 728,5 m2, a cerca de", "coast_km": null}, {"id": "7809e83585", "section": "reno", "town": "Valado dos Frades, Nazaré", "municipality": "Nazaré", "typology": "T4", "bedrooms": 4, "price": 110000, "size": "200 m²", "size_m2": 200, "garden": "Terrace only", "garden_yes": false, "note": "Built 1951, two floors, garage. Cheapest option.", "url": "https://www.imovirtual.com/pt/anuncio/moradia-para-restaurar-no-centro-de-valado-dos-frades-ID1iJtP", "also": false, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InA2MzdpN2ZvbmNqbTMtQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.tLcAvhquAmCODoMZ5-uqQHg8elQJOnEW04oOLpf2Itw/image;s=655x491;q=80", "title": "Moradia para restaurar no centro de Valado dos Frades", "coast_km": null}, {"id": "b5dd329fb8", "section": "reno", "town": "Alfeizerão, Alcobaça", "municipality": "Alcobaça", "typology": "Ruin", "bedrooms": null, "price": 120000, "size": "109 m² on 509 m² plot", "size_m2": 109, "garden": "Yes – land", "garden_yes": true, "note": "Could expand to ~245 m² footprint (subject to approval); 5 min to São Martinho beaches.", "url": "https://www.imovirtual.com/pt/anuncio/ruina-para-reabilitacao-apenas-a-5-min-da-praia-ID1iwYn", "also": false, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InM1Mjd4OHY0NTY2aTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.O6woSom-0OA_g8XbHRqqCDLB2GJk-KqwWYWNwe3j0jU/image;s=655x491;q=80", "title": "Ruína para Reabilitação apenas a 5 min da Praia", "coast_km": null}, {"id": "c1a2c39bdd", "section": "reno", "town": "Serra do Bouro, Caldas da Rainha", "municipality": "Caldas da Rainha", "typology": "House to restore", "bedrooms": null, "price": 169000, "size": "225 m² footprint on 6,473 m²", "size_m2": 225, "garden": "Yes – flat land", "garden_yes": true, "note": "Part old house, part newer shell to finish; near Foz do Arelho.", "url": "https://www.imovirtual.com/pt/anuncio/moradia-p-a-restaurar-c-225m2-de-area-em-terreno-c-6-473m2-ID1ijO8", "also": false, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Im5tcTNzM2l2NTRiNy1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.3k2MHOClHVR49NNeGgVLJUoIwQOphXNF-bPsWruriVI/image;s=655x491;q=80", "title": "Moradia p/a restaurar c/ 225m2 de área em terreno c/ 6.473m2", "coast_km": null}, {"id": "c58df672af", "section": "reno", "town": "Bárrio, Alcobaça", "municipality": "Alcobaça", "typology": "Single-storey ruin", "bedrooms": null, "price": 169990, "size": "107 m² living (416 m² gross) on 3,092 m²", "size_m2": 107, "garden": "Yes – land", "garden_yes": true, "note": "Sea view, ~7 km inland.", "url": "https://www.imovirtual.com/pt/anuncio/moradia-terrea-para-reabilitar-com-terreno-vista-mar-e-vista-siti-ID1ibtb", "also": false, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjZyY25mZmlpZWZiejEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.HwHVt3oTcGndH-_76gRToxzt3CmkvCD5PxO31NhrXeE/image;s=655x491;q=80", "title": "Moradia Térrea para Reabilitar com Terreno, Vista Mar e Vista Síti...", "coast_km": null}, {"id": "bafd744e32", "section": "reno", "town": "Vimeiro, Lourinhã", "municipality": "Lourinhã", "typology": "T3", "bedrooms": 3, "price": 180000, "size": "90 m²", "size_m2": 90, "garden": "Yes – 53 m² yard", "garden_yes": true, "note": "In an urban rehab zone (tax breaks); attic with potential.", "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-recuperar-para-venda-vimeiro-lourinha-ID1igNK", "also": true, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImpiZ2ZjMnY4cGVyNzItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.KNsQVVBFJ8MytMkZnwAKgusVdTF7n2sziARqncMqrp8/image;s=655x491;q=80", "title": "Moradia T3 para recuperar, para venda, Vimeiro - Lourinhã", "coast_km": null}, {"id": "fcfdc1dae0", "section": "reno", "town": "Aljezur", "municipality": "Aljezur", "typology": "3 small houses", "bedrooms": null, "price": 180000, "size": "116.5 m² total", "size_m2": 116, "garden": "No", "garden_yes": false, "note": "3 houses to recover, 10 min to Arrifana and Monte Clérigo.", "url": "https://www.imovirtual.com/pt/anuncio/moradias-para-recuperar-aljezur-ID1fJ1N", "also": true, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Im9leWtkaDE4cXMyei1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.OK854khCHXTwrrOANcGc1aK5bZR8ZVLpzdNEBtU98TY/image;s=655x491;q=80", "title": "Moradias para recuperar Aljezur", "coast_km": null}, {"id": "27f58bf5e0", "section": "reno", "town": "Lourinhã e Atalaia, Lourinhã", "municipality": "Lourinhã", "typology": "T4", "bedrooms": 4, "price": 160000, "size": "279 m²", "size_m2": 279, "garden": "Yes – mentions 'terreno' (check listing)", "garden_yes": true, "note": "EXCLUSIVO T- Ideal - Dois artigos urbanos independentes, lado a lado, com 342 m² de área bruta de construção..", "url": "https://www.imovirtual.com/pt/anuncio/moradia-adega-zambujeira-do-mar-lourinha-ID1iUZn", "also": false, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjB4bW41ZDdjeWJzbTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.bjAzz5ezYALEL32iZdj7s4fyerJWNPQJzqF1y7KSy4o/image;s=655x491;q=80", "title": "Moradia + Adega Zambujeira do Mar - Lourinhã", "coast_km": 1.5}, {"id": "29d9f21b7f", "section": "reno", "town": "Camarinha - Peixe Frito, Setúbal (São Sebastião)", "municipality": "Setúbal", "typology": "T2", "bedrooms": 2, "price": 200000, "size": "75 m²", "size_m2": 75, "garden": "Yes – mentions 'logradouro' (check listing)", "garden_yes": true, "note": "Moradia T2 no Bairro do Peixe Frito - Setúbal Moradia térrea para recuperação total com 59,50 m2 de área privativa e 15,50 m2 de logradouro, localizada em pl…", "url": "https://www.imovirtual.com/pt/anuncio/moradia-t2-para-venda-ID1ih2D", "also": false, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjczcTR5cHRheDE3YjEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.clUSGLNWM2HCAJiiGZdlzR2Mex9khubDC45I9h7w8b8/image;s=655x491;q=80", "title": "Moradia T2 para venda", "coast_km": 2.2}, {"id": "178b7c563b", "section": "reno", "town": "Caparica, Caparica e Trafaria", "municipality": "Almada", "typology": "T3", "bedrooms": 3, "price": 160000, "size": "49 m²", "size_m2": 49, "garden": "Yes – mentions 'terreno' (check listing)", "garden_yes": true, "note": "Pequena casa térrea com 49m2 de área bruta de construção, e 430m2 de terreno privativo.", "url": "https://www.imovirtual.com/pt/anuncio/casa-terrea-ID1iMOA", "also": false, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImhmczYwbGIya21uYjEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.FSY4edKNtbbh5uXvjQtkz59q7SwDT1SyE8ZmUpuWncM/image;s=655x491;q=80", "title": "Casa Térrea", "coast_km": 2.4}, {"id": "7b071bfc20", "section": "reno", "town": "Atouguia da Baleia, Peniche", "municipality": "Peniche", "typology": "Quinta", "bedrooms": null, "price": 160000, "size": "16080 m²", "size_m2": 16080, "garden": "Yes – mentions 'logradouro' (check listing)", "garden_yes": true, "note": "Quinta encantadora, inserida num ambiente de plena harmonia com a natureza, ideal para quem valoriza tranquilidade e privacidade.", "url": "https://www.imovirtual.com/pt/anuncio/quinta-para-venda-ID1ikWM", "also": false, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImxsN2xteHFxN3l0MjEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.b3Lv8xOyKIL1L5ObodZW_vEa7ZoXQ2k9DIyPKCi56FA/image;s=655x491;q=80", "title": "Quinta  para venda", "coast_km": 3.4}, {"id": "510dbf2370", "section": "ready", "town": "Vau, Óbidos", "municipality": "Óbidos", "typology": "T3", "bedrooms": 3, "price": 415000, "size": "125 m²", "size_m2": 125, "garden": "Yes – mentions 'jardim' (check listing)", "garden_yes": true, "note": "Moradia Geminada de 3 Quartos com Jardim Privado e Acesso à Piscina Bom Sucesso Resort, Óbidos Situada no premiado Bom Sucesso Architecture & Golf Resort, es…", "url": "https://casa.sapo.pt/comprar-moradia-em-banda-t3-obidos-vau-80dd8d57-5f3b-11f1-90a1-060000000056.html", "also": false, "first_seen": "2026-10-09", "source": "casasapo", "image": "https://media.casasapo.pt/Z720x540/OAYES/S5/C6288/P30309423/Tphoto/ID2f7cce01-0000-0500-0000-000019985be4.jpg", "title": "Moradia em Banda T3 Venda 415.000 € em Óbidos, Vau", "coast_km": null}, {"id": "fb76dd49fc", "section": "ready", "town": "Atouguia da Baleia, Peniche", "municipality": "Peniche", "typology": "T6", "bedrooms": 6, "price": 450000, "size": "230 m²", "size_m2": 230, "garden": "Yes – mentions 'terreno' (check listing)", "garden_yes": true, "note": "Moradia T6 situada na Atouguia da Baleia, implantada num terreno de 900m²,com 203m² de área privativa, inclui dois pisos, garagem enorme, logradouro e mais u…", "url": "https://casa.sapo.pt/comprar-moradia-t6-ou-superior-peniche-atouguia-da-baleia-e84dcda5-b870-11ef-8359-060000000051.html", "also": false, "first_seen": "2026-10-09", "source": "casasapo", "image": "https://media.casasapo.pt/Z720x540/OAYES/S5/C5304/P25506670/Tphoto/ID6e338501-0000-0500-0000-00001781ba41.jpg", "title": "Moradia T6 Venda 450.000 € em Peniche, Atouguia da Baleia", "coast_km": null}, {"id": "1831d94903", "section": "ready", "town": "Atouguia da Baleia, Peniche", "municipality": "Peniche", "typology": "T7", "bedrooms": 7, "price": 425000, "size": "290 m²", "size_m2": 290, "garden": "Yes – mentions 'terreno' (check listing)", "garden_yes": true, "note": "Moradia T7, inserida em terreno com 4880 m2, com potencial como residência ou para investimento (ARRENDAMENTO Á EPOCA).", "url": "https://casa.sapo.pt/comprar-moradia-isolada-t6-ou-superior-peniche-atouguia-da-baleia-b2a08bd5-73bb-11f1-ba38-060000000058.html", "also": false, "first_seen": "2026-10-09", "source": "casasapo", "image": "https://media.casasapo.pt/Z720x540/OAYES/S5/C40480/P30555499/Tphoto/ID6b3dd201-0000-0500-0000-000019d05008.jpg", "title": "Moradia Isolada T7 Venda 425.000 € em Peniche, Atouguia da Baleia", "coast_km": null}, {"id": "e871611d64", "section": "ready", "town": "São Bernardino, Atouguia da Baleia, Peniche", "municipality": "Peniche", "typology": "T4", "bedrooms": 4, "price": 369000, "size": "164 m²", "size_m2": 164, "garden": "Yes – mentions 'jardim' (check listing)", "garden_yes": true, "note": "Moradia T4+1 em bom estado de conservação, localizada em São Bernardino, a menos de dez minutos a pé da praia, inserida numa zona tranquila, sem tráfego.", "url": "https://casa.sapo.pt/comprar-moradia-t4-peniche-atouguia-da-baleia-sao-bernardino-207d9bbe-63f5-11f1-90a1-060000000056.html", "also": false, "first_seen": "2026-10-09", "source": "casasapo", "image": "https://media.casasapo.pt/Z720x540/OAYES/S5/C12375/P30323247/Tphoto/ID2fb2ce01-0000-0500-0000-0000199b1a0b.jpg", "title": "Moradia T4 Duplex Venda 369.000 € em Peniche, Atouguia da Baleia, São Bernardino", "coast_km": null}, {"id": "0b088ce460", "section": "ready", "town": "Cezaredas, Reguengo Grande, Lourinhã", "municipality": "Lourinhã", "typology": "T4", "bedrooms": 4, "price": 425000, "size": "173 m²", "size_m2": 173, "garden": "Yes – mentions 'terreno' (check listing)", "garden_yes": true, "note": "Viver entre o Mar, a Praia e o Campo West Silver Coast Moradia T4 e Anexos.", "url": "https://casa.sapo.pt/comprar-moradia-t4-lourinha-reguengo-grande-cezaredas-9d554358-bc52-11ee-91bc-060000000057.html", "also": false, "first_seen": "2026-10-09", "source": "casasapo", "image": "https://media.casasapo.pt/Z720x540/OAYES/S5/C8388/P24622767/Tphoto/IDafb67701-0000-0500-0000-0000129bdf7c.jpg", "title": "Moradia T4 Duplex Venda 425.000 € em Lourinhã, Reguengo Grande, Cezaredas", "coast_km": null}, {"id": "5143aa4179", "section": "reno", "town": "Atouguia da Baleia, Peniche", "municipality": "Peniche", "typology": "T2", "bedrooms": 2, "price": 160000, "size": "104 m²", "size_m2": 104, "garden": "Yes – mentions 'logradouro' (check listing)", "garden_yes": true, "note": "Localizada a 2 kms da Vila de Atouguia da Baleia.", "url": "https://www.imovirtual.com/pt/anuncio/moradia-t2-para-venda-ID1iVKq", "also": false, "first_seen": "2026-10-09", "source": "imovirtual", "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InQwNHI5NnAzMHd2bzMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.CldSGl6_jC5pBHSYJQm_gF4ty0l2VGc2c8-Mefocldk/image;s=655x491;q=80", "title": "Moradia T2 para venda", "coast_km": 5.6}], "sharedFavs": [], "today": "2026-10-09", "updated": "09 Oct 2026, 18:06"};
+const STORE_KEY="pp.v1";
+const PP={
+ loadStore(ls){try{const s=JSON.parse(ls.getItem(STORE_KEY)||"{}");return {f:Array.isArray(s.f)?s.f:[],r:Array.isArray(s.r)?s.r:[]};}catch(e){return {f:[],r:[]};}},
+ saveStore(ls,s){ls.setItem(STORE_KEY,JSON.stringify({f:[...new Set(s.f)],r:[...new Set(s.r)]}));},
+ encode(s){const j=JSON.stringify({f:[...new Set(s.f)],r:[...new Set(s.r)]});return "PP1:"+btoa(j).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,"");},
+ decode(code){code=String(code||"").trim();if(!code.startsWith("PP1:"))throw new Error("Code must start with PP1:");
+   let b=code.slice(4).replace(/-/g,"+").replace(/_/g,"/");while(b.length%4)b+="=";const o=JSON.parse(atob(b));
+   const ok=a=>Array.isArray(a)?a.filter(x=>typeof x==="string"&&/^[0-9a-f]{10}$/.test(x)):[];return {f:ok(o.f),r:ok(o.r)};},
+ daysAgo(today,d){return Math.round((Date.parse(today)-Date.parse(d))/86400000);},
+ norm(s){return String(s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");},
+ defaults:{q:"",sec:"all",pmin:"",pmax:"",beds:"",size:"",muni:"",src:"",sort:"newest",garden:false,new:false,fav:false,showrem:false},
+ stateFromQuery(qs){const p=new URLSearchParams(qs),s={...PP.defaults};for(const k in s){if(!p.has(k))continue;s[k]=typeof s[k]==="boolean"?p.get(k)==="1":p.get(k);}return s;},
+ stateToQuery(s){const p=new URLSearchParams();for(const k in PP.defaults){const v=s[k];if(v===PP.defaults[k]||v===""||v===null)continue;p.set(k,typeof v==="boolean"?"1":v);}const q=p.toString();return q?"?"+q:"";},
+ filter(items,s,store,sharedFavs,today){
+   const fav=new Set([...store.f,...sharedFavs]),rem=new Set(store.r),q=PP.norm(s.q).split(/\s+/).filter(Boolean);
+   const num=v=>v===""||v===null||v===undefined?null:Number(v);
+   const pmin=num(s.pmin),pmax=num(s.pmax),beds=num(s.beds),size=num(s.size);
+   let out=items.filter(x=>{
+     if(rem.has(x.id)&&!s.showrem)return false;
+     if(s.sec!=="all"&&x.section!==s.sec)return false;
+     if(pmin!==null&&x.price<pmin)return false; if(pmax!==null&&x.price>pmax)return false;
+     if(beds!==null&&!(x.bedrooms>=beds))return false;
+     if(size!==null&&!(x.size_m2>=size))return false;
+     if(s.muni&&x.municipality!==s.muni)return false;
+     if(s.src&&x.source!==s.src)return false;
+     if(s.garden&&!x.garden_yes)return false;
+     if(s.new&&PP.daysAgo(today,x.first_seen)>=7)return false;
+     if(s.fav&&!fav.has(x.id))return false;
+     if(q.length){const hay=PP.norm([x.town,x.municipality,x.note,x.title,x.typology].join(" "));if(!q.every(w=>hay.includes(w)))return false;}
+     return true;});
+   const by={newest:(a,b)=>b.first_seen.localeCompare(a.first_seen)||(a.also-b.also)||0,price_asc:(a,b)=>a.price-b.price,price_desc:(a,b)=>b.price-a.price,
+     size_desc:(a,b)=>(b.size_m2||0)-(a.size_m2||0),size_asc:(a,b)=>(a.size_m2||1e9)-(b.size_m2||1e9)};
+   return out.slice().sort(by[s.sort]||by.newest);}
+};
+if(typeof module!=="undefined")module.exports=PP;
+if(typeof document!=="undefined"&&DATA){(function(){
+ const $=id=>document.getElementById(id),esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+ const items=DATA.listings,shared=new Set(DATA.sharedFavs),today=DATA.today;let store=PP.loadStore(localStorage),state=PP.stateFromQuery(location.search),lastRemoved=null;
+ $("upd").textContent=DATA.updated;
+ [...new Set(items.map(x=>x.municipality).filter(Boolean))].sort((a,b)=>a.localeCompare(b)).forEach(m=>{const o=document.createElement("option");o.value=o.textContent=m;$("muni").appendChild(o);});
+ const fields=["q","pmin","pmax","beds","size","muni","src","sort"],checks=["garden","new","fav","showrem"];
+ function toUI(){fields.forEach(f=>$(f).value=state[f]);checks.forEach(c=>$(c).checked=state[c]);document.querySelectorAll("#sec button").forEach(b=>b.classList.toggle("on",b.dataset.v===state.sec));}
+ function fromUI(){fields.forEach(f=>state[f]=$(f).value);checks.forEach(c=>state[c]=$(c).checked);}
+ function fmt(n){return "€"+Number(n).toLocaleString("en-GB",{maximumFractionDigits:0});}
+ function card(x){const isNew=PP.daysAgo(today,x.first_seen)<7,lf=store.f.includes(x.id),rm=store.r.includes(x.id);
+  const img=x.image?`<img src="${esc(x.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:"";
+  const d=new Date(x.first_seen+"T12:00:00Z").toLocaleDateString("en-GB",{day:"2-digit",month:"short",year:"numeric"});
+  return `<article class="card${rm?" removed":""}" data-id="${x.id}">
+  <a class="thumb" href="${esc(x.url)}" target="_blank" rel="noopener"><span class="ph">🏡</span>${img}
+   <span class="chips"><span class="chip ${x.section}">${x.section==="ready"?"Move-in ready":"Renovation"}</span>${isNew?'<span class="chip new">New</span>':""}${shared.has(x.id)?'<span class="chip shared">★ Shared pick</span>':""}</span></a>
+  <span class="acts"><button class="fav${lf?" on":""}" data-act="fav" title="Favourite" aria-label="Favourite">${lf?"♥":"♡"}</button>${rm?"":'<button data-act="rem" title="Remove (hide)" aria-label="Remove">×</button>'}</span>
+  <div class="body"><div class="price">${fmt(x.price)}</div><h3>${esc(x.town)}</h3>
+   <div class="meta"><span>${esc(x.typology)}</span><span>${esc(x.size)}</span>${x.municipality?`<span>${esc(x.municipality)}</span>`:""}</div>
+   <div class="garden">🌿 Garden/land: ${esc(x.garden)}</div><p>${esc(x.note)}</p>
+   <div class="foot"><a href="${esc(x.url)}" target="_blank" rel="noopener">View on ${x.source==="casasapo"?"Casa Sapo":"Imovirtual"} →</a><span class="seen">First seen ${d}</span></div>
+   ${rm?'<button class="restore" data-act="restore">↩ Restore</button>':""}</div></article>`;}
+ function render(push){const res=PP.filter(items,state,store,DATA.sharedFavs,today);
+  $("grid").innerHTML=res.length?res.map(card).join(""):'<div class="empty">No listings match these filters.</div>';
+  $("count").textContent=`${res.length} of ${items.length} listings`;
+  const nr=store.r.filter(id=>items.some(x=>x.id===id)).length;$("remnote").innerHTML=nr?`${nr} removed in this browser · <button class="link" id="rlink" type="button">${state.showrem?"hide":"show"}</button>`:"";
+  const rl=$("rlink");if(rl)rl.onclick=()=>{state.showrem=!state.showrem;toUI();render(true);};
+  $("code").value=PP.encode(store);
+  const q=PP.stateToQuery(state);if(push!==false)history.replaceState(null,"",location.pathname+q);}
+ function toast(msg,undo){const t=$("toast");t.innerHTML=esc(msg)+(undo?' <button type="button">Undo</button>':"");t.style.display="block";
+  if(undo)t.querySelector("button").onclick=()=>{undo();t.style.display="none";};clearTimeout(toast.h);toast.h=setTimeout(()=>t.style.display="none",6000);}
+ $("grid").addEventListener("click",e=>{const b=e.target.closest("button[data-act]");if(!b)return;const id=b.closest(".card").dataset.id;
+  if(b.dataset.act==="fav"){store.f=store.f.includes(id)?store.f.filter(x=>x!==id):[...store.f,id];}
+  if(b.dataset.act==="rem"){store.r=[...store.r,id];store.f=store.f.filter(x=>x!==id);PP.saveStore(localStorage,store);render();
+    toast("Listing removed from your view.",()=>{store.r=store.r.filter(x=>x!==id);PP.saveStore(localStorage,store);render();});return;}
+  if(b.dataset.act==="restore"){store.r=store.r.filter(x=>x!==id);}
+  PP.saveStore(localStorage,store);render();});
+ let tmr;$("filters").addEventListener("input",()=>{clearTimeout(tmr);tmr=setTimeout(()=>{fromUI();render();},150);});
+ $("filters").addEventListener("change",()=>{fromUI();render();});
+ document.querySelectorAll("#sec button").forEach(b=>b.onclick=()=>{state.sec=b.dataset.v;toUI();render();});
+ $("reset").onclick=()=>{state={...PP.defaults};toUI();render();};
+ $("ftoggle").onclick=()=>$("filters").classList.toggle("open");
+ $("sharebtn").onclick=()=>{const p=$("panel");p.style.display=p.style.display==="block"?"none":"block";};
+ const copy=t=>{(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>toast("Copied."),()=>{prompt("Copy:",t);});};
+ $("copy").onclick=()=>copy($("code").value);
+ $("copylink").onclick=()=>copy(location.href);
+ $("apply").onclick=()=>{try{const s=PP.decode($("incode").value);store.f=[...store.f,...s.f];store.r=[...store.r,...s.r];PP.saveStore(localStorage,store);render();toast(`Imported ${s.f.length} favourites, ${s.r.length} removed.`);$("incode").value="";}catch(e){toast("Invalid code: "+e.message);}};
+ $("clearrem").onclick=()=>{const old=store.r;store.r=[];PP.saveStore(localStorage,store);render();toast(`Restored ${old.length} listings.`,()=>{store.r=old;PP.saveStore(localStorage,store);render();});};
+ window.addEventListener("storage",e=>{if(e.key===STORE_KEY){store=PP.loadStore(localStorage);render(false);}});
+ toUI();render(false);
+})();}
+</script></body></html>
