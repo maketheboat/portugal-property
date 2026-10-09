@@ -862,6 +862,10 @@
    {
     "source": "remax",
     "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t2-peniche-atouguia-da-baleia/123981084-28"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35366328/"
    }
   ]
  },
@@ -893,7 +897,7 @@
  },
  {
   "section": "ready",
-  "town": "Peniche, Peniche",
+  "town": "Peniche",
   "typology": "T4",
   "price": 445000,
   "size": "144 m²",
@@ -923,7 +927,7 @@
   "price": 378000,
   "size": "110 m²",
   "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Moradia T3 com piscina no Pestana Tróia Eco-Resort near amenities near green spaces near beach garden service security service road access good light exposur…",
+  "note": "Moradia T3 com piscina no Pestana Tróia Eco-Resort",
   "url": "https://www.century21.pt/ref/C0404-00406",
   "also": false,
   "first_seen": "2026-10-09",
@@ -998,7 +1002,7 @@
   "price": 384500,
   "size": "62 m²",
   "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Excelente investimento Moradia T5+1 - 2 Apartamentos T2 e um Apartamento T1 water tap water electricity sanitation bushes storage bathroom private bathroom c…",
+  "note": "Excelente investimento Moradia T5+1 - 2 Apartamentos T2 e um Apartamento T1",
   "url": "https://www.century21.pt/ref/1739-02306",
   "also": false,
   "first_seen": "2026-10-09",
@@ -1123,7 +1127,7 @@
   "price": 185000,
   "size": "153 m²",
   "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Terreno Urbano c/ Moradia para RESTAURO, em Junqueira Alcobaça pátio fireplace wood windows facade wine cellar",
+  "note": "Terreno Urbano c/ Moradia para RESTAURO, em Junqueira Alcobaça",
   "url": "https://www.century21.pt/ref/0563-01681",
   "also": false,
   "first_seen": "2026-10-09",
@@ -1190,5 +1194,40 @@
   "id": "23275d291e",
   "municipality": "Sintra",
   "garden_yes": true
+ },
+ {
+  "section": "reno",
+  "town": "Atouguia da Baleia, Peniche",
+  "typology": "T3",
+  "price": 190000,
+  "size": "113 m²",
+  "garden": "Yes – mentions 'quintal' (check listing)",
+  "note": "Moradia T3 para recuperar localizada em Geraldes, Peniche.",
+  "url": "https://www.idealista.pt/imovel/35301030/",
+  "also": false,
+  "first_seen": "2026-10-09",
+  "source": "idealista",
+  "auto": true,
+  "coast_km": null,
+  "image": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/7c/07/eb/328123596.jpg",
+  "bedrooms": 3,
+  "size_m2": 113,
+  "also_on": [
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35230377/"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/34381255/"
+   }
+  ],
+  "id": "942da032a6",
+  "municipality": "Peniche",
+  "garden_yes": true,
+  "lat": 39.32497,
+  "lon": -9.32266,
+  "coord_approx": true,
+  "coord_note": "approx. – centre of Atouguia da Baleia, Peniche"
  }
 ]
