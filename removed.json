@@ -65,6 +65,204 @@
    "title": null,
    "reason": "not whole property: fractional",
    "removed_on": "2026-10-09"
+  },
+  {
+   "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-silveira-ID1iFwN",
+   "id": "16eb25be44",
+   "price": 390000,
+   "muni_key": "torresvedras",
+   "bedrooms": 3,
+   "town": "Silveira, Torres Vedras",
+   "title": "MORADIA T3 SILVEIRA",
+   "reason": "not whole property: sealed-bid",
+   "removed_on": "2026-10-09"
+  },
+  {
+   "url": "https://www.olx.pt/d/anuncio/moradia-t3-silveira-IDJwP9k.html",
+   "id": "bb1863b990",
+   "price": 390000,
+   "muni_key": "torresvedras",
+   "bedrooms": 3,
+   "town": "Silveira, Torres Vedras",
+   "title": "MORADIA T3 SILVEIRA",
+   "reason": "not whole property: sealed-bid",
+   "removed_on": "2026-10-09"
+  },
+  {
+   "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t3-torres-vedras-silveira/123361338-5",
+   "id": "f26f0357e0",
+   "price": 390000,
+   "muni_key": "torresvedras",
+   "bedrooms": 3,
+   "town": "Silveira, Torres Vedras",
+   "title": "MORADIA T3 SILVEIRA",
+   "reason": "not whole property: sealed-bid",
+   "removed_on": "2026-10-09"
+  },
+  {
+   "url": "https://www.olx.pt/d/anuncio/moradia-t3-para-venda-IDJw48w.html",
+   "id": "11406a36fa",
+   "price": 390000,
+   "muni_key": "torresvedras",
+   "bedrooms": 3,
+   "town": "Silveira, Torres Vedras",
+   "title": "MORADIA T3 SILVEIRA",
+   "reason": "not whole property: sealed-bid",
+   "removed_on": "2026-10-09"
+  },
+  {
+   "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1iCuR",
+   "id": "c61bb6aacf",
+   "price": 390000,
+   "muni_key": "torresvedras",
+   "bedrooms": 3,
+   "town": "Silveira, Torres Vedras",
+   "title": "Moradia T3 para venda",
+   "reason": "not whole property: sealed-bid",
+   "removed_on": "2026-10-09"
+  },
+  {
+   "url": "https://www.imovirtual.com/pt/anuncio/moradia-t2-para-venda-ID1iKYn",
+   "id": "2c489a39e4",
+   "price": 430000,
+   "muni_key": "torresvedras",
+   "bedrooms": 2,
+   "town": "Silveira, Torres Vedras",
+   "title": "Moradia T2 para venda",
+   "reason": "not whole property: sealed-bid",
+   "removed_on": "2026-10-09"
+  },
+  {
+   "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t2-torres-vedras-silveira/121901192-971",
+   "id": "5acd13e198",
+   "price": 430000,
+   "muni_key": "torresvedras",
+   "bedrooms": 2,
+   "town": "Silveira, Torres Vedras",
+   "title": "Moradia T2 para venda",
+   "reason": "not whole property: sealed-bid",
+   "removed_on": "2026-10-09"
+  },
+  {
+   "url": "https://www.olx.pt/d/anuncio/moradia-t2-para-venda-IDJxkRs.html",
+   "id": "9f3dc0e8ea",
+   "price": 430000,
+   "muni_key": "torresvedras",
+   "bedrooms": 2,
+   "town": "Silveira, Torres Vedras",
+   "title": "Moradia T2 para venda",
+   "reason": "not whole property: sealed-bid",
+   "removed_on": "2026-10-09"
+  },
+  {
+   "url": "https://www.imovirtual.com/pt/anuncio/moradia-t2-para-venda-ID1iEyM",
+   "id": "2570b2091d",
+   "price": 360000,
+   "muni_key": "torresvedras",
+   "bedrooms": 2,
+   "town": "A dos Cunhados e Maceira, Torres Vedras",
+   "title": "Moradia T2 para venda",
+   "reason": "not whole property: sealed-bid",
+   "removed_on": "2026-10-09"
+  },
+  {
+   "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t2-torres-vedras-a-dos-cunhados-e-maceira/121901406-22",
+   "id": "cfb7d39dd9",
+   "price": 360000,
+   "muni_key": "torresvedras",
+   "bedrooms": 2,
+   "town": "A dos Cunhados e Maceira, Torres Vedras",
+   "title": "Moradia T2 para venda",
+   "reason": "not whole property: sealed-bid",
+   "removed_on": "2026-10-09"
+  },
+  {
+   "url": "https://www.olx.pt/d/anuncio/moradia-t2-para-venda-IDJwyFU.html",
+   "id": "d221cd3a3f",
+   "price": 360000,
+   "muni_key": "torresvedras",
+   "bedrooms": 2,
+   "town": "A dos Cunhados e Maceira, Torres Vedras",
+   "title": "Moradia T2 para venda",
+   "reason": "not whole property: sealed-bid",
+   "removed_on": "2026-10-09"
+  },
+  {
+   "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1iVC8",
+   "id": "6b18249c9e",
+   "price": 416000,
+   "muni_key": "setubal",
+   "bedrooms": 3,
+   "town": "Brejos de Azeitão, Azeitão (São Lourenço e São Simão)",
+   "title": "Moradia T3 para venda",
+   "reason": "not whole property: sealed-bid",
+   "removed_on": "2026-10-09"
+  },
+  {
+   "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t3-setubal-azeitao-sao-lourenco-e-sao-simao/120861179-161",
+   "id": "79ecbbb937",
+   "price": 416000,
+   "muni_key": "setubal",
+   "bedrooms": 3,
+   "town": "Brejos de Azeitão, Azeitão (São Lourenço e São Simão)",
+   "title": "Moradia T3 para venda",
+   "reason": "not whole property: sealed-bid",
+   "removed_on": "2026-10-09"
+  },
+  {
+   "url": "https://www.olx.pt/d/anuncio/moradia-t3-para-venda-IDJBHRh.html",
+   "id": "9bf29fbf9d",
+   "price": 416000,
+   "muni_key": "setubal",
+   "bedrooms": 3,
+   "town": "Brejos de Azeitão, Azeitão (São Lourenço e São Simão)",
+   "title": "Moradia T3 para venda",
+   "reason": "not whole property: sealed-bid",
+   "removed_on": "2026-10-09"
+  },
+  {
+   "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1iBLm",
+   "id": "e73d805df9",
+   "price": 451000,
+   "muni_key": "caldasdarainha",
+   "bedrooms": 3,
+   "town": "Carvalhal Benfeito, Caldas da Rainha",
+   "title": "Moradia T3 para venda",
+   "reason": "not whole property: sealed-bid",
+   "removed_on": "2026-10-09"
+  },
+  {
+   "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t3-caldas-da-rainha-carvalhal-benfeito/125031206-1",
+   "id": "cdf20b243f",
+   "price": 451000,
+   "muni_key": "caldasdarainha",
+   "bedrooms": 3,
+   "town": "Carvalhal Benfeito, Caldas da Rainha",
+   "title": "Moradia T3 para venda",
+   "reason": "not whole property: sealed-bid",
+   "removed_on": "2026-10-09"
+  },
+  {
+   "url": "https://www.olx.pt/d/anuncio/moradia-t3-para-venda-IDJuUuz.html",
+   "id": "6d2b5ca49e",
+   "price": 451000,
+   "muni_key": "caldasdarainha",
+   "bedrooms": 3,
+   "town": "Carvalhal Benfeito, Caldas da Rainha",
+   "title": "Moradia T3 para venda",
+   "reason": "not whole property: sealed-bid",
+   "removed_on": "2026-10-09"
+  },
+  {
+   "url": "https://casa.sapo.pt/comprar-moradia-t3-caldas-da-rainha-carvalhal-benfeito-2089594b-80fb-11f1-9aaf-060000000054.html",
+   "id": "f63aba2134",
+   "price": 451000,
+   "muni_key": "caldasdarainha",
+   "bedrooms": 3,
+   "town": "Carvalhal Benfeito, Caldas da Rainha",
+   "title": "Moradia T3 para venda",
+   "reason": "not whole property: sealed-bid",
+   "removed_on": "2026-10-09"
   }
  ]
 }

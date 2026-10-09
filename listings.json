@@ -2864,46 +2864,6 @@
  },
  {
   "section": "ready",
-  "town": "Silveira, Torres Vedras",
-  "typology": "T3",
-  "price": 390000,
-  "size": "123 m²",
-  "garden": "Yes – mentions 'logradouro' (check listing)",
-  "note": "(PT) ### IMÓVEL PROMOVIDO NO SISTEMA DE PROPOSTAS MÚLTIPLAS ### Preço base: 390.000 €.",
-  "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-silveira-ID1iFwN",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 1.2,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjZ4b2NkN2pteHgwMjMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.GltJxYPkMjtcATCmXWootfaYEn-M5XLiT1xdA76nFZc/image;s=655x491;q=80",
-  "lat": 39.11602,
-  "lon": -9.36947,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 3,
-  "size_m2": 123,
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-t3-silveira-IDJwP9k.html"
-   },
-   {
-    "source": "remax",
-    "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t3-torres-vedras-silveira/123361338-5"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-t3-para-venda-IDJw48w.html"
-   }
-  ],
-  "id": "16eb25be44",
-  "municipality": "Torres Vedras",
-  "garden_yes": true,
-  "title": "MORADIA T3 SILVEIRA"
- },
- {
-  "section": "ready",
   "town": "Vila Nova de Milfontes, Odemira",
   "typology": "T2",
   "price": 390000,
@@ -3102,32 +3062,6 @@
   ],
   "id": "69bfe89258",
   "municipality": "Setúbal",
-  "garden_yes": true,
-  "title": "Moradia T3 para venda"
- },
- {
-  "section": "ready",
-  "town": "Silveira, Torres Vedras",
-  "typology": "T3",
-  "price": 390000,
-  "size": "142 m²",
-  "garden": "Yes – mentions 'logradouro' (check listing)",
-  "note": "### IMÓVEL PROMOVIDO NO SISTEMA DE PROPOSTAS MÚLTIPLAS ### Preço base: 390 000 €.",
-  "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1iCuR",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 1.4,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InAwZHRxdzJ6YTV5NzMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.ERD0sA6vsMB3Y_CAHKmpa7Bh6zsxmdtQiWHZUJxijQA/image;s=655x491;q=80",
-  "lat": 39.11462,
-  "lon": -9.36715,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 3,
-  "size_m2": 142,
-  "id": "c61bb6aacf",
-  "municipality": "Torres Vedras",
   "garden_yes": true,
   "title": "Moradia T3 para venda"
  },
@@ -3792,42 +3726,6 @@
   "municipality": "Caldas da Rainha",
   "garden_yes": true,
   "title": "Moradia térrea em Salir do Porto"
- },
- {
-  "section": "ready",
-  "town": "Silveira, Torres Vedras",
-  "typology": "T2",
-  "price": 430000,
-  "size": "142 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "### IMÓVEL PROMOVIDO NO SISTEMA DE PROPOSTAS MÚLTIPLAS ### Preço base: 430 000 €.",
-  "url": "https://www.imovirtual.com/pt/anuncio/moradia-t2-para-venda-ID1iKYn",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 2.3,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjhnZ3QxNHhjM2ZuZzMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.DnnUC2a6X3pZ2vP7ssoYcNm2eoBriWzMtrRWu0zVSd0/image;s=655x491;q=80",
-  "lat": 39.11107,
-  "lon": -9.35791,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 2,
-  "size_m2": 142,
-  "also_on": [
-   {
-    "source": "remax",
-    "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t2-torres-vedras-silveira/121901192-971"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-t2-para-venda-IDJxkRs.html"
-   }
-  ],
-  "id": "2c489a39e4",
-  "municipality": "Torres Vedras",
-  "garden_yes": true,
-  "title": "Moradia T2 para venda"
  },
  {
   "section": "ready",
@@ -4690,46 +4588,6 @@
     "url": "https://www.olx.pt/d/anuncio/moradia-de-luxo-serra-del-reyriomagic-IDJxaPU.html"
    }
   ]
- },
- {
-  "section": "ready",
-  "town": "A dos Cunhados e Maceira, Torres Vedras",
-  "typology": "T2",
-  "price": 360000,
-  "size": "144 m²",
-  "garden": "Yes – mentions 'logradouro' (check listing)",
-  "note": "### IMÓVEL PROMOVIDO NO SISTEMA DE PROPOSTAS MÚLTIPLAS ### Preço base: 360 000 €.",
-  "url": "https://www.imovirtual.com/pt/anuncio/moradia-t2-para-venda-ID1iEyM",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 3.2,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImRvOW9nMWF1NGt4YjItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.uk-tGpa47_sn_8O-3gVa8Edq-KSO_h5Rh6mdwnQQvfs/image;s=655x491;q=80",
-  "lat": 39.14624,
-  "lon": -9.33574,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 2,
-  "size_m2": 144,
-  "also_on": [
-   {
-    "source": "remax",
-    "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t2-torres-vedras-a-dos-cunhados-e-maceira/121901406-22"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-t2-para-venda-IDJwyFU.html"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-v2-em-catfica-torres-vedras-IDJjCVd.html"
-   }
-  ],
-  "id": "2570b2091d",
-  "municipality": "Torres Vedras",
-  "garden_yes": true,
-  "title": "Moradia T2 para venda"
  },
  {
   "section": "ready",
@@ -9444,42 +9302,6 @@
   "garden_yes": true
  },
  {
-  "section": "ready",
-  "town": "Brejos de Azeitão, Azeitão (São Lourenço e São Simão)",
-  "typology": "T3",
-  "price": 416000,
-  "size": "105 m²",
-  "garden": "Yes – mentions 'logradouro' (check listing)",
-  "note": "### IMÓVEL PROMOVIDO NO SISTEMA DE PROPOSTAS MÚLTIPLAS ### Preço base: 416 000 €.",
-  "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1iVC8",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 7.7,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImZwcm9zNzU3MWNpZjEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.MiGYUMN3ZdMaTIPtuAa0S4BvazrgO7ZlOM4rRM45Fg8/image;s=655x491;q=80",
-  "lat": 38.5312,
-  "lon": -9.02738,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 3,
-  "size_m2": 105,
-  "also_on": [
-   {
-    "source": "remax",
-    "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t3-setubal-azeitao-sao-lourenco-e-sao-simao/120861179-161"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-t3-para-venda-IDJBHRh.html"
-   }
-  ],
-  "id": "6b18249c9e",
-  "municipality": "Setúbal",
-  "garden_yes": true,
-  "title": "Moradia T3 para venda"
- },
- {
   "section": "reno",
   "town": "Miragaia e Marteleira, Lourinhã",
   "typology": "T3",
@@ -12790,47 +12612,6 @@
   "id": "fb1f187402",
   "municipality": "Alcobaça",
   "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Carvalhal Benfeito, Caldas da Rainha",
-  "typology": "T3",
-  "price": 451000,
-  "size": "144 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "### IMÓVEL PROMOVIDO NO SISTEMA DE PROPOSTAS MÚLTIPLAS ### Preço base: 451 000 €.",
-  "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1iBLm",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 10.3,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjJ5OWk3djYzZDdvODEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.5isaHB5___JBytGXxtDqQf5SFvdPhTey3VRHaxiIOic/image;s=655x491;q=80",
-  "lat": 39.4532,
-  "lon": -9.04508,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 3,
-  "size_m2": 144,
-  "stretch": "€451k – above the €450k budget; 10.3 km from the coast (limit 8 km)",
-  "also_on": [
-   {
-    "source": "remax",
-    "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t3-caldas-da-rainha-carvalhal-benfeito/125031206-1"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-t3-para-venda-IDJuUuz.html"
-   },
-   {
-    "source": "casasapo",
-    "url": "https://casa.sapo.pt/comprar-moradia-t3-caldas-da-rainha-carvalhal-benfeito-2089594b-80fb-11f1-9aaf-060000000054.html"
-   }
-  ],
-  "id": "e73d805df9",
-  "municipality": "Caldas da Rainha",
-  "garden_yes": true,
-  "title": "Moradia T3 para venda"
  },
  {
   "section": "ready",
