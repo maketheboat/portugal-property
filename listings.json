@@ -834,5 +834,31 @@
   "lon": -9.29917,
   "coord_approx": false,
   "coord_note": "listing map pin"
+ },
+ {
+  "section": "ready",
+  "town": "Lourinhã e Atalaia, Lourinhã",
+  "typology": "T3",
+  "price": 425000,
+  "size": "152 m²",
+  "garden": "Mentions 'horta' (check listing)",
+  "note": "Test submission (pipeline check) – T3 5 km from Areia Branca",
+  "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-lourinha-5km-praia-da-areia-branca-ID1i5Yp",
+  "also": false,
+  "first_seen": "2026-10-09",
+  "source": "imovirtual",
+  "submitted_by": "visitor",
+  "submitted_issue": 1,
+  "title": "Moradia T3 para venda, Lourinhã | 5Km praia da Areia Branca",
+  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImN5Y2JoZm0weGp4YTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.yQYfId9V82Q0_zqw9jSxSLY0jTomFsSvBweYQRVj9Vc/image;s=655x491;q=80",
+  "lat": 39.26138,
+  "lon": -9.3228,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "id": "529768acbd",
+  "municipality": "Lourinhã",
+  "bedrooms": 3,
+  "size_m2": 152,
+  "garden_yes": true
  }
 ]
