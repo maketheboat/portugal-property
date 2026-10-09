@@ -1085,37 +1085,6 @@
   ]
  },
  {
-  "section": "ready",
-  "town": "Grândola",
-  "typology": "T3",
-  "price": 378000,
-  "size": "110 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Moradia T3 com piscina no Pestana Tróia Eco-Resort",
-  "url": "https://www.century21.pt/ref/C0404-00406",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "century21",
-  "auto": true,
-  "coast_km": 0.1,
-  "image": "https://images.century21.pt/13411a7e-40b2-4888-beba-28cc71e03f58/Piscina2.jpeg",
-  "lat": 38.4671,
-  "lon": -8.88073,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 3,
-  "size_m2": 110,
-  "id": "3d3e37232d",
-  "municipality": "Grândola",
-  "garden_yes": true,
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-t3-com-piscina-no-pestana-tria-eco-resort-IDJ07TX.html"
-   }
-  ]
- },
- {
   "section": "reno",
   "town": "Lourinhã e Atalaia, Lourinhã",
   "typology": "T2",
@@ -1852,38 +1821,6 @@
   "municipality": "Peniche",
   "garden_yes": true,
   "title": "Moradia T3 para venda"
- },
- {
-  "section": "ready",
-  "town": "Carvalhal, Grândola",
-  "typology": "T3",
-  "price": 415000,
-  "size": "114 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Esta é uma fracção correspondente a 1/4 de uma moradia T3 localizada na deslumbrante região de Tróia, em Portugal.",
-  "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-troia-grndola-ID1iQML",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 0.3,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImlxNjB6c2Q2bHdzdy1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.6IzBB0aSLQB2P31bpx61gz6ODE24K1yzzWnR7lKZ2xU/image;s=655x491;q=80",
-  "lat": 38.47174,
-  "lon": -8.88742,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 3,
-  "size_m2": 114,
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-t3-tria-grndola-IDJzJbo.html"
-   }
-  ],
-  "id": "f105cb97ea",
-  "municipality": "Grândola",
-  "garden_yes": true,
-  "title": "Moradia T3, Tróia, Grândola"
  },
  {
   "section": "ready",
@@ -10784,38 +10721,6 @@
     "url": "https://www.olx.pt/d/anuncio/quintinha-com-6723m2-em-santiago-do-cacm-IDIa23r.html"
    }
   ]
- },
- {
-  "section": "ready",
-  "town": "Fernão Ferro, Seixal",
-  "typology": "T3",
-  "price": 450000,
-  "size": "140 m² on 1003 m² plot",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Moradia em terreno urbano com 2.000 m², armazém e acessos independentes em Fernão Ferro Excelente oportunidade para quem procura uma propriedade com áreas ge…",
-  "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t3-seixal-fernao-ferro/120881514-40",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "remax",
-  "auto": true,
-  "coast_km": 8.7,
-  "image": "https://i.maxwork.pt/l-view/listings/12088/7167999/7c467fa2-5e99-47d1-af8a-8a28089301ef.jpg",
-  "lat": 38.56557,
-  "lon": -9.08994,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 3,
-  "size_m2": 140,
-  "stretch": "8.7 km from the coast (limit 8 km)",
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-t3-para-venda-IDJwtjN.html"
-   }
-  ],
-  "id": "1672cfe521",
-  "municipality": "Seixal",
-  "garden_yes": true
  },
  {
   "section": "ready",

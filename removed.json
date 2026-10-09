@@ -1,1 +1,70 @@
-{"items":[]}
+{
+ "items": [
+  {
+   "url": "https://www.century21.pt/ref/C0404-00406",
+   "id": "3d3e37232d",
+   "price": 378000,
+   "muni_key": "grandola",
+   "bedrooms": 3,
+   "town": "Grândola",
+   "title": null,
+   "reason": "not whole property: fractional",
+   "removed_on": "2026-10-09"
+  },
+  {
+   "url": "https://www.olx.pt/d/anuncio/moradia-t3-com-piscina-no-pestana-tria-eco-resort-IDJ07TX.html",
+   "id": "7fabff7928",
+   "price": 378000,
+   "muni_key": "grandola",
+   "bedrooms": 3,
+   "town": "Grândola",
+   "title": null,
+   "reason": "not whole property: fractional",
+   "removed_on": "2026-10-09"
+  },
+  {
+   "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-troia-grndola-ID1iQML",
+   "id": "f105cb97ea",
+   "price": 415000,
+   "muni_key": "grandola",
+   "bedrooms": 3,
+   "town": "Carvalhal, Grândola",
+   "title": "Moradia T3, Tróia, Grândola",
+   "reason": "not whole property: fractional",
+   "removed_on": "2026-10-09"
+  },
+  {
+   "url": "https://www.olx.pt/d/anuncio/moradia-t3-tria-grndola-IDJzJbo.html",
+   "id": "ee84b71a2c",
+   "price": 415000,
+   "muni_key": "grandola",
+   "bedrooms": 3,
+   "town": "Carvalhal, Grândola",
+   "title": "Moradia T3, Tróia, Grândola",
+   "reason": "not whole property: fractional",
+   "removed_on": "2026-10-09"
+  },
+  {
+   "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t3-seixal-fernao-ferro/120881514-40",
+   "id": "1672cfe521",
+   "price": 450000,
+   "muni_key": "seixal",
+   "bedrooms": 3,
+   "town": "Fernão Ferro, Seixal",
+   "title": null,
+   "reason": "not whole property: fractional",
+   "removed_on": "2026-10-09"
+  },
+  {
+   "url": "https://www.olx.pt/d/anuncio/moradia-t3-para-venda-IDJwtjN.html",
+   "id": "3d7e62a8df",
+   "price": 450000,
+   "muni_key": "seixal",
+   "bedrooms": 3,
+   "town": "Fernão Ferro, Seixal",
+   "title": null,
+   "reason": "not whole property: fractional",
+   "removed_on": "2026-10-09"
+  }
+ ]
+}
