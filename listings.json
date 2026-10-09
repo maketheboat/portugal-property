@@ -763,7 +763,13 @@
   "lat": 39.26797,
   "lon": -9.31302,
   "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)"
+  "coord_note": "listing map pin (approximate area)",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-adega-zambujeira-do-mar-lourinh-IDJBifE.html"
+   }
+  ]
  },
  {
   "section": "reno",
@@ -1071,6 +1077,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t4-para-venda-IDJApDB.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-t4-peniche-54b96bc3-b766-11f1-9aaf-060000000054.html"
    }
   ]
  },
@@ -1521,32 +1531,13 @@
   "id": "c2945d31dd",
   "municipality": "Mafra",
   "garden_yes": true,
-  "title": "Vende Moinho - Ericeira 16 Km, A Casa das Casas"
- },
- {
-  "section": "reno",
-  "town": "Ericeira",
-  "typology": "T1",
-  "price": 180000,
-  "size": "1146 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Moinho em ruína implantado num terreno com 1.146,45 m², localizado na zona oeste com acesso a todos os serviços nas proximidades, a 16 km da Ericeira.",
-  "url": "https://www.olx.pt/d/anuncio/vende-moinho-ericeira-16-km-a-casa-das-casas-IDJzqz1.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 0.0,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/mzxzvr7xseqk1-PT/image;s=640x480",
-  "lat": 38.98302,
-  "lon": -9.41425,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 1,
-  "size_m2": 1146,
-  "id": "9159cd33d2",
-  "municipality": "Mafra",
-  "garden_yes": true
+  "title": "Vende Moinho - Ericeira 16 Km, A Casa das Casas",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/vende-moinho-ericeira-16-km-a-casa-das-casas-IDJzqz1.html"
+   }
+  ]
  },
  {
   "section": "reno",
@@ -1717,6 +1708,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-moradia-t4-mafra-ericeira-b2238301-761c-11f1-9aaf-060000000054.html"
+   },
+   {
+    "source": "imovirtual",
+    "url": "https://www.imovirtual.com/pt/anuncio/vende-moradia-t4-ericeira-15-km-a-casa-das-casas-ID1hDd7"
    }
   ],
   "id": "d1a3e976d9",
@@ -1755,37 +1750,6 @@
   "municipality": "Alcobaça",
   "garden_yes": true,
   "title": "Casa Antiga para Recuperar (Com Projeto Aprovado T1)"
- },
- {
-  "section": "ready",
-  "town": "Atouguia da Baleia, Peniche",
-  "typology": "T2",
-  "price": 385000,
-  "size": "78 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Fantástica moradia localizada a pouco passos da praia dos Supertubos, em Peniche, onde encontra uma combinação perfeita de sofisticação, conforto e uma envol…",
-  "url": "https://www.custojusto.pt/leiria/imobiliario/moradias/moradia-geminada-com-2-suites--44485311",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "custojusto",
-  "auto": true,
-  "coast_km": 0.2,
-  "image": "https://prod-images.custojusto.pt/gallery/2578502961-moradia-geminada-com-2-suites-junto-a-praia-dos.jpg",
-  "lat": 39.36062,
-  "lon": -9.38258,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 2,
-  "size_m2": 78,
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-geminada-com-2-sutes-junto-praia-dos-supertubos-IDJ7Pds.html"
-   }
-  ],
-  "id": "a58523f688",
-  "municipality": "Peniche",
-  "garden_yes": true
  },
  {
   "section": "ready",
@@ -2125,39 +2089,17 @@
   "id": "2d6830fa6b",
   "municipality": "N. S. da Anunciada e S. Maria da Graça",
   "garden_yes": true,
-  "title": "Moradia T5 remodelada em Azeitão com garagem para vários veículos"
- },
- {
-  "section": "ready",
-  "town": "Setúbal (São Julião, Nossa Senhora Da Anunciada E Santa Maria Da Graça)",
-  "typology": "T5",
-  "price": 457000,
-  "size": "283 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Moradia renovada, situada em Azeitão, destaca-se pelas suas áreas generosas, distribuição funcional e elevada versatilidade, sendo uma excelente opção para q…",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t5-remodelada-em-azeito-com-garagem-para-vrios-veculos-IDJx5qR.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 0.5,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/zgqzd8mvo8y23-PT/image;s=640x480",
-  "lat": 38.52342,
-  "lon": -8.89285,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 5,
-  "size_m2": 283,
-  "stretch": "€457k – above the €450k budget",
+  "title": "Moradia T5 remodelada em Azeitão com garagem para vários veículos",
   "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t5-remodelada-em-azeito-com-garagem-para-vrios-veculos-IDJx5qR.html"
+   },
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-moradia-t5-setubal-azeitao-(sao-lourenco-e-sao-simao)-60210f88-843e-11f1-9c13-060000000051.html"
    }
-  ],
-  "id": "85fa717dd0",
-  "municipality": "Setúbal",
-  "garden_yes": true
+  ]
  },
  {
   "section": "ready",
@@ -2183,7 +2125,13 @@
   "id": "4af00087fe",
   "municipality": "Alcobaça",
   "garden_yes": true,
-  "title": "Viver São Martinho do Porto a pé"
+  "title": "Viver São Martinho do Porto a pé",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/viver-so-martinho-do-porto-a-p-IDJCAEE.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -2307,64 +2255,21 @@
   "id": "4ddd0ad1d8",
   "municipality": "N. S. da Anunciada e S. Maria da Graça",
   "garden_yes": true,
-  "title": "Moradia T5 Setúbal"
- },
- {
-  "section": "ready",
-  "town": "São Martinho do Porto",
-  "typology": "T3",
-  "price": 375000,
-  "size": "186 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Viver São Martinho do Porto a pé Mais do que uma moradia, esta é uma oportunidade para desfrutar de um estilo de vida onde o mar, a vila e tudo o que precisa…",
-  "url": "https://www.olx.pt/d/anuncio/viver-so-martinho-do-porto-a-p-IDJCAEE.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 0.6,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/r8iwely93ui92-PT/image;s=640x480",
-  "lat": 39.51354,
-  "lon": -9.12959,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 186,
-  "id": "1d800413d9",
-  "municipality": "Alcobaça",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Setúbal (São Julião, Nossa Senhora Da Anunciada E Santa Maria Da Graça)",
-  "typology": "T5",
-  "price": 375000,
-  "size": "164 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Moradia T5 com 3wcs, garagem barbecue, jardim,sótão com vista espetacular para a cidade de Setúbal e rio Sado, situada em casal das figueiras viso Setúbal.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t5-setbal-IDJye73.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 0.6,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/n3ezvtb4gc701-PT/image;s=640x480",
-  "lat": 38.51925,
-  "lon": -8.90367,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 5,
-  "size_m2": 164,
-  "private": true,
+  "title": "Moradia T5 Setúbal",
   "also_on": [
+   {
+    "source": "imovirtual",
+    "url": "https://www.imovirtual.com/pt/anuncio/moradia-t5-isolada-com-jardim-e-terraco-em-setubal-ID1iMbX"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t5-setbal-IDJye73.html"
+   },
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-moradia-t5-uniao-das-freguesias-de-setubal-0f209117-3b05-4056-b108-b36c2f4df9b2.html"
    }
-  ],
-  "id": "da1c384001",
-  "municipality": "Setúbal",
-  "garden_yes": true
+  ]
  },
  {
   "section": "ready",
@@ -2429,7 +2334,13 @@
   "id": "30199f50d4",
   "municipality": "Alcobaça",
   "garden_yes": true,
-  "title": "Moradia Contemporânea de Costa | Lifestyle, Investimento & Alo..."
+  "title": "Moradia Contemporânea de Costa | Lifestyle, Investimento & Alo...",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-contempornea-de-costa-lifestyle-investimento-alo-IDJsvlz.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -2566,31 +2477,6 @@
  },
  {
   "section": "ready",
-  "town": "Famalicão",
-  "typology": "T4",
-  "price": 369000,
-  "size": "252 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Moradia Contemporânea de Costa | Lifestyle, Investimento & Alojamento Local Localizada em Venda Nova, apenas a poucos minutos a norte de São Martinho do Port…",
-  "url": "https://www.olx.pt/d/anuncio/moradia-contempornea-de-costa-lifestyle-investimento-alo-IDJsvlz.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 0.7,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/itnzb8xnjoo73-PT/image;s=640x480",
-  "lat": 39.53775,
-  "lon": -9.1127,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 4,
-  "size_m2": 252,
-  "id": "30f029b8cb",
-  "municipality": "Famalicão",
-  "garden_yes": true
- },
- {
-  "section": "ready",
   "town": "Vau, Óbidos",
   "typology": "T2",
   "price": 405000,
@@ -2680,58 +2566,17 @@
   "id": "270b519225",
   "municipality": "Torres Vedras",
   "garden_yes": true,
-  "title": "RESERVADO Moradia de r/c e 1º andar a 3 minutos da Praia de Santa C..."
- },
- {
-  "section": "ready",
-  "town": "Encarnação, Mafra",
-  "typology": "T4",
-  "price": 450000,
-  "size": "138 m²",
-  "garden": "Yes – mentions 'logradouro' (check listing)",
-  "note": "Moradia T4, com logradouro e vista de campo, localizada a 15 km da Ericeira.",
-  "url": "https://www.imovirtual.com/pt/anuncio/vende-moradia-t4-ericeira-15-km-a-casa-das-casas-ID1hDd7",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 0.8,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImZ1bGtzczdpcDdtdy1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.0bNRgL4rSPsMCXhqw7teTzNzfjGqv1MOFCpisne5QyU/image;s=655x491;q=80",
-  "lat": 39.03529,
-  "lon": -9.4116,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 4,
-  "size_m2": 138,
-  "id": "2cea2c2718",
-  "municipality": "Mafra",
-  "garden_yes": true,
-  "title": "Vende Moradia T4 - Ericeira 15 km, A Casa das Casas"
- },
- {
-  "section": "ready",
-  "town": "A Dos Cunhados E Maceira",
-  "typology": "T3",
-  "price": 355000,
-  "size": "154 m²",
-  "garden": "Yes – mentions 'logradouro' (check listing)",
-  "note": "RESERVADO Agradável moradia de Rés do Chão e 1º andar e sótão A moradia tem ao seu dispor no rés do chão uma cozinha, uma sala com lareira, e uma garagem, tr…",
-  "url": "https://www.olx.pt/d/anuncio/reservado-moradia-de-r-c-e-1-andar-a-3-minutos-da-praia-de-santa-c-IDJsFnC.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 0.8,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/9wwk2c5amj57-PT/image;s=640x480",
-  "lat": 39.14579,
-  "lon": -9.36448,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 154,
-  "id": "0c3f3aaad7",
-  "municipality": "A Dos Cunhados E Maceira",
-  "garden_yes": true
+  "title": "RESERVADO Moradia de r/c e 1º andar a 3 minutos da Praia de Santa C...",
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-geminada-t3-torres-vedras-a-dos-cunhados-povoa-de-penafirme-64fce440-6b3b-11f1-9aaf-060000000054.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/reservado-moradia-de-r-c-e-1-andar-a-3-minutos-da-praia-de-santa-c-IDJsFnC.html"
+   }
+  ]
  },
  {
   "section": "reno",
@@ -3029,6 +2874,14 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-1-nova-com-suite-e-jardim-com-vista-desafogada-otima-ex-ID1gDbq"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-1-com-suite-terrao-excelente-iluminao-natural-e-loc-IDJBt3h.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-1-nova-com-suite-e-jardim-com-vista-desafogada-tima-ex-IDIRnPE.html"
    }
   ],
   "id": "bf6fc63152",
@@ -3061,6 +2914,10 @@
    {
     "source": "idealista",
     "url": "https://www.idealista.pt/imovel/35243908/"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-v3-com-terreno-urbano-e-garagem-seixal-lourinh-IDJi8fU.html"
    }
   ],
   "id": "1fb432f436",
@@ -3162,62 +3019,6 @@
   ],
   "id": "faefe2e36d",
   "municipality": "Peniche",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Lourinhã E Atalaia",
-  "typology": "T4",
-  "price": 435000,
-  "size": "250 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Moradia T3+1 inserida numa zona tranquila e habitacional a apenas a 5 minutos da Praia de Porto Dinheiro, a sua envolvência e vista transmitem grande pacific…",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t3-1-com-suite-terrao-excelente-iluminao-natural-e-loc-IDJBt3h.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 1.2,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/mh1e6mh4iazo3-PT/image;s=640x480",
-  "lat": 39.23185,
-  "lon": -9.32904,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 4,
-  "size_m2": 250,
-  "id": "90d647b421",
-  "municipality": "Lourinhã",
-  "garden_yes": true,
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-t3-1-nova-com-suite-e-jardim-com-vista-desafogada-tima-ex-IDIRnPE.html"
-   }
-  ]
- },
- {
-  "section": "ready",
-  "town": "Lourinhã E Atalaia",
-  "typology": "T3",
-  "price": 395000,
-  "size": "358 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Moradia V3, de rés de chão, com terreno urbano e garagem, situada no Seixal, freguesia e concelho da Lourinhã, composta por: - 3 quartos - 1 casa de banho - …",
-  "url": "https://www.olx.pt/d/anuncio/moradia-v3-com-terreno-urbano-e-garagem-seixal-lourinh-IDJi8fU.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 1.2,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/ee207bv5cslk2-PT/image;s=640x480",
-  "lat": 39.25995,
-  "lon": -9.31947,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 358,
-  "id": "9b8ce14d63",
-  "municipality": "Lourinhã",
   "garden_yes": true
  },
  {
@@ -3465,31 +3266,6 @@
   "garden_yes": true
  },
  {
-  "section": "reno",
-  "town": "Lourinhã E Atalaia",
-  "typology": "T3",
-  "price": 160000,
-  "size": "279 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "EXCLUSIVO T- Ideal - Dois artigos urbanos independentes, lado a lado, com 342 m² de área bruta de construção..",
-  "url": "https://www.olx.pt/d/anuncio/moradia-adega-zambujeira-do-mar-lourinh-IDJBifE.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 1.5,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/oa92wj68qte4-PT/image;s=640x480",
-  "lat": 39.26797,
-  "lon": -9.31302,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 279,
-  "id": "47bd5d2096",
-  "municipality": "Lourinhã",
-  "garden_yes": true
- },
- {
   "section": "ready",
   "town": "Lourinhã e Atalaia, Lourinhã",
   "typology": "T5",
@@ -3514,7 +3290,13 @@
   "id": "beaab25f86",
   "municipality": "Lourinhã",
   "garden_yes": true,
-  "title": "Moradia Moderna perto das praias"
+  "title": "Moradia Moderna perto das praias",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-moderna-perto-das-praias-IDI3lhK.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -3541,32 +3323,6 @@
   "municipality": "Sintra",
   "garden_yes": true,
   "title": "Pronto para escriturar:  Moradia V2 com Logradouro | Fontanelas, Sintr"
- },
- {
-  "section": "ready",
-  "town": "Viso - Francisco Xavier, S. Julião, N. S. da Anunciada e S. Maria da Graça",
-  "typology": "T5",
-  "price": 375000,
-  "size": "164 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Moradia T5 com 3wcs,garagem, jardim, barbecue, sótão com vista espetacular para a cidade de Setúbal e rio Sado situada em casal das figueiras viso Setúbal.Ex…",
-  "url": "https://www.imovirtual.com/pt/anuncio/moradia-t5-isolada-com-jardim-e-terraco-em-setubal-ID1iMbX",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 1.6,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InhkdGRwbDF5b3d6dDMtQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.DRWwDVp1O4UuftgkAJkZsnTZ7GJFbTYl-tFSApZap6A/image;s=655x491;q=80",
-  "lat": 38.52588,
-  "lon": -8.91224,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 5,
-  "size_m2": 164,
-  "id": "034ffc46df",
-  "municipality": "N. S. da Anunciada e S. Maria da Graça",
-  "garden_yes": true,
-  "title": "Moradia T5 isolada com jardim e terraço em Setúbal"
  },
  {
   "section": "ready",
@@ -3597,32 +3353,6 @@
   ],
   "id": "7818e064b9",
   "municipality": "Peniche",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Lourinhã E Atalaia",
-  "typology": "T4",
-  "price": 475000,
-  "size": "130 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Moradia de design moderno em zona sossegada e com excelente vista de campo.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-moderna-perto-das-praias-IDI3lhK.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 1.6,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/rgoih7gv6nkm3-PT/image;s=640x480",
-  "lat": 39.2676,
-  "lon": -9.31158,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 4,
-  "size_m2": 130,
-  "stretch": "€475k – above the €450k budget",
-  "id": "4b7c075b38",
-  "municipality": "Lourinhã",
   "garden_yes": true
  },
  {
@@ -3685,7 +3415,13 @@
   "id": "9c984b6269",
   "municipality": "Lourinhã",
   "garden_yes": true,
-  "title": "Moradia Moderna perto das praias"
+  "title": "Moradia Moderna perto das praias",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-moderna-perto-das-praias-IDI3lhJ.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -3756,60 +3492,11 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/moradia-t4-transformada-em-t3-totalmente-remodelada-casal-de-figue-ID1iOjr"
-   }
-  ],
-  "id": "3143d08bc4",
-  "municipality": "N. S. da Anunciada e S. Maria da Graça",
-  "garden_yes": true,
-  "title": "Moradia T4 remodelada - Com logradouro"
- },
- {
-  "section": "ready",
-  "town": "Lourinhã E Atalaia",
-  "typology": "T4",
-  "price": 450000,
-  "size": "130 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Moradia de design moderno em zona sossegada e com excelente vista de campo.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-moderna-perto-das-praias-IDI3lhJ.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 1.7,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/7quw79nv65sg2-PT/image;s=640x480",
-  "lat": 39.26838,
-  "lon": -9.31019,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 4,
-  "size_m2": 130,
-  "id": "e23d47f86a",
-  "municipality": "Lourinhã",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Setúbal (São Julião, Nossa Senhora Da Anunciada E Santa Maria Da Graça)",
-  "typology": "T4",
-  "price": 399000,
-  "size": "106 m²",
-  "garden": "Yes – mentions 'logradouro' (check listing)",
-  "note": "Esta é a sua oportunidade de morar perto do centro da cidade, numa moradia com qualidade de vida!",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t4-remodelada-com-logradouro-IDJBPIt.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 1.7,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/ekm7eo5yuq75-PT/image;s=640x480",
-  "lat": 38.52565,
-  "lon": -8.91468,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 4,
-  "size_m2": 106,
-  "also_on": [
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t4-remodelada-com-logradouro-IDJBPIt.html"
+   },
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/setubal/imobiliario/moradias/moradia-t4-em-setubal-45391734"
@@ -3819,9 +3506,10 @@
     "url": "https://www.olx.pt/d/anuncio/moradia-t4-transformada-em-t3-totalmente-remodelada-casal-de-figue-IDJyj2o.html"
    }
   ],
-  "id": "fd92a895a2",
-  "municipality": "Setúbal",
-  "garden_yes": true
+  "id": "3143d08bc4",
+  "municipality": "N. S. da Anunciada e S. Maria da Graça",
+  "garden_yes": true,
+  "title": "Moradia T4 remodelada - Com logradouro"
  },
  {
   "section": "ready",
@@ -3857,6 +3545,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t3-em-condomnio-privado-no-praia-del-rey-golf-beach-resort-IDJvD5T.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-na-exclusiva-vila-dos-prncipes-no-praia-del-rey-beach-IDJtLnH.html"
    }
   ],
   "id": "a92f308e9b",
@@ -3924,32 +3616,6 @@
  },
  {
   "section": "ready",
-  "town": "Amoreira",
-  "typology": "T3",
-  "price": 470000,
-  "size": "161 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Uma casa onde o luxo é o silêncio.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t3-na-exclusiva-vila-dos-prncipes-no-praia-del-rey-beach-IDJtLnH.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 1.8,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/syix6ukrwth21-PT/image;s=640x480",
-  "lat": 39.38353,
-  "lon": -9.27881,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 161,
-  "stretch": "€470k – above the €450k budget",
-  "id": "399b80286c",
-  "municipality": "Amoreira",
-  "garden_yes": true
- },
- {
-  "section": "ready",
   "town": "Atouguia da Baleia, Peniche",
   "typology": "T3",
   "price": 385000,
@@ -3972,7 +3638,17 @@
   "id": "514007aca8",
   "municipality": "Peniche",
   "garden_yes": true,
-  "title": "Moradia Geminada com 2 suítes junto à praia dos Supertubos"
+  "title": "Moradia Geminada com 2 suítes junto à praia dos Supertubos",
+  "also_on": [
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/leiria/imobiliario/moradias/moradia-geminada-com-2-suites--44485311"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-geminada-com-2-sutes-junto-praia-dos-supertubos-IDJ7Pds.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -4035,33 +3711,13 @@
   "id": "b68b33bd8a",
   "municipality": "Sesimbra",
   "garden_yes": true,
-  "title": "2 Moradias T2 + T2 com jardim"
- },
- {
-  "section": "ready",
-  "town": "Castelo (Sesimbra)",
-  "typology": "T4",
-  "price": 475000,
-  "size": "127 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Moradia T2 + Anexo transformado em T2 Qualquer uma das casas, é boa tanto para habitar como para rentabilizar Inserida num contexto de natureza, calmo e sile…",
-  "url": "https://www.olx.pt/d/anuncio/2-moradias-t2-t2-com-jardim-IDJxvbX.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 2.1,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/86ln9naborz2-PT/image;s=640x480",
-  "lat": 38.45687,
-  "lon": -9.1152,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 4,
-  "size_m2": 127,
-  "stretch": "€475k – above the €450k budget",
-  "id": "fa103401e5",
-  "municipality": "Sesimbra",
-  "garden_yes": true
+  "title": "2 Moradias T2 + T2 com jardim",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/2-moradias-t2-t2-com-jardim-IDJxvbX.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -4265,6 +3921,14 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t2-para-venda-IDJzQV8.html"
+   },
+   {
+    "source": "imovirtual",
+    "url": "https://www.imovirtual.com/pt/anuncio/moradia-t2-com-garagem-jardim-zambujal-mafra-ID1iQQu"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t2-com-garagem-jardim-zambujal-mafra-IDJzKvH.html"
    }
   ],
   "id": "4809958271",
@@ -4378,6 +4042,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/lisboa/imobiliario/moradias/moradia-t3-1-com-piscina-zona--43566588"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/casa-villa-t4-em-santa-brbara-de-188-m2-IDJzKyY.html"
    }
   ],
   "id": "39df670865",
@@ -4420,62 +4088,6 @@
   "municipality": "Torres Vedras",
   "garden_yes": true,
   "title": "Moradia T3 de topo, com garagem, lareira e logradouro, a poucos minuto"
- },
- {
-  "section": "ready",
-  "town": "Santa Bárbara",
-  "typology": "T4",
-  "price": 449000,
-  "size": "188 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Moradia T4 com vista de Mar, Piscina e Garagem Situada em Santa Bárbara, a apenas 5 km de Lourinhã, esta casa de 2 pisos beneficia de uma exposição solar tot…",
-  "url": "https://www.olx.pt/d/anuncio/casa-villa-t4-em-santa-brbara-de-188-m2-IDJzKyY.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 2.4,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/5v5a4wartmve-PT/image;s=640x480",
-  "lat": 39.21181,
-  "lon": -9.32137,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 4,
-  "size_m2": 188,
-  "id": "5f0e099ffc",
-  "municipality": "Santa Bárbara",
-  "garden_yes": true
- },
- {
-  "section": "reno",
-  "town": "Caparica E Trafaria",
-  "typology": "T2",
-  "price": 160000,
-  "size": "49 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Pequena casa térrea com 49m2 de área bruta de construção, e 430m2 de terreno privativo.",
-  "url": "https://www.olx.pt/d/anuncio/casa-trrea-IDJxWMI.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 2.4,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/ww4vubsjer8s2-PT/image;s=640x480",
-  "lat": 38.64231,
-  "lon": -9.21041,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 2,
-  "size_m2": 49,
-  "also_on": [
-   {
-    "source": "casasapo",
-    "url": "https://casa.sapo.pt/comprar-moradia-geminada-t2-almada-caparica-e-trafaria-caparica-662f0f73-9fcb-11f1-9aaf-060000000054.html"
-   }
-  ],
-  "id": "0e05721a8b",
-  "municipality": "Almada",
-  "garden_yes": true
  },
  {
   "section": "ready",
@@ -4625,7 +4237,13 @@
   "id": "8a000829a8",
   "municipality": "Óbidos",
   "garden_yes": true,
-  "title": "Moradia independente à venda - Vau, Óbidos"
+  "title": "Moradia independente à venda - Vau, Óbidos",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-independente-venda-vau-bidos-IDIAPig.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -4650,32 +4268,6 @@
   "size_m2": 105,
   "id": "a82180bfcc",
   "municipality": "Casais De Baixo",
-  "garden_yes": true
- },
- {
-  "section": "reno",
-  "town": "Vau",
-  "typology": "T2",
-  "price": 120000,
-  "size": "79 m²",
-  "garden": "Yes – mentions 'logradouro' (check listing)",
-  "note": "Esta moradia antiga localizada na aldeia do Vau, precisa de uma renovação completa, mas pode ser transformada num projeto contemporâneo uma vez que tem basta…",
-  "url": "https://www.olx.pt/d/anuncio/moradia-independente-venda-vau-bidos-IDIAPig.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 2.6,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/sg9pl93yffu73-PT/image;s=640x480",
-  "lat": 39.39224,
-  "lon": -9.2456,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 2,
-  "size_m2": 79,
-  "private": true,
-  "id": "de639d9e8a",
-  "municipality": "Óbidos",
   "garden_yes": true
  },
  {
@@ -4740,6 +4332,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-em-banda-com-vista-mar-e-terrao-privativo-no-corao-da-na-IDJuQxH.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-moderna-t3-com-184-m-e-terraos-casais-de-baixo-famalico-IDIRPVE.html"
    }
   ],
   "id": "ca64775874",
@@ -4820,57 +4416,13 @@
   "id": "ac00881aaf",
   "municipality": "Aljezur",
   "garden_yes": true,
-  "title": "Quinta Rural em Odeceixe"
- },
- {
-  "section": "ready",
-  "town": "Famalicão",
-  "typology": "T3",
-  "price": 440000,
-  "size": "140 m²",
-  "garden": "Yes – mentions 'quintal' (check listing)",
-  "note": "Apresentamos esta moradia moderna e funcional, com 184 m² de área útil e inserida num lote de 640 m², localizada em Casais de Baixo, Famalicão perto da Nazar…",
-  "url": "https://www.olx.pt/d/anuncio/moradia-moderna-t3-com-184-m-e-terraos-casais-de-baixo-famalico-IDIRPVE.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 2.7,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/hffdo8tebuxy2-PT/image;s=640x480",
-  "lat": 39.55578,
-  "lon": -9.07354,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 140,
-  "id": "3a633ac010",
-  "municipality": "Famalicão",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Odeceixe",
-  "typology": "T2",
-  "price": 350000,
-  "size": "140 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Excelente quinta rural, atravessada pelo rio Seixe com uma área de cerca 9ha.",
-  "url": "https://www.olx.pt/d/anuncio/quinta-rural-em-odeceixe-IDJgr5P.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 2.7,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/rdx21021zu9a1-PT/image;s=640x480",
-  "lat": 37.43323,
-  "lon": -8.7702,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 2,
-  "size_m2": 140,
-  "id": "51827d374e",
-  "municipality": "Aljezur",
-  "garden_yes": true
+  "title": "Quinta Rural em Odeceixe",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/quinta-rural-em-odeceixe-IDJgr5P.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -4929,6 +4481,14 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/terreno-urbano-511-m-com-moradia-t2-antigo-t1-excelente-oportu-IDJj0kp.html"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/setubal/imobiliario/moradias/terreno-urbano-511-m-com-mor-44953238"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-t3-almada-charneca-de-caparica-e-sobreda-81279c15-28e1-11f1-90a1-060000000056.html"
    }
   ],
   "id": "623d979b1f",
@@ -4959,37 +4519,6 @@
   "size_m2": 138,
   "id": "6d369538f5",
   "municipality": "Sesimbra",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Charneca de Caparica e Sobreda, Almada",
-  "typology": "T3",
-  "price": 380000,
-  "size": "60 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Imóvel inserido em terreno urbano com 511 m², localizado na zona de Palhais, Charneca da Caparica, no concelho de Almada.",
-  "url": "https://www.custojusto.pt/setubal/imobiliario/moradias/terreno-urbano-511-m-com-mor-44953238",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "custojusto",
-  "auto": true,
-  "coast_km": 2.9,
-  "image": "https://prod-images.custojusto.pt/gallery/1917152091-terreno-urbano-511-m-com-moradia-t2-antigo-t1-excelente-de-investimento-almada.jpg",
-  "lat": 38.63295,
-  "lon": -9.19655,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 60,
-  "also_on": [
-   {
-    "source": "casasapo",
-    "url": "https://casa.sapo.pt/comprar-moradia-t3-almada-charneca-de-caparica-e-sobreda-81279c15-28e1-11f1-90a1-060000000056.html"
-   }
-  ],
-  "id": "7d12e58a8c",
-  "municipality": "Almada",
   "garden_yes": true
  },
  {
@@ -5089,32 +4618,13 @@
   "id": "42dc1ac9e0",
   "municipality": "Santiago do Cacém",
   "garden_yes": true,
-  "title": "Moradia para venda em Brescos - Lagoa de Santo André - Litoral Alentej"
- },
- {
-  "section": "ready",
-  "town": "Santo André",
-  "typology": "T6",
-  "price": 384000,
-  "size": "153 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Procura uma casa de férias, e com possibilidade de rentabilizar?...",
-  "url": "https://www.olx.pt/d/anuncio/moradia-para-venda-em-brescos-lagoa-de-santo-andr-litoral-alentej-IDIxh9N.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 3.0,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/b16lttm44zzu2-PT/image;s=640x480",
-  "lat": 38.10486,
-  "lon": -8.76627,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 6,
-  "size_m2": 153,
-  "id": "1124644839",
-  "municipality": "Santo André",
-  "garden_yes": true
+  "title": "Moradia para venda em Brescos - Lagoa de Santo André - Litoral Alentej",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-para-venda-em-brescos-lagoa-de-santo-andr-litoral-alentej-IDIxh9N.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -5236,7 +4746,13 @@
   "id": "70e9626db0",
   "municipality": "Óbidos",
   "garden_yes": true,
-  "title": "Moradia de Luxo Serra d'EL-Rey***RIOMAGIC***"
+  "title": "Moradia de Luxo Serra d'EL-Rey***RIOMAGIC***",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-de-luxo-serra-del-reyriomagic-IDJxaPU.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -5373,32 +4889,6 @@
  },
  {
   "section": "ready",
-  "town": "Vau",
-  "typology": "T2",
-  "price": 475000,
-  "size": "111 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Apresentamos esta elegante moradia contemporânea, inserida no exclusivo Bom Sucesso Resort, junto à Lagoa de Óbidos.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-de-luxo-serra-del-reyriomagic-IDJxaPU.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 3.2,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/1i4r675rpbqi1-PT/image;s=640x480",
-  "lat": 39.38242,
-  "lon": -9.25203,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 2,
-  "size_m2": 111,
-  "stretch": "€475k – above the €450k budget",
-  "id": "8b0be4ee6f",
-  "municipality": "Óbidos",
-  "garden_yes": true
- },
- {
-  "section": "ready",
   "town": "Alfeizerão, Alcobaça",
   "typology": "T2",
   "price": 472500,
@@ -5448,6 +4938,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/reservado-moradia-familiar-t6-remodelada-com-182-50m-em-setbal-IDJgFhl.html"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/setubal/imobiliario/moradias/reservado-moradia-familiar-t-44955561"
    }
   ],
   "id": "b433860b24",
@@ -5723,31 +5217,6 @@
   "size_m2": 109,
   "id": "1581a80265",
   "municipality": "Alcobaça",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Setúbal (São Sebastião), Setúbal",
-  "typology": "T6",
-  "price": 385900,
-  "size": "182 m²",
-  "garden": "Yes – mentions 'logradouro' (check listing)",
-  "note": "(RESERVADO)Moradia Familiar T6 Completamente Remodelada na Praça da Varzinha SetúbalApresentamos esta excelente Moradia Familiar com 182,50 m² de área bruta,…",
-  "url": "https://www.custojusto.pt/setubal/imobiliario/moradias/reservado-moradia-familiar-t-44955561",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "custojusto",
-  "auto": true,
-  "coast_km": 3.4,
-  "image": "https://prod-images.custojusto.pt/gallery/4557468796-reservado-moradia-familiar-t6-remodelada-com-182-50m-em-setubal-excelente-de-investimento-ou-habitacao-propria.jpg",
-  "lat": 38.5504,
-  "lon": -8.88375,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 6,
-  "size_m2": 182,
-  "id": "b9fff68dfa",
-  "municipality": "Setúbal",
   "garden_yes": true
  },
  {
@@ -6101,6 +5570,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-moradia-t3-alcobaca-alfeizerao-04fb946c-91ec-11f1-9c13-060000000051.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-trrea-t3-em-alfeizero-de-154-4-m2-IDJvKba.html"
    }
   ],
   "id": "ecd0f28298",
@@ -6167,7 +5640,13 @@
   "id": "b1a408e2e2",
   "municipality": "Peniche",
   "garden_yes": true,
-  "title": "MORADIA T3 | ATOUGUIA DA BALEIA"
+  "title": "MORADIA T3 | ATOUGUIA DA BALEIA",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-atouguia-da-baleia-IDJ1AY0.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -6230,32 +5709,13 @@
   "stretch": "€470.0k – above the €450k budget",
   "id": "c564d8aee9",
   "municipality": "Caldas da Rainha",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Atouguia da Baleia",
-  "typology": "T2",
-  "price": 397500,
-  "size": "188 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Moradia Térrea com História e Charme em Atouguia da Baleia Pela sua versatilidade, esta propriedade é perfeita tanto para quem procura a sua habitação própri…",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t3-atouguia-da-baleia-IDJ1AY0.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 3.6,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/17n0xy8pn1jb1-PT/image;s=640x480",
-  "lat": 39.33896,
-  "lon": -9.32667,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 2,
-  "size_m2": 188,
-  "id": "7a0fe06927",
-  "municipality": "Peniche",
-  "garden_yes": true
+  "garden_yes": true,
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-em-barrocas-tornada-caldas-da-rainha-IDJivJH.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -6320,31 +5780,6 @@
  },
  {
   "section": "ready",
-  "town": "Alfeizerão",
-  "typology": "T3",
-  "price": 450000,
-  "size": "154 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "MORADIA CONTEMPORÂNEA COM APARTAMENTO INDEPENDENTE, SAUNA E JARDIM PRIVADO EM ALFEIZERÃO Há casas que impressionam pelas dimensões.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-trrea-t3-em-alfeizero-de-154-4-m2-IDJvKba.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 3.7,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/c14m4m9reim8-PT/image;s=640x480",
-  "lat": 39.49055,
-  "lon": -9.10461,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 154,
-  "id": "665cb6b479",
-  "municipality": "Alfeizerão",
-  "garden_yes": true
- },
- {
-  "section": "ready",
   "town": "Tornada e Salir do Porto, Caldas da Rainha",
   "typology": "T5",
   "price": 430000,
@@ -6367,7 +5802,13 @@
   "id": "9c5be8c893",
   "municipality": "Caldas da Rainha",
   "garden_yes": true,
-  "title": "Charme com toque de luxo - Moradia V4 de 2 pisos com jardim em Regu..."
+  "title": "Charme com toque de luxo - Moradia V4 de 2 pisos com jardim em Regu...",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/charme-com-toque-de-luxo-moradia-v4-de-2-pisos-com-jardim-em-regu-IDJfx9Y.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -6400,31 +5841,6 @@
   "municipality": "Lourinhã",
   "garden_yes": true,
   "title": "Moradia T3+1 | 10 minutos da praia | Matas – Lourinhã"
- },
- {
-  "section": "ready",
-  "town": "Tornada E Salir Do Porto",
-  "typology": "T4",
-  "price": 430000,
-  "size": "229 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Descubra o equilíbrio perfeito entre tradição e conforto moderno nesta deslumbrante moradia de 2 pisos, completamente restaurada com requinte e atenção ao de…",
-  "url": "https://www.olx.pt/d/anuncio/charme-com-toque-de-luxo-moradia-v4-de-2-pisos-com-jardim-em-regu-IDJfx9Y.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 3.8,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/3qqmajvhk7qo2-PT/image;s=640x480",
-  "lat": 39.45718,
-  "lon": -9.14119,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 4,
-  "size_m2": 229,
-  "id": "e3f45812ed",
-  "municipality": "Tornada E Salir Do Porto",
-  "garden_yes": true
  },
  {
   "section": "ready",
@@ -6568,6 +5984,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-moradia-t4-caldas-da-rainha-nadadouro-eb3ed98c-c1a6-11f1-b6e5-060000000058.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-isolada-t4-com-terreno-garagem-e-vistas-para-o-campo-IDJCNtW.html"
    }
   ],
   "id": "f4baf77858",
@@ -6655,31 +6075,6 @@
   "municipality": "Torres Vedras",
   "garden_yes": true,
   "title": "Moradia T3 para venda"
- },
- {
-  "section": "ready",
-  "town": "Nadadouro",
-  "typology": "T4",
-  "price": 430000,
-  "size": "330 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Moradia isolada T4, com 330 m² de área bruta e terreno de 357 m², situada no Nadadouro, Caldas da Rainha, numa zona muito tranquila e com bons acessos.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-isolada-t4-com-terreno-garagem-e-vistas-para-o-campo-IDJCNtW.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 4.1,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/urw0t4m8q9z-PT/image;s=640x480",
-  "lat": 39.4157,
-  "lon": -9.18347,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 4,
-  "size_m2": 330,
-  "id": "84d50a2076",
-  "municipality": "Nadadouro",
-  "garden_yes": true
  },
  {
   "section": "ready",
@@ -6839,68 +6234,16 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/setubal/imobiliario/moradias/moradia-isolada-t3-em-gambia-p-44774374"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-isolada-t3-em-gmbia-pontes-alto-da-guerra-de-126-05-m2-IDJf6P5.html"
    }
   ],
   "id": "b01d298f96",
   "municipality": "Setúbal",
   "garden_yes": true,
   "title": "Moradia isolada T3 em Gâmbia-Pontes-Alto da Guerra de 126,05 m2"
- },
- {
-  "section": "ready",
-  "town": "Gâmbia-Pontes-Alto Guerra",
-  "typology": "T3",
-  "price": 400000,
-  "size": "126 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "O Refúgio Perfeito para a sua Família entre a Serra e o Mar Procura o equilíbrio ideal entre a energia de Lisboa e a serenidade da natureza?",
-  "url": "https://www.olx.pt/d/anuncio/moradia-isolada-t3-em-gmbia-pontes-alto-da-guerra-de-126-05-m2-IDJf6P5.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 4.2,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/hq3saxcwj7an3-PT/image;s=640x480",
-  "lat": 38.53818,
-  "lon": -8.84778,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 126,
-  "id": "7e3692b3b9",
-  "municipality": "Gâmbia-Pontes-Alto Guerra",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Nadadouro, Caldas da Rainha",
-  "typology": "T6",
-  "price": 450000,
-  "size": "220 m²",
-  "garden": "Yes – mentions 'quintal' (check listing)",
-  "note": "A sua oportunidade única em Nadadouro: O refúgio perfeito a 5 minutos da praia!",
-  "url": "https://www.custojusto.pt/leiria/imobiliario/moradias/moradia-terrea-t6-em-nadadouro-45215672",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "custojusto",
-  "auto": true,
-  "coast_km": 4.2,
-  "image": "https://prod-images.custojusto.pt/gallery/9282358180-moradia-terrea-t6-em-nadadouro-caldas-da-rainha.jpg",
-  "lat": 39.42415,
-  "lon": -9.17233,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 6,
-  "size_m2": 220,
-  "also_on": [
-   {
-    "source": "imovirtual",
-    "url": "https://www.imovirtual.com/pt/anuncio/moradia-terrea-t6-em-nadadouro-caldas-da-rainha-ID1iNFN"
-   }
-  ],
-  "id": "f7b7f509e1",
-  "municipality": "Caldas da Rainha",
-  "garden_yes": true
  },
  {
   "section": "ready",
@@ -6925,7 +6268,17 @@
   "size_m2": 220,
   "id": "15f36abcb4",
   "municipality": "Nadadouro",
-  "garden_yes": true
+  "garden_yes": true,
+  "also_on": [
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/leiria/imobiliario/moradias/moradia-terrea-t6-em-nadadouro-45215672"
+   },
+   {
+    "source": "imovirtual",
+    "url": "https://www.imovirtual.com/pt/anuncio/moradia-terrea-t6-em-nadadouro-caldas-da-rainha-ID1iNFN"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -6987,7 +6340,13 @@
   "id": "e1789f6081",
   "municipality": "Lourinhã",
   "garden_yes": true,
-  "title": "Moradia T2+T3 com Anexos e Garagem"
+  "title": "Moradia T2+T3 com Anexos e Garagem",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t2-t3-com-anexos-e-garagem-IDJuNZ3.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -7014,7 +6373,13 @@
   "id": "7463ab5e95",
   "municipality": "Setúbal",
   "garden_yes": true,
-  "title": "Moradia de 4 assoalhadas com garagem de 67m2 em Condomínio Privato"
+  "title": "Moradia de 4 assoalhadas com garagem de 67m2 em Condomínio Privato",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-de-4-assoalhadas-com-garagem-de-67m2-em-condomnio-privato-IDJpnRk.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -7040,57 +6405,6 @@
   "stretch": "€455k – above the €450k budget",
   "id": "e31ade6847",
   "municipality": "Setúbal",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Lourinhã E Atalaia",
-  "typology": "T5",
-  "price": 399500,
-  "size": "272 m²",
-  "garden": "Yes – mentions 'logradouro' (check listing)",
-  "note": "Moradia Tradicional Portuguesa com Espaços de Convívio Únicos e T3 extra.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t2-t3-com-anexos-e-garagem-IDJuNZ3.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 4.5,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/936m9p91opfb-PT/image;s=640x480",
-  "lat": 39.21696,
-  "lon": -9.29452,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 5,
-  "size_m2": 272,
-  "id": "3cba0d6fc7",
-  "municipality": "Lourinhã",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "São Sebastião",
-  "typology": "T3",
-  "price": 452500,
-  "size": "127 m²",
-  "garden": "Yes – mentions 'quintal' (check listing)",
-  "note": "Descubra esta fantástica moradia de 4 assoalhadas, inserida num exclusivo condomínio fechado composto por apenas 20 moradias, localizada numa das zonas mais …",
-  "url": "https://www.olx.pt/d/anuncio/moradia-de-4-assoalhadas-com-garagem-de-67m2-em-condomnio-privato-IDJpnRk.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 4.5,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/ygcxckd4j7d5-PT/image;s=640x480",
-  "lat": 38.52396,
-  "lon": -8.8389,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 127,
-  "stretch": "€452k – above the €450k budget",
-  "id": "c9a5f38550",
-  "municipality": "São Sebastião",
   "garden_yes": true
  },
  {
@@ -7399,7 +6713,13 @@
   "id": "6dae85e6b0",
   "municipality": "Aljezur",
   "garden_yes": true,
-  "title": "Moradia Rogil"
+  "title": "Moradia Rogil",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-rogil-IDIVHco.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -7425,31 +6745,6 @@
   "stretch": "€454.0k – above the €450k budget",
   "id": "b7d6d3dffc",
   "municipality": "Seixal",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Aljezur",
-  "typology": "T4",
-  "price": 415000,
-  "size": "175 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Moradia localizada no Rogil com uma área de 175 m2 inserida num lote de terreno com 529 m2.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-rogil-IDIVHco.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 5.0,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/7y07mt558v672-PT/image;s=640x480",
-  "lat": 37.31751,
-  "lon": -8.80686,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 4,
-  "size_m2": 175,
-  "id": "84f38d0aa1",
-  "municipality": "Aljezur",
   "garden_yes": true
  },
  {
@@ -7490,38 +6785,6 @@
  },
  {
   "section": "ready",
-  "town": "Santo Isidoro, Mafra",
-  "typology": "T2",
-  "price": 440000,
-  "size": "123 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Moradia T2 com Garagem, Jardim e Potencial de Ampliação | Zambujal – Santo Isidoro, Mafra Tranquilidade, espaço exterior e proximidade às praias da Ericeira …",
-  "url": "https://www.imovirtual.com/pt/anuncio/moradia-t2-com-garagem-jardim-zambujal-mafra-ID1iQQu",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 5.1,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InQ2eHRhbnRmNGtzejEtQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0._jjfI93glx0zpb7r-0K0xE2eEyycbmxkPAvMKYbpRL0/image;s=655x491;q=80",
-  "lat": 39.00218,
-  "lon": -9.35022,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 2,
-  "size_m2": 123,
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-t2-com-garagem-jardim-zambujal-mafra-IDJzKvH.html"
-   }
-  ],
-  "id": "5c3df2d9ec",
-  "municipality": "Mafra",
-  "garden_yes": true,
-  "title": "Moradia T2 com Garagem, Jardim | Zambujal - Mafra"
- },
- {
-  "section": "ready",
   "town": "Alcoitão, Alcabideche",
   "typology": "T6",
   "price": 450000,
@@ -7545,6 +6808,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t6-para-venda-IDJkjMp.html"
+   },
+   {
+    "source": "remax",
+    "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t6-cascais-alcabideche/124991107-19"
    }
   ],
   "id": "2186be6679",
@@ -7581,37 +6848,16 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t4-para-venda-IDJydi0.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-t4-sesimbra-(castelo)-3c493013-a30e-11f1-9aaf-060000000054.html"
    }
   ],
   "id": "07ad481864",
   "municipality": "Sesimbra",
   "garden_yes": true,
   "title": "Moradia T4 para venda"
- },
- {
-  "section": "ready",
-  "town": "Alcabideche, Cascais",
-  "typology": "T6",
-  "price": 450000,
-  "size": "122 m² on 241 m² plot",
-  "garden": "Yes – mentions 'quintal' (check listing)",
-  "note": "Moradia T6 para venda Venha conhecer esta moradia T6 em Alcabideche, com 182m2 de área bruta privativa, ideal para quem procura um espaço com potencial para …",
-  "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t6-cascais-alcabideche/124991107-19",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "remax",
-  "auto": true,
-  "coast_km": 5.1,
-  "image": "https://i.maxwork.pt/l-view/listings/12499/6802639/c4480189-dae6-46a0-8b5a-9e4f49319650.jpg",
-  "lat": 38.7343,
-  "lon": -9.39324,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 6,
-  "size_m2": 122,
-  "id": "30be52ef88",
-  "municipality": "Cascais",
-  "garden_yes": true
  },
  {
   "section": "ready",
@@ -7706,7 +6952,13 @@
   "id": "297b9377bf",
   "municipality": "Nazaré",
   "garden_yes": true,
-  "title": "Moradia Geminada com Carácter, Jardim, Quintal e Armazéns Valado do..."
+  "title": "Moradia Geminada com Carácter, Jardim, Quintal e Armazéns Valado do...",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-geminada-com-carcter-jardim-quintal-e-armazns-valado-do-IDJCXbN.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -7791,31 +7043,6 @@
  },
  {
   "section": "ready",
-  "town": "Valado dos Frades",
-  "typology": "T4",
-  "price": 398000,
-  "size": "236 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Uma moradia com história, carácter e uma nova vida.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-geminada-com-carcter-jardim-quintal-e-armazns-valado-do-IDJCXbN.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 5.3,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/mpm6odv2y47n2-PT/image;s=640x480",
-  "lat": 39.58459,
-  "lon": -9.02132,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 4,
-  "size_m2": 236,
-  "id": "bf0004e41e",
-  "municipality": "Valado dos Frades",
-  "garden_yes": true
- },
- {
-  "section": "ready",
   "town": "Corroios",
   "typology": "T3",
   "price": 430000,
@@ -7864,59 +7091,13 @@
   "id": "d8b7ea5274",
   "municipality": "Caldas da Rainha",
   "garden_yes": true,
-  "title": "CASA SENHORIAL 11 DIVISÕES, 324M2.  ***BAIXA DE PREÇO***"
- },
- {
-  "section": "ready",
-  "town": "Tornada E Salir Do Porto",
-  "typology": "T3",
-  "price": 470000,
-  "size": "147 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Moradia T3 de Arquitetura Contemporânea | Projeto Exclusivo em Tornada Apresentamos uma elegante moradia T3 em fase de construção, inserida num projeto exclu…",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t3-em-barrocas-tornada-caldas-da-rainha-IDJivJH.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 5.4,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/oizvwxjbdus83-PT/image;s=640x480",
-  "lat": 39.44615,
-  "lon": -9.12824,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 147,
-  "stretch": "€470k – above the €450k budget",
-  "id": "c8ffc4376a",
-  "municipality": "Tornada E Salir Do Porto",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Tornada E Salir Do Porto",
-  "typology": "T5",
-  "price": 467500,
-  "size": "230 m²",
-  "garden": "Yes – mentions 'quintal' (check listing)",
-  "note": "Charme e história Casa Senhorial, matriz de 1937, bem mantida ao longo do tempo, com o rigor de quem quis preservar grande parte da construção original, cent…",
-  "url": "https://www.olx.pt/d/anuncio/casa-senhorial-11-divises-324m2-baixa-de-preo-IDIn9f1.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 5.4,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/ip48gc38rtpe3-PT/image;s=640x480",
-  "lat": 39.44773,
-  "lon": -9.12641,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 5,
-  "size_m2": 230,
-  "stretch": "€467k – above the €450k budget",
-  "id": "eac9e9fff2",
-  "municipality": "Tornada E Salir Do Porto",
-  "garden_yes": true
+  "title": "CASA SENHORIAL 11 DIVISÕES, 324M2.  ***BAIXA DE PREÇO***",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/casa-senhorial-11-divises-324m2-baixa-de-preo-IDIn9f1.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -8195,6 +7376,10 @@
    {
     "source": "remax",
     "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t3-lourinha-sao-bartolomeu-dos-galegos-e-moledo/121981456-73"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-para-venda-IDIjbua.html"
    }
   ],
   "id": "4d874b0cad",
@@ -8267,31 +7452,6 @@
   ],
   "id": "09aac75609",
   "municipality": "Seixal",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Miragaia E Marteleira",
-  "typology": "T3",
-  "price": 446500,
-  "size": "293 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Localizada na charmosa Costa de Prata, esta moradia desfruta de uma posição soberba no topo da colina, com vistas para o campo.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t3-para-venda-IDIjbua.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 5.8,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/09gvpps7uhom-PT/image;s=640x480",
-  "lat": 39.24026,
-  "lon": -9.27089,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 293,
-  "id": "d09279253f",
-  "municipality": "Miragaia E Marteleira",
   "garden_yes": true
  },
  {
@@ -8450,6 +7610,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t3-arquitetura-contempornea-na-costa-de-prata-IDJmh0X.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-IDJkd7X.html"
    }
   ],
   "id": "6649bcf4a0",
@@ -8550,32 +7714,6 @@
   "municipality": "Óbidos",
   "garden_yes": true,
   "title": "Moradia Independente de 4 assoalhadas, adega e logradouro para remo..."
- },
- {
-  "section": "ready",
-  "town": "Tornada E Salir Do Porto",
-  "typology": "T3",
-  "price": 470000,
-  "size": "225 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Moradia T3 Térrea Moderna | Tornada - Caldas da Rainha Apresentamos esta moradia T3 térrea com 147,87 m2, de arquitetura contemporânea, inserida num condomín…",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t3-IDJkd7X.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 6.1,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/5l0q3l2kfde71-PT/image;s=640x480",
-  "lat": 39.43878,
-  "lon": -9.1257,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 225,
-  "stretch": "€470k – above the €450k budget",
-  "id": "d23636dd72",
-  "municipality": "Tornada E Salir Do Porto",
-  "garden_yes": true
  },
  {
   "section": "ready",
@@ -8826,7 +7964,13 @@
   "id": "d6d736be9f",
   "municipality": "Igreja Nova e Cheleiros",
   "garden_yes": true,
-  "title": "Moradia com Grande Potencial - Terreno Urbano e Rústico | EXCLUSIVO..."
+  "title": "Moradia com Grande Potencial - Terreno Urbano e Rústico | EXCLUSIVO...",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-com-grande-potencial-terreno-urbano-e-rstico-exclusivo-IDJvF4O.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -8860,31 +8004,6 @@
   "garden_yes": true
  },
  {
-  "section": "reno",
-  "town": "Igreja Nova E Cheleiros",
-  "typology": "T2",
-  "price": 148000,
-  "size": "79 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "EXCLUSIVO WEST LIFE Apresentamos esta excelente oportunidade para quem procura um projeto de reabilitação num ambiente tranquilo, rodeado pela natureza.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-com-grande-potencial-terreno-urbano-e-rstico-exclusivo-IDJvF4O.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 6.2,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/ujxiwu3ac49n3-PT/image;s=640x480",
-  "lat": 38.90421,
-  "lon": -9.36362,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 2,
-  "size_m2": 79,
-  "id": "3e812788b4",
-  "municipality": "Igreja Nova E Cheleiros",
-  "garden_yes": true
- },
- {
   "section": "ready",
   "town": "Miragaia e Marteleira, Lourinhã",
   "typology": "T3",
@@ -8910,6 +8029,10 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-moderna-com-garagem-e-excelente-exposicao-solar-ID1iHRa"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-moderna-com-garagem-e-excelente-exposio-solar-IDJvENs.html"
    }
   ],
   "id": "8985fcd053",
@@ -9125,6 +8248,14 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/leiria/imobiliario/moradias/casa-villa-t3-em-salir-de-ma-45174788"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/casa-villa-t3-em-salir-de-matos-de-142-00-m2-IDJv5Gn.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-trrea-nova-em-salir-de-matos-IDJyH1X.html"
    }
   ],
   "id": "df35c9a1a6",
@@ -9156,89 +8287,13 @@
   "id": "8f77361060",
   "municipality": "Torres Vedras",
   "garden_yes": true,
-  "title": "Moradia Torres Vedras"
- },
- {
-  "section": "ready",
-  "town": "Salir de Matos",
-  "typology": "T3",
-  "price": 450000,
-  "size": "142 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Se o seu sonho de morar na Costa de Prata é ter uma moradia térrea numa zona calma e com muita tranquilidade, o seu sonho tornou-se realidade!!!!",
-  "url": "https://www.olx.pt/d/anuncio/casa-villa-t3-em-salir-de-matos-de-142-00-m2-IDJv5Gn.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 6.4,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/6ha2xvcgy6cu2-PT/image;s=640x480",
-  "lat": 39.44783,
-  "lon": -9.1108,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 142,
-  "id": "7523f26ed8",
-  "municipality": "Salir de Matos",
-  "garden_yes": true,
+  "title": "Moradia Torres Vedras",
   "also_on": [
    {
     "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-t3-trrea-nova-em-salir-de-matos-IDJyH1X.html"
+    "url": "https://www.olx.pt/d/anuncio/moradia-torres-vedras-IDJC3WL.html"
    }
   ]
- },
- {
-  "section": "ready",
-  "town": "Miragaia E Marteleira",
-  "typology": "T3",
-  "price": 465000,
-  "size": "193 m²",
-  "garden": "Yes – mentions 'logradouro' (check listing)",
-  "note": "Descubra esta magnífica moradia T3 de arquitetura moderna, projetada para proporcionar conforto, funcionalidade e qualidade de vida, com acabamentos de eleva…",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t3-moderna-com-garagem-e-excelente-exposio-solar-IDJvENs.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 6.4,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/rx1dawrzuftb3-PT/image;s=640x480",
-  "lat": 39.23518,
-  "lon": -9.26562,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 193,
-  "stretch": "€465k – above the €450k budget",
-  "id": "322d574abc",
-  "municipality": "Miragaia E Marteleira",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Ponte do Rol",
-  "typology": "T4",
-  "price": 419000,
-  "size": "206 m²",
-  "garden": "Yes – mentions 'logradouro' (check listing)",
-  "note": "Moradia com 5 quartos, 2 salas e escritório de boas dimensões (que pode ser transformado num quarto), três casas de banho e uma cozinha com sala de almoço.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-torres-vedras-IDJC3WL.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 6.4,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/tmz355e699cw1-PT/image;s=640x480",
-  "lat": 39.08944,
-  "lon": -9.31445,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 4,
-  "size_m2": 206,
-  "id": "7b05eef41a",
-  "municipality": "Ponte do Rol",
-  "garden_yes": true
  },
  {
   "section": "ready",
@@ -9264,45 +8319,6 @@
   "id": "bdd23360ed",
   "municipality": "Corroios",
   "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Amora",
-  "typology": "T5",
-  "price": 445000,
-  "size": "240 m²",
-  "garden": "Yes – mentions 'logradouro' (check listing)",
-  "note": "Moradia T5 em Foros Amora Remodelada Moradia com 2 pisos, logradouro e anexo localizada Quinta do Bonfim nos Foros de Amora.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t5-totalmente-remodelada-em-foros-amora-com-terrao-gener-IDIL5VP.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 6.6,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/71wuxux24l1j-PT/image;s=640x480",
-  "lat": 38.60847,
-  "lon": -9.13053,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 5,
-  "size_m2": 240,
-  "id": "ee42b969d9",
-  "municipality": "Amora",
-  "garden_yes": true,
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-v5-premium-c-anexo-tranquilidade-e-lisboa-porta-IDJ305h.html"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-geminada-remodelada-t3-2-com-logradouro-anexo-e-terrao-em-IDILr2f.html"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-geminada-foros-de-amora-seixal-IDJvKWz.html"
-   }
-  ]
  },
  {
   "section": "ready",
@@ -9355,6 +8371,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/lisboa/imobiliario/moradias/casa-villa-t4-em-santa-barba-45216566"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-moderna-perto-das-praias-IDI3Iyv.html"
    }
   ],
   "id": "8477ad47a5",
@@ -9436,36 +8456,26 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/excelente-moradia-t5-totalmente-remodelada-nos-foros-da-amora-se-IDIONSv.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t5-totalmente-remodelada-em-foros-amora-com-terrao-gener-IDIL5VP.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-v5-premium-c-anexo-tranquilidade-e-lisboa-porta-IDJ305h.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-geminada-remodelada-t3-2-com-logradouro-anexo-e-terrao-em-IDILr2f.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-geminada-foros-de-amora-seixal-IDJvKWz.html"
    }
   ],
   "id": "45c6e8e2b6",
   "municipality": "Seixal",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "São Bartolomeu Dos Galegos E Moledo",
-  "typology": "T3",
-  "price": 475000,
-  "size": "186 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Moradia moderna e luxuosa que goza de uma soberba posição no topo de uma colina com uma vista sobre o campo.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-moderna-perto-das-praias-IDI3Iyv.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 6.7,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/hpvztlhakd3o-PT/image;s=640x480",
-  "lat": 39.28481,
-  "lon": -9.25515,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 186,
-  "stretch": "€475k – above the €450k budget",
-  "id": "e14e6a01e1",
-  "municipality": "São Bartolomeu Dos Galegos E Moledo",
   "garden_yes": true
  },
  {
@@ -9644,6 +8654,10 @@
    {
     "source": "century21",
     "url": "https://www.century21.pt/ref/1746-02410"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-na-vestiaria-para-comprar-IDJxwWH.html"
    }
   ],
   "id": "5e3f754689",
@@ -9676,6 +8690,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/leiria/imobiliario/moradias/moradia-t3-na-vestiaria-para-45203976"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-na-vestiaria-para-comprar-IDJxwP1.html"
    }
   ],
   "id": "0030734688",
@@ -9740,57 +8758,6 @@
   "municipality": "Odemira",
   "garden_yes": true,
   "title": "PROPRIEDADE RURAL COM POTÊNCIAL TURÍSTICO"
- },
- {
-  "section": "ready",
-  "town": "Bárrio",
-  "typology": "T3",
-  "price": 380000,
-  "size": "150 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Apresentamos este projeto de moradia T3 de construção nova, localizado no Bárrio, em Alcobaça, inserido num generoso terreno com 422 m², numa zona tranquila …",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t3-na-vestiaria-para-comprar-IDJxwWH.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 7.0,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/efrr2n6s7rwe2-PT/image;s=640x480",
-  "lat": 39.55214,
-  "lon": -9.01951,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 150,
-  "id": "7bb9503e8b",
-  "municipality": "Bárrio",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Bárrio",
-  "typology": "T3",
-  "price": 460000,
-  "size": "150 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Apresentamos este projeto de moradia T3 de arquitetura moderna , localizado no Bárrio, concelho de Alcobaça , inserido num generoso terreno com 1.332 m² , nu…",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t3-na-vestiaria-para-comprar-IDJxwP1.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 7.0,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/wtw7ssh0yfo8-PT/image;s=640x480",
-  "lat": 39.55214,
-  "lon": -9.01951,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 150,
-  "stretch": "€460k – above the €450k budget",
-  "id": "e2463de14f",
-  "municipality": "Bárrio",
-  "garden_yes": true
  },
  {
   "section": "reno",
@@ -10051,6 +9018,10 @@
    {
     "source": "remax",
     "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t3-alcobaca-cela/123781023-110"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-para-venda-IDJAHu7.html"
    }
   ],
   "id": "1b38da68f6",
@@ -10099,6 +9070,18 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID18HKk"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-para-venda-IDICDvk.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-para-venda-IDICDvg.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-para-venda-IDICDvn.html"
    }
   ],
   "id": "f48a1bc3e2",
@@ -10135,41 +9118,6 @@
   "section": "ready",
   "town": "Maiorga",
   "typology": "T3",
-  "price": 400000,
-  "size": "190 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Moradia Térrea T3 inserida num lote com 600 m2.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t3-para-venda-IDICDvk.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 7.3,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/p4s5x2h106h2-PT/image;s=640x480",
-  "lat": 39.5265,
-  "lon": -9.03328,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 190,
-  "id": "23f2f46ef8",
-  "municipality": "Maiorga",
-  "garden_yes": true,
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-t3-para-venda-IDICDvg.html"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-t3-para-venda-IDICDvn.html"
-   }
-  ]
- },
- {
-  "section": "ready",
-  "town": "Maiorga",
-  "typology": "T3",
   "price": 362500,
   "size": "189 m²",
   "garden": "Yes – mentions 'jardim' (check listing)",
@@ -10188,31 +9136,6 @@
   "bedrooms": 3,
   "size_m2": 189,
   "id": "2aa21a9b7e",
-  "municipality": "Maiorga",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Maiorga",
-  "typology": "T3",
-  "price": 365000,
-  "size": "90 m²",
-  "garden": "Yes – mentions 'quintal' (check listing)",
-  "note": "Encantadora Moradia de Traça Tradicional com Quintal e Vista de Campo e Mar, com um pôr do sol, lindo.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t3-para-venda-IDJAHu7.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 7.3,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/xdu831rjej5j2-PT/image;s=640x480",
-  "lat": 39.5265,
-  "lon": -9.03328,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 90,
-  "id": "d00ed52ff8",
   "municipality": "Maiorga",
   "garden_yes": true
  },
@@ -10297,32 +9220,13 @@
   "id": "eac47dcb26",
   "municipality": "Lourinhã",
   "garden_yes": true,
-  "title": "Casa de Campo em São Bartolomeu dos Galegos e Moledo de 80 m2"
- },
- {
-  "section": "reno",
-  "town": "São Bartolomeu Dos Galegos E Moledo",
-  "typology": "Moradia",
-  "price": 120000,
-  "size": "80 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Descubra o Potencial deste imóvel no Reguengo - Ideal para Renovação!",
-  "url": "https://www.olx.pt/d/anuncio/casa-de-campo-em-so-bartolomeu-dos-galegos-e-moledo-de-80-m2-IDJjO9g.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 7.4,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/iwm6fe9gttjr3-PT/image;s=640x480",
-  "lat": 39.27963,
-  "lon": -9.24493,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 0,
-  "size_m2": 80,
-  "id": "e0ddac979f",
-  "municipality": "São Bartolomeu Dos Galegos E Moledo",
-  "garden_yes": true
+  "title": "Casa de Campo em São Bartolomeu dos Galegos e Moledo de 80 m2",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/casa-de-campo-em-so-bartolomeu-dos-galegos-e-moledo-de-80-m2-IDJjO9g.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -10760,7 +9664,13 @@
   "id": "888fdedade",
   "municipality": "Torres Vedras",
   "garden_yes": true,
-  "title": "Moradia T3+3 com amplos estúdios - Terraço e churrasqueira -Ótima e..."
+  "title": "Moradia T3+3 com amplos estúdios - Terraço e churrasqueira -Ótima e...",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-3-com-amplos-estdios-terrao-e-churrasqueira-tima-e-IDIU1Zm.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -10853,6 +9763,14 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-inserida-num-lote-de-422m2-potencial-habitacional-ca-ID1gc29"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-inserida-num-lote-de-422m2-potencial-habitacional-ca-IDJz12K.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-inserida-num-lote-de-422m2-potencial-habitacional-ca-IDIJx3o.html"
    }
   ],
   "title": "Moradia T3 inserida num lote de 422m2 - POTENCIAL HABITACIONAL - Ca..."
@@ -10887,62 +9805,6 @@
   "id": "6ac341fce5",
   "municipality": "Palmela",
   "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Campelos E Outeiro Da Cabeça",
-  "typology": "T3",
-  "price": 405000,
-  "size": "195 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Moradia T3+3 amplos estúdios, com ótima exposição solar e vista desafogada, parcialmente recuperada com acessos exteriores independentes a ambos os pisos.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t3-3-com-amplos-estdios-terrao-e-churrasqueira-tima-e-IDIU1Zm.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 7.8,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/15h6sxlwcku61-PT/image;s=640x480",
-  "lat": 39.19244,
-  "lon": -9.26333,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 195,
-  "id": "7848f51b7a",
-  "municipality": "Campelos E Outeiro Da Cabeça",
-  "garden_yes": true
- },
- {
-  "section": "reno",
-  "town": "Campelos E Outeiro Da Cabeça",
-  "typology": "T3",
-  "price": 159900,
-  "size": "156 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Moradia T3, a necessitar de recuperação total mas com grande potencial, inserida numa zona habitacional tranquila e privilegiada, a apenas 5 minutos do acess…",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t3-inserida-num-lote-de-422m2-potencial-habitacional-ca-IDJz12K.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 7.8,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/oxsufz4hxy843-PT/image;s=640x480",
-  "lat": 39.19261,
-  "lon": -9.26335,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 156,
-  "id": "4f8c3b014c",
-  "municipality": "Campelos E Outeiro Da Cabeça",
-  "garden_yes": true,
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-t3-inserida-num-lote-de-422m2-potencial-habitacional-ca-IDIJx3o.html"
-   }
-  ]
  },
  {
   "section": "ready",
@@ -11136,31 +9998,6 @@
  },
  {
   "section": "ready",
-  "town": "Nossa Senhora do Pópulo, Coto e São Gregório, Caldas da Rainha",
-  "typology": "T3",
-  "price": 399000,
-  "size": "141 m²",
-  "garden": "Yes – mentions 'logradouro' (check listing)",
-  "note": "A Oportunidade do Ano em Caldas da Rainha Viva com o Conforto que Sempre Sonhou!",
-  "url": "https://www.custojusto.pt/leiria/imobiliario/moradias/moradia-t2-1-com-garagem-para-45218603",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "custojusto",
-  "auto": true,
-  "coast_km": 8.0,
-  "image": "https://prod-images.custojusto.pt/gallery/9467826384-moradia-t2-plus-1-com-garagem-para-2-carros-coto-caldas-da-rainha.jpg",
-  "lat": 39.41123,
-  "lon": -9.12819,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 141,
-  "id": "577da44491",
-  "municipality": "Caldas da Rainha",
-  "garden_yes": true
- },
- {
-  "section": "ready",
   "town": "São Bartolomeu dos Galegos e Moledo, Lourinhã",
   "typology": "T3",
   "price": 425000,
@@ -11221,33 +10058,13 @@
   "id": "7fb690d7d2",
   "municipality": "Sintra",
   "garden_yes": true,
-  "title": "Casa Valdez. Casa histórica no Centro de Sintra - Andar de Moradia ..."
- },
- {
-  "section": "ready",
-  "town": "Sintra (Santa Maria E São Miguel, São Martinho E São Pedro De Penaferrim)",
-  "typology": "T6",
-  "price": 399000,
-  "size": "143 m²",
-  "garden": "Yes – mentions 'logradouro' (check listing)",
-  "note": "Andar de moradia, R/C de 6 assoalhadas, com logradouro e estacionamento.",
-  "url": "https://www.olx.pt/d/anuncio/casa-valdez-casa-histrica-no-centro-de-sintra-andar-de-moradia-IDIbWNU.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 8.1,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/54kll0qwhve4-PT/image;s=640x480",
-  "lat": 38.80407,
-  "lon": -9.38061,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 6,
-  "size_m2": 143,
-  "stretch": "8.1 km from the coast (limit 8 km)",
-  "id": "e554d4e611",
-  "municipality": "Sintra",
-  "garden_yes": true
+  "title": "Casa Valdez. Casa histórica no Centro de Sintra - Andar de Moradia ...",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/casa-valdez-casa-histrica-no-centro-de-sintra-andar-de-moradia-IDIbWNU.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -11300,7 +10117,13 @@
   "id": "61feab9ce4",
   "municipality": "Óbidos",
   "garden_yes": true,
-  "title": "Moradia Térrea T4 em terreno de 2.605m2 em Olho Marinho"
+  "title": "Moradia Térrea T4 em terreno de 2.605m2 em Olho Marinho",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-trrea-t4-em-terreno-de-2-605m2-em-olho-marinho-IDJtJ7k.html"
+   }
+  ]
  },
  {
   "section": "reno",
@@ -11440,32 +10263,6 @@
  },
  {
   "section": "ready",
-  "town": "Olho Marinho",
-  "typology": "T4",
-  "price": 369000,
-  "size": "157 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Moradia T4 Térrea com dois anexos e garagem em 2.605 m² de Terreno – Espaço e Potencial em Óbidos Descubra esta excelente moradia térrea T4, inserida num gen…",
-  "url": "https://www.olx.pt/d/anuncio/moradia-trrea-t4-em-terreno-de-2-605m2-em-olho-marinho-IDJtJ7k.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 8.3,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/mtrta3indkss3-PT/image;s=640x480",
-  "lat": 39.33791,
-  "lon": -9.23062,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 4,
-  "size_m2": 157,
-  "stretch": "8.3 km from the coast (limit 8 km)",
-  "id": "3162b05f06",
-  "municipality": "Olho Marinho",
-  "garden_yes": true
- },
- {
-  "section": "ready",
   "town": "Amora",
   "typology": "T4",
   "price": 445000,
@@ -11542,7 +10339,13 @@
   "id": "1ee1d81a3b",
   "municipality": "Sintra",
   "garden_yes": true,
-  "title": "Venda de Ruína certificada"
+  "title": "Venda de Ruína certificada",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/venda-de-runa-certificada-IDJ8ftY.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -11594,33 +10397,6 @@
   "private": true,
   "stretch": "8.4 km from the coast (limit 8 km)",
   "id": "8457bc8899",
-  "municipality": "Sintra",
-  "garden_yes": true
- },
- {
-  "section": "reno",
-  "town": "Sintra (Santa Maria E São Miguel, São Martinho E São Pedro De Penaferrim)",
-  "typology": "T2",
-  "price": 140000,
-  "size": "150 m²",
-  "garden": "Yes – mentions 'logradouro' (check listing)",
-  "note": "Boa oportunidade de investimento, tendo uma área de implementação de 100m2 + 50m2 de logradouro, tem também uma certidão anterior a 1951 da construção existe…",
-  "url": "https://www.olx.pt/d/anuncio/venda-de-runa-certificada-IDJ8ftY.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 8.4,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/15ebocljod2t1-PT/image;s=640x480",
-  "lat": 38.78078,
-  "lon": -9.39221,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 2,
-  "size_m2": 150,
-  "private": true,
-  "stretch": "8.4 km from the coast (limit 8 km)",
-  "id": "8ad49663c0",
   "municipality": "Sintra",
   "garden_yes": true
  },
@@ -11708,7 +10484,13 @@
   "id": "073160fff9",
   "municipality": "Alcobaça",
   "garden_yes": true,
-  "title": "Excelente moradia para venda sita em São Martinho do Porto"
+  "title": "Excelente moradia para venda sita em São Martinho do Porto",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/excelente-moradia-para-venda-sita-em-so-martinho-do-porto-IDJsaD7.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -11736,6 +10518,34 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/leiria/imobiliario/moradias/casa-villa-t3-em-santa-maria-45398520"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/casa-villa-t3-em-santa-maria-so-pedro-e-sobral-da-lagoa-de-150-m2-IDJBYsY.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-de-3-quartos-entre-o-campo-e-o-mar-IDJ5ra9.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-de-3-quartos-entre-o-campo-e-o-mar-IDJ5ra6.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-de-3-quartos-entre-o-campo-e-o-mar-IDJ5ra1.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-de-3-quartos-entre-o-campo-e-o-mar-IDJ5ra0.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-de-3-quartos-entre-o-campo-e-o-mar-IDJ5r9Z.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-de-3-quartos-entre-o-campo-e-o-mar-IDJ5ra3.html"
    }
   ],
   "id": "2035142292",
@@ -11773,84 +10583,6 @@
   ],
   "id": "a5d6589ddb",
   "municipality": "Seixal",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Santa Maria, São Pedro E Sobral Da Lagoa",
-  "typology": "T3",
-  "price": 445000,
-  "size": "150 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "OBIDOS - CASA - 4 ASSOALHADAS 150M² - PISCINA - ESTACIONAMENTO - MUITO BOM ESTADO Moradia T3 de arquitetura moderna para venda no Sobral da Lagoa Construída …",
-  "url": "https://www.olx.pt/d/anuncio/casa-villa-t3-em-santa-maria-so-pedro-e-sobral-da-lagoa-de-150-m2-IDJBYsY.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 8.5,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/9wntwhkarmb6-PT/image;s=640x480",
-  "lat": 39.3686,
-  "lon": -9.1712,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 150,
-  "stretch": "8.5 km from the coast (limit 8 km)",
-  "id": "f2e199f308",
-  "municipality": "São Pedro E Sobral Da Lagoa",
-  "garden_yes": true,
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-de-3-quartos-entre-o-campo-e-o-mar-IDJ5ra9.html"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-de-3-quartos-entre-o-campo-e-o-mar-IDJ5ra6.html"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-de-3-quartos-entre-o-campo-e-o-mar-IDJ5ra1.html"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-de-3-quartos-entre-o-campo-e-o-mar-IDJ5ra0.html"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-de-3-quartos-entre-o-campo-e-o-mar-IDJ5r9Z.html"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-de-3-quartos-entre-o-campo-e-o-mar-IDJ5ra3.html"
-   }
-  ]
- },
- {
-  "section": "ready",
-  "town": "São Martinho do Porto",
-  "typology": "T3",
-  "price": 375000,
-  "size": "116 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Excelente Moradia para venda sita em São Martinho do Porto.",
-  "url": "https://www.olx.pt/d/anuncio/excelente-moradia-para-venda-sita-em-so-martinho-do-porto-IDJsaD7.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 8.5,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/cp1bki546j5n3-PT/image;s=640x480",
-  "lat": 39.53929,
-  "lon": -9.00929,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 116,
-  "stretch": "8.5 km from the coast (limit 8 km)",
-  "id": "35433d5341",
-  "municipality": "Alcobaça",
   "garden_yes": true
  },
  {
@@ -11932,11 +10664,14 @@
   "coord_note": "listing map pin",
   "bedrooms": 2,
   "size_m2": 141,
-  "stretch": "8.6 km from the coast (limit 8 km)",
   "also_on": [
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t2-1-com-garagem-para-2-carros-coto-caldas-da-rainha-IDJoCig.html"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/leiria/imobiliario/moradias/moradia-t2-1-com-garagem-para-45218603"
    }
   ],
   "id": "a9b28e9b16",
@@ -12035,11 +10770,20 @@
   "coord_note": "listing map pin",
   "bedrooms": 4,
   "size_m2": 6723,
-  "stretch": "8.7 km from the coast (limit 8 km)",
   "id": "23a6a358a2",
   "municipality": "Santiago do Cacém",
   "garden_yes": true,
-  "title": "Quintinha com 6723m2 em Santiago do Cacém"
+  "title": "Quintinha com 6723m2 em Santiago do Cacém",
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-t3-santiago-do-cacem-s-cruz-e-s-bartolomeu-da-serra-santa-cruz-b0012487-c6a9-11f0-9e61-060000000056.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/quintinha-com-6723m2-em-santiago-do-cacm-IDIa23r.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -12129,32 +10873,6 @@
   "stretch": "8.7 km from the coast (limit 8 km)",
   "id": "a419bf4826",
   "municipality": "Fernão Ferro",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Santiago Do Cacém, Santa Cruz E São Bartolomeu Da Serra",
-  "typology": "T3",
-  "price": 399000,
-  "size": "6723 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Localizada em Santiago do Cacém, esta quintinha única oferece uma oportunidade rara para os amantes da natureza e aqueles que procuram uma propriedade com um…",
-  "url": "https://www.olx.pt/d/anuncio/quintinha-com-6723m2-em-santiago-do-cacm-IDIa23r.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 8.7,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/i3h2olh4c1zf2-PT/image;s=640x480",
-  "lat": 38.06687,
-  "lon": -8.71508,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 6723,
-  "stretch": "8.7 km from the coast (limit 8 km)",
-  "id": "646b3a102f",
-  "municipality": "Santiago do Cacém",
   "garden_yes": true
  },
  {
@@ -12656,6 +11374,10 @@
    {
     "source": "century21",
     "url": "https://www.century21.pt/ref/C0444-00597"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/excelente-oportunidade-de-investimento-na-lourinh-IDILI6H.html"
    }
   ],
   "id": "40124ed0e6",
@@ -12713,32 +11435,6 @@
   "stretch": "9.2 km from the coast (limit 8 km)",
   "id": "eeb62fa9c6",
   "municipality": "Azueira E Sobral Da Abelheira",
-  "garden_yes": true
- },
- {
-  "section": "reno",
-  "town": "Moita dos Ferreiros",
-  "typology": "Moradia",
-  "price": 140000,
-  "size": "151 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "A cerca de 10 minutos da Lourinhã encontramos esta excelente oportunidade de investimento.",
-  "url": "https://www.olx.pt/d/anuncio/excelente-oportunidade-de-investimento-na-lourinh-IDILI6H.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 9.2,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/ncyuzk47in3e3-PT/image;s=640x480",
-  "lat": 39.24594,
-  "lon": -9.22735,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 0,
-  "size_m2": 151,
-  "stretch": "9.2 km from the coast (limit 8 km)",
-  "id": "e455981b90",
-  "municipality": "Moita dos Ferreiros",
   "garden_yes": true
  },
  {
@@ -13013,6 +11709,10 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/moradia-terrea-t3-qualidade-de-construcao-superior-lote-de-726-ID1iE8y"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-trrea-t3-qualidade-de-construo-superior-lote-de-726-IDJwtEw.html"
    }
   ],
   "title": "Moradia isolada em Pataias e Martingança de 210 m2"
@@ -13083,33 +11783,13 @@
   "id": "933dd2ced6",
   "municipality": "Caldas da Rainha",
   "garden_yes": true,
-  "title": "Casa Antiga para Restauro, Salir de Matos"
- },
- {
-  "section": "reno",
-  "town": "Salir de Matos",
-  "typology": "T3",
-  "price": 157000,
-  "size": "402 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Casa Antiga para Restauro com Terreno Propriedade com grande potencial, inserida num terreno de 1.578 m² com árvores de fruto, localizada na tranquila aldeia…",
-  "url": "https://www.olx.pt/d/anuncio/casa-antiga-para-restauro-salir-de-matos-IDIYwHs.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 9.7,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/yvm4klst3eda-PT/image;s=640x480",
-  "lat": 39.43029,
-  "lon": -9.07984,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 402,
-  "stretch": "9.7 km from the coast (limit 8 km)",
-  "id": "73cd65cb8b",
-  "municipality": "Salir de Matos",
-  "garden_yes": true
+  "title": "Casa Antiga para Restauro, Salir de Matos",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/casa-antiga-para-restauro-salir-de-matos-IDIYwHs.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -13265,7 +11945,13 @@
   "id": "09f7ece50c",
   "municipality": "Odemira",
   "garden_yes": true,
-  "title": "Quinta na Aldeia de São Luís - Odemira"
+  "title": "Quinta na Aldeia de São Luís - Odemira",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/quinta-na-aldeia-de-so-lus-odemira-IDIS1R2.html"
+   }
+  ]
  },
  {
   "section": "reno",
@@ -13416,32 +12102,6 @@
  },
  {
   "section": "ready",
-  "town": "São Luís",
-  "typology": "T3",
-  "price": 390000,
-  "size": "103 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Quinta com moradia tradicional alentejana em São Luís Esta propriedade, com 6.282 m² , encontra-se dentro do perímetro urbano consolidado da aldeia de São Lu…",
-  "url": "https://www.olx.pt/d/anuncio/quinta-na-aldeia-de-so-lus-odemira-IDIS1R2.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 9.8,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/nhx4l10b3mxi1-PT/image;s=640x480",
-  "lat": 37.7175,
-  "lon": -8.67839,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 103,
-  "stretch": "9.8 km from the coast (limit 8 km)",
-  "id": "1b7f1c8fd6",
-  "municipality": "São Luís",
-  "garden_yes": true
- },
- {
-  "section": "ready",
   "town": "Pataias e Martingança, Alcobaça",
   "typology": "T5",
   "price": 379900,
@@ -13503,6 +12163,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-trrea-t3-c-piscina-privativa-e-parqueamento-IDJzo4u.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-v3-com-piscina-em-zona-histrica-IDJB842.html"
    }
   ],
   "id": "e52bcc8089",
@@ -13799,32 +12463,6 @@
   ],
   "id": "9bf5fcd922",
   "municipality": "Fernão Ferro",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Santa Maria, São Pedro E Sobral Da Lagoa",
-  "typology": "T3",
-  "price": 419000,
-  "size": "119 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Procura um imóvel com arquitetura moderna, com linhas simples e tons naturais?",
-  "url": "https://www.olx.pt/d/anuncio/moradia-v3-com-piscina-em-zona-histrica-IDJB842.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 9.9,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/uoblyfq83tpj1-PT/image;s=640x480",
-  "lat": 39.36507,
-  "lon": -9.15012,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 119,
-  "stretch": "9.9 km from the coast (limit 8 km)",
-  "id": "47ed9d0239",
-  "municipality": "São Pedro E Sobral Da Lagoa",
   "garden_yes": true
  },
  {
@@ -14226,6 +12864,22 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/leiria/imobiliario/moradias/moradia-t3-terrea-isolada-nova-44969611"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-trrea-isolada-nova-com-piscina-em-pataias-a-10-km-da-naza-IDJ8vU3.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-trrea-isolada-nova-com-piscina-em-pataias-a-10-km-da-naza-IDJ8vU2.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-trrea-isolada-nova-com-piscina-em-pataias-a-10-km-da-naza-IDJ8vU4.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-trrea-isolada-nova-com-piscina-em-pataias-a-10-km-da-naza-IDJ8vU6.html"
    }
   ],
   "id": "fb1f187402",
@@ -14306,32 +12960,6 @@
   ],
   "id": "5db09d7837",
   "municipality": "Torres Vedras",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Pataias E Martingança",
-  "typology": "T3",
-  "price": 440000,
-  "size": "210 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Moradia Térrea T3 | Qualidade de Construção Superior | Lote de 726 m² | Centro de Pataias Há casas que se destacam pela localização.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-trrea-t3-qualidade-de-construo-superior-lote-de-726-IDJwtEw.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 10.3,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/mmxeg7x5wqni1-PT/image;s=640x480",
-  "lat": 39.67006,
-  "lon": -9.00151,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 210,
-  "stretch": "10.3 km from the coast (limit 8 km)",
-  "id": "b470476f6d",
-  "municipality": "Pataias E Martingança",
   "garden_yes": true
  },
  {
@@ -14566,7 +13194,17 @@
   "id": "afd866810f",
   "municipality": "Óbidos",
   "garden_yes": true,
-  "title": "Moradia de 3 Quartos, entre o Campo e o Mar"
+  "title": "Moradia de 3 Quartos, entre o Campo e o Mar",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-de-3-quartos-entre-o-campo-e-o-mar-IDJ5ra7.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/casa-villa-t3-em-santa-maria-so-pedro-e-sobral-da-lagoa-de-153-00-IDJCNZ1.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -14626,7 +13264,13 @@
   "id": "6ebbbb5ee8",
   "municipality": "Aljezur",
   "garden_yes": true,
-  "title": "Quintinha Alfambras"
+  "title": "Quintinha Alfambras",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/quintinha-alfambras-IDIPpc7.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -14652,90 +13296,6 @@
   "stretch": "€460k – above the €450k budget; 10.4 km from the coast (limit 8 km)",
   "id": "e9d2894b99",
   "municipality": "Alcobaça",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Santa Maria, São Pedro E Sobral Da Lagoa",
-  "typology": "T3",
-  "price": 419000,
-  "size": "144 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Entre o encanto de Óbidos e o bem‑estar das Caldas da Rainha, nasce um projeto residencial pensado para famílias que valorizam qualidade de vida, conforto e …",
-  "url": "https://www.olx.pt/d/anuncio/moradia-de-3-quartos-entre-o-campo-e-o-mar-IDJ5ra7.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 10.4,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/ph7hn4uij64o1-PT/image;s=640x480",
-  "lat": 39.35637,
-  "lon": -9.1546,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 144,
-  "stretch": "10.4 km from the coast (limit 8 km)",
-  "id": "c581d62780",
-  "municipality": "São Pedro E Sobral Da Lagoa",
-  "garden_yes": true,
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/casa-villa-t3-em-santa-maria-so-pedro-e-sobral-da-lagoa-de-153-00-IDJCNZ1.html"
-   }
-  ]
- },
- {
-  "section": "ready",
-  "town": "Fernão Ferro",
-  "typology": "T3",
-  "price": 435000,
-  "size": "78 m²",
-  "garden": "Yes – mentions 'logradouro' (check listing)",
-  "note": "Apresentamos esta excelente moradia geminada térrea T2+1, situada no Pinhal do General uma zona calma e tranquila, perfeita para quem valoriza qualidade de v…",
-  "url": "https://www.olx.pt/d/anuncio/moradia-terrea-t2-1-com-pergola-pinhal-do-general-IDJjewL.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 10.4,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/fa1irk7qvyfi1-PT/image;s=640x480",
-  "lat": 38.54748,
-  "lon": -9.06472,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 78,
-  "stretch": "10.4 km from the coast (limit 8 km)",
-  "id": "bf5644e13b",
-  "municipality": "Fernão Ferro",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Bordeira",
-  "typology": "T3",
-  "price": 450000,
-  "size": "127 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Excelente propriedade rural localizada nas Alfambras, com uma área de 53623 m2 de terreno e um edifício com 127 m2.Esta propriedade é atravessada por um vale…",
-  "url": "https://www.olx.pt/d/anuncio/quintinha-alfambras-IDIPpc7.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 10.4,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/2jocouv1mjom3-PT/image;s=640x480",
-  "lat": 37.19616,
-  "lon": -8.8615,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 127,
-  "stretch": "10.4 km from the coast (limit 8 km)",
-  "id": "f153948bc9",
-  "municipality": "Bordeira",
   "garden_yes": true
  },
  {
@@ -14881,6 +13441,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/setubal/imobiliario/moradias/moradia-triplex-t3-t4-com-gara-45139575"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-quinta-do-conde-IDJABIG.html"
    }
   ],
   "id": "3d1a92e673",
@@ -14913,7 +13477,13 @@
   "id": "79d1f6a5fd",
   "municipality": "Santiago do Cacém",
   "garden_yes": true,
-  "title": "Moradia T3 a apenas 12 km de Vila Nova de Milfontes e das praia"
+  "title": "Moradia T3 a apenas 12 km de Vila Nova de Milfontes e das praia",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-a-apenas-12-km-de-vila-nova-de-milfontes-e-das-praia-IDJuw9s.html"
+   }
+  ]
  },
  {
   "section": "reno",
@@ -15007,90 +13577,6 @@
  },
  {
   "section": "ready",
-  "town": "Cercal",
-  "typology": "T3",
-  "price": 375000,
-  "size": "158 m²",
-  "garden": "Yes – mentions 'logradouro' (check listing)",
-  "note": "PT- Moradia T3, ideal para quem procura tranquilidade sem abdicar da proximidade ao litoral alentejano e respetivas praias.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t3-a-apenas-12-km-de-vila-nova-de-milfontes-e-das-praia-IDJuw9s.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 10.5,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/6af0gbrnfwt92-PT/image;s=640x480",
-  "lat": 37.7991,
-  "lon": -8.67631,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 158,
-  "stretch": "10.5 km from the coast (limit 8 km)",
-  "id": "1a58330996",
-  "municipality": "Cercal",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Quinta do Conde",
-  "typology": "T3",
-  "price": 398000,
-  "size": "117 m²",
-  "garden": "Yes – mentions 'quintal' (check listing)",
-  "note": "Moradia T3 de gaveto, de três pisos, com uma área bruta de 134 m² e área útil de 117 m², situada numa zona tranquila do Pinhal do General, na Quinta do Conde.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t3-quinta-do-conde-IDJABIG.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 10.5,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/ptw9sd6xiupe-PT/image;s=640x480",
-  "lat": 38.55142,
-  "lon": -9.05329,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 117,
-  "stretch": "10.5 km from the coast (limit 8 km)",
-  "id": "c9ee7a7462",
-  "municipality": "Quinta do Conde",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Quinta do Conde, Sesimbra",
-  "typology": "T3",
-  "price": 470000,
-  "size": "105 m²",
-  "garden": "Yes – mentions 'logradouro' (check listing)",
-  "note": "[{Moradia T3 isolada com garagem, Quinta do Conde}] Moradia T3 situada perto da Boa Água I, Quinta do Conde, implantada num lote de 300 m², com garagem, espa…",
-  "url": "https://www.custojusto.pt/setubal/imobiliario/moradias/moradia-t3-isolada-com-garagem-45420568",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "custojusto",
-  "auto": true,
-  "coast_km": 10.5,
-  "image": "https://prod-images.custojusto.pt/gallery/3486051472-moradia-t3-isolada-com-garagem-quinta-do-conde.jpg",
-  "lat": 38.55527,
-  "lon": -9.03782,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 105,
-  "stretch": "€470k – above the €450k budget; 10.5 km from the coast (limit 8 km)",
-  "also_on": [
-   {
-    "source": "imovirtual",
-    "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-isolada-com-garagem-quinta-do-conde-ID1iZ7f"
-   }
-  ],
-  "id": "88e7ce8dbb",
-  "municipality": "Sesimbra",
-  "garden_yes": true
- },
- {
-  "section": "ready",
   "town": "Pataias e Martingança, Alcobaça",
   "typology": "T3",
   "price": 380000,
@@ -15127,6 +13613,14 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-em-bom-estado-de-conservacao-no-centro-de-pataias-ID1eUel"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-geminada-de-dois-pisos-t3-com-garagem-IDIjlUj.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-em-bom-estado-de-conservao-no-centro-de-pataias-IDIm1Vi.html"
    }
   ],
   "id": "651aa0fc4b",
@@ -15232,6 +13726,14 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t3-em-construo-com-logradouro-e-garagem-em-sesimbra-IDHC3wy.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/r366-moradia-t3-com-garagem-terrao-com-vista-para-a-serra-da-arr-IDJzDNB.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/r366-moradia-t3-com-garagem-terrao-com-vista-para-a-serra-da-arr-IDJA6Sb.html"
    }
   ],
   "id": "8c42bfa248",
@@ -15349,38 +13851,6 @@
  },
  {
   "section": "ready",
-  "town": "Pataias E Martingança",
-  "typology": "T3",
-  "price": 380000,
-  "size": "267 m²",
-  "garden": "Yes – mentions 'logradouro' (check listing)",
-  "note": "Moradia usada como nova T3 geminada localizada no centro histórico da vila de Pataias, na antiga rua de saída em direção a Alcobaça.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-geminada-de-dois-pisos-t3-com-garagem-IDIjlUj.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 10.6,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/6rtvpuvr1wkd1-PT/image;s=640x480",
-  "lat": 39.6695,
-  "lon": -8.99437,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 267,
-  "stretch": "10.6 km from the coast (limit 8 km)",
-  "id": "1dcbe1a52a",
-  "municipality": "Pataias E Martingança",
-  "garden_yes": true,
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-t3-em-bom-estado-de-conservao-no-centro-de-pataias-IDIm1Vi.html"
-   }
-  ]
- },
- {
-  "section": "ready",
   "town": "Quinta do Conde",
   "typology": "T3",
   "price": 390000,
@@ -15404,38 +13874,6 @@
   "id": "c1bf98ff89",
   "municipality": "Quinta do Conde",
   "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Quinta do Conde",
-  "typology": "T3",
-  "price": 425000,
-  "size": "120 m²",
-  "garden": "Yes – mentions 'quintal' (check listing)",
-  "note": "Moradia T3 com Garagem + Terraço com vista para a Serra da Arrábida | Quinta do Conde Excelente Moradia T3 com garagem, de construção recente e muito bem est…",
-  "url": "https://www.olx.pt/d/anuncio/r366-moradia-t3-com-garagem-terrao-com-vista-para-a-serra-da-arr-IDJzDNB.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 10.6,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/sb0ug4f85lsb1-PT/image;s=640x480",
-  "lat": 38.55603,
-  "lon": -9.03696,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 120,
-  "stretch": "10.6 km from the coast (limit 8 km)",
-  "id": "2546280946",
-  "municipality": "Quinta do Conde",
-  "garden_yes": true,
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/r366-moradia-t3-com-garagem-terrao-com-vista-para-a-serra-da-arr-IDJA6Sb.html"
-   }
-  ]
  },
  {
   "section": "ready",
@@ -15595,6 +14033,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-moradia-t3-sesimbra-quinta-do-conde-e08b41ee-34f4-11f1-9a8d-060000000057.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-nova-t3-logradouro-quinta-do-conde-sesimbra-IDJmjeh.html"
    }
   ],
   "id": "6cc1f54dc0",
@@ -15673,72 +14115,6 @@
  },
  {
   "section": "ready",
-  "town": "Pataias E Martingança",
-  "typology": "T3",
-  "price": 475000,
-  "size": "139 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Moradia T3 térrea isoladas nova com piscina em Pataias, a 10 km da Nazaré, em fase de construçãocom previsão de conclusão de obra para final do 1 semestre de…",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t3-trrea-isolada-nova-com-piscina-em-pataias-a-10-km-da-naza-IDJ8vU3.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 10.7,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/wbejk3ro1fr03-PT/image;s=640x480",
-  "lat": 39.66098,
-  "lon": -8.98371,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 139,
-  "stretch": "€475k – above the €450k budget; 10.7 km from the coast (limit 8 km)",
-  "id": "1089c6a58b",
-  "municipality": "Pataias E Martingança",
-  "garden_yes": true,
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-t3-trrea-isolada-nova-com-piscina-em-pataias-a-10-km-da-naza-IDJ8vU2.html"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-t3-trrea-isolada-nova-com-piscina-em-pataias-a-10-km-da-naza-IDJ8vU4.html"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-t3-trrea-isolada-nova-com-piscina-em-pataias-a-10-km-da-naza-IDJ8vU6.html"
-   }
-  ]
- },
- {
-  "section": "ready",
-  "town": "Quinta do Conde",
-  "typology": "T3",
-  "price": 390000,
-  "size": "132 m²",
-  "garden": "Yes – mentions 'logradouro' (check listing)",
-  "note": "Moradia T3 nova , localizado em zona calma e tranquila na Quinta do Conde Sesimbra.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-nova-t3-logradouro-quinta-do-conde-sesimbra-IDJmjeh.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 10.7,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/fn3z8hqrp1r83-PT/image;s=640x480",
-  "lat": 38.55297,
-  "lon": -9.05306,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 132,
-  "stretch": "10.7 km from the coast (limit 8 km)",
-  "id": "cd900ba799",
-  "municipality": "Quinta do Conde",
-  "garden_yes": true
- },
- {
-  "section": "ready",
   "town": "Pataias e Martingança, Alcobaça",
   "typology": "T4",
   "price": 472000,
@@ -15787,7 +14163,13 @@
   "stretch": "€475k – above the €450k budget; 10.7 km from the coast (limit 8 km)",
   "id": "5f36fe361b",
   "municipality": "Óbidos",
-  "garden_yes": true
+  "garden_yes": true,
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-v5-gaeiras-bidos-IDIpdF0.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -15814,7 +14196,13 @@
   "id": "fd3abd1014",
   "municipality": "Alcobaça",
   "garden_yes": true,
-  "title": "Moradia T4 isolada Pataias I Alcobaça"
+  "title": "Moradia T4 isolada Pataias I Alcobaça",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t4-isolada-pataias-i-alcobaa-IDJwUmS.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -16033,6 +14421,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t3-geminada-quinta-do-conde-IDJqnip.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-geminada-t3-quinta-do-conde-IDJvVav.html"
    }
   ],
   "id": "7f3c649085",
@@ -16065,85 +14457,13 @@
   "id": "06ba94f8a8",
   "municipality": "Alcobaça",
   "garden_yes": true,
-  "title": "Moradia antiga com terreno — charme, autenticidade e enorme potencial"
- },
- {
-  "section": "ready",
-  "town": "Pataias E Martingança",
-  "typology": "T4",
-  "price": 430000,
-  "size": "145 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "PATAIAS Moradia Isolada T4 com 580m² de Terreno | Painéis Solares | Ar Condicionado | Vista Serra dos Candeeiros DESCRIÇÃO DO IMÓVEL Excelente moradia isolad…",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t4-isolada-pataias-i-alcobaa-IDJwUmS.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 10.8,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/mfbhgz69onp81-PT/image;s=640x480",
-  "lat": 39.67084,
-  "lon": -8.99344,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 4,
-  "size_m2": 145,
-  "stretch": "10.8 km from the coast (limit 8 km)",
-  "id": "5856818fb7",
-  "municipality": "Pataias E Martingança",
-  "garden_yes": true
- },
- {
-  "section": "reno",
-  "town": "Pataias E Martingança",
-  "typology": "T4",
-  "price": 198500,
-  "size": "114 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Moradia de traça tradicional, inserida num terreno totalmente murado com cerca de 750 m², ideal para quem procura tranquilidade, privacidade e um imóvel com …",
-  "url": "https://www.olx.pt/d/anuncio/moradia-antiga-com-terreno-charme-autenticidade-e-enorme-potencial-IDJx4xn.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 10.8,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/ieul1314zbum3-PT/image;s=640x480",
-  "lat": 39.67083,
-  "lon": -8.99292,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 4,
-  "size_m2": 114,
-  "stretch": "10.8 km from the coast (limit 8 km)",
-  "id": "8bc120ed5d",
-  "municipality": "Pataias E Martingança",
-  "garden_yes": true
- },
- {
-  "section": "ready",
-  "town": "Quinta do Conde",
-  "typology": "T3",
-  "price": 450000,
-  "size": "115 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Apresentamos esta moradia geminada de tipologia T3 , distribuída por 2 pisos , com boas áreas e espaço exterior.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-geminada-t3-quinta-do-conde-IDJvVav.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 10.8,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/e7hs7mztr94i-PT/image;s=640x480",
-  "lat": 38.55595,
-  "lon": -9.04458,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 115,
-  "stretch": "10.8 km from the coast (limit 8 km)",
-  "id": "f9afe2a83a",
-  "municipality": "Quinta do Conde",
-  "garden_yes": true
+  "title": "Moradia antiga com terreno — charme, autenticidade e enorme potencial",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-antiga-com-terreno-charme-autenticidade-e-enorme-potencial-IDJx4xn.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -16265,32 +14585,6 @@
  },
  {
   "section": "ready",
-  "town": "Gaeiras",
-  "typology": "T5",
-  "price": 475000,
-  "size": "226 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Se está à procura de uma moradia de campo, próxima da cidade, esta é a sua oportunidade ideal.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-v5-gaeiras-bidos-IDIpdF0.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 10.9,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/6z8i02xyj2d71-PT/image;s=640x480",
-  "lat": 39.37819,
-  "lon": -9.11965,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 5,
-  "size_m2": 226,
-  "stretch": "€475k – above the €450k budget; 10.9 km from the coast (limit 8 km)",
-  "id": "6bd73c1708",
-  "municipality": "Gaeiras",
-  "garden_yes": true
- },
- {
-  "section": "ready",
   "town": "Quinta do Conde",
   "typology": "T3",
   "price": 470000,
@@ -16315,6 +14609,14 @@
    {
     "source": "century21",
     "url": "https://www.century21.pt/ref/C0472-00452"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/setubal/imobiliario/moradias/moradia-t3-isolada-com-garagem-45420568"
+   },
+   {
+    "source": "imovirtual",
+    "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-isolada-com-garagem-quinta-do-conde-ID1iZ7f"
    }
   ],
   "id": "0bc0b80c0f",
@@ -16372,33 +14674,13 @@
   "id": "6e32b726c7",
   "municipality": "Santiago do Cacém",
   "garden_yes": true,
-  "title": "Moradia T3 em Abela, Santiago do Cacém (Negociável)"
- },
- {
-  "section": "ready",
-  "town": "Cercal",
-  "typology": "T3",
-  "price": 420000,
-  "size": "210 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Moradia T3 Localizada na tranquila freguesia de Abela, no concelho de Santiago do Cacém, esta propriedade alia o autêntico sossego alentejano à comodidade de…",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t3-em-abela-santiago-do-cacm-negocivel-IDJtcgR.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 11.0,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/hocmbt3z7djh3-PT/image;s=640x480",
-  "lat": 37.80004,
-  "lon": -8.6704,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 210,
-  "stretch": "11.0 km from the coast (limit 8 km)",
-  "id": "a01fd52c68",
-  "municipality": "Cercal",
-  "garden_yes": true
+  "title": "Moradia T3 em Abela, Santiago do Cacém (Negociável)",
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-em-abela-santiago-do-cacm-negocivel-IDJtcgR.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -16424,7 +14706,13 @@
   "stretch": "11.0 km from the coast (limit 8 km)",
   "id": "0e586c40bf",
   "municipality": "Quinta do Conde",
-  "garden_yes": true
+  "garden_yes": true,
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-terrea-t2-1-com-pergola-pinhal-do-general-IDJjewL.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -16556,32 +14844,6 @@
   "coord_approx": true,
   "coord_note": "approx. – centre of Peniche, Peniche",
   "title": "Moradia T2 Venda 350.000 € em Peniche, Peniche"
- },
- {
-  "section": "ready",
-  "town": "Peniche",
-  "typology": "T4",
-  "price": 445000,
-  "size": "175 m²",
-  "garden": "Yes – mentions 'logradouro' (check listing)",
-  "note": "Moradia T4 com sótão, garagem e logradouro, perto da praia em Peniche Apresentamos esta agradável moradia T4 em Peniche, ideal para habitação própria, casa d…",
-  "url": "https://casa.sapo.pt/comprar-moradia-t4-peniche-54b96bc3-b766-11f1-9aaf-060000000054.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "casasapo",
-  "auto": true,
-  "coast_km": null,
-  "image": "https://media.casasapo.pt/Z720x540/OAYES/S5/C11960/P31094077/Tphoto/ID3d75da01-0000-0500-0000-00001a78562c.jpg",
-  "bedrooms": 4,
-  "size_m2": 175,
-  "id": "6a9711b2e1",
-  "municipality": "Peniche",
-  "garden_yes": true,
-  "lat": 39.36205,
-  "lon": -9.38769,
-  "coord_approx": true,
-  "coord_note": "approx. – centre of Peniche, Peniche",
-  "title": "Moradia T4 Venda 445.000 € em Peniche, Peniche"
  },
  {
   "section": "ready",
@@ -16756,32 +15018,6 @@
   "coord_approx": true,
   "coord_note": "approx. – centre of Boavista, Torres Vedras",
   "title": "Moradia T5+2 Venda 400.000 € em Torres Vedras, Silveira, Boavista"
- },
- {
-  "section": "ready",
-  "town": "Póvoa de Penafirme, A dos Cunhados, Torres Vedras",
-  "typology": "T3",
-  "price": 355000,
-  "size": "154 m²",
-  "garden": "Yes – mentions 'logradouro' (check listing)",
-  "note": "RESERVADO Agradável moradia de Rés do Chão e 1º andar e sótão A moradia tem ao seu dispor no rés do chão uma cozinha, uma sala com lareira, e uma garagem, tr…",
-  "url": "https://casa.sapo.pt/comprar-moradia-geminada-t3-torres-vedras-a-dos-cunhados-povoa-de-penafirme-64fce440-6b3b-11f1-9aaf-060000000054.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "casasapo",
-  "auto": true,
-  "coast_km": null,
-  "image": "https://media.casasapo.pt/Z720x540/OAYES/S5/C4329/P30478455/Tphoto/ID7710d101-0000-0500-0000-000019bdb7b8.jpg",
-  "bedrooms": 3,
-  "size_m2": 154,
-  "id": "a6fde153d9",
-  "municipality": "Torres Vedras",
-  "garden_yes": true,
-  "lat": 39.1454,
-  "lon": -9.36156,
-  "coord_approx": true,
-  "coord_note": "approx. – centre of Póvoa de Penafirme, Torres Vedras",
-  "title": "Moradia Geminada T3 Duplex Venda 355.000 € em Torres Vedras, A dos Cunhados, Póvoa de Penafirme"
  },
  {
   "section": "ready",
@@ -17042,32 +15278,6 @@
   "coord_approx": true,
   "coord_note": "approx. – centre of Quinta do Conde, Sesimbra",
   "title": "Moradia T4 Venda 385.000 € em Sesimbra, Quinta do Conde"
- },
- {
-  "section": "ready",
-  "town": "Sesimbra (Castelo)",
-  "typology": "T4",
-  "price": 425000,
-  "size": "194 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Moradia T4 com espaço exterior e piscina*, na Carrasqueira Moradia térrea, com jardim, piscina* e espaço de garagem, inserida num ambiente residencial tranqu…",
-  "url": "https://casa.sapo.pt/comprar-moradia-t4-sesimbra-(castelo)-3c493013-a30e-11f1-9aaf-060000000054.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "casasapo",
-  "auto": true,
-  "coast_km": null,
-  "image": "https://media.casasapo.pt/Z720x540/OAYES/S5/C4569/P30914180/Tphoto/ID84b6d701-0000-0500-0000-00001a3fc132.jpg",
-  "bedrooms": 4,
-  "size_m2": 194,
-  "id": "7b05913cf3",
-  "municipality": "Sesimbra",
-  "garden_yes": true,
-  "lat": 38.48761,
-  "lon": -9.11437,
-  "coord_approx": true,
-  "coord_note": "approx. – centre of Sesimbra, Sesimbra",
-  "title": "Moradia T4 Venda 425.000 € em Sesimbra, Sesimbra (Castelo)"
  },
  {
   "section": "ready",
@@ -17464,32 +15674,6 @@
   "coord_approx": true,
   "coord_note": "approx. – centre of Santiago do Cacém, Santiago do Cacém",
   "title": "Moradia T3 Venda 430.000 € em Santiago do Cacém, Santiago do Cacém, S.Cruz e S.Bartolomeu da Serra, Santiago do Cacém"
- },
- {
-  "section": "ready",
-  "town": "Santa Cruz, Santiago do Cacém, S.Cruz e S.Bartolomeu da Serra",
-  "typology": "T3",
-  "price": 399000,
-  "size": "100 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Localizada em Santiago do Cacém, esta quintinha única oferece uma oportunidade rara para os amantes da natureza e aqueles que procuram uma propriedade com um…",
-  "url": "https://casa.sapo.pt/comprar-moradia-t3-santiago-do-cacem-s-cruz-e-s-bartolomeu-da-serra-santa-cruz-b0012487-c6a9-11f0-9e61-060000000056.html",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "casasapo",
-  "auto": true,
-  "coast_km": null,
-  "image": "https://media.casasapo.pt/Z720x540/OAYES/S5/C11580/P28788964/Tphoto/IDe448b701-0000-0500-0000-0000183cdf4e.jpg",
-  "bedrooms": 3,
-  "size_m2": 100,
-  "id": "bdeb465232",
-  "municipality": "Santiago do Cacém",
-  "garden_yes": true,
-  "lat": 38.06051,
-  "lon": -8.7081,
-  "coord_approx": true,
-  "coord_note": "approx. – centre of Santa Cruz, Santiago do Cacém",
-  "title": "Moradia T3 Venda 399.000 € em Santiago do Cacém, Santiago do Cacém, S.Cruz e S.Bartolomeu da Serra, Santa Cruz"
  },
  {
   "section": "ready",
