@@ -445,5 +445,20 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null
+ },
+ {
+  "section": "reno",
+  "town": "Atouguia da Baleia, Peniche",
+  "typology": "T2",
+  "price": 160000,
+  "size": "104 m²",
+  "garden": "Yes – mentions 'logradouro' (check listing)",
+  "note": "Localizada a 2 kms da Vila de Atouguia da Baleia.",
+  "url": "https://www.imovirtual.com/pt/anuncio/moradia-t2-para-venda-ID1iVKq",
+  "also": false,
+  "first_seen": "2026-10-09",
+  "source": "imovirtual",
+  "auto": true,
+  "coast_km": 5.6
  }
 ]
