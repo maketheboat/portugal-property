@@ -1,1 +1,12 @@
-{"https://casa.sapo.pt/comprar-moradia-t5-santiago-do-cacem-abela-b3bbdbf7-6f57-11f1-bc59-060000000052.html": {"new_build": false, "needs_work": true, "why": "manual review: built 1992 (portal 'Novo' is wrong); photos show an unoccupied, unfinished-looking house – bare wiring, no light fittings, weathered exterior, overgrown plot"}}
+{
+ "https://casa.sapo.pt/comprar-moradia-t5-santiago-do-cacem-abela-b3bbdbf7-6f57-11f1-bc59-060000000052.html": {
+  "new_build": false,
+  "needs_work": true,
+  "why": "manual review: built 1992 (portal 'Novo' is wrong); photos show an unoccupied, unfinished-looking house – bare wiring, no light fittings, weathered exterior, overgrown plot"
+ },
+ "https://www.custojusto.pt/leiria/imobiliario/moradias/moradia-v3-terrea-com-piscina--45385018": {
+  "new_build": true,
+  "unfinished": true,
+  "why": "manual review: same Cityground development in Tornada as Imovirtual ID1hR3L (V3 térrea com piscina, €500k) – photos are 3D renders, not built yet"
+ }
+}

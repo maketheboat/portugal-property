@@ -17205,9 +17205,11 @@
   "id": "81d73869a3",
   "municipality": "Caldas da Rainha",
   "garden_yes": true,
-  "new_build": false,
-  "unfinished": false,
-  "build_why": [],
+  "new_build": true,
+  "unfinished": true,
+  "build_why": [
+   "manual review: same Cityground development in Tornada as Imovirtual ID1hR3L (V3 térrea com piscina, €500k) – photos are 3D renders, not built yet"
+  ],
   "needs_work": false
  },
  {
