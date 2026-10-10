@@ -109,6 +109,7 @@ main{padding-top:16px!important;padding-bottom:24px!important}
 .sbody h3{margin:24px 0 8px;font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .frow{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:8px;min-height:var(--h)}
 .frow label{font-size:.92rem}.frow .ctl{width:200px}
+.chk.sub{padding-left:24px}.chkhelp{margin:4px 0 0 24px;font-size:.8rem;color:#667;line-height:1.35}
 .chk{display:flex;gap:12px;align-items:flex-start;padding:8px 0;cursor:pointer;font-size:.92rem}
 .chk input{width:18px;height:18px;margin:2px 0 0;accent-color:var(--accent);flex-shrink:0}
 .chk em{display:block;font-style:normal;font-size:.8rem;color:var(--muted)}.chk small{color:var(--muted)}
@@ -177,9 +178,10 @@ footer{color:var(--muted);font-size:.83rem;padding-top:16px!important;padding-bo
    <div class="frow"><label for="size">Min size (m²)</label><input id="size" class="ctl" type="number" step="10" min="0" placeholder="Any"></div>
    <div class="frow"><label for="nb">New builds</label><select id="nb" class="ctl"><option value="">Any</option><option value="only">New builds only</option><option value="hide">Hide new builds</option></select></div>
    <label class="chk"><input type="checkbox" id="outside"><span>Has outside space <small id="outn"></small></span></label>
-   <label class="chk"><input type="checkbox" id="garden"><span>Garden or land</span></label>
-   <label class="chk"><input type="checkbox" id="balcony"><span>Balcony <small id="balcn"></small></span></label>
-   <label class="chk"><input type="checkbox" id="terrace"><span>Terrace <small id="terrn"></small></span></label></section>
+   <label class="chk sub"><input type="checkbox" id="garden"><span>Garden or land <small id="gardn"></small></span></label>
+   <label class="chk sub"><input type="checkbox" id="balcony"><span>Balcony <small id="balcn"></small></span></label>
+   <label class="chk sub"><input type="checkbox" id="terrace"><span>Terrace <small id="terrn"></small></span></label>
+   <p class="chkhelp">Ticking several shows homes with all of them. Use “Has outside space” for any.</p></section>
   <section><h3>Condition</h3>
    <label class="chk"><input type="checkbox" id="hideunf" checked><span>Hide unfinished <small id="unfn"></small><em>Off-plan, under construction or renders only</em></span></label>
    <label class="chk"><input type="checkbox" id="hidework" checked><span>Hide needs work <small id="nwn"></small><em>Move-in priced homes whose advert says they need works</em></span></label>
@@ -218,7 +220,7 @@ footer{color:var(--muted);font-size:.83rem;padding-top:16px!important;padding-bo
 
 <script>
 "use strict";
-const DATA={"labels":{"imovirtual":"Imovirtual","casasapo":"Casa Sapo","remax":"RE/MAX","century21":"Century 21","olx":"OLX","custojusto":"CustoJusto","idealista":"Idealista","supercasa":"SuperCasa","era":"ERA","bpi":"BPI Expresso Imobiliário","engel":"Engel & Völkers","kw":"KW Portugal","zome":"Zome","iad":"iad Portugal","coldwell":"Coldwell Banker","kyero":"Kyero","idealista_rss":"Idealista RSS","decisoes":"Decisões e Soluções","greenacres":"Green-Acres","rightmove":"Rightmove Overseas","aplaceinthesun":"A Place in the Sun","predimed":"Predimed","casaiberia":"Casaiberia","cgd":"Caixa Imobiliário (CGD)"},"portals":["imovirtual","casasapo","remax","century21","olx","custojusto","idealista"],"regions":{"north":"North coast","centre":"Centre & Silver Coast","lisbon":"Lisbon & Setúbal","alentejo":"Alentejo coast","algarve":"Algarve"},"src":"data.json?v=4ea3904e06","sharedFavs":[],"today":"2026-10-10","updated":"10 Oct 2026, 22:02"};
+const DATA={"labels":{"imovirtual":"Imovirtual","casasapo":"Casa Sapo","remax":"RE/MAX","century21":"Century 21","olx":"OLX","custojusto":"CustoJusto","idealista":"Idealista","supercasa":"SuperCasa","era":"ERA","bpi":"BPI Expresso Imobiliário","engel":"Engel & Völkers","kw":"KW Portugal","zome":"Zome","iad":"iad Portugal","coldwell":"Coldwell Banker","kyero":"Kyero","idealista_rss":"Idealista RSS","decisoes":"Decisões e Soluções","greenacres":"Green-Acres","rightmove":"Rightmove Overseas","aplaceinthesun":"A Place in the Sun","predimed":"Predimed","casaiberia":"Casaiberia","cgd":"Caixa Imobiliário (CGD)"},"portals":["imovirtual","casasapo","remax","century21","olx","custojusto","idealista"],"regions":{"north":"North coast","centre":"Centre & Silver Coast","lisbon":"Lisbon & Setúbal","alentejo":"Alentejo coast","algarve":"Algarve"},"src":"data.json?v=cb811ae9dd","sharedFavs":[],"today":"2026-10-10","updated":"10 Oct 2026, 23:09"};
 const STORE_KEY="pp.v1";
 const PP={
  loadStore(ls){try{const s=JSON.parse(ls.getItem(STORE_KEY)||"{}");return {f:Array.isArray(s.f)?s.f:[],r:Array.isArray(s.r)?s.r:[]};}catch(e){return {f:[],r:[]};}},
@@ -294,7 +296,7 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
  const items=DATA.listings,shared=new Set(DATA.sharedFavs),today=DATA.today;let lastRes=[],store=PP.loadStore(localStorage),state=PP.stateFromQuery(location.search);
  $("upd").textContent=DATA.updated;
  const LBL=s=>(DATA.labels||{})[s]||s;
- {const c=(id,n)=>{$(id).textContent=n?`(${n})`:"";};c("stretchn",items.filter(x=>x.stretch).length);c("unfn",items.filter(x=>x.unfinished).length);c("nwn",items.filter(x=>x.needs_work).length);c("balcn",items.filter(x=>x.balcony).length);c("outn",items.filter(x=>x.outside).length);c("terrn",items.filter(x=>x.terrace).length);}
+ {const c=(id,n)=>{$(id).textContent=n?`(${n})`:"";};c("stretchn",items.filter(x=>x.stretch).length);c("unfn",items.filter(x=>x.unfinished).length);c("nwn",items.filter(x=>x.needs_work).length);c("balcn",items.filter(x=>x.balcony).length);c("outn",items.filter(x=>x.outside).length);c("gardn",items.filter(x=>x.garden_yes).length);c("terrn",items.filter(x=>x.terrace).length);}
  [...new Set([...(DATA.portals||[]),...items.map(x=>x.source),...items.flatMap(x=>(x.also_on||[]).map(a=>a.source))])].forEach(s=>{const o=document.createElement("option");o.value=s;o.textContent=LBL(s);$("src").appendChild(o);});
  Object.entries(DATA.regions||{}).forEach(([k,v])=>{const n=items.filter(x=>x.region===k).length;if(!n)return;const o=document.createElement("option");o.value=k;o.textContent=`${v} (${n})`;$("reg").appendChild(o);});
  function fillMuni(){const sel=$("muni"),reg=state.reg;const ms=[...new Set(items.filter(x=>!reg||x.region===reg).map(x=>x.municipality).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
