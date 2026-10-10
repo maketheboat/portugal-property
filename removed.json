@@ -269,6 +269,48 @@
    "id": "54212e6030",
    "muni_key": "",
    "removed_at": "2026-10-10"
+  },
+  {
+   "section": "reno",
+   "town": "Albufeira e Olhos de Água, Albufeira",
+   "typology": "T3",
+   "property_type": "house",
+   "price": 110000,
+   "size": "113 m²",
+   "garden": "Yes – mentions 'logradouro' (check listing)",
+   "note": "Cultura arvense e mato 7.010m2 onde se encontra implantada uma Moradia casa térrea com dois quartos, sala, casa de banho e cozinha - 113,4m2 - logradouro - 1…",
+   "url": "https://www.imovirtual.com/pt/anuncio/ruina-a-300m-da-barragem-do-arade-ID1gM98",
+   "also": false,
+   "first_seen": "2026-10-10",
+   "source": "imovirtual",
+   "auto": true,
+   "coast_km": 0.7,
+   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImRhbmdnNnh1b3hlMDItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.gGdGi8ZyiEek8F-lPCLQJEO56wxwZXjpQyc9rikl7kU/image;s=655x491;q=80",
+   "lat": 37.0931,
+   "lon": -8.21383,
+   "coord_approx": false,
+   "coord_note": "listing map pin",
+   "bedrooms": 3,
+   "size_m2": 113,
+   "id": "39905d01eb",
+   "municipality": "Albufeira",
+   "garden_yes": true,
+   "title": "Ruina a 300m da Barragem do Arade",
+   "new_build": false,
+   "unfinished": false,
+   "needs_work": false,
+   "balcony": false,
+   "terrace": false,
+   "build_why": [],
+   "also_on": [
+    {
+     "source": "olx",
+     "url": "https://www.olx.pt/d/anuncio/ruina-a-300m-da-barragem-do-arade-IDITvDZ.html"
+    }
+   ],
+   "muni_key": "albufeira",
+   "removed_at": "2026-10-10",
+   "reason": "wrong location: advert pin in Albufeira, text says 300 m from the Arade dam (inland Silves)"
   }
  ]
 }

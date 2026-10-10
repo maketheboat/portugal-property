@@ -75,7 +75,8 @@ main{padding-top:16px!important;padding-bottom:24px!important}
 .card h3{margin:4px 0 8px;font-size:1rem}
 .meta{display:flex;gap:8px;flex-wrap:wrap}.meta span{background:#eef3f5;border-radius:6px;padding:2px 8px;font-size:.82rem}
 .tags{margin-top:8px;font-size:.8rem;color:var(--muted)}.tag+.tag:before{content:" · ";color:var(--muted)}
-.tag.ready{color:var(--accent);font-weight:600}.tag.reno{color:#6d4c41;font-weight:600}.tag.newb{color:#1565c0;font-weight:600}.more{grid-column:1/-1;display:flex;justify-content:center;padding:8px 0 24px}.more .ctl{padding:0 24px;cursor:pointer;background:#fff}.more small{color:#667;margin-left:4px}
+.tag.ready{color:var(--accent);font-weight:600}.tag.reno{color:#6d4c41;font-weight:600}.tag.newb{color:#1565c0;font-weight:600}.zh{margin:0 auto 12px;padding:12px 16px;background:#fff7e0;border:1px solid #f0d58a;border-radius:10px;font-size:.92rem;line-height:1.7}.zh b{font-weight:600}.zh button{margin-left:6px}
+.more{grid-column:1/-1;display:flex;justify-content:center;padding:8px 0 24px}.more .ctl{padding:0 24px;cursor:pointer;background:#fff}.more small{color:#667;margin-left:4px}
 .tag.amen{color:#2a6f63}.tag.stretch{color:#7a5d00}.tag.shared{color:#9a6a00;font-weight:600}.tag.visitor{color:#7b3fa0}.tag.private{color:#2e7d32}
 .garden{margin-top:8px;font-size:.86rem}.body p{margin:8px 0;font-size:.9rem;flex:1}
 .unfnote{font-size:.8rem;color:#b34700;margin-top:4px}
@@ -163,6 +164,7 @@ footer{color:var(--muted);font-size:.83rem;padding-top:16px!important;padding-bo
 <div class="wrap tb" id="tb"><span id="count" aria-live="polite">Loading homes…</span><div class="chiprow" id="chips"></div><button class="link" id="clearall" type="button" hidden>Clear all</button>
  <div class="tbr"><select id="sort" class="ctl" aria-label="Sort"><option value="newest">Newest</option><option value="price_asc">Price: low to high</option><option value="price_desc">Price: high to low</option><option value="size_desc">Size: largest</option><option value="size_asc">Size: smallest</option><option value="distance">Distance</option></select>
  <div class="seg views" id="views" role="group" aria-label="View"><button data-v="list" class="on" type="button">List</button><button data-v="map" type="button">Map</button></div></div></div>
+<div class="wrap zh" id="zerohint" hidden></div>
 <main class="wrap"><div class="grid" id="grid"></div>
  <div class="mapwrap" id="mapwrap"><div id="map" aria-label="Map of listings"></div>
   <div class="legend" id="legend"><span><i style="background:#0f6e8c"></i>Move-in ready</span><span><i style="background:#8d5a3b"></i>Renovation</span><span><i style="background:#f4b400;border:2px solid #e0245e"></i>Favourite</span><span><i style="border:2px dashed #555;background:transparent"></i>Approx. location</span></div></div></main>
@@ -174,6 +176,7 @@ footer{color:var(--muted);font-size:.83rem;padding-top:16px!important;padding-bo
   <section><h3>Property</h3>
    <div class="frow"><label for="size">Min size (m²)</label><input id="size" class="ctl" type="number" step="10" min="0" placeholder="Any"></div>
    <div class="frow"><label for="nb">New builds</label><select id="nb" class="ctl"><option value="">Any</option><option value="only">New builds only</option><option value="hide">Hide new builds</option></select></div>
+   <label class="chk"><input type="checkbox" id="outside"><span>Has outside space <small id="outn"></small></span></label>
    <label class="chk"><input type="checkbox" id="garden"><span>Garden or land</span></label>
    <label class="chk"><input type="checkbox" id="balcony"><span>Balcony <small id="balcn"></small></span></label>
    <label class="chk"><input type="checkbox" id="terrace"><span>Terrace <small id="terrn"></small></span></label></section>
@@ -215,7 +218,7 @@ footer{color:var(--muted);font-size:.83rem;padding-top:16px!important;padding-bo
 
 <script>
 "use strict";
-const DATA={"labels":{"imovirtual":"Imovirtual","casasapo":"Casa Sapo","remax":"RE/MAX","century21":"Century 21","olx":"OLX","custojusto":"CustoJusto","idealista":"Idealista","supercasa":"SuperCasa","era":"ERA","bpi":"BPI Expresso Imobiliário","engel":"Engel & Völkers","kw":"KW Portugal","zome":"Zome","iad":"iad Portugal","coldwell":"Coldwell Banker","kyero":"Kyero","idealista_rss":"Idealista RSS","decisoes":"Decisões e Soluções","greenacres":"Green-Acres","rightmove":"Rightmove Overseas","aplaceinthesun":"A Place in the Sun","predimed":"Predimed","casaiberia":"Casaiberia","cgd":"Caixa Imobiliário (CGD)"},"portals":["imovirtual","casasapo","remax","century21","olx","custojusto","idealista"],"regions":{"north":"North coast","centre":"Centre & Silver Coast","lisbon":"Lisbon & Setúbal","alentejo":"Alentejo coast","algarve":"Algarve"},"src":"data.json?v=8965d57154","sharedFavs":[],"today":"2026-10-10","updated":"10 Oct 2026, 19:37"};
+const DATA={"labels":{"imovirtual":"Imovirtual","casasapo":"Casa Sapo","remax":"RE/MAX","century21":"Century 21","olx":"OLX","custojusto":"CustoJusto","idealista":"Idealista","supercasa":"SuperCasa","era":"ERA","bpi":"BPI Expresso Imobiliário","engel":"Engel & Völkers","kw":"KW Portugal","zome":"Zome","iad":"iad Portugal","coldwell":"Coldwell Banker","kyero":"Kyero","idealista_rss":"Idealista RSS","decisoes":"Decisões e Soluções","greenacres":"Green-Acres","rightmove":"Rightmove Overseas","aplaceinthesun":"A Place in the Sun","predimed":"Predimed","casaiberia":"Casaiberia","cgd":"Caixa Imobiliário (CGD)"},"portals":["imovirtual","casasapo","remax","century21","olx","custojusto","idealista"],"regions":{"north":"North coast","centre":"Centre & Silver Coast","lisbon":"Lisbon & Setúbal","alentejo":"Alentejo coast","algarve":"Algarve"},"src":"data.json?v=4ea3904e06","sharedFavs":[],"today":"2026-10-10","updated":"10 Oct 2026, 22:02"};
 const STORE_KEY="pp.v1";
 const PP={
  loadStore(ls){try{const s=JSON.parse(ls.getItem(STORE_KEY)||"{}");return {f:Array.isArray(s.f)?s.f:[],r:Array.isArray(s.r)?s.r:[]};}catch(e){return {f:[],r:[]};}},
@@ -226,7 +229,7 @@ const PP={
    const ok=a=>Array.isArray(a)?a.filter(x=>typeof x==="string"&&/^[0-9a-f]{10}$/.test(x)):[];return {f:ok(o.f),r:ok(o.r)};},
  daysAgo(today,d){return Math.round((Date.parse(today)-Date.parse(d))/86400000);},
  norm(s){return String(s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");},
- defaults:{view:"list",q:"",loc:"",lat:"",lon:"",r:"3",sec:"all",pmin:"",pmax:"",beds:"",size:"",reg:"",muni:"",src:"",sort:"newest",garden:false,new:false,fav:false,stretch:false,hideunf:true,hidework:true,nb:"",showrem:false,ptype:"",balcony:false,terrace:false,mz:"",mc:""},
+ defaults:{view:"list",q:"",loc:"",lat:"",lon:"",r:"3",sec:"all",pmin:"",pmax:"",beds:"",size:"",reg:"",muni:"",src:"",sort:"newest",garden:false,new:false,fav:false,stretch:false,hideunf:true,hidework:true,nb:"",showrem:false,ptype:"",outside:false,balcony:false,terrace:false,mz:"",mc:""},
  RADII:Array.from({length:35},(_,i)=>i+1),
  clampR(v){const n=Math.round(parseFloat(v));return n>=1&&n<=35?String(n):PP.defaults.r;},
  radiusOptions(q){q=String(q||"").replace(/[^0-9]/g,"");return q?PP.RADII.filter(n=>String(n).startsWith(q)):PP.RADII.slice();},
@@ -271,6 +274,7 @@ const PP={
      if(s.hideunf&&x.unfinished)return false;
      if(s.hidework&&x.needs_work)return false;
      if(s.ptype&&(x.property_type||"house")!==s.ptype)return false;
+     if(s.outside&&!x.outside)return false;
      if(s.balcony&&!x.balcony)return false;
      if(s.terrace&&!x.terrace)return false;
      if(s.nb==="only"&&!x.new_build)return false;
@@ -290,14 +294,14 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
  const items=DATA.listings,shared=new Set(DATA.sharedFavs),today=DATA.today;let lastRes=[],store=PP.loadStore(localStorage),state=PP.stateFromQuery(location.search);
  $("upd").textContent=DATA.updated;
  const LBL=s=>(DATA.labels||{})[s]||s;
- {const c=(id,n)=>{$(id).textContent=n?`(${n})`:"";};c("stretchn",items.filter(x=>x.stretch).length);c("unfn",items.filter(x=>x.unfinished).length);c("nwn",items.filter(x=>x.needs_work).length);c("balcn",items.filter(x=>x.balcony).length);c("terrn",items.filter(x=>x.terrace).length);}
+ {const c=(id,n)=>{$(id).textContent=n?`(${n})`:"";};c("stretchn",items.filter(x=>x.stretch).length);c("unfn",items.filter(x=>x.unfinished).length);c("nwn",items.filter(x=>x.needs_work).length);c("balcn",items.filter(x=>x.balcony).length);c("outn",items.filter(x=>x.outside).length);c("terrn",items.filter(x=>x.terrace).length);}
  [...new Set([...(DATA.portals||[]),...items.map(x=>x.source),...items.flatMap(x=>(x.also_on||[]).map(a=>a.source))])].forEach(s=>{const o=document.createElement("option");o.value=s;o.textContent=LBL(s);$("src").appendChild(o);});
  Object.entries(DATA.regions||{}).forEach(([k,v])=>{const n=items.filter(x=>x.region===k).length;if(!n)return;const o=document.createElement("option");o.value=k;o.textContent=`${v} (${n})`;$("reg").appendChild(o);});
  function fillMuni(){const sel=$("muni"),reg=state.reg;const ms=[...new Set(items.filter(x=>!reg||x.region===reg).map(x=>x.municipality).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
   if(state.muni&&!ms.includes(state.muni))state.muni="";sel.length=1;ms.forEach(m=>{const o=document.createElement("option");o.value=o.textContent=m;sel.appendChild(o);});sel.value=state.muni;sel.dataset.reg=reg;}
  fillMuni();
- const fields=["pmin","pmax","ptype","beds","size","reg","muni","src","sort","nb"],checks=["garden","balcony","terrace","new","fav","stretch","hideunf","hidework","showrem"];
- const DRAWER=["size","nb","garden","balcony","terrace","hideunf","hidework","stretch","reg","muni","src","new","fav","showrem"],BASIC=["sec","pmin","pmax","ptype","beds"];
+ const fields=["pmin","pmax","ptype","beds","size","reg","muni","src","sort","nb"],checks=["outside","garden","balcony","terrace","new","fav","stretch","hideunf","hidework","showrem"];
+ const DRAWER=["size","nb","outside","garden","balcony","terrace","hideunf","hidework","stretch","reg","muni","src","new","fav","showrem"],BASIC=["sec","pmin","pmax","ptype","beds"];
  const gidx=PP.indexGaz(DATA.gaz||[]);
  const mobile=()=>!!(window.matchMedia&&window.matchMedia("(max-width:860px)").matches);
  const L=$("loc"),UL=$("sugg");
@@ -324,6 +328,7 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
   if(state.beds)c.push([`${state.beds}+ beds`,["beds"]]);
   if(state.size)c.push([`${state.size}+ m²`,["size"]]);
   if(state.garden)c.push(["Garden/land",["garden"]]);
+  if(state.outside)c.push(["Outside space",["outside"]]);
   if(state.balcony)c.push(["Balcony",["balcony"]]);
   if(state.terrace)c.push(["Terrace",["terrace"]]);
   if(state.nb)c.push([state.nb==="only"?"New builds only":"No new builds",["nb"]]);
@@ -371,6 +376,18 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
   g.insertAdjacentHTML("beforeend",next.map(card).join("")+moreBtn(lastRes.length-shown));watchMore();}
  let io=null;function watchMore(){const m=$("more");if(!m||!window.IntersectionObserver)return;if(!io)io=new IntersectionObserver(es=>{if(es.some(e=>e.isIntersecting)&&state.view!=="map")showMore();},{rootMargin:"600px"});io.disconnect();io.observe(m);}
  $("grid").addEventListener("click",e=>{if(e.target.closest("#morebtn"))showMore();});
+ // 0 results: say which filters are hiding homes, each with a one-click fix
+ let zfix=[];
+ function zeroHint(res){const el=$("zerohint");zfix=[];if(res.length){el.hidden=true;el.innerHTML="";return;}
+  const n=s2=>PP.filter(items,s2,store,DATA.sharedFavs,today).length,out=[];
+  chipList().forEach(([t,keys])=>{const s2={...state};keys.forEach(k=>s2[k]=PP.defaults[k]);const k=n(s2);if(k)out.push([k,t,s2]);});
+  [["hideunf",false,"Unfinished/off-plan hidden"],["hidework",false,"Needs-work hidden"],["stretch",true,"Stretch not included"]].forEach(([k,v,t])=>{if(state[k]!==v&&state[k]===PP.defaults[k]){const s2={...state,[k]:v};const c=n(s2);if(c)out.push([c,t,s2]);}});
+  if(state.lat&&+state.r<35){const r=[5,10,15,20,25,35].find(x=>x>+state.r&&n({...state,r:String(x)}));if(r)out.push([n({...state,r:String(r)}),`Radius ${state.r} km – widen to ${r} km`,{...state,r:String(r)}]);}
+  out.sort((a,b)=>b[0]-a[0]);zfix=out.slice(0,5).map(x=>x[2]);
+  el.innerHTML=out.length?"<b>No homes match.</b> "+out.slice(0,5).map(([k,t],i)=>`<span>${k} home${k===1?"":"s"} hidden by: <b>${esc(t)}</b><button class="link" type="button" data-zf="${i}">${/^Radius/.test(t)?"widen":"clear"}</button></span>`).join(" · ")
+   :`<b>No homes match.</b> Several filters together hide everything.<button class="link" type="button" data-zf="0">clear all filters</button>`;
+  if(!out.length)zfix=[{...PP.defaults}];el.hidden=false;}
+ $("zerohint").addEventListener("click",e=>{const b=e.target.closest("button[data-zf]");if(!b)return;const s2=zfix[+b.dataset.zf];if(!s2)return;const v=state.view;state={...s2,view:v};toUI();render();});
  function render(push){if($("muni").dataset.reg!==state.reg)fillMuni();const res=PP.filter(items,state,store,DATA.sharedFavs,today);
   {const s={...state};delete s.view;delete s.mz;delete s.mc;const gk=JSON.stringify(s);if(gk!==gridKey){gridKey=gk;shown=PAGE;}}   // ♥/×/restore keep how far you scrolled
   $("grid").innerHTML=res.length?res.slice(0,shown).map(card).join("")+moreBtn(res.length-shown):'<div class="empty">No homes match these filters. <button class="link" type="button" onclick="document.getElementById(\'clearall\').click()">Clear all filters</button></div>';
@@ -379,7 +396,7 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
   syncBar();
   document.body.classList.toggle("mapview",state.view==="map");
   document.querySelectorAll("#views button").forEach(b=>b.classList.toggle("on",b.dataset.v===state.view));
-  lastRes=res;watchMore();if(state.view==="map")drawMap(res);
+  zeroHint(res);lastRes=res;watchMore();if(state.view==="map")drawMap(res);
   const nr=store.r.filter(id=>items.some(x=>x.id===id)).length;$("remnote").textContent=nr?`(${nr} in this browser)`:"";
   $("code").value=PP.encode(store);
   const q=PP.stateToQuery(state);if(push!==false)history.replaceState(null,"",location.pathname+q);}
