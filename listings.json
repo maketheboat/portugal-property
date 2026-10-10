@@ -34,7 +34,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -81,7 +82,8 @@
   "unfinished": false,
   "build_why": [
    "portal field build year 2025"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -122,7 +124,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -159,7 +162,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -196,7 +200,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -233,7 +238,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -266,7 +272,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -311,7 +318,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -348,7 +356,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -375,7 +384,8 @@
   "coord_note": "approx. – centre of Odeceixe, Aljezur",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -408,7 +418,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -445,7 +456,10 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [
+   "text: \"the beach; ground floor needs work. em odeceixe, a 3km da p\""
+  ],
+  "needs_work": true
  },
  {
   "section": "reno",
@@ -478,7 +492,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -505,7 +520,8 @@
   "coord_note": "listing map pin",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -538,7 +554,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -565,7 +582,8 @@
   "coord_note": "listing map pin (approximate area)",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -598,7 +616,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -631,7 +650,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -668,7 +688,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -695,7 +716,8 @@
   "coord_note": "listing map pin (approximate area)",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -724,7 +746,8 @@
   "unfinished": false,
   "build_why": [
    "portal field build year 2026"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -757,7 +780,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -784,7 +808,8 @@
   "coord_note": "listing map pin (approximate area)",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -819,7 +844,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -858,7 +884,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -893,7 +920,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -928,7 +956,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -971,7 +1000,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -1000,7 +1030,8 @@
   "coord_note": "approx. – centre of Atouguia da Baleia, Peniche",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -1035,7 +1066,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -1078,7 +1110,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -1117,7 +1150,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -1159,7 +1193,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -1193,7 +1228,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -1221,7 +1257,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -1259,7 +1296,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -1297,7 +1335,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -1335,7 +1374,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -1373,7 +1413,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -1401,7 +1442,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -1429,7 +1471,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -1457,7 +1500,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -1485,7 +1529,8 @@
   "coord_note": "approx. – centre of Atouguia da Baleia, Peniche",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -1520,7 +1565,8 @@
   "title": "Moradia T5 300M2 com 6 entradas | Garagem Ampla | Terraço | Jardim | 1",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -1555,7 +1601,8 @@
   "title": "MORADIA EM RIBAMAR | ERICEIRA | 350.000 €",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -1590,7 +1637,8 @@
   "title": "Moradia T4 com anexo independente no Barril - 12 minutos de Ericeir...",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -1625,7 +1673,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -1663,7 +1712,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -1693,7 +1743,8 @@
   "unfinished": false,
   "build_why": [
    "text: \"a estrear\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -1731,7 +1782,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -1766,7 +1818,8 @@
   "title": "Nido & Soul | Viver Entre o Azul do Mar e a Tranquilidade de Casa | Lo",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -1824,7 +1877,8 @@
   "build_why": [
    "portal field market=primary (developer/new)",
    "portal field build year 2026"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -1859,7 +1913,8 @@
   "title": "Casa Antiga para Recuperar (Com Projeto Aprovado T1)",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -1898,7 +1953,8 @@
   "title": "Moradia T3 em Foz do Arelho",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -1933,7 +1989,8 @@
   "title": "Moradia em banda T3 em Tornada e Salir do Porto de 159 m2",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -1968,7 +2025,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -1996,7 +2054,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -2033,7 +2092,8 @@
   "unfinished": false,
   "build_why": [
    "portal field build year 2025"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -2076,7 +2136,8 @@
   "title": "Moradia T2+1 Ericeira 15 km, A Casa das Casas",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -2110,7 +2171,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -2138,7 +2200,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -2166,7 +2229,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -2205,7 +2269,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -2240,7 +2305,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -2275,7 +2341,8 @@
   "title": "Moradia T2+T2 / Bifamiliar / Salir do Porto",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -2312,8 +2379,9 @@
   "unfinished": false,
   "build_why": [
    "portal field build year 2026",
-   "text: \"construcao nova\""
-  ]
+   "text: \"moradia t4 nova\""
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -2348,7 +2416,8 @@
   "title": "Ampla moradia T4 c/nova e pronta a habitar junto a Sesimbra",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -2391,7 +2460,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -2433,7 +2503,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -2468,7 +2539,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -2497,7 +2569,8 @@
   "title": "Vivenda /Casa T2+T1 com garagem perto da praia",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -2558,7 +2631,8 @@
   "build_why": [
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -2596,7 +2670,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -2631,7 +2706,8 @@
   "title": "Moradia T3 a 10 minutos a pé da Praia de Santa Cruz | EXCLUSIVO WES...",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -2670,7 +2746,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -2699,7 +2776,8 @@
   "title": "Moradia Térrea com logradouro , na Rua da Brasileira -Baixa de...",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -2742,7 +2820,8 @@
   "title": "Moradia Geminada de Excelência no Barril com Piscina",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -2776,7 +2855,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -2819,7 +2899,8 @@
   "title": "São Martinho do Porto: T4 + 1 (sala de jogos), com 2 terraços, jardim,",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -2858,7 +2939,8 @@
   "title": "Moradia T4 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -2892,7 +2974,10 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [
+   "text: \"s de convivio. a moradia necessita de obras de melhoramento, represe\""
+  ],
+  "needs_work": true
  },
  {
   "section": "reno",
@@ -2926,7 +3011,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -2976,7 +3062,8 @@
   "build_why": [
    "portal field market=primary (developer/new)",
    "portal field build year 2025"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -3015,7 +3102,8 @@
   "title": "Moradia V3 com Terreno Urbano e Garagem - Seixal, Lourinhã",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -3043,7 +3131,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -3077,7 +3166,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -3119,7 +3209,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -3158,7 +3249,8 @@
   "title": "Moradia T4 com 1 suite e 3 quartos, na Silveira | Espaço, Conforto e Q",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -3197,7 +3289,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -3240,7 +3333,8 @@
   "title": "Casa / Villa T4 em Encarnação de 178 m2",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -3272,9 +3366,12 @@
   "id": "2cb06d2f67",
   "municipality": "Mafra",
   "garden_yes": true,
-  "new_build": false,
+  "new_build": true,
   "unfinished": false,
-  "build_why": []
+  "build_why": [
+   "portal field build year 2024"
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -3312,7 +3409,8 @@
   "build_why": [
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -3341,7 +3439,8 @@
   "title": "Pronto para escriturar:  Moradia V2 com Logradouro | Fontanelas, Sintr",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -3375,7 +3474,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -3413,7 +3513,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -3451,7 +3552,8 @@
   "build_why": [
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -3486,7 +3588,8 @@
   "title": "Moradia T3 Charneca de Caparica",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -3547,7 +3650,8 @@
   "unfinished": false,
   "build_why": [
    "portal field market=primary (developer/new)"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -3594,7 +3698,8 @@
   "title": "Moradia T3 na Exclusiva Vila dos Príncipes no Praia d'El Rey Beach ...",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -3629,7 +3734,8 @@
   "title": "Moradia em Banda T2 - Pinheirinhos - Garagem",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -3658,7 +3764,8 @@
   "title": "Moradia T3 Totalmente remodelada em Setúbal",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -3699,7 +3806,8 @@
   "unfinished": false,
   "build_why": [
    "portal field market=primary (developer/new)"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -3738,7 +3846,8 @@
   "title": "Refúgio entre o Campo e o Mar: Moradia T3 com Piscina em Sesimbra",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -3777,7 +3886,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -3819,7 +3929,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -3858,7 +3969,8 @@
   "title": "Quintinha c/Moradia T2, Anexos | lote 1.945,80 m² | S. Pedro Cadeira",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -3897,7 +4009,8 @@
   "title": "Moradia em condomínio fechado com Piscina, Perto das Praias da Arrábid",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -3926,7 +4039,8 @@
   "title": "Moradia térrea em Salir do Porto",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -3973,7 +4087,8 @@
   "title": "Moradia T2 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -4008,7 +4123,8 @@
   "title": "Moradia T2+2 Lagoa de Albufeira          Por favor leia a descrição.",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -4036,7 +4152,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -4098,7 +4215,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -4137,7 +4255,8 @@
   "title": "Moradia T3 de topo, com garagem, lareira e logradouro, a poucos minuto",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -4176,7 +4295,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -4235,7 +4355,8 @@
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)",
    "portal field build year 2025"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -4274,7 +4395,8 @@
   "title": "Moradia isolada com terreno",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -4309,7 +4431,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -4340,7 +4463,8 @@
   "build_why": [
    "text: \"tinho.. incrivel moradia em construcao, localizada em famalicao\"",
    "text: \"moradia nova\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -4379,7 +4503,8 @@
   "title": "Entre o Mar da Nazaré e a Serenidade do Campo — Uma Moradia Contemporâ",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -4438,7 +4563,8 @@
   "title": "Moradia T3 isolada com garagem",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -4473,7 +4599,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -4508,7 +4635,8 @@
   "title": "Quinta  para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -4551,7 +4679,8 @@
   "title": "Terreno Urbano 511 m² com Moradia T2 (antigo T1) – Excelente oportu...",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -4579,7 +4708,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -4630,7 +4760,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -4669,7 +4800,8 @@
   "title": "Moradia T4 mais Anexo T1, com jardim, na Caparica",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -4704,7 +4836,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -4743,7 +4876,8 @@
   "title": "Moradia T4 Lourinhã",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -4778,7 +4912,8 @@
   "title": "MORADIA T2 LAGOA DE ALBUFEIRA",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -4806,7 +4941,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -4841,7 +4977,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -4880,7 +5017,8 @@
   "title": "Moradia T4 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -4915,7 +5053,8 @@
   "title": "Terreno com Moradia T4 com logradouro na Varzinha - Setúbal",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -4945,7 +5084,8 @@
   "unfinished": false,
   "build_why": [
    "text: \"a estrear\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -4973,7 +5113,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -5012,7 +5153,8 @@
   "title": "(RESERVADO) Moradia Familiar T6 Remodelada com 182,50m² em Setúbal...",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -5051,7 +5193,8 @@
   "title": "Moradia T2 duplex no Bom Sucesso Resort, em Óbidos",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -5104,7 +5247,8 @@
   "unfinished": false,
   "build_why": [
    "portal field market=primary (developer/new)"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -5143,7 +5287,8 @@
   "title": "Moradia T2 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -5181,7 +5326,8 @@
   "build_why": [
    "portal field build year 2026",
    "text: \"moradia nova\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -5220,7 +5366,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -5255,7 +5402,8 @@
   "title": "Moradia T3  com jardim, terraço e garagem em Silveira",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -5293,7 +5441,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -5328,7 +5477,8 @@
   "title": "Moradia perto da praia",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -5371,7 +5521,8 @@
   "title": "Moradia T2 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -5448,7 +5599,8 @@
   "build_why": [
    "portal field market=primary (developer/new)",
    "text: \"novo empreendimento\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -5493,7 +5645,8 @@
   "build_why": [
    "portal field market=primary (developer/new)",
    "text: \"novo empreendimento\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -5538,7 +5691,8 @@
   "build_why": [
    "portal field market=primary (developer/new)",
    "text: \"novo empreendimento\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -5583,7 +5737,8 @@
   "build_why": [
    "portal field market=primary (developer/new)",
    "text: \"novo empreendimento\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -5611,7 +5766,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -5639,7 +5795,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -5689,7 +5846,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -5728,7 +5886,8 @@
   "title": "Moradia térrea T4 em Atouguia da Baleia de 175 m2",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -5763,7 +5922,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -5802,7 +5962,8 @@
   "title": "Moradia T4 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -5831,7 +5992,8 @@
   "title": "Moradia T2 na Abóboda - S. Domingos de Rana",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -5869,7 +6031,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -5904,7 +6067,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -5939,7 +6103,8 @@
   "title": "Moradia T3+1 | 10 minutos da praia | Matas – Lourinhã",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -5990,7 +6155,8 @@
   "title": "Moradia térrea T3 com Piscina em Alfarim, a 5min. do Meco",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -6029,7 +6195,8 @@
   "title": "Moradia T5 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -6064,7 +6231,8 @@
   "title": "Moradia Espetacular entre Sesimbra e Meco — Zambujal de Cima",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -6103,7 +6271,8 @@
   "title": "Moradia isolada T4 com terreno, garagem e vistas para o campo",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -6152,7 +6321,8 @@
   "unfinished": false,
   "build_why": [
    "portal field build year 2025"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -6180,7 +6350,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -6218,7 +6389,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -6257,7 +6429,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -6297,8 +6470,10 @@
   "new_build": true,
   "unfinished": false,
   "build_why": [
-   "portal field build year 2026"
-  ]
+   "portal field build year 2026",
+   "text: \"moradia t4 nova\""
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -6335,11 +6510,12 @@
   "municipality": "Setúbal",
   "garden_yes": true,
   "title": "Moradia isolada T3 em Gâmbia-Pontes-Alto da Guerra de 126,05 m2",
-  "new_build": true,
+  "new_build": false,
   "unfinished": true,
   "build_why": [
    "text: \"projeto de remodelacao, imagens geradas por ia ilustrativas. val\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -6377,7 +6553,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -6416,7 +6593,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -6451,7 +6629,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -6486,7 +6665,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -6514,7 +6694,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -6551,9 +6732,9 @@
   "unfinished": true,
   "build_why": [
    "text: \"casa que vai receber. a previsao de conclusao e de aproximadamente 6 a\"",
-   "portal field market=primary (developer/new)",
-   "text: \"casa nova\""
-  ]
+   "portal field market=primary (developer/new)"
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -6588,7 +6769,8 @@
   "title": "Moradia T3 isolada com anexo e garagem em Brejos de Azeitão",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -6631,7 +6813,8 @@
   "title": "Moradia T2 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -6678,7 +6861,8 @@
    "text: \"imagens apresentadas sao meramente ilustrativas, correspondendo a imag\"",
    "portal field build year 2026",
    "text: \"a estrear\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -6713,7 +6897,8 @@
   "title": "Andar de moradia T3  com pátio á venda em Bicesse.",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -6750,8 +6935,11 @@
   "unfinished": true,
   "build_why": [
    "portal field construction_status=to_completion",
-   "portal field build year 2026"
-  ]
+   "text: \"das. trata-se de moradia por acabar, onde podera ainda escol\"",
+   "portal field build year 2026",
+   "text: \"das. trata-se de moradia por acabar, onde podera ainda escol\""
+  ],
+  "needs_work": true
  },
  {
   "section": "ready",
@@ -6785,7 +6973,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -6831,7 +7020,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -6866,7 +7056,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -6894,7 +7085,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -6933,7 +7125,8 @@
   "title": "Moradia T3 Térrea perto da Lourinhã",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -6972,7 +7165,10 @@
   "title": "Moradia T6 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [
+   "text: \"stimento ou habitacao, a necessitar de remodelacoes totais. com um quinta\""
+  ],
+  "needs_work": true
  },
  {
   "section": "ready",
@@ -7015,7 +7211,8 @@
   "title": "Moradia T4 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -7050,7 +7247,8 @@
   "title": "Moradia T4 + T2 - Terreno com 4.400 m2 - São Martinho do Porto",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -7089,7 +7287,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -7124,7 +7323,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -7167,7 +7367,8 @@
   "title": "Moradia T4 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -7210,7 +7411,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -7238,7 +7440,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -7273,7 +7476,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -7301,7 +7505,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -7329,7 +7534,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -7357,7 +7563,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -7385,7 +7592,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -7413,7 +7621,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -7441,7 +7650,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -7475,7 +7685,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -7503,7 +7714,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -7552,7 +7764,8 @@
   "unfinished": false,
   "build_why": [
    "portal field build year 2025"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -7593,7 +7806,8 @@
   "unfinished": false,
   "build_why": [
    "portal field build year 2026"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -7632,7 +7846,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -7666,7 +7881,11 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [
+   "text: \"tado usado, de origem, a necessitar de remodelacao. esta caracteristica r\"",
+   "portal field condition=para obras"
+  ],
+  "needs_work": true
  },
  {
   "section": "ready",
@@ -7705,7 +7924,8 @@
   "title": "Moradia T3 com piscina e jardim, a poucos minutos de Lisboa.",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -7744,7 +7964,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -7779,7 +8000,8 @@
   "title": "Moradia \"Nova\" T2 Térrea e com logradouro - 6km Centro Torres Vedras",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -7807,7 +8029,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -7849,7 +8072,8 @@
   "build_why": [
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -7888,7 +8112,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -7923,7 +8148,8 @@
   "title": "Moradia T3 para Renovar | Vau, Óbidos",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -7962,7 +8188,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -8001,7 +8228,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -8128,7 +8356,8 @@
   "title": "Moradia T3+1 em Azeitão com quintal e cave",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -8163,7 +8392,8 @@
   "title": "Moradia T3+1 em Vila Nogueira de Azeitão",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -8198,7 +8428,8 @@
   "title": "Quinta Rural no Alentejo — Espaço, Privacidade e Autonomia",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -8233,7 +8464,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -8267,7 +8499,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -8305,7 +8538,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -8340,7 +8574,8 @@
   "title": "MORADIA T3 +1 com Cave, Rés do Chão e Terreno | Batalha",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -8391,7 +8626,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -8429,7 +8665,8 @@
   "build_why": [
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -8457,7 +8694,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -8485,7 +8723,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -8535,7 +8774,8 @@
    "portal field construction_status=to_completion",
    "portal field build year 2027 (future)",
    "portal field market=primary (developer/new)"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -8570,7 +8810,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -8598,7 +8839,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -8626,7 +8868,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -8668,7 +8911,8 @@
   "build_why": [
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -8703,7 +8947,8 @@
   "title": "Moradia T3 116m2 + Pavilhão 198 m2 + Anexos 114m2 e Terreno de 976 m2",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -8769,7 +9014,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -8797,7 +9043,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -8825,7 +9072,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -8864,7 +9112,8 @@
   "title": "Excelente Moradia T3 Térrea",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -8900,7 +9149,8 @@
   "unfinished": false,
   "build_why": [
    "portal field build year 2026"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -8928,7 +9178,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -8978,7 +9229,8 @@
    "text: \"para setembro de 2026 e conclusao estimada para agosto de 2027, est\"",
    "text: \"de 2026 e conclusao estimada para agosto de 2027, est\"",
    "text: \"construcao nova\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -9022,7 +9274,8 @@
    "text: \"de 2026 e conclusao estimada para agosto de 2027 , es\"",
    "portal field market=primary (developer/new)",
    "portal field build year 2026"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -9057,7 +9310,8 @@
   "title": "Moradia Te em Cabriz, Sintra",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -9086,7 +9340,8 @@
   "title": "PROPRIEDADE RURAL COM POTÊNCIAL TURÍSTICO",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -9114,7 +9369,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -9148,7 +9404,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -9176,7 +9433,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -9215,7 +9473,8 @@
   "title": "Moradia T4 na Urbanização Quinta do Pinheiro Manso – Caldas da Rainha",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -9252,8 +9511,9 @@
   "unfinished": false,
   "build_why": [
    "portal field market=primary (developer/new)",
-   "text: \"moradia nova\""
-  ]
+   "text: \"moradia t3 nova\""
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -9281,7 +9541,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -9319,7 +9580,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -9347,7 +9609,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -9386,7 +9649,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -9449,7 +9713,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -9477,7 +9742,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -9508,7 +9774,8 @@
   "build_why": [
    "text: \"al – cela nova, alcobaca previsao de conclusao: abril 2027 se procura o\"",
    "text: \"evisao de conclusao: abril 2027 se p\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -9542,7 +9809,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -9570,7 +9838,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -9605,7 +9874,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -9633,7 +9903,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -9668,7 +9939,8 @@
   "title": "Excelente Moradia t3 + 1 .. Obidos ....Venha conhecer !!",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -9707,7 +9979,8 @@
   "title": "Moradia para reconstrução | 396 m² | Lote 529 m² | Freiria, Torres Ved",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -9735,7 +10008,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -9774,7 +10048,8 @@
   "title": "Oportunidade Única no Centro das Caldas da Rainha: Moradia T4 com T...",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -9813,7 +10088,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -9852,7 +10128,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -9880,7 +10157,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -9908,7 +10186,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -9947,7 +10226,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -9977,7 +10257,8 @@
   "unfinished": false,
   "build_why": [
    "text: \"a estrear\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -10019,7 +10300,8 @@
   "build_why": [
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -10054,7 +10336,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -10093,7 +10376,8 @@
   "title": "Moradia T4 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -10122,7 +10406,8 @@
   "title": "Moradia T3  em Azeitão",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -10165,7 +10450,8 @@
   "title": "Moradia T3 inserida num lote de 422m2 - POTENCIAL HABITACIONAL - Ca...",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -10199,7 +10485,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -10237,7 +10524,8 @@
   "build_why": [
    "portal field build year 2025",
    "text: \"moradia nova\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -10266,7 +10554,8 @@
   "title": "Moradia T3 Malveira lote 250m2, garagem, jardim e terraço",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -10301,7 +10590,8 @@
   "title": "Moradia M5 Vila Verde - Sintra",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -10333,11 +10623,12 @@
   "id": "b7ab5dd2e1",
   "municipality": "Seixal",
   "garden_yes": true,
-  "new_build": true,
+  "new_build": false,
   "unfinished": true,
   "build_why": [
    "text: \"lacao. estas imagens sao meramente ilustrativas e nao correspondem ao\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -10365,7 +10656,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -10411,7 +10703,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -10451,7 +10744,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -10487,7 +10781,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -10516,7 +10811,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -10552,7 +10848,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -10592,7 +10889,8 @@
   "title": "INVESTIMENTO OU CASA DE SONHO? AQUI TEM OS DOIS - Moradia Caldas da Ra",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -10632,7 +10930,8 @@
   "title": "Moradia T2 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -10671,7 +10970,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -10700,7 +11000,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -10729,7 +11030,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -10761,7 +11063,8 @@
   "unfinished": false,
   "build_why": [
    "text: \"moradia nova\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -10797,7 +11100,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -10826,7 +11130,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -10856,7 +11161,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -10885,7 +11191,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -10921,7 +11228,8 @@
   "title": "Moradia T5 em banda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -10957,7 +11265,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -11021,7 +11330,8 @@
   "title": "Casa / Villa T3 em Santa Maria, São Pedro e Sobral da Lagoa de 150 m2",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -11056,7 +11366,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -11085,7 +11396,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -11122,7 +11434,8 @@
   "unfinished": false,
   "build_why": [
    "text: \"moradia nova\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -11161,7 +11474,8 @@
   "title": "Moradia T2 +1 com garagem para 2 carros Coto,Caldas da Rainha",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -11201,7 +11515,8 @@
   "title": "FREIRIA. TORRES VEDRAS – Moradia T3+2 remodelada com vista desafogada",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -11237,7 +11552,8 @@
   "title": "Excelente T3! Vista Rio",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -11276,7 +11592,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -11311,7 +11628,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -11340,7 +11658,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -11370,7 +11689,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -11412,7 +11732,8 @@
   "unfinished": false,
   "build_why": [
    "text: \"a estrear\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -11448,7 +11769,8 @@
   "title": "Andar de moradia T2 com Terreno, Terraço e Anexos em Sintra",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -11488,7 +11810,8 @@
   "title": "Moradia T2 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -11517,7 +11840,10 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [
+   "portal field condition=para obras"
+  ],
+  "needs_work": true
  },
  {
   "section": "ready",
@@ -11558,7 +11884,8 @@
   "unfinished": true,
   "build_why": [
    "text: \"s e portoes automaticos. conclusao da obra prevista para o segundo trimestre\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -11587,7 +11914,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -11616,7 +11944,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -11645,7 +11974,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -11674,7 +12004,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -11714,7 +12045,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -11743,7 +12075,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -11798,7 +12131,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -11834,7 +12168,8 @@
   "title": "Moradia T3 Térrea: Conforto, Autenticidade e Tranquilidade | Mafra",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -11874,7 +12209,8 @@
   "title": "Moradia T2 com Charme e Espaço Exterior Privativo",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -11914,7 +12250,8 @@
   "title": "**EXCELENTE OPORTUNIDADE DE INVESTIMENTO NA LOURINHÃ**",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -11943,7 +12280,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -11972,7 +12310,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -12001,7 +12340,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -12037,7 +12377,8 @@
   "title": "Moradia Térrea com 2703 m2 de Terreno | Albarraque",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -12068,7 +12409,8 @@
   "unfinished": false,
   "build_why": [
    "text: \"moradia nova\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -12108,7 +12450,8 @@
   "title": "Moradia T5 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -12148,7 +12491,8 @@
   "title": "Moradia T3 localizada na aldeia de Cheleiros - Mafra",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -12177,7 +12521,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -12206,7 +12551,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -12246,7 +12592,8 @@
   "title": "Moradia isolada em Pataias e Martingança de 210 m2",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -12290,7 +12637,8 @@
   "title": "Moradia T4 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -12326,7 +12674,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -12355,7 +12704,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -12391,7 +12741,8 @@
   "title": "Moradia T4 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -12437,7 +12788,8 @@
    "text: \"evisao de conclusao da obra: fevereiro de 2027 cons\"",
    "portal field build year 2026",
    "text: \"construcao nova\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -12473,7 +12825,8 @@
   "title": "Moradia T4 | Abrunheira",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -12509,7 +12862,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -12549,7 +12903,8 @@
   "title": "Moradia T2 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -12584,7 +12939,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -12613,7 +12969,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -12642,7 +12999,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -12671,7 +13029,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -12707,7 +13066,8 @@
   "title": "Moradia T5 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -12754,7 +13114,8 @@
   "build_why": [
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -12811,7 +13172,8 @@
    "portal field build year 2027 (future)",
    "portal field market=primary (developer/new)",
    "portal field build year 2027"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -12871,7 +13233,8 @@
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)",
    "portal field build year 2026"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -12978,7 +13341,8 @@
   "build_why": [
    "portal field market=primary (developer/new)",
    "portal field build year 2026"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -13020,8 +13384,10 @@
   "unfinished": false,
   "build_why": [
    "portal field market=primary (developer/new)",
-   "portal field build year 2026"
-  ]
+   "portal field build year 2026",
+   "text: \"moradia t3 nova\""
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -13064,7 +13430,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -13115,7 +13482,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -13152,9 +13520,9 @@
   "unfinished": true,
   "build_why": [
    "text: \"oderna, nova e versatil! previsao de conclusao da construcao outubro de\"",
-   "text: \"evisao de conclusao da construcao outubro de 2026. uma\"",
-   "text: \"casa nova\""
-  ]
+   "text: \"evisao de conclusao da construcao outubro de 2026. uma\""
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -13183,7 +13551,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -13223,7 +13592,8 @@
   "title": "Moradia Térrea T3 c/ Piscina Privativa e Parqueamento",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -13263,7 +13633,8 @@
   "title": "MORADIA TÉRREA COM GARAGEM, TORRES VEDRAS",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -13292,7 +13663,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -13328,7 +13700,8 @@
   "title": "Terreno com Projeto Aprovado no centro do Livramento, em Mafra",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -13357,7 +13730,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -13386,7 +13760,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -13418,7 +13793,8 @@
   "build_why": [
    "text: \"com imensa luz natural, pronta a habitar em dezembro de 2026 res do chao: - s\"",
    "text: \"natural, pronta a habitar em dezembro de 2026 res\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -13453,7 +13829,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -13491,7 +13868,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -13534,7 +13912,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -13597,7 +13976,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -13633,7 +14013,8 @@
   "title": "Moradia isolada com amplo terreno de 1.350 m², junto a Alcobaça",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -13681,7 +14062,8 @@
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)",
    "portal field build year 2025"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -13721,7 +14103,8 @@
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)",
    "portal field build year 2025"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -13765,7 +14148,8 @@
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)",
    "portal field build year 2025"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -13801,7 +14185,8 @@
   "title": "Fantástica Moradia T4 Gaeiras - Óbidos",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -13839,7 +14224,8 @@
   "unfinished": false,
   "build_why": [
    "text: \"nova construcao\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -13868,7 +14254,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -13905,7 +14292,8 @@
   "unfinished": false,
   "build_why": [
    "text: \"urbanizacao nova\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -13945,7 +14333,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -13981,7 +14370,8 @@
   "title": "Moradia totalmente remodelada",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -14036,7 +14426,8 @@
   "title": "Moradia T3 Quinta do Conde",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -14072,7 +14463,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -14102,7 +14494,8 @@
   "title": "Moradia V1",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -14142,7 +14535,8 @@
   "title": "Moradia T2 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -14171,7 +14565,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -14227,7 +14622,8 @@
   "title": "Moradia Geminada de dois pisos T3 com Garagem",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -14263,7 +14659,8 @@
   "title": "EXCELENTE MORADIA T3 NA QUINTA DO CONDE",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -14345,7 +14742,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -14374,7 +14772,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -14404,7 +14803,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -14463,7 +14863,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -14492,7 +14893,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -14532,7 +14934,8 @@
   "title": "Moradia no Centro das Gaeiras. Uma casa única.",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -14572,7 +14975,8 @@
   "title": "Moradia T4 em Agualva-Cacém (RESERVADO)",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -14617,7 +15021,8 @@
    "portal field market=primary (developer/new)",
    "portal field build year 2026",
    "text: \"moradia nova\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -14653,7 +15058,8 @@
   "title": "Moradia T3 para recuperar em Carvalhal Benfeito, Caldas da Rainha",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -14692,7 +15098,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -14721,7 +15128,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -14757,7 +15165,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -14797,7 +15206,8 @@
   "title": "Moradia T6 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -14835,7 +15245,8 @@
   "unfinished": false,
   "build_why": [
    "portal field build year 2026"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -14900,7 +15311,8 @@
    "portal field build year 2027 (future)",
    "portal field market=primary (developer/new)",
    "portal field build year 2027"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -14940,7 +15352,8 @@
   "title": "Moradia Geminada T3 com Terraço de 30 m², Quintal com Churrasqueira e",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -14976,7 +15389,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -15024,7 +15438,8 @@
   "title": "MORADIA GEMINADA T3 | QUINTA DO CONDE",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -15060,7 +15475,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -15089,7 +15505,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -15129,7 +15546,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -15165,7 +15583,8 @@
   "title": "Moradia em Banda T3 Venda em Cercal,Santiago do Cacém",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -15200,7 +15619,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -15243,7 +15663,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -15272,7 +15693,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -15308,7 +15730,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -15337,7 +15760,8 @@
   "title": "Moradia T3 Duplex Venda 365.000 € em Alcobaça, Alfeizerão",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -15366,7 +15790,8 @@
   "title": "Moradia T4 Duplex Venda 450.000 € em Alcobaça, Alfeizerão, Valado de Santa Quitéria",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -15395,7 +15820,8 @@
   "title": "Moradia T3 Venda 430.000 € em Caldas da Rainha, Tornada e Salir do Porto",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -15424,7 +15850,8 @@
   "title": "Moradia T3 Venda 459.000 € em Caldas da Rainha, Tornada e Salir do Porto",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -15453,7 +15880,8 @@
   "title": "Moradia T2 Venda 350.000 € em Peniche, Peniche",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -15491,7 +15919,8 @@
   "coord_note": "approx. – centre of Sobral, Lourinhã",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -15529,7 +15958,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -15560,7 +15990,8 @@
   "unfinished": false,
   "build_why": [
    "portal field condition=new"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -15589,7 +16020,8 @@
   "title": "Moradia T2 Venda 450.000 € em Torres Vedras, Silveira",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -15618,7 +16050,8 @@
   "title": "Moradia T2+2 Duplex Venda 420.000 € em Torres Vedras, A dos Cunhados, Póvoa de Penafirme",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -15647,7 +16080,10 @@
   "title": "Moradia T5+2 Venda 400.000 € em Torres Vedras, Silveira, Boavista",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [
+   "text: \"grande e garagem. casa a precisar de obras. o terreno da para divid\""
+  ],
+  "needs_work": true
  },
  {
   "section": "ready",
@@ -15690,7 +16126,8 @@
   "title": "Moradia T3 Venda 350.000 € em Torres Vedras, Carvoeira e Carmões",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -15719,7 +16156,10 @@
   "title": "Moradia T3 Duplex Venda 375.000 € em Mafra, Encarnação",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [
+   "text: \"esta a precisar de umas obras de remodelacao. moradia t3 de arquitetu\""
+  ],
+  "needs_work": true
  },
  {
   "section": "ready",
@@ -15754,7 +16194,11 @@
   "title": "Moradia T2 Venda 350.000 € em Cascais, São Domingos de Rana",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [
+   "text: \"no 377 m2 com moradia t3 a recuperar sem licenca de utilizaca\"",
+   "portal field condition=por recuperar"
+  ],
+  "needs_work": true
  },
  {
   "section": "ready",
@@ -15783,7 +16227,8 @@
   "title": "Moradia T3 Venda 445.000 € em Cascais, São Domingos de Rana",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -15812,7 +16257,8 @@
   "title": "Moradia T6 Venda 450.000 € em Almada, Caparica e Trafaria",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -15847,7 +16293,10 @@
   "title": "Casa Geminada T2 Venda 390.000 € em Almada, Almada, Cova da Piedade, Pragal e Cacilhas",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [
+   "text: \"data de 1970 e o imovel necessita de obras de renovacao, o que repr\""
+  ],
+  "needs_work": true
  },
  {
   "section": "ready",
@@ -15876,7 +16325,8 @@
   "title": "Moradia T2 Venda 450.000 € em Almada, Charneca de Caparica e Sobreda, Botequim",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -15905,7 +16355,8 @@
   "title": "Moradia T4 Venda 385.000 € em Sesimbra, Quinta do Conde",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -15935,8 +16386,10 @@
   "new_build": true,
   "unfinished": false,
   "build_why": [
-   "portal field condition=new"
-  ]
+   "portal field condition=new",
+   "text: \"moradia t2 nova\""
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -15967,7 +16420,8 @@
   "unfinished": false,
   "build_why": [
    "text: \"moradia nova\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -15997,8 +16451,10 @@
   "new_build": true,
   "unfinished": false,
   "build_why": [
-   "portal field condition=new"
-  ]
+   "portal field condition=new",
+   "text: \"moradia t2 nova\""
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -16033,7 +16489,8 @@
   "title": "Andar de Moradia T3 Duplex Venda 360.000 € em Sesimbra, Quinta do Conde",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -16062,7 +16519,8 @@
   "title": "Moradia Isolada T4 Duplex Venda 430.000 € em Sesimbra, Quinta do Conde, Conde II",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -16091,7 +16549,8 @@
   "title": "Andar de Moradia T6 Venda 398.000 € em Sesimbra, Quinta do Conde",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -16120,7 +16579,8 @@
   "title": "Moradia T3 Venda 360.000 € em Sesimbra, Sesimbra (Castelo), Zambujal",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -16149,7 +16609,8 @@
   "title": "Casa Antiga T5 Venda 400.000 € em Setúbal, União das Freguesias de Setúbal, Avenida Luísa Todi",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -16184,7 +16645,8 @@
   "title": "Moradia T3 Venda 350.000 € em Grândola, Grândola e Santa Margarida da Serra",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -16219,7 +16681,8 @@
   "title": "Moradia T2 Venda 460.000 € em Grândola, Grândola e Santa Margarida da Serra, Grândola",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -16248,7 +16711,8 @@
   "title": "Moradia T7 Venda 370.000 € em Grândola, Azinheira Barros e São Mamede do Sádão",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -16281,11 +16745,12 @@
   "coord_approx": true,
   "coord_note": "approx. – centre of Grândola e Santa Margarida da Serra, Grândola",
   "title": "Moradia T7 Venda 475.000 € em Grândola, Grândola e Santa Margarida da Serra",
-  "new_build": true,
+  "new_build": false,
   "unfinished": true,
   "build_why": [
    "text: \"funcional; - mais um t3 em fase de construcao, permitindo aumentar a c\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -16314,7 +16779,8 @@
   "title": "Moradia T5 Duplex Venda 425.000 € em Santiago do Cacém, Ermidas-Sado, Centro",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -16349,7 +16815,8 @@
   "title": "Moradia T3 Venda 430.000 € em Santiago do Cacém, Santiago do Cacém, S.Cruz e S.Bartolomeu da Serra, Santiago do Cacém",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -16388,7 +16855,8 @@
   "title": "Moradia Geminada T5 Venda 365.000 € em Santiago do Cacém, Alvalade",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -16415,11 +16883,12 @@
   "coord_approx": true,
   "coord_note": "approx. – centre of Abela, Santiago do Cacém",
   "title": "Moradia T5 Venda 465.000 € em Santiago do Cacém, Abela",
-  "new_build": true,
+  "new_build": false,
   "unfinished": false,
   "build_why": [
-   "portal field condition=new"
-  ]
+   "manual review: built 1992 (portal 'Novo' is wrong); photos show an unoccupied, unfinished-looking house – bare wiring, no light fittings, weathered exterior, overgrown plot"
+  ],
+  "needs_work": true
  },
  {
   "section": "ready",
@@ -16448,7 +16917,8 @@
   "title": "Moradia T3 Venda 420.000 € em Santiago do Cacém, São Francisco da Serra, Roncão",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -16477,7 +16947,8 @@
   "title": "Moradia T3 Triplex Venda 438.000 € em Sines, Sines",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -16506,7 +16977,8 @@
   "title": "Moradia T5 Venda 150.000 € em Nazaré, Famalicão",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -16535,7 +17007,8 @@
   "title": "Casa Antiga  Venda 185.000 € em Lourinhã, Lourinhã",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "reno",
@@ -16564,7 +17037,8 @@
   "title": "Moradia  Venda 185.000 € em Grândola, Grândola e Santa Margarida da Serra",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -16593,7 +17067,8 @@
   "title": null,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -16622,7 +17097,8 @@
   "title": null,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -16662,7 +17138,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -16716,7 +17193,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -16754,7 +17232,8 @@
   "build_why": [
    "text: \"e acabamentos.<br><br>as fotos usadas no anuncio (interior da moradia) pertencem a uma moradia vendida e servem apenas como exe\"",
    "text: \"urbanizacao nova\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -16790,7 +17269,8 @@
   "title": "Moradia T4 com cave, garagem e quintal no centro de Peniche",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -16826,7 +17306,8 @@
   "title": "Grande moradia T5+1, piscina, jardim, garagem, sótão e anexo, Peniche",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -16866,7 +17347,8 @@
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)",
    "text: \"urbanizacao nova\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -16913,7 +17395,8 @@
   "title": "Moradia T4 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -16949,7 +17432,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -16977,7 +17461,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -17017,7 +17502,8 @@
   "unfinished": false,
   "build_why": [
    "text: \"construcao nova\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -17055,7 +17541,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -17097,7 +17584,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -17126,7 +17614,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -17165,7 +17654,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -17205,7 +17695,8 @@
   "title": "Moradia T4 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -17244,7 +17735,8 @@
   "title": "Moradia de Gaveto T3 no Centro da Charneca da Caparica",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -17287,7 +17779,8 @@
   "title": "Moradia Isolada T2+2 no Casalão, Vista Deslumbrante sobre Cascais",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -17323,7 +17816,8 @@
   "title": "Moradia T3 com piscina e vista para a lagoa",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -17358,7 +17852,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -17409,7 +17904,8 @@
   "title": "Moradia T3 em condomínio fechado c/ piscina - SESIMBRA.",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -17447,7 +17943,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -17498,7 +17995,8 @@
   "title": "Moradia para venda em Óbidos",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -17542,7 +18040,8 @@
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)",
    "portal field build year 2025"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -17587,8 +18086,10 @@
   "new_build": true,
   "unfinished": false,
   "build_why": [
-   "portal field market=primary (developer/new)"
-  ]
+   "portal field market=primary (developer/new)",
+   "text: \"moradia t3 nova\""
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -17624,7 +18125,8 @@
   "title": "Moradia T3 Venda em Encarnação,Mafra",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -17671,7 +18173,8 @@
    "portal field build year 2027 (future)",
    "portal field market=primary (developer/new)",
    "portal field build year 2027"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -17738,7 +18241,8 @@
   "title": "Moradia T3 em Banda com Jardim em Sesimbra",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -17772,7 +18276,8 @@
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)",
    "portal field build year 2026"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -17808,7 +18313,8 @@
   "title": "Moradia T4 com Piscina em Sesimbra | A 10 min das Praias",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -17845,7 +18351,8 @@
   "unfinished": true,
   "build_why": [
    "portal field construction_status=to_completion"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -17884,7 +18391,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -17926,7 +18434,8 @@
   "build_why": [
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -17961,7 +18470,8 @@
   "title": "MORADIA em Alto Veríssimo, Peniche",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -17996,7 +18506,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18030,7 +18541,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18077,7 +18589,8 @@
   "build_why": [
    "portal field market=primary (developer/new)",
    "text: \"novo empreendimento\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18117,7 +18630,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18153,7 +18667,8 @@
   "title": "Moradia T4 Vista Mar",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18188,7 +18703,8 @@
   "title": "Oportunidade com possibilidade de ocupação imediata.na Costa Oeste",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18227,7 +18743,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18262,7 +18779,8 @@
   "title": "Moradia T3 para Venda em Vale Milhaços",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18297,7 +18815,8 @@
   "title": "Moradia T3 com garagem e jardim, em Corroios",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18331,7 +18850,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18371,7 +18891,8 @@
   "unfinished": false,
   "build_why": [
    "text: \"moradia nova\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18399,7 +18920,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18427,7 +18949,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18455,7 +18978,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18523,8 +19047,10 @@
   "new_build": true,
   "unfinished": false,
   "build_why": [
-   "portal field market=primary (developer/new)"
-  ]
+   "portal field market=primary (developer/new)",
+   "text: \"moradia t4 nova\""
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18561,7 +19087,8 @@
   "unfinished": false,
   "build_why": [
    "portal field build year 2026"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18589,7 +19116,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18639,8 +19167,10 @@
   "unfinished": false,
   "build_why": [
    "portal field market=primary (developer/new)",
-   "portal field build year 2026"
-  ]
+   "portal field build year 2026",
+   "text: \"moradia t4 nova\""
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18679,7 +19209,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18707,7 +19238,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18745,7 +19277,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18776,7 +19309,8 @@
   "unfinished": true,
   "build_why": [
    "portal field construction_status=to_completion"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18805,7 +19339,8 @@
   "title": "SESIMBRA - ALTO DAS VINHAS - MORADIA ISOLADA, SÓTÃO, ANEXO, PISCINA...",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18839,7 +19374,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18868,7 +19404,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18902,7 +19439,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18941,7 +19479,8 @@
   "title": "Moradia T4 +1 com piscina totalmente remodelada com painéis solares na",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -18980,7 +19519,8 @@
   "title": "Moradia T5 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19015,7 +19555,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19043,7 +19584,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19072,7 +19614,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19111,7 +19654,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19150,7 +19694,8 @@
   "title": "“Uma casa para viver — Moradia T4 Isolada com Jardim - Garagem - Terra",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19179,7 +19724,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19215,7 +19761,8 @@
   "title": "Moradia em Banda T3, Sesimbra",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19250,7 +19797,8 @@
   "title": "Moradia T4 nas Alfambras",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19284,7 +19832,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19323,7 +19872,8 @@
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)",
    "text: \"moradia nova\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19352,7 +19902,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19387,7 +19938,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19416,7 +19968,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19451,7 +20004,8 @@
   "title": "Moradia T3 Deixa o Resto com piscina",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19480,7 +20034,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19508,7 +20063,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19550,7 +20106,8 @@
    "text: \"de acordo com o projeto. previsao de conclusao da obra: verao de 2027.\"",
    "text: \"ao seu perfil. nota: as fotos com a casa ja construida sao meramente ilustrativas, foram criadas por int\"",
    "text: \"evisao de conclusao da obra: verao de 2027. cat\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19585,7 +20142,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19620,7 +20178,8 @@
   "title": "Moradia T3 com 6.875 m² de terreno em Sobral da Abelheira, Mafra",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19648,7 +20207,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19676,7 +20236,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19704,7 +20265,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19740,7 +20302,8 @@
   "unfinished": false,
   "build_why": [
    "text: \"nova construcao\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19775,7 +20338,8 @@
   "title": "Moradia em banda T3 remodelada com sótão no Feijó",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19812,7 +20376,8 @@
   "unfinished": false,
   "build_why": [
    "portal field market=primary (developer/new)"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19857,7 +20422,8 @@
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)",
    "portal field build year 2026"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19902,7 +20468,8 @@
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)",
    "portal field build year 2026"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19947,7 +20514,8 @@
   "build_why": [
    "text: \"idos as principais vias. previsao de conclusao de construcao, final de\"",
    "text: \"evisao de conclusao de construcao, final de 2026 comp\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -19983,7 +20551,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -20011,7 +20580,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -20048,7 +20618,8 @@
   "unfinished": false,
   "build_why": [
    "text: \"construcao nova\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -20083,7 +20654,8 @@
   "title": "Moradia Geminada T3+1 com Excelente Logradouro, Garagem e Sótão | B...",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -20117,7 +20689,10 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [
+   "text: \"mento de sotao. o imovel necessita de remodelacao, mas e precisamente ai\""
+  ],
+  "needs_work": true
  },
  {
   "section": "ready",
@@ -20162,7 +20737,8 @@
   "unfinished": false,
   "build_why": [
    "portal field market=primary (developer/new)"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -20199,7 +20775,8 @@
   "unfinished": false,
   "build_why": [
    "portal field market=primary (developer/new)"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -20253,7 +20830,8 @@
   "build_why": [
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -20299,7 +20877,8 @@
   "build_why": [
    "portal field market=primary (developer/new)",
    "portal field build year 2025"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -20327,7 +20906,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -20367,7 +20947,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -20406,7 +20987,8 @@
   "title": "Moradia T2 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -20440,7 +21022,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -20468,7 +21051,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -20506,8 +21090,10 @@
   "unfinished": true,
   "build_why": [
    "portal field construction_status=to_completion",
-   "portal field market=primary (developer/new)"
-  ]
+   "portal field market=primary (developer/new)",
+   "text: \"moradia t4 nova\""
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -20535,7 +21121,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -20575,7 +21162,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -20610,7 +21198,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -20665,7 +21254,8 @@
   "build_why": [
    "portal field build year 2026",
    "text: \"moradia nova\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -20707,7 +21297,8 @@
   "build_why": [
    "text: \"redondos, fernao ferro. previsao de conclusao da construcao em maio de\"",
    "text: \"evisao de conclusao da construcao em maio de 2027. r/c\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -20743,7 +21334,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -20783,7 +21375,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -20818,7 +21411,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -20847,7 +21441,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -20883,7 +21478,8 @@
   "title": "Moradia junto a Óbidos | 222 m2, garagem, sótão e excelente espaço ext",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -20918,7 +21514,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -20947,7 +21544,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -20998,7 +21596,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21027,7 +21626,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21067,7 +21667,8 @@
   "title": "Moradia T4 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21103,7 +21704,8 @@
   "title": "Venda de Moradia Bi-Familiar Devoluta em  Almada com Logradouro e Anex",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21132,7 +21734,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21161,7 +21764,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21197,7 +21801,8 @@
   "title": "Anúncio Century 21 Portugal",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21245,7 +21850,8 @@
   "title": "Moradia isolada T3 com piscina",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21274,7 +21880,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21313,7 +21920,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21348,7 +21956,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21391,7 +22000,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21420,7 +22030,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21456,7 +22067,8 @@
   "title": "A Jóia de Óbidos | Moradia Exclusiva com Terreno Amplo e Jacuzzi Priva",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21491,7 +22103,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21531,7 +22144,8 @@
   "title": "Casa / Villa T4 em Santa Maria, São Pedro e Sobral da Lagoa de 256,00",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21571,7 +22185,8 @@
   "title": "Moradia Geminada T3 + Sótão com 2 divisões - FERNÃO FERRO",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21607,7 +22222,8 @@
   "title": "FERNÃO FERRO - MORADIA T3 de 2023",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21636,7 +22252,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21665,7 +22282,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21705,7 +22323,8 @@
   "title": "Moradia T3 na Costa de Prata | Piscina, Privacidade e Natureza",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21771,7 +22390,8 @@
   "build_why": [
    "text: \"das com ia, pelo que sao meramente ilustrativas. moradia t3 na quinta\"",
    "text: \"moradia nova\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21819,7 +22439,8 @@
   "title": "Moradia T3 com Piscina e Terreno em Osseira - Carvalhal Benfeito",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21848,7 +22469,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21886,7 +22508,8 @@
   "build_why": [
    "text: \"om piscina. fernao ferro previsao de conclusao para setembro/outubro de\"",
    "text: \"evisao de conclusao para setembro/outubro de 2026 comp\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21918,7 +22541,8 @@
   "build_why": [
    "text: \"om pergola. fernao ferro previsao de conclusao para dezembro de 2026 ne\"",
    "text: \"evisao de conclusao para dezembro de 2026 nest\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21956,7 +22580,8 @@
   "build_why": [
    "text: \"om garagem. fernao ferro previsao de conclusao para dezembro de 2026 ne\"",
    "text: \"evisao de conclusao para dezembro de 2026 nest\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -21991,7 +22616,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -22026,7 +22652,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -22055,7 +22682,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -22095,7 +22723,8 @@
   "title": "Moradia T5 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -22135,7 +22764,8 @@
   "title": "Mouradia Geminada em Lote 500mt , Sala.Coz.Quarto em Suite 25mts. 4WC.",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -22170,7 +22800,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -22221,7 +22852,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -22269,7 +22901,8 @@
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)",
    "portal field build year 2025"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -22305,7 +22938,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -22341,7 +22975,8 @@
   "title": "Moradia T3 para venda",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -22377,7 +23012,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -22413,7 +23049,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -22448,7 +23085,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -22483,7 +23121,10 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [
+   "text: \"nforto e espaco. mesmo a precisar de obras de remodelacao, o imovel\""
+  ],
+  "needs_work": true
  },
  {
   "section": "ready",
@@ -22512,7 +23153,8 @@
   "garden_yes": true,
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -22548,7 +23190,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -22580,7 +23223,8 @@
   "build_why": [
    "portal field condition=new",
    "text: \"a estrear\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -22609,7 +23253,8 @@
   "coord_note": "approx. – centre of Casalinhos de Alfaiata, Torres Vedras",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -22649,7 +23294,8 @@
   "coord_note": "approx. – centre of Encarnação, Mafra",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -22679,7 +23325,8 @@
   "coord_note": "approx. – centre of Santo Isidoro, Mafra",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -22714,7 +23361,8 @@
   "coord_note": "approx. – centre of Colares, Sintra",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -22743,7 +23391,8 @@
   "coord_note": "approx. – centre of Carcavelos e Parede, Cascais",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -22778,7 +23427,8 @@
   "coord_note": "approx. – centre of Quinta do Conde, Sesimbra",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -22842,7 +23492,8 @@
    "text: \"em quinta do conde, com entrega prevista para o primeiro trimestr\"",
    "text: \"onde, com entrega prevista para o primeiro trimestre de 2027. mor\"",
    "portal field condition=new"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -22878,7 +23529,8 @@
   "coord_note": "approx. – centre of Sesimbra, Sesimbra",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -22908,7 +23560,8 @@
   "coord_note": "approx. – centre of Melides, Grândola",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -22937,7 +23590,8 @@
   "coord_note": "approx. – centre of Grândola e Santa Margarida da Serra, Grândola",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -22988,7 +23642,8 @@
   "coord_note": "approx. – centre of São Francisco da Serra, Santiago do Cacém",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -23017,7 +23672,8 @@
   "coord_note": "approx. – centre of Santiago do Cacém, Santiago do Cacém",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -23046,7 +23702,8 @@
   "coord_note": "approx. – centre of Aljezur, Aljezur",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -23075,7 +23732,10 @@
   "coord_note": "approx. – centre of Igreja Nova, Aljezur",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [
+   "text: \"ermercados etc. o imovel necessita de algumas obras de recuperacao. marque j\""
+  ],
+  "needs_work": true
  },
  {
   "section": "ready",
@@ -23146,7 +23806,8 @@
   ],
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -23176,7 +23837,8 @@
   "coord_note": "approx. – centre of Quinta do Conde, Sesimbra",
   "new_build": false,
   "unfinished": false,
-  "build_why": []
+  "build_why": [],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -23218,8 +23880,9 @@
    "text: \"final de construcao, com conclusao prevista para o final de marco de\"",
    "text: \"and sea; completion was due end of march 2026, che\"",
    "portal field build year 2026",
-   "text: \"new build\""
-  ]
+   "text: \"moradia t2 nova\""
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -23281,7 +23944,8 @@
    "portal field build year 2027 (future)",
    "portal field market=primary (developer/new)",
    "portal field build year 2027"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -23323,7 +23987,8 @@
   "build_why": [
    "text: \"s. a moradia encontra-se em fase final de construcao, ideal para quem procura\"",
    "portal field build year 2025"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -23360,7 +24025,8 @@
   "build_why": [
    "text: \"uma elegante moradia t3 em fase de construcao, inserida num projeto ex\"",
    "portal field build year 2026"
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -23404,7 +24070,8 @@
    "text: \"quire a new villa, still under construction, with the possibility of\"",
    "portal field build year 2025",
    "text: \"moradia nova\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -23443,7 +24110,8 @@
    "text: \"geminada v4, atualmente em fase de construcao, com conclusao prevista\"",
    "text: \"fase de construcao, com conclusao prevista para 2027, ideal para qu\"",
    "text: \"ucao, com conclusao prevista para 2027, ide\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -23522,7 +24190,8 @@
    "text: \"aias, a 10 km da nazare, em fase de construcao, com previsao de conclus\"",
    "text: \"fase de construcao, com previsao de conclusao para final do primeiro s\"",
    "text: \"evisao de conclusao para final do primeiro semestre de 2027.. co\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -23555,8 +24224,9 @@
    "text: \"t3 moradia t3 em banda, em fase de construcao, pensada para quem procu\"",
    "text: \"presentada nas imagens e meramente ilustrativa e nao faz parte da vend\"",
    "text: \"duzida. a conclusao da obra esta prevista para o final de 2026 / in\"",
-   "text: \"casa nova\""
-  ]
+   "text: \"moradia nova\""
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -23595,7 +24265,8 @@
    "text: \"ia terrea geminada t1+2, em fase de construcao, inserida num... moradia\"",
    "text: \"olas. com conclusao e escritura previstas para o inicio de 2027, est\"",
    "text: \"moradia nova\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -23627,7 +24298,8 @@
   "build_why": [
    "text: \"vendo vivenda nova em fase de acabamentos v+ espaco para comercio\"",
    "text: \"vivenda nova\""
-  ]
+  ],
+  "needs_work": false
  },
  {
   "section": "ready",
@@ -23659,6 +24331,7 @@
   "build_why": [
    "text: \"t4 geminada, atualmente em fase de construcao, situada no concelho de\"",
    "portal field build year 2025"
-  ]
+  ],
+  "needs_work": false
  }
 ]
