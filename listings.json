@@ -2742,6 +2742,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/reservado-moradia-de-r-c-e-1-andar-a-3-minutos-da-praia-de-santa-c-IDJsFnC.html"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35201351/"
    }
   ],
   "new_build": false,
@@ -3414,36 +3418,6 @@
  },
  {
   "section": "ready",
-  "town": "São João das Lampas, São João das Lampas e Terrugem",
-  "typology": "T3",
-  "price": 410000,
-  "size": "75 m²",
-  "garden": "Yes – mentions 'logradouro' (check listing)",
-  "note": "Descubra esta encantadora moradia térrea situada na pitoresca aldeia de Fontanelas, uma das zonas mais procuradas da costa de Sintra, onde a tranquilidade do…",
-  "url": "https://www.imovirtual.com/pt/anuncio/pronto-para-escriturar-moradia-v2-com-logradouro-fontanelas-sintr-ID1ir9v",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 1.6,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjF6ZTFlMTh5ZTk4aDItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.PHUfpkTALWwxtonwoPuki4jf4NPTMR7tpCPWgi47KQQ/image;s=655x491;q=80",
-  "lat": 38.84921,
-  "lon": -9.43577,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 3,
-  "size_m2": 75,
-  "id": "791d86e50a",
-  "municipality": "Sintra",
-  "garden_yes": true,
-  "title": "Pronto para escriturar:  Moradia V2 com Logradouro | Fontanelas, Sintr",
-  "new_build": false,
-  "unfinished": false,
-  "build_why": [],
-  "needs_work": false
- },
- {
-  "section": "ready",
   "town": "Atouguia da Baleia",
   "typology": "T3",
   "price": 449000,
@@ -3838,6 +3812,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/setubal/imobiliario/moradias/excelente-moradia-t3-na-quinta-45422971"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/setubal/imobiliario/moradias/casa-villa-t3-em-quinta-do-c-45426225"
    }
   ],
   "id": "42cad83a96",
@@ -3961,6 +3939,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-moradia-t2-torres-vedras-sao-pedro-da-cadeira-6f095268-747b-11f1-ba38-060000000058.html"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35147600/"
    }
   ],
   "id": "387fd0af9f",
@@ -8939,6 +8921,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t3-116m2-pavilho-198-m2-anexos-114m2-e-terreno-de-976-m2-IDJvDEt.html"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35204779/"
    }
   ],
   "id": "5d0a8c8a64",
@@ -10332,6 +10318,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t3-3-com-amplos-estdios-terrao-e-churrasqueira-tima-e-IDIU1Zm.html"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35289868/"
    }
   ],
   "new_build": false,
@@ -13861,6 +13851,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/lisboa/imobiliario/moradias/moradia-t4-isolada-c-garagem-e-45201343"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35297581/"
    }
   ],
   "id": "5db09d7837",
@@ -15008,6 +15002,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-nova-t3-logradouro-quinta-do-conde-sesimbra-IDJmjeh.html"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/setubal/imobiliario/moradias/excelente-moradia-t3-na-quinta-45422971"
    }
   ],
   "id": "6cc1f54dc0",
@@ -15430,6 +15428,22 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-geminada-t3-quinta-do-conde-IDJvVav.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-geminada-t3-triplex-garagem-box-terrao-IDJmnGK.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-geminada-t3-triplex-garagem-box-terrao-IDJmnFC.html"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/setubal/imobiliario/moradias/moradia-geminada-t3-com-suite--45126214"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/setubal/imobiliario/moradias/moradia-geminada-t3-quinta-d-45187662"
    }
   ],
   "id": "7f3c649085",
@@ -23871,6 +23885,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t2-nova-com-jardim-e-estacionamento-em-fontanelas-IDJgXls.html"
+   },
+   {
+    "source": "imovirtual",
+    "url": "https://www.imovirtual.com/pt/anuncio/pronto-para-escriturar-moradia-v2-com-logradouro-fontanelas-sintr-ID1ir9v"
    }
   ],
   "new_build": true,
@@ -24299,7 +24317,13 @@
    "text: \"vendo vivenda nova em fase de acabamentos v+ espaco para comercio\"",
    "text: \"vivenda nova\""
   ],
-  "needs_work": false
+  "needs_work": false,
+  "also_on": [
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/lisboa/imobiliario/moradias/moradia-com-grande-potencial--44834333"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -24332,6 +24356,79 @@
    "text: \"t4 geminada, atualmente em fase de construcao, situada no concelho de\"",
    "portal field build year 2025"
   ],
-  "needs_work": false
+  "needs_work": false,
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/exclusiva-moradia-t4-moderna-com-conforto-e-elegncia-perto-das-pr-IDJe9wN.html"
+   }
+  ]
+ },
+ {
+  "section": "reno",
+  "town": "Alcobaça e Vestiaria, Alcobaça",
+  "typology": "T4",
+  "price": 180000,
+  "size": "4600 m²",
+  "garden": "Yes – mentions 'terreno' (check listing)",
+  "note": "Moradia para remodelar com terreno.",
+  "url": "https://www.imovirtual.com/pt/anuncio/moradia-com-terreno-ID1hCyo",
+  "also": false,
+  "first_seen": "2026-10-10",
+  "source": "imovirtual",
+  "auto": true,
+  "coast_km": 10.6,
+  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InQwOXpvZHhvbHJyeC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.W9gwQWeLbmVX6bRhgyACKm37-JEixwKkBGbBA9v2zxQ/image;s=655x491;q=80",
+  "lat": 39.55425,
+  "lon": -8.97095,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 4,
+  "size_m2": 4600,
+  "stretch": "10.6 km from the coast (limit 8 km)",
+  "id": "de076b769d",
+  "municipality": "Alcobaça",
+  "garden_yes": true,
+  "title": "Moradia com terreno",
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-com-terreno-IDIWn25.html"
+   }
+  ]
+ },
+ {
+  "section": "ready",
+  "town": "São Pedro da Cadeira, Torres Vedras",
+  "typology": "T3",
+  "price": 469900,
+  "size": "280 m²",
+  "garden": "Yes – mentions 'logradouro' (check listing)",
+  "note": "Moradia T3 de topo, com garagem, lareira e logradouro, a poucos minutos da praia da Foz do Sizandro.",
+  "url": "https://www.idealista.pt/imovel/35360265/",
+  "also": false,
+  "first_seen": "2026-10-10",
+  "source": "idealista",
+  "auto": true,
+  "coast_km": null,
+  "image": "",
+  "bedrooms": 3,
+  "size_m2": 280,
+  "id": "91ca910773",
+  "municipality": "Torres Vedras",
+  "garden_yes": true,
+  "title": null,
+  "lat": 39.07018,
+  "lon": -9.37162,
+  "coord_approx": true,
+  "coord_note": "approx. – centre of São Pedro da Cadeira, Torres Vedras",
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "build_why": []
  }
 ]
