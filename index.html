@@ -97,6 +97,11 @@ main{padding-top:16px!important;padding-bottom:24px!important}
 .mlabel{background:#1d2a33;color:#fff;font-size:.78rem;font-weight:600;padding:2px 8px;border-radius:6px;white-space:nowrap;width:auto!important;height:auto!important;transform-origin:left}
 .mlabel span{opacity:.75;font-weight:400}
 .legend{position:absolute;left:8px;bottom:24px;z-index:1000;background:rgba(255,255,255,.94);border-radius:var(--r);box-shadow:0 1px 4px rgba(0,0,0,.2);padding:8px 12px;font-size:.78rem;display:flex;flex-direction:column;gap:4px}
+#map.sat .leaflet-overlay-pane path{filter:drop-shadow(0 0 1px #fff) drop-shadow(0 0 1.5px rgba(255,255,255,.9))}
+#map.sat .marker-cluster{box-shadow:0 0 0 2px rgba(255,255,255,.9)}
+.leaflet-control-scale-line{background:rgba(255,255,255,.85)}
+.leaflet-control-layers{border-radius:var(--r)!important;font-size:.85rem}.leaflet-control-layers-expanded{padding:6px 10px 6px 8px}
+.leaflet-control-layers label{margin:2px 0;cursor:pointer}.leaflet-touch .leaflet-control-layers-toggle{width:40px;height:40px}
 .legend i{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:8px;vertical-align:-1px}
 .pop{width:220px;font-size:.85rem}.pop img{width:100%;height:120px;object-fit:cover;border-radius:6px;display:block;margin-bottom:8px}
 .pop b{font-size:1.05rem;color:var(--accent)}.pop .pa{display:flex;gap:8px;margin-top:8px}.pop .pa button{border:1px solid var(--line);background:#fff;border-radius:6px;padding:4px 8px;cursor:pointer}
@@ -261,7 +266,7 @@ footer{color:var(--muted);font-size:.83rem;padding-top:16px!important;padding-bo
 
 <script>
 "use strict";
-const DATA={"labels":{"imovirtual":"Imovirtual","casasapo":"Casa Sapo","remax":"RE/MAX","century21":"Century 21","olx":"OLX","custojusto":"CustoJusto","idealista":"Idealista","supercasa":"SuperCasa","era":"ERA","bpi":"BPI Expresso Imobiliário","engel":"Engel & Völkers","kw":"KW Portugal","zome":"Zome","iad":"iad Portugal","coldwell":"Coldwell Banker","kyero":"Kyero","idealista_rss":"Idealista RSS","decisoes":"Decisões e Soluções","greenacres":"Green-Acres","rightmove":"Rightmove Overseas","aplaceinthesun":"A Place in the Sun","predimed":"Predimed","casaiberia":"Casaiberia","cgd":"Caixa Imobiliário (CGD)"},"portals":["imovirtual","casasapo","remax","century21","olx","custojusto","idealista"],"regions":{"north":"North coast","centre":"Centre & Silver Coast","lisbon":"Lisbon & Setúbal","alentejo":"Alentejo coast","algarve":"Algarve"},"src":"data.json?v=78224bd19b","sharedFavs":["a0f41248a3","529768acbd","62e8e780ed","c8c3cadb01","8c4e0f321c","1fb432f436","bbbb546b75","53519d7db1","fd88b4a5ee"],"sharedNotes":{},"api":"https://portugal-property-api.maketheboat.workers.dev","key":"pp-shared-7f3a91","munis":{"lisbon":["Almada","Amadora","Cascais","Lisboa","Mafra","Oeiras","Palmela","Seixal","Sesimbra","Setúbal","Sintra","Torres Vedras"],"centre":["Alcobaça","Aveiro","Caldas da Rainha","Figueira da Foz","Lourinhã","Marinha Grande","Mira","Murtosa","Nazaré","Ovar","Peniche","Santa Maria da Feira","Vagos","Ílhavo","Óbidos"],"alentejo":["Grândola","Odemira","Santiago do Cacém","Sines"],"algarve":["Albufeira","Aljezur","Castro Marim","Faro","Lagoa","Lagos","Loulé","Olhão","Portimão","Silves","Tavira","Vila Real de Santo António","Vila do Bispo"],"north":["Barcelos","Caminha","Espinho","Esposende","Gondomar","Maia","Matosinhos","Porto","Póvoa de Varzim","Santa Maria da Feira","Viana do Castelo","Vila Nova de Cerveira","Vila Nova de Gaia","Vila do Conde"]},"gazsrc":"gaz.json?v=3e54d5910b","today":"2026-10-11","updated":"11 Oct 2026, 19:24"};
+const DATA={"labels":{"imovirtual":"Imovirtual","casasapo":"Casa Sapo","remax":"RE/MAX","century21":"Century 21","olx":"OLX","custojusto":"CustoJusto","idealista":"Idealista","supercasa":"SuperCasa","era":"ERA","bpi":"BPI Expresso Imobiliário","engel":"Engel & Völkers","kw":"KW Portugal","zome":"Zome","iad":"iad Portugal","coldwell":"Coldwell Banker","kyero":"Kyero","idealista_rss":"Idealista RSS","decisoes":"Decisões e Soluções","greenacres":"Green-Acres","rightmove":"Rightmove Overseas","aplaceinthesun":"A Place in the Sun","predimed":"Predimed","casaiberia":"Casaiberia","cgd":"Caixa Imobiliário (CGD)"},"portals":["imovirtual","casasapo","remax","century21","olx","custojusto","idealista"],"regions":{"north":"North coast","centre":"Centre & Silver Coast","lisbon":"Lisbon & Setúbal","alentejo":"Alentejo coast","algarve":"Algarve"},"src":"data.json?v=78224bd19b","sharedFavs":["a0f41248a3","529768acbd","62e8e780ed","c8c3cadb01","8c4e0f321c","1fb432f436","bbbb546b75","53519d7db1","fd88b4a5ee"],"sharedNotes":{},"api":"https://portugal-property-api.maketheboat.workers.dev","key":"pp-shared-7f3a91","munis":{"lisbon":["Almada","Amadora","Cascais","Lisboa","Mafra","Oeiras","Palmela","Seixal","Sesimbra","Setúbal","Sintra","Torres Vedras"],"centre":["Alcobaça","Aveiro","Caldas da Rainha","Figueira da Foz","Lourinhã","Marinha Grande","Mira","Murtosa","Nazaré","Ovar","Peniche","Santa Maria da Feira","Vagos","Ílhavo","Óbidos"],"alentejo":["Grândola","Odemira","Santiago do Cacém","Sines"],"algarve":["Albufeira","Aljezur","Castro Marim","Faro","Lagoa","Lagos","Loulé","Olhão","Portimão","Silves","Tavira","Vila Real de Santo António","Vila do Bispo"],"north":["Barcelos","Caminha","Espinho","Esposende","Gondomar","Maia","Matosinhos","Porto","Póvoa de Varzim","Santa Maria da Feira","Viana do Castelo","Vila Nova de Cerveira","Vila Nova de Gaia","Vila do Conde"]},"gazsrc":"gaz.json?v=3e54d5910b","today":"2026-10-11","updated":"11 Oct 2026, 19:59"};
 // a hotlinked photo that fails (throttling, flaky network) gets one retry after 2 s before the placeholder shows
 function ppImgErr(el){if(!el.dataset.retry){el.dataset.retry="1";const u=el.getAttribute("src");setTimeout(()=>{el.src=u+(u.includes("?")?"&":"?")+"r=1";},2000);}else el.remove();}
 if(typeof window!=="undefined")window.ppImgErr=ppImgErr;
@@ -286,7 +291,7 @@ const PP={
    const ok=a=>Array.isArray(a)?a.filter(x=>typeof x==="string"&&/^[0-9a-f]{10}$/.test(x)):[];return {f:ok(o.f),r:ok(o.r),n:PP.cleanNotes(o.n)};},
  daysAgo(today,d){return Math.round((Date.parse(today)-Date.parse(d))/86400000);},
  norm(s){return String(s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");},
- defaults:{view:"list",q:"",loc:"",lat:"",lon:"",r:"3",sec:"all",pmin:"",pmax:"",beds:"",size:"",reg:"",muni:"",src:"",sort:"newest",garden:false,new:false,fav:false,stretch:false,hideunf:true,hidework:true,nb:"",showrem:false,ptype:"",outside:false,balcony:false,terrace:false,notes:false,mz:"",mc:""},
+ defaults:{view:"list",layer:"",lbl:true,q:"",loc:"",lat:"",lon:"",r:"3",sec:"all",pmin:"",pmax:"",beds:"",size:"",reg:"",muni:"",src:"",sort:"newest",garden:false,new:false,fav:false,stretch:false,hideunf:true,hidework:true,nb:"",showrem:false,ptype:"",outside:false,balcony:false,terrace:false,notes:false,mz:"",mc:""},
  RADII:Array.from({length:35},(_,i)=>i+1),
  clampR(v){const n=Math.round(parseFloat(v));return n>=1&&n<=35?String(n):PP.defaults.r;},
  radiusOptions(q){q=String(q||"").replace(/[^0-9]/g,"");return q?PP.RADII.filter(n=>String(n).startsWith(q)):PP.RADII.slice();},
@@ -458,7 +463,7 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
   if(!out.length)zfix=[{...PP.defaults}];el.hidden=false;}
  $("zerohint").addEventListener("click",e=>{const b=e.target.closest("button[data-zf]");if(!b)return;const s2=zfix[+b.dataset.zf];if(!s2)return;const v=state.view;state={...s2,view:v};toUI();render();});
  // ---- API glue ----
- function apiQS(extra){const s={...state};["view","mz","mc","loc"].forEach(k=>delete s[k]);if(!s.lat){delete s.lat;delete s.lon;}
+ function apiQS(extra){const s={...state};["view","mz","mc","loc","layer","lbl"].forEach(k=>delete s[k]);if(!s.lat){delete s.lat;delete s.lon;}
   const p=new URLSearchParams();for(const k in s){const v=s[k];if(v===""||v==null)continue;p.set(k,typeof v==="boolean"?(v?"1":"0"):v);}for(const k in (extra||{}))p.set(k,extra[k]);return p.toString();}
  function prep(L){return L.items.map((x,i)=>{x._dist=L.dist?L.dist[i]:null;byId.set(x.id,x);return x;});}
  let rseq=0;window.PPRENDERS=0;
@@ -473,7 +478,7 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
  function apiFail(e){const el=$("apierr");el.hidden=false;el.innerHTML=`The live listings service is not responding (${esc(e.message||e)}). <a href="static.html${esc(location.search)}">Open the static snapshot</a> or try again shortly.`;
   $("grid").classList.remove("loading");if(!lastRes.length){$("grid").innerHTML='<div class="empty">Listings could not load. <a href="static.html">Static snapshot</a></div>';$("count").textContent="";}}
  function render(push){if($("muni").dataset.reg!==state.reg)fillMuni();
-  {const s={...state};delete s.view;delete s.mz;delete s.mc;const gk=JSON.stringify(s);if(gk!==gridKey){gridKey=gk;shown=PAGE;}}   // ♥/×/restore keep how far you scrolled
+  {const s={...state};delete s.view;delete s.mz;delete s.mc;delete s.layer;delete s.lbl;const gk=JSON.stringify(s);if(gk!==gridKey){gridKey=gk;shown=PAGE;}}   // ♥/×/restore keep how far you scrolled
   const cl=chipList();$("chips").innerHTML=cl.map(([t],i)=>`<span class="fchip">${esc(t)}<button type="button" data-ci="${i}" aria-label="Remove filter ${esc(t)}">×</button></span>`).join("");$("clearall").hidden=!cl.length;$("chiprow").classList.toggle("empty",!cl.length);
   syncBar();document.body.classList.toggle("mapview",state.view==="map");
   document.querySelectorAll("#views button").forEach(b=>b.classList.toggle("on",b.dataset.v===state.view));
@@ -594,7 +599,7 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
  // markers are kept by id and updated in place: ♥/×/restore/undo never rebuild the map or refit it.
  // fitBounds only when filters/search change, and not if the user panned/zoomed since (unless location/radius changed).
  const mk=new Map();let fitted=0,curById=new Map(),lastKey=null,lastLocKey=null,userMoved=false,prog=0;
- const fkey=()=>{const s={...state};delete s.view;delete s.mz;delete s.mc;delete s.sort;return JSON.stringify(s);};
+ const fkey=()=>{const s={...state};delete s.view;delete s.mz;delete s.mc;delete s.sort;delete s.layer;delete s.lbl;return JSON.stringify(s);};
  const mstyle=p=>({radius:p.fav?10:8,color:p.fav?"#e0245e":p.color,weight:p.fav?3:2,dashArray:p.approx?"3 3":null,fillColor:p.fav?"#f4b400":p.color,fillOpacity:p.approx?0:0.85});
  function savedView(){const z=parseInt(state.mz,10),c=String(state.mc||"").split(",").map(Number);
   return z>=3&&z<=19&&c.length===2&&c.every(v=>isFinite(v))&&Math.abs(c[0])<=90&&Math.abs(c[1])<=180?{z,c}:null;}
@@ -634,7 +639,22 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
  function drawMap(){const my=++mseq;Promise.all([ensureLeaflet(),PPAPI.get("/map?"+apiQS())]).then(([,M])=>{if(my!==mseq)return;const Lf=window.L;
   if(!map){const sv=savedView();
    map=Lf.map("map",{zoomControl:true});prog++;sv?map.setView(sv.c,sv.z,{animate:false}):map.setView([38.6,-9.1],8,{animate:false});prog--;userMoved=!!sv;
-   Lf.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
+   // base layers: Map (OSM) / Satellite (Esri World Imagery) + optional Labels overlay; switching never moves the map
+   const osm=Lf.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'});
+   const sat=Lf.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",{maxZoom:19,maxNativeZoom:18,attribution:"Tiles &copy; Esri &mdash; Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community"});
+   map.createPane("pplabels");map.getPane("pplabels").style.zIndex=350;map.getPane("pplabels").style.pointerEvents="none";   // above imagery, below markers
+   const lbl=Lf.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}",{maxZoom:19,maxNativeZoom:18,pane:"pplabels",attribution:"Labels &copy; Esri"});
+   {const urlHas=new URLSearchParams(location.search).has("layer");let ls={};try{ls=JSON.parse(localStorage.getItem("pp.layer")||"{}");}catch(e){}
+    if(!urlHas&&ls.layer==="sat"){state.layer="sat";if(ls.lbl===false)state.lbl=false;}}
+   const isSat=state.layer==="sat";(isSat?sat:osm).addTo(map);if(isSat&&state.lbl)lbl.addTo(map);map.getContainer().classList.toggle("sat",isSat);
+   const saveLayer=()=>{try{localStorage.setItem("pp.layer",JSON.stringify({layer:state.layer,lbl:state.lbl}));}catch(e){}history.replaceState(null,"",location.pathname+PP.stateToQuery(state));};
+   Lf.control.layers({"Map":osm,"Satellite":sat},{"Labels":lbl},{position:"topright",collapsed:mobile()}).addTo(map);
+   map.on("baselayerchange",e=>{const s2=e.layer===sat;state.layer=s2?"sat":"";map.getContainer().classList.toggle("sat",s2);
+    setTimeout(()=>{   // after Leaflet finishes the click, so the control's Labels checkbox stays in sync
+     if(s2&&state.lbl&&!map.hasLayer(lbl))lbl.addTo(map);if(!s2&&map.hasLayer(lbl)){layerSwitching=true;map.removeLayer(lbl);layerSwitching=false;}},0);saveLayer();});
+   let layerSwitching=false;
+   map.on("overlayadd overlayremove",e=>{if(e.layer!==lbl||layerSwitching)return;state.lbl=e.type==="overlayadd";saveLayer();});
+   window.PPLAYERS={osm,sat,lbl};
    layer=Lf.markerClusterGroup({showCoverageOnHover:false,maxClusterRadius:35,spiderfyOnMaxZoom:true});map.addLayer(layer);
    Lf.control.scale({metric:true,imperial:false,position:"bottomright"}).addTo(map);   // inserted above the attribution
    initMeasure(Lf);
