@@ -5578,6 +5578,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t3-para-venda-IDJDzhW.html"
+   },
+   {
+    "source": "imovirtual",
+    "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1j044"
    }
   ]
  },
@@ -6336,6 +6340,14 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t5-para-venda-IDJDtDE.html"
+   },
+   {
+    "source": "imovirtual",
+    "url": "https://www.imovirtual.com/pt/anuncio/moradia-t5-para-venda-ID1iZYM"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-t5-cascais-sao-domingos-de-rana-6de001d6-c48b-11f1-9aaf-060000000054.html"
    }
   ]
  },
@@ -9693,7 +9705,17 @@
   "needs_work": false,
   "property_type": "house",
   "balcony": false,
-  "terrace": false
+  "terrace": false,
+  "also_on": [
+   {
+    "source": "imovirtual",
+    "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1j04Z"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-para-venda-IDJDCmc.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -12989,6 +13011,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/3-moradias-em-rio-de-mouro-velho-IDJCCej.html"
+   },
+   {
+    "source": "imovirtual",
+    "url": "https://www.imovirtual.com/pt/anuncio/3-moradias-em-rio-de-mouro-velho-ID1iYz0"
    }
   ],
   "id": "210a8e3722",
@@ -16128,6 +16154,22 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-contempornea-trrea-t3-IDIWhK1.html"
+   },
+   {
+    "source": "remax",
+    "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t3-alcobaca-pataias-e-martinganca/123532005-31"
+   },
+   {
+    "source": "remax",
+    "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t3-alcobaca-pataias-e-martinganca/123532005-30"
+   },
+   {
+    "source": "remax",
+    "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t3-alcobaca-pataias-e-martinganca/123532005-29"
+   },
+   {
+    "source": "remax",
+    "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t3-alcobaca-pataias-e-martinganca/123532005-28"
    }
   ],
   "new_build": false,
@@ -17656,7 +17698,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 2.2,
-  "image": "https://media.egorealestate.com/150x70/5d45625e-7077-4426-a064-b9dc1189a367.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 135,
   "id": "8fcde7f99d",
@@ -17673,8 +17715,7 @@
   "needs_work": false,
   "property_type": "house",
   "balcony": false,
-  "terrace": false,
-  "image_from": null
+  "terrace": false
  },
  {
   "section": "ready",
@@ -18355,6 +18396,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t4-para-venda-IDJwx6m.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-renovada-a-200-m-do-mar-condomnio-fechado-vigias-da-arriba-IDJBXAd.html"
    },
    {
     "source": "casasapo",
@@ -20870,7 +20915,13 @@
   "needs_work": false,
   "property_type": "house",
   "balcony": false,
-  "terrace": true
+  "terrace": true,
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-andar-de-moradia-t3-cascais-carcavelos-e-parede-1fa4aec9-b411-11f0-9e61-060000000056.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -23557,6 +23608,10 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-com-vista-para-o-castelo-de-obidos-ID1iC4A"
+   },
+   {
+    "source": "imovirtual",
+    "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-geminada-ID1iC4A"
    }
   ],
   "id": "6d22e38bf6",
@@ -32123,6 +32178,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-para-venda-IDJDtF0.html"
+   },
+   {
+    "source": "imovirtual",
+    "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t2-para-venda-ID1iZYR"
    }
   ]
  },
@@ -36027,6 +36086,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t3-setubal-sao-sebastiao-4c546270-adfc-11f1-bc59-060000000052.html"
+   },
+   {
+    "source": "remax",
+    "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t3-setubal-sao-sebastiao/125581034-116"
    }
   ]
  },
@@ -44209,6 +44272,14 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t3-uniao-das-freguesias-de-setubal-bairro-do-liceu-401823e5-8f4a-11f1-9aaf-060000000054.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t3-totalmente-remodelado-em-setbal-montalvo-IDJzXI4.html"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/setubal/imobiliario/apartamentos/apartamento-t3-em-setubal-de-8-45398001"
    }
   ]
  },
@@ -47407,6 +47478,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-duplex-t3-lourinha-da3b549b-f38d-11f0-8add-060000000054.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t3-em-margaride-vrzea-lagares-varziela-e-moure-de-128-IDJx7Gg.html"
    }
   ]
  },
@@ -85833,7 +85908,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 7.3,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C1320/P29946528/Tphoto/IDa0f2c801-0000-0500-0000-00001999f78e.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 103,
   "id": "865da7aa5f",
@@ -85851,8 +85926,7 @@
   "terrace": false,
   "build_why": [
    "text: \"s dados do imovel estado em construcao area bruta 103m2 ano de\""
-  ],
-  "image_from": null
+  ]
  },
  {
   "section": "ready",
@@ -86044,7 +86118,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 5.4,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C1521/P31170709/Tphoto/ID95a0db01-0000-0500-0000-00001a8e872a.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 126,
   "id": "f98409b6f9",
@@ -86063,8 +86137,7 @@
   "build_why": [
    "portal field build year 2027 (future)",
    "portal field build year 2027"
-  ],
-  "image_from": null
+  ]
  },
  {
   "section": "ready",
@@ -86114,7 +86187,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 5.4,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C10532/P29950942/Tphoto/IDde03c901-0000-0500-0000-000019356c0e.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 90,
   "id": "dfc52caea2",
@@ -86130,8 +86203,7 @@
   "needs_work": false,
   "balcony": true,
   "terrace": true,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -86370,56 +86442,6 @@
  },
  {
   "section": "ready",
-  "town": "São Sebastião, Setúbal",
-  "typology": "T3",
-  "property_type": "apartment",
-  "price": 520000,
-  "size": "124 m²",
-  "garden": "No garden mentioned – apartment with varanda (check listing)",
-  "note": "apartamento T3 venda 520.000 € em setúbal, são sebastião - Apartamento T3 com 174.0m2, com 2 lugares de estacionamento e 1 arrecadação, inserido num novo con…",
-  "url": "https://casa.sapo.pt/comprar-apartamento-t3-setubal-sao-sebastiao-662ed27d-add7-11f1-bc59-060000000052.html",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "casasapo",
-  "auto": true,
-  "coast_km": 2.3,
-  "image": "https://media.casasapo.pt/Z720x540/OAYES/S5/C3042/P31013702/Tphoto/ID463bd901-0000-0500-0000-00001a5bf01c.jpg",
-  "bedrooms": 3,
-  "size_m2": 124,
-  "stretch": "€520k – above the €500k budget",
-  "also_on": [
-   {
-    "source": "century21",
-    "url": "https://www.century21.pt/ref/C0490-00529"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/apartamento-t3-duplex-novo-no-centro-de-setubal-IDJsN6s.html"
-   },
-   {
-    "source": "remax",
-    "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t3-setubal-sao-sebastiao/124031178-119"
-   }
-  ],
-  "id": "88a9080e74",
-  "municipality": "Setúbal",
-  "garden_yes": false,
-  "title": "Apartamento T3 Venda 520.000 € em Setúbal, São Sebastião",
-  "lat": 38.52833,
-  "lon": -8.86583,
-  "coord_approx": true,
-  "coord_note": "approx. – centre of São Sebastião, Setúbal",
-  "new_build": true,
-  "unfinished": true,
-  "needs_work": false,
-  "balcony": true,
-  "terrace": true,
-  "build_why": [
-   "text: \"s dados do imovel estado em construcao area util 124m2 area bru\""
-  ]
- },
- {
-  "section": "ready",
   "town": "Varzinha, União das Freguesias de Setúbal",
   "typology": "T2",
   "property_type": "apartment",
@@ -86575,7 +86597,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 2.3,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C3042/P31012514/Tphoto/IDa236d901-0000-0500-0000-00001a5bac8c.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 124,
   "stretch": "€510k – above the €500k budget",
@@ -86595,8 +86617,7 @@
   "build_why": [
    "text: \"s dados do imovel estado em construcao area util 124m2 area bru\"",
    "portal field estado=em construção"
-  ],
-  "image_from": null
+  ]
  },
  {
   "section": "ready",
@@ -86687,7 +86708,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 0.7,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C13976/P25571226/Tphoto/ID9a2f8601-0000-0500-0000-0000143364d2.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 106,
   "stretch": "€515k – above the €500k budget",
@@ -86706,8 +86727,7 @@
   "terrace": true,
   "build_why": [
    "portal field condition=new"
-  ],
-  "image_from": null
+  ]
  },
  {
   "section": "ready",
@@ -86796,7 +86816,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 4.5,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C10629/P29309395/Tphoto/IDd339bf01-0000-0500-0000-0000185e9b40.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 99,
   "id": "9a9dac6966",
@@ -86816,8 +86836,7 @@
    "text: \"descubra o seu novo lar. previsao de conclusao para julho de 2028 apart\"",
    "text: \"evisao de conclusao para julho de 2028 apar\"",
    "portal field condition=new"
-  ],
-  "image_from": null
+  ]
  },
  {
   "section": "ready",
@@ -89317,6 +89336,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-loule-quarteira-8bb9bff0-8335-11f1-9aaf-060000000054.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-loule-quarteira-dffa4bd7-89a5-11f1-ba38-060000000058.html"
    }
   ],
   "id": "6c0b3166bb",
@@ -90922,7 +90945,13 @@
   "needs_work": false,
   "balcony": false,
   "terrace": true,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t3-loule-quarteira-d6ec644a-6424-11f1-9c13-060000000051.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -92899,6 +92928,18 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-silves-armacao-de-pera-urbanizacao-da-panasqueira-deaa8498-14e9-11ee-aeeb-060000000051.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-silves-armacao-de-pera-9ad0006d-44bd-11f1-bc59-060000000052.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-silves-armacao-de-pera-urbanizacao-da-panasqueira-6f37a7e2-2628-11ee-aeeb-060000000051.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-silves-armacao-de-pera-3df3849f-1617-11f1-8359-060000000051.html"
    }
   ],
   "id": "5e19d5ad0f",
@@ -92965,6 +93006,22 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/faro/imobiliario/apartamentos/apartamento-t2-em-armacao-de-p-44821026"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-silves-armacao-de-pera-d69ca0bf-5501-11f1-9a8d-060000000057.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-silves-armacao-de-pera-e4ef3d41-f14c-11f0-8add-060000000054.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-silves-armacao-de-pera-urbanizacao-da-panasqueira-ca9f0498-2628-11ee-aeeb-060000000051.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-silves-armacao-de-pera-c19cc8fb-7ddc-11f0-a463-060000000052.html"
    }
   ],
   "id": "302eb60a1a",
@@ -93155,6 +93212,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-silves-armacao-de-pera-urbanizacao-da-panasqueira-e4620f5e-265c-11ee-aeeb-060000000051.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-silves-armacao-de-pera-a2adb7d5-2398-11f1-a2da-060000000051.html"
    }
   ],
   "id": "e855775a02",
@@ -96491,6 +96552,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-para-venda-IDJBkIa.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-com-grandes-varandas-e-garagem-box-portimo-IDJA1Eb.html"
    }
   ],
   "id": "43db313c52",
@@ -96519,7 +96584,7 @@
   "source": "imovirtual",
   "auto": true,
   "coast_km": 0.7,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImtrcXRoMzh3MjFmZC1BUFQiLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.s27uRrkrg47-IEspodDbnhmibLAyrwFOGQBGEkLCTNU/image;s=1200x0;q=80",
+  "image": "",
   "lat": 37.12627,
   "lon": -8.55204,
   "coord_approx": false,
@@ -96541,8 +96606,7 @@
   "needs_work": false,
   "balcony": true,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -97090,6 +97154,10 @@
    {
     "source": "century21",
     "url": "https://www.century21.pt/ref/C0507-00357"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-silves-pera-barrocal-ac6c057f-0638-11f0-a463-060000000052.html"
    }
   ]
  },
@@ -97417,6 +97485,14 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-silves-armacao-de-pera-urbanizacao-da-panasqueira-14f341de-2655-11ee-aeeb-060000000051.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-silves-armacao-de-pera-6818eb97-44bd-11f1-bc59-060000000052.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-silves-armacao-de-pera-6369dbe4-44bd-11f1-bc59-060000000052.html"
    }
   ],
   "id": "e833ab254b",
@@ -97460,6 +97536,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-silves-armacao-de-pera-urbanizacao-da-panasqueira-91e2f7de-2653-11ee-aeeb-060000000051.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-silves-armacao-de-pera-6cd12e23-44bd-11f1-bc59-060000000052.html"
    }
   ],
   "id": "cb3a1d4255",
@@ -107108,6 +107188,10 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/moradia-geminada-t2-1-em-condominio-de-luxo-no-algarve-ID1hkY1"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-t2-lagoa-e-carvoeiro-77db563e-ab6e-11f0-b3d3-060000000057.html"
    }
   ]
  },
@@ -116212,6 +116296,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-para-venda-IDJzwTf.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-silves-armacao-de-pera-aef6ec5c-adbc-11f1-9aaf-060000000054.html"
    }
   ],
   "id": "65fd306bbf",
@@ -131432,6 +131520,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-tavira-(santa-maria-e-santiago)-a92dcd0c-5f80-11f1-bc59-060000000052.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-tavira-(santa-maria-e-santiago)-f1261f66-2deb-11f1-90a1-060000000056.html"
    }
   ],
   "id": "6f39596df5",
@@ -144432,7 +144524,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 1.1,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C6503/P27103325/Tphoto/ID5d909d01-0000-0500-0000-000015cf60cc.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 103,
   "id": "7dc22135e2",
@@ -144448,8 +144540,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": true,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -144536,7 +144627,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 5.0,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C16462/P25287286/Tphoto/ID76da8101-0000-0500-0000-000013b8cb81.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 97,
   "stretch": "€510k – above the €500k budget",
@@ -144556,8 +144647,7 @@
   "build_why": [
    "portal field condition=new",
    "text: \"carios, na realizacao de obras de melhoramento, etc. apartamento t1+2 n\""
-  ],
-  "image_from": null
+  ]
  },
  {
   "section": "ready",
@@ -144886,7 +144976,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 5.0,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C4731/P21496112/Tphoto/ID30014801-0000-0500-0000-000010f4e8f2.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 129,
   "id": "92301402b5",
@@ -144904,8 +144994,7 @@
   "terrace": false,
   "build_why": [
    "text: \"t3 apartamento t3 em construcao, bem situado perto de va\""
-  ],
-  "image_from": null
+  ]
  },
  {
   "section": "ready",
@@ -144958,7 +145047,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 3.0,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C12074/P24955251/Tphoto/ID73c97c01-0000-0500-0000-00001580cf84.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 96,
   "id": "52001f2213",
@@ -144976,8 +145065,7 @@
   "terrace": false,
   "build_why": [
    "text: \"um lindo apartamento t3, em fase de construcao, localizado em olhao.\""
-  ],
-  "image_from": null
+  ]
  },
  {
   "section": "ready",
@@ -144994,7 +145082,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 5.0,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C2585/P30002208/Tphoto/ID20ccc901-0000-0500-0000-000019956f50.jpg",
+  "image": "",
   "bedrooms": 4,
   "size_m2": 167,
   "id": "e3eb070452",
@@ -145010,8 +145098,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -145135,7 +145222,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 5.0,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C4827/P29963330/Tphoto/ID4234c901-0000-0500-0000-00001938e376.JPG",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 133,
   "id": "a093d09a6f",
@@ -145151,8 +145238,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -145202,7 +145288,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 2.5,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C6963/P28646003/Tphoto/ID731ab501-0000-0500-0000-00001791e7dc.jpg",
+  "image": "",
   "bedrooms": 4,
   "size_m2": 180,
   "also_on": [
@@ -145224,8 +145310,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -145242,7 +145327,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 6.0,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C4731/P30120775/Tphoto/ID479bcb01-0000-0500-0000-0000196b3fcc.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 136,
   "id": "8056691145",
@@ -145258,8 +145343,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -145429,7 +145513,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 2.5,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C6398/P27954185/Tphoto/ID098caa01-0000-0500-0000-0000198f6847.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 100,
   "stretch": "€525k – above the €500k budget",
@@ -145446,8 +145530,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": true,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -145568,7 +145651,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 1.4,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C2585/P22268536/Tphoto/ID78ca5301-0000-0500-0000-00001342a3d7.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 140,
   "id": "6b53dc6977",
@@ -145584,8 +145667,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -145701,7 +145783,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 2.0,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C6746/P21705451/Tphoto/IDeb324b01-0000-0500-0000-00000ed02172.jpg",
+  "image": "",
   "bedrooms": 4,
   "size_m2": 128,
   "id": "dc259d12cf",
@@ -145717,8 +145799,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -145735,7 +145816,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 0.2,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C5830/P28905997/Tphoto/ID0d12b901-0000-0500-0000-0000194ca253.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 96,
   "id": "4faa915c59",
@@ -145751,8 +145832,7 @@
   "needs_work": false,
   "balcony": true,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -145941,7 +146021,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 4.2,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C4446/P20938689/Tphoto/IDc17f3f01-0000-0500-0000-000019880ebd.jpg",
+  "image": "",
   "bedrooms": 1,
   "size_m2": 126,
   "id": "c829d68d44",
@@ -145957,8 +146037,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "reno",
@@ -145975,7 +146054,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 5.0,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C6972/P25405702/Tphoto/ID06a98301-0000-0500-0000-000013f08724.jpg",
+  "image": "",
   "bedrooms": null,
   "size_m2": 83,
   "id": "b468640374",
@@ -145991,8 +146070,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -146491,6 +146569,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-IDJa4Or.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-duplex-t2-ilhavo-gafanha-da-nazare-b4560100-a832-11ef-9e0e-060000000057.html"
    }
   ]
  },
@@ -147407,6 +147489,18 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t2-na-praia-da-barra-virado-a-sul-conforto-luz-e-esp-ID1iKDp"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-ilhavo-gafanha-da-nazare-praia-da-barra-4b71da45-97c3-11f1-90a1-060000000056.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-ilhavo-gafanha-da-nazare-496ac3f6-7920-11f1-9aaf-060000000054.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-ilhavo-gafanha-da-nazare-praia-da-barra-7d899600-b8f4-11f1-90a1-060000000056.html"
    }
   ],
   "id": "f832df1284",
@@ -147600,6 +147694,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t4-independente-com-amplo-jardim-garagem-e-cave-santa-ma-IDJx55M.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-t4-viana-do-castelo-santa-marta-de-portuzelo-26534704-9564-11f1-90a1-060000000056.html"
    }
   ],
   "id": "a415b74a42",
@@ -147627,7 +147725,7 @@
   "source": "custojusto",
   "auto": true,
   "coast_km": 3.4,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Ijl2YzI1eGVieGV5NTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.Yr982dw8H6Xqrz2teF9MI8IuhARX4Jo0CIK_IW6CEsM/image;s=1200x0;q=80",
+  "image": "",
   "lat": 41.13167,
   "lon": -8.66757,
   "coord_approx": true,
@@ -147704,8 +147802,7 @@
   "needs_work": false,
   "balcony": true,
   "terrace": false,
-  "build_why": [],
-  "image_from": "https://www.imovirtual.com/pt/anuncio/apartamento-t2-com-varanda-suite-1-lugar-de-estacionamento-na-sec-ID1ceGs"
+  "build_why": []
  },
  {
   "section": "ready",
@@ -151576,6 +151673,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-172cbdfd-12f8-11ee-a521-060000000056.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-sao-mamede-de-infesta-7ce9320d-43a6-11f1-9aaf-060000000054.html"
    }
   ],
   "id": "4f130bea1f",
@@ -152026,6 +152127,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-sao-mamede-de-infesta-6ae375af-d479-11f0-b003-060000000058.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-1798bba8-9f81-11f0-b6a1-060000000058.html"
    }
   ],
   "id": "38710973f5",
@@ -153043,6 +153148,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-1-novo-muito-bem-localizado-na-gafanha-da-nazar-IDJzoLf.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-ilhavo-gafanha-da-nazare-aa64f4eb-92ed-11f1-90a1-060000000056.html"
    }
   ],
   "id": "771e78a122",
@@ -157903,6 +158012,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/viana-do-castelo/imobiliario/moradias/moradia-com-terreno-na-areosa-45203361"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-t3-viana-do-castelo-areosa-a2148b51-1646-11f1-9e61-060000000056.html"
    }
   ],
   "id": "df0b57651a",
@@ -161913,6 +162026,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t2-1-ao-lado-da-ca-45224851"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-6d51ce89-a6d9-11f1-9a8d-060000000057.html"
    }
   ],
   "id": "29b24f9827",
@@ -162393,6 +162510,12 @@
   "terrace": true,
   "build_why": [
    "portal field market=primary (developer/new)"
+  ],
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-a6ba3e02-add2-11f0-a463-060000000052.html"
+   }
   ]
  },
  {
@@ -167873,6 +167996,14 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-de-luxo-IDJx0pH.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-vila-nova-de-gaia-canidelo-4c06d9c2-1efb-11f1-9e61-060000000056.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-vila-nova-de-gaia-canidelo-sao-pedro-da-afurada-e547a399-11e3-11ef-8add-060000000054.html"
    }
   ],
   "id": "23d07b4848",
@@ -169431,6 +169562,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/viana-do-castelo/imobiliario/moradias/moradia-t3-viana-do-castelo-44964076"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-t3-viana-do-castelo-torre-e-vila-mou-torre-90e3ea4a-4ef3-11f1-9aaf-060000000054.html"
    }
   ],
   "id": "7ab4897276",
@@ -170717,7 +170852,13 @@
   "needs_work": false,
   "balcony": true,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-vila-do-conde-0e0cb99c-43e1-11f1-9a8d-060000000057.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -170785,6 +170926,12 @@
   "terrace": true,
   "build_why": [
    "portal field build year 2025"
+  ],
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-vila-do-conde-e78d14bb-8128-11f1-90a1-060000000056.html"
+   }
   ]
  },
  {
@@ -172276,6 +172423,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-em-matosinhos-e-lea-da-palmeira-de-97-00-m2-IDJvR1V.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-bb8dc1eb-bc06-11f1-9c13-060000000051.html"
    }
   ],
   "id": "7741ec96d7",
@@ -172641,6 +172792,12 @@
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)",
    "text: \"novo empreendimento\""
+  ],
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-leca-da-palmeira-295fe06b-2bf6-11f0-a2bc-060000000058.html"
+   }
   ]
  },
  {
@@ -176218,6 +176375,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-moradia-t3-viana-do-castelo-mazarefes-3b7b380e-5614-4cee-8eec-7b1ddea723b2.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-t3-viana-do-castelo-carreco-a41fb537-7b24-11f1-9c13-060000000051.html"
    }
   ],
   "id": "d42d7d21ea",
@@ -177375,7 +177536,13 @@
   "needs_work": false,
   "balcony": true,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-fbcf7f5d-68e4-11f1-9aaf-060000000054.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -178856,6 +179023,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-1c-t2-duplex-1-andar-gafanha-da-nazar-lhavo-IDJynFh.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-ilhavo-gafanha-da-nazare-largo-do-mercado-c8618238-bd06-11f1-bc59-060000000052.html"
    }
   ],
   "id": "06ec657cae",
@@ -178907,6 +179078,14 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-1a-t2-duplex-1-andar-gafanha-da-nazar-lhavo-IDJynF3.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-ilhavo-gafanha-da-nazare-fd4b8f55-a5c8-11f1-90a1-060000000056.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-ilhavo-gafanha-da-nazare-largo-do-mercado-4109ffb2-bcef-11f1-bc59-060000000052.html"
    }
   ],
   "id": "9c0849f748",
@@ -180382,6 +180561,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t2-com-suite-gara-45195422"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-sao-mamede-de-infesta-amial-b5035fab-adcd-11f1-9a8d-060000000057.html"
    }
   ],
   "id": "40aaca4e32",
@@ -181169,6 +181352,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t2-em-construcao-e-45171286"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-vila-nova-de-gaia-oliveira-do-douro-e1ed8664-7bbb-11f1-ba38-060000000058.html"
    }
   ],
   "id": "4b98e93afa",
@@ -192517,6 +192704,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t5-vila-nova-de-anha-IDITj0S.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-t5-viana-do-castelo-vila-nova-de-anha-1b898a2a-ba2f-11f0-8359-060000000051.html"
    }
   ],
   "id": "88db427ac2",
@@ -194016,38 +194207,6 @@
  },
  {
   "section": "ready",
-  "town": "Carcavelos E Parede",
-  "typology": "T3",
-  "property_type": "house",
-  "price": 500000,
-  "size": "120 m²",
-  "garden": "Yes – mentions 'logradouro' (check listing)",
-  "note": "Apresentamos este encantador andar de moradia T2 + 2 duplex, recentemente remodelado, com cave, garagem box e pequeno logradouro, ideal para quem procura con…",
-  "url": "https://www.olx.pt/d/anuncio/andar-de-moradia-t2-2-duplex-remodelado-com-cave-garagem-box-e-l-IDJkYiT.html",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 1.9,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/3f2nbsncva9k-PT/image;s=640x480",
-  "lat": 38.70055,
-  "lon": -9.35776,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 120,
-  "id": "ef2ee9ec3a",
-  "municipality": "Cascais",
-  "garden_yes": true,
-  "new_build": false,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": true,
-  "terrace": false,
-  "build_why": []
- },
- {
-  "section": "ready",
   "town": "Mazarefes e Vila Fria, Viana do Castelo",
   "typology": "T3",
   "property_type": "house",
@@ -195231,6 +195390,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t3-vila-nova-de-gaia-oliveira-do-douro-3e963ef0-4583-11f1-90a1-060000000056.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t3-vila-nova-de-gaia-centro-(santa-marinha)-c4a467c6-5531-11f1-9aaf-060000000054.html"
    }
   ],
   "id": "c95d0c9f5f",
@@ -199186,6 +199349,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/t2-novo-vila-nova-gaia-45038572"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-vila-nova-de-gaia-centro-(valadares)-0e133114-a39d-4588-b004-64ff4cc52ccd.html"
    }
   ],
   "id": "12206c680b",
@@ -212091,6 +212258,14 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-moradia-t3-viana-do-castelo-vila-fria-bed04278-505a-11f1-9c13-060000000051.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-t3-viana-do-castelo-vila-fria-b11327b7-505a-11f1-9c13-060000000051.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-t3-viana-do-castelo-vila-fria-fa76616f-4fe9-11f1-9c13-060000000051.html"
    }
   ],
   "id": "d521e42fb8",
@@ -217812,6 +217987,14 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-duplex-venda-lhavo-gafanha-da-nazar-IDHxo52.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-ilhavo-gafanha-da-nazare-6f382380-d4b5-11ef-9e61-060000000056.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-duplex-t2-ilhavo-gafanha-da-nazare-centro-0f5a3c69-9815-11ed-9c85-060000000052.html"
    }
   ],
   "id": "fc268215ab",
@@ -217864,6 +218047,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-ilhavo-gafanha-da-nazare-centro-99197dd0-d4b3-11ef-9e61-060000000056.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-ilhavo-gafanha-da-nazare-centro-6fbac392-975e-11ed-9c85-060000000052.html"
    }
   ],
   "id": "56f9e85134",
@@ -217947,6 +218134,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/aveiro/imobiliario/apartamentos/apartamento-t3-duplex-em-const-45193248"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-duplex-t3-ilhavo-gafanha-da-nazare-centro-cb7229c9-9818-11ed-9c85-060000000052.html"
    }
   ],
   "id": "a40e21c4dd",
@@ -221331,6 +221522,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/t2-com-terrao-jardim-de-71-m2-no-viver-carvalhido-IDJzxO6.html"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t2-44952587"
    }
   ],
   "id": "68584b6e8c",
@@ -225211,7 +225406,13 @@
   "needs_work": false,
   "balcony": true,
   "terrace": true,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t3-ilhavo-gafanha-da-nazare-0a2dff80-b0b9-11ef-8add-060000000054.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -226337,6 +226538,10 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/t3-novos-junto-ao-mar-ID1hPjh"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/coimbra/imobiliario/apartamentos/apartamento-t3-em-construcao-n-44969606"
    }
   ],
   "id": "8b62235d39",
@@ -227331,6 +227536,14 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/-807250230-apartamento-novo--44228448"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t2-novo-com-varan-44951480"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/-807260225-apartamento-para--45184142"
    }
   ]
  },
@@ -233700,6 +233913,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-devoluta-t3-venda-em-touguinha-e-touguinh-vila-do-conde-IDJu6Tz.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-t1-vila-do-conde-touguinha-e-touguinho-f1b83824-c475-11f1-9a8d-060000000057.html"
    }
   ]
  },
@@ -245515,6 +245732,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-empreendimento-oliveiras-da-prelada-porto-IDJCBeN.html"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t2-novo-em-paranh-44952611"
    }
   ],
   "id": "3314e45a9b",
@@ -254227,6 +254448,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-custoias-1c1fabbf-dd91-11ef-9e61-060000000056.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-custoias-be969817-bd02-11f1-9aaf-060000000054.html"
    }
   ],
   "id": "ae0e5eb79f",
@@ -259604,6 +259829,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/viana-do-castelo/imobiliario/moradias/moradia-t3-triplex-viana-do-ca-45344263"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-t3-viana-do-castelo-alvaraes-e2dce1c7-7957-11f1-90a1-060000000056.html"
    }
   ]
  },
@@ -280680,6 +280909,10 @@
    {
     "source": "remax",
     "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t3-vila-nova-de-gaia-mafamude-e-vilar-do-paraiso/125471330-8"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t3-vila-nova-de-gaia-oliveira-do-douro-a1cd0221-43a5-11f1-90a1-060000000056.html"
    }
   ],
   "id": "eea233476b",
@@ -284303,6 +284536,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/t3-de-excelncia-varanda-ampla-e-com-lugar-de-garagem-IDJx0vM.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t3-vila-nova-de-gaia-oliveira-do-douro-fbcea8ed-9ba6-11f1-b6e5-060000000058.html"
    }
   ],
   "id": "8739f4622b",
@@ -285438,6 +285675,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t2-em-construcao-e-45026811"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-vila-nova-de-gaia-oliveira-do-douro-a841865e-457e-11f1-90a1-060000000056.html"
    }
   ]
  },
@@ -309339,6 +309580,14 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/leiria/imobiliario/moradias/moradia-v3-terrea-com-piscina--45385018"
+   },
+   {
+    "source": "century21",
+    "url": "https://www.century21.pt/ref/C0532-00116"
+   },
+   {
+    "source": "century21",
+    "url": "https://www.century21.pt/ref/C0532-00115"
    }
   ]
  },
@@ -314350,6 +314599,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/casa-runas-recuperar-com-1-390m2-terreno-bagunte-IDJhIw6.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-t3-vila-do-conde-bagunte-ferreiro-outeiro-maior-e-parada-0fe8bb75-1eae-11f1-9e61-060000000056.html"
    }
   ]
  },
@@ -328884,6 +329137,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-histrica-bunheiro-IDIUcpZ.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-t3-murtosa-135765b4-4c5c-11f0-8add-060000000054.html"
    }
   ],
   "id": "07044bc9da",
@@ -336390,7 +336647,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 1.6,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C9829/P27654056/Tphoto/IDa8f7a501-0000-0500-0000-00001677797e.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 86,
   "id": "b7a739f8a4",
@@ -336406,8 +336663,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -336880,7 +337136,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 8.2,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C3406/P30265301/Tphoto/IDd5cfcd01-0000-0500-0000-0000198c2c53.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 319,
   "stretch": "€525k – above the €500k budget; 8.2 km from the coast (limit 8 km)",
@@ -336903,8 +337159,7 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/quinta-centenria-vlega-IDJqstL.html"
    }
-  ],
-  "image_from": null
+  ]
  },
  {
   "section": "ready",
@@ -337203,7 +337458,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 2.9,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C4778/P31198383/Tphoto/IDaf0cdc01-0000-0500-0000-00001a964265.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 116,
   "id": "cf2867ea64",
@@ -337232,8 +337487,7 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/oportunidade-moradia-nova-t2-perto-das-praias-nazare-so-martinho-IDJdrXF.html"
    }
-  ],
-  "image_from": null
+  ]
  },
  {
   "section": "ready",
@@ -337351,7 +337605,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 2.4,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C4770/P30594630/Tphoto/ID46d6d201-0000-0500-0000-000019dba10a.JPG",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 72,
   "id": "751581bbce",
@@ -337367,8 +337621,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "reno",
@@ -337385,7 +337638,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 4.2,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C283/P27017148/Tphoto/IDbc3f9c01-0000-0500-0000-000015a1bdae.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 91,
   "id": "06b067954b",
@@ -337401,8 +337654,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "reno",
@@ -337419,7 +337671,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 6.7,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S6/C640732/P200389461/Tphoto/IDf7dcf181-efa7-4ba5-9015-6d2737fd4fc4.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 337,
   "id": "ef577d003f",
@@ -337435,8 +337687,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "reno",
@@ -337526,7 +337777,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 8.2,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C39652/P29907259/Tphoto/ID3b59c801-0000-0500-0000-000019246b16.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 102,
   "id": "2d9f7d878e",
@@ -337543,8 +337794,7 @@
   "balcony": false,
   "terrace": false,
   "build_why": [],
-  "stretch": "8.2 km from the coast (limit 8 km)",
-  "image_from": null
+  "stretch": "8.2 km from the coast (limit 8 km)"
  },
  {
   "section": "reno",
@@ -337561,7 +337811,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 3.3,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C11785/P25038798/Tphoto/IDce0f7e01-0000-0500-0000-000013405615.jpg",
+  "image": "",
   "bedrooms": null,
   "size_m2": 102,
   "id": "18d8cc4a1f",
@@ -337577,8 +337827,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "reno",
@@ -337634,7 +337883,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": 3.3,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C5304/P30636399/Tphoto/ID6f79d301-0000-0500-0000-000019e92f11.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 229,
   "also_on": [
@@ -337660,8 +337909,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "reno",
@@ -339329,7 +339577,13 @@
   "needs_work": false,
   "balcony": true,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-ilhavo-gafanha-da-nazare-73b6664e-86ae-11f1-9c13-060000000051.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -346990,6 +347244,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/viana-do-castelo/imobiliario/moradias/moradia-terrea-castelo-do-ne-33134865"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-t3-viana-do-castelo-castelo-do-neiva-4d04841d-24b9-11f1-af0f-060000000056.html"
    }
   ],
   "id": "25afa90dc9",
@@ -351847,6 +352105,12 @@
   "terrace": false,
   "build_why": [
    "portal field build year 2025"
+  ],
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-silves-armacao-de-pera-ae81b672-0b1e-11f1-8359-060000000051.html"
+   }
   ]
  },
  {
@@ -356718,6 +356982,12 @@
    "portal field build year 2027 (future)",
    "portal field build year 2027",
    "text: \"novo empreendimento\""
+  ],
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-silves-sao-bartolomeu-de-messines-30027269-4544-11f1-bc59-060000000052.html"
+   }
   ]
  },
  {
@@ -365122,6 +365392,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-com-terreno-e-rvores-de-fruto-IDJsMhT.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-de-3-pisos-no-corao-do-bairro-novo-a-poucos-passos-IDJvQXA.html"
    }
   ],
   "id": "b1de227ea5",
@@ -369173,6 +369447,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t3-afife-IDJmf60.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-t3-viana-do-castelo-afife-38673cb4-10ae-11f1-8add-060000000054.html"
    }
   ],
   "id": "a7438a7904",
@@ -371641,6 +371919,12 @@
   "build_why": [
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)"
+  ],
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-uniao-das-freguesias-de-setubal-27cacce4-956b-11f1-9aaf-060000000054.html"
+   }
   ]
  },
  {
@@ -372256,6 +372540,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t3-renovada-castelo-do-neiva-IDFzCYF.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-t3-viana-do-castelo-santa-maria-maior-e-monserrate-e-meadela-a1d1ae30-88dd-11f0-9e61-060000000056.html"
    }
   ],
   "id": "2469f4b39e",
@@ -373492,6 +373780,14 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t3-vila-nova-de-anha-IDJsBNj.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/casa-villa-t3-em-carreo-de-145-00-m2-IDJutBn.html"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/viana-do-castelo/imobiliario/moradias/casa-villa-t3-em-carreco-de--45129129"
    }
   ]
  },
@@ -379237,6 +379533,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/construo-moradia-trrea-t3-mazarefes-IDIDwKM.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-geminada-t3-viana-do-castelo-mazarefes-43153b27-37f2-11f1-b868-060000000058.html"
    }
   ]
  },
@@ -385459,6 +385759,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/faro/imobiliario/apartamentos/apartamento-t3-em-portimao-de--44985354"
+   },
+   {
+    "source": "remax",
+    "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t3-portimao-portimao/122881178-294"
    }
   ],
   "id": "dd842af490",
@@ -387499,6 +387803,14 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/aveiro/imobiliario/apartamentos/apartamento-t2-em-construcao--45220432"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-ilhavo-gafanha-da-nazare-89651991-d4b1-11ef-9e61-060000000056.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-ilhavo-gafanha-da-nazare-centro-c97e26be-9755-11ed-9c85-060000000052.html"
    }
   ],
   "id": "3322bce11e",
@@ -388005,7 +388317,13 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "imovirtual",
+    "url": "https://www.imovirtual.com/pt/anuncio/t2-em-matarraque-com-arrecadacao-e-espaco-exterior-para-criancas-ID1j02z"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -405756,6 +406074,10 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/moradia-t2-para-venda-ID1iFok"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-t2-murtosa-e8511e33-8a6c-11f1-9aaf-060000000054.html"
    }
   ],
   "id": "b58c33d2e0",
@@ -433005,7 +433327,13 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "remax",
+    "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t4-aveiro-sao-bernardo/124541254-36"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -434134,6 +434462,18 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/leiria/imobiliario/moradias/imovel-multifuncional-em-calda-45113941"
+   },
+   {
+    "source": "imovirtual",
+    "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-com-r-c-destinado-a-comercio-a-5kms-das-caldas-da-rainha-ID1iQLb"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/edifcio-para-habitao-e-comrcio-moradia-t3-renovada-c-terrao-e-IDJazqu.html"
+   },
+   {
+    "source": "imovirtual",
+    "url": "https://www.imovirtual.com/pt/anuncio/edificio-para-habitacao-e-comercio-moradia-t3-renovada-c-terraco-e-ID1hEEe"
    }
   ],
   "id": "1922d1f652",
@@ -434374,6 +434714,14 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t4-trrea-nova-IDJplsl.html"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/aveiro/imobiliario/moradias/casa-de-aldeia-t4-em-santo-and-45063412"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/aveiro/imobiliario/moradias/moradia-t4-terrea-nova-st-an-44970267"
    }
   ]
  },
@@ -436637,82 +436985,6 @@
   "build_why": [
    "portal field market=primary (developer/new)"
   ]
- },
- {
-  "section": "ready",
-  "town": "Nossa Senhora do Pópulo, Coto e São Gregório, Caldas da Rainha",
-  "typology": "T3",
-  "property_type": "house",
-  "price": 350000,
-  "size": "living area n/a · plot 691 m²",
-  "garden": "No garden mentioned – has varanda (check listing)",
-  "note": "Imóvel a cinco quilómetros da cidade das Caldas da Rainha.",
-  "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-com-r-c-destinado-a-comercio-a-5kms-das-caldas-da-rainha-ID1iQLb",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 8.7,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Iml2czhjZXYybDZ0NzMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.vwWw3lD67iHkzG1nIoNaNOd2J5VH3R_eENu-NS9Citw/image;s=655x491;q=80",
-  "lat": 39.42324,
-  "lon": -9.10255,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 3,
-  "size_m2": 691,
-  "stretch": "8.7 km from the coast (limit 8 km)",
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/edifcio-para-habitao-e-comrcio-moradia-t3-renovada-c-terrao-e-IDJazqu.html"
-   }
-  ],
-  "id": "cad7b753d8",
-  "municipality": "Caldas da Rainha",
-  "garden_yes": false,
-  "size_fixed": 691,
-  "title": "Moradia T3 com R/C destinado a Comércio a 5Kms das Caldas da Rainha",
-  "new_build": false,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": true,
-  "terrace": true,
-  "build_why": []
- },
- {
-  "section": "ready",
-  "town": "Nossa Senhora do Pópulo, Coto e São Gregório, Caldas da Rainha",
-  "typology": "T3",
-  "property_type": "house",
-  "price": 350000,
-  "size": "living area n/a · plot 622 m²",
-  "garden": "No garden mentioned – has terraço (check listing)",
-  "note": "Edifício composto por área de Habitação e de Comércio com uma área bruta de construção de 690m2 dividida em 2 pisos.",
-  "url": "https://www.imovirtual.com/pt/anuncio/edificio-para-habitacao-e-comercio-moradia-t3-renovada-c-terraco-e-ID1hEEe",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 8.7,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Im9tOGQzN3JmaWNiNjMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.bO6fCnU8LhYYa3yh9U9CHlPVEOXZtamqNLbpk7EBmk0/image;s=655x491;q=80",
-  "lat": 39.42228,
-  "lon": -9.10403,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 3,
-  "size_m2": 622,
-  "stretch": "8.7 km from the coast (limit 8 km)",
-  "id": "d9ceef7397",
-  "municipality": "Caldas da Rainha",
-  "garden_yes": false,
-  "size_fixed": 622,
-  "title": "Edifício para Habitação e Comércio - Moradia T3 Renovada c/ Terraço e",
-  "new_build": false,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": true,
-  "terrace": true,
-  "build_why": []
  },
  {
   "section": "ready",
@@ -439686,6 +439958,10 @@
    {
     "source": "remax",
     "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t3-sintra-massama-e-monte-abraao/123251191-47"
+   },
+   {
+    "source": "imovirtual",
+    "url": "https://www.imovirtual.com/pt/anuncio/t3-espacoso-e-luminoso-com-121-m-em-massama-ID1iVjd"
    }
   ],
   "id": "8aeff460af",
@@ -447862,6 +448138,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t4-tpica-gandaresa-para-remodelao-excelente-oportunida-IDJnO4z.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-t4-vagos-fonte-de-angeao-b2bafce2-488f-11f1-90a1-060000000056.html"
    }
   ]
  },
@@ -451911,7 +452191,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C1348/P25003263/Tphoto/IDff847d01-0000-0500-0000-000013351cea.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 94,
   "stretch": "€520k – above the €500k budget",
@@ -451928,8 +452208,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -452301,7 +452580,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C9829/P29808199/Tphoto/ID47d6c601-0000-0500-0000-000018fb52d6.jpg",
+  "image": "",
   "bedrooms": 6,
   "size_m2": 123,
   "id": "409848c479",
@@ -452317,8 +452596,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": true,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -452544,7 +452822,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C9829/P30626208/Tphoto/IDa051d301-0000-0500-0000-000019e5800a.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 81,
   "id": "938ca416af",
@@ -452560,8 +452838,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -452617,7 +452894,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C8696/P31204616/Tphoto/ID0825dc01-0000-0500-0000-00001a980992.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 132,
   "id": "c3faec247a",
@@ -452633,8 +452910,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -452750,7 +453026,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S6/C1109788/P200386410/Tphoto/ID5deab372-d7a6-4afa-b64f-dd2bbb2ab08f.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 310,
   "id": "9d9c3e0629",
@@ -452766,8 +453042,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -453098,7 +453373,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C11785/P28710129/Tphoto/IDf114b601-0000-0500-0000-000017a4881f.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 194,
   "also_on": [
@@ -453120,8 +453395,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -453409,7 +453683,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C5347/P30638639/Tphoto/ID2f82d301-0000-0500-0000-000019ea2c58.jpg",
+  "image": "",
   "bedrooms": 4,
   "size_m2": 204,
   "id": "28eee10cfe",
@@ -453425,8 +453699,7 @@
   "needs_work": false,
   "balcony": true,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -453557,7 +453830,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C6601/P25399570/Tphoto/ID12918301-0000-0500-0000-000013edb6f2.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 140,
   "id": "9fd85188f1",
@@ -453576,8 +453849,7 @@
   "build_why": [
    "text: \"arquitetura moderna, t3 em construcao - gafanha da nazare, ins\"",
    "portal field estado=em construção"
-  ],
-  "image_from": null
+  ]
  },
  {
   "section": "ready",
@@ -453594,7 +453866,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C11136/P30885412/Tphoto/ID2446d701-0000-0500-0000-00001a94bfa3.jpg",
+  "image": "",
   "bedrooms": 4,
   "size_m2": 141,
   "id": "4460e82140",
@@ -453610,8 +453882,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -453628,7 +453899,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C6601/P22365551/Tphoto/ID6f455501-0000-0500-0000-00000f6b688b.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 83,
   "id": "20b6e17a1c",
@@ -453647,8 +453918,7 @@
   "build_why": [
    "text: \"tamento t2 na costa nova em construcao, composto por cozinha eq\"",
    "portal field estado=em construção"
-  ],
-  "image_from": null
+  ]
  },
  {
   "section": "ready",
@@ -453665,7 +453935,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S6/C377073/P200387060/Tphoto/ID85b5c5c1-cb46-4d9b-97ef-b625c38167b3.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 335,
   "id": "e500690524",
@@ -453683,8 +453953,7 @@
   "terrace": true,
   "build_why": [
    "text: \"t3 moradia em construcao res do chao com; garagem\""
-  ],
-  "image_from": null
+  ]
  },
  {
   "section": "ready",
@@ -453776,7 +454045,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C9753/P25420194/Tphoto/IDa2e18301-0000-0500-0000-000013f82830.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 126,
   "id": "01940f5cd8",
@@ -453792,8 +454061,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -453849,7 +454117,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C12583/P31034958/Tphoto/ID4e8ed901-0000-0500-0000-00001a68d842.jpg",
+  "image": "",
   "bedrooms": 4,
   "size_m2": 221,
   "also_on": [
@@ -453871,8 +454139,7 @@
   "needs_work": false,
   "balcony": true,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -453995,7 +454262,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C8388/P23019227/Tphoto/IDdb3e5f01-0000-0500-0000-000012f34cec.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 128,
   "stretch": "€512k – above the €500k budget",
@@ -454020,8 +454287,7 @@
   "terrace": false,
   "build_why": [
    "portal field condition=new"
-  ],
-  "image_from": null
+  ]
  },
  {
   "section": "ready",
@@ -454181,7 +454447,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C16412/P31177012/Tphoto/ID34b9db01-0000-0500-0000-00001a90290c.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 128,
   "id": "03aa07a36f",
@@ -454203,8 +454469,7 @@
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-moradia-t3-caldas-da-rainha-santo-onofre-e-serra-do-bouro-ad90d55b-df2b-11f0-a505-060000000058.html"
    }
-  ],
-  "image_from": null
+  ]
  },
  {
   "section": "ready",
@@ -454254,7 +454519,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C13232/P30814415/Tphoto/IDcf30d601-0000-0500-0000-00001a20d99c.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 138,
   "id": "bd5a962d5c",
@@ -454270,8 +454535,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -454361,7 +454625,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C5339/P29691553/Tphoto/IDa10ec501-0000-0500-0000-000018ce9c24.jpg",
+  "image": "",
   "bedrooms": 4,
   "size_m2": 131,
   "id": "dc2ddb7755",
@@ -454379,8 +454643,7 @@
   "terrace": false,
   "build_why": [
    "text: \"isto para conclusao da obra e para dezembro de 2026. con\""
-  ],
-  "image_from": null
+  ]
  },
  {
   "section": "ready",
@@ -454652,7 +454915,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C5482/P29658227/Tphoto/ID738cc401-0000-0500-0000-000018c34354.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 306,
   "id": "046f9180cc",
@@ -454672,8 +454935,7 @@
    "text: \"s dados do imovel estado em construcao area bruta 306m2 referen\"",
    "portal field estado=em construção",
    "text: \"moradia nova\""
-  ],
-  "image_from": null
+  ]
  },
  {
   "section": "ready",
@@ -454723,7 +454985,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C3395/P29669824/Tphoto/IDc0b9c401-0000-0500-0000-00001957ac19.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 281,
   "id": "aa8b8b5820",
@@ -454743,8 +455005,7 @@
    "portal field estado=em construção",
    "portal field build year 2027 (future)",
    "portal field build year 2027"
-  ],
-  "image_from": null
+  ]
  },
  {
   "section": "ready",
@@ -454761,7 +455022,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C13232/P29658545/Tphoto/IDb18dc401-0000-0500-0000-000018c36a4f.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 102,
   "id": "37a99ea0ca",
@@ -454779,8 +455040,7 @@
   "terrace": false,
   "build_why": [
    "portal field estado=em construção"
-  ],
-  "image_from": null
+  ]
  },
  {
   "section": "ready",
@@ -454830,7 +455090,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S6/C1104097/P200384536/Tphoto/IDa6164b8a-bb25-4662-a062-b781b3c6262a.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 167,
   "id": "6640ed68fb",
@@ -454846,8 +455106,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -454864,7 +455123,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C41218/P30834322/Tphoto/ID927ed601-0000-0500-0000-00001a2814cb.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 318,
   "id": "8b4f5cb345",
@@ -454882,8 +455141,7 @@
   "terrace": false,
   "build_why": [
    "portal field estado=em construção"
-  ],
-  "image_from": null
+  ]
  },
  {
   "section": "ready",
@@ -454939,7 +455197,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C3395/P29705080/Tphoto/ID7843c501-0000-0500-0000-000019576272.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 158,
   "id": "0fe44df420",
@@ -454955,8 +455213,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -455078,7 +455335,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C4725/P30908893/Tphoto/IDdda1d701-0000-0500-0000-00001a3df814.jpg",
+  "image": "",
   "bedrooms": 4,
   "size_m2": 250,
   "id": "d8f473efe5",
@@ -455094,8 +455351,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -455112,7 +455368,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C6479/P29620640/Tphoto/IDa0f9c301-0000-0500-0000-000018b2d8d4.jpg",
+  "image": "",
   "bedrooms": 4,
   "size_m2": 276,
   "also_on": [
@@ -455138,8 +455394,7 @@
   "needs_work": false,
   "balcony": true,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -455156,7 +455411,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C3838/P31123710/Tphoto/IDfee8da01-0000-0500-0000-00001a8205d9.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 69,
   "id": "81c4c3e6d7",
@@ -455172,8 +455427,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -455190,7 +455444,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C11570/P27025253/Tphoto/ID655f9c01-0000-0500-0000-000015a44b2e.jpg",
+  "image": "",
   "bedrooms": 5,
   "size_m2": 457,
   "also_on": [
@@ -455212,8 +455466,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -455374,7 +455627,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C2509/P30982385/Tphoto/IDf1c0d801-0000-0500-0000-00001a81f13b.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 85,
   "id": "0771579578",
@@ -455390,8 +455643,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -455408,7 +455660,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C15115/P30183730/Tphoto/ID3291cc01-0000-0500-0000-0000197f3b13.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 65,
   "id": "e69be17250",
@@ -455424,8 +455676,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -455442,7 +455693,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C4649/P28883017/Tphoto/ID49b8b801-0000-0500-0000-000017dd8c09.jpg",
+  "image": "",
   "bedrooms": 4,
   "size_m2": 213,
   "also_on": [
@@ -455468,8 +455719,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -455519,7 +455769,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C4251/P25311535/Tphoto/ID2f398201-0000-0500-0000-000017565ef5.jpg",
+  "image": "",
   "bedrooms": 4,
   "size_m2": 153,
   "id": "85bfeeab16",
@@ -455536,7 +455786,12 @@
   "balcony": false,
   "terrace": false,
   "build_why": [],
-  "image_from": null
+  "also_on": [
+   {
+    "source": "remax",
+    "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t4-cascais-alcabideche/127151059-2"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -455588,7 +455843,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C11886/P30677863/Tphoto/ID671bd401-0000-0500-0000-00001a67788b.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 69,
   "id": "e48bd86687",
@@ -455604,8 +455859,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -455763,7 +456017,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S6/C1110446/P200386635/Tphoto/IDc44dd0e4-c17e-49d2-a52f-d327d7d2acf1.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 202,
   "also_on": [
@@ -455785,8 +456039,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -455803,7 +456056,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C11580/P29611984/Tphoto/IDd0d7c301-0000-0500-0000-000018adaa0a.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 135,
   "also_on": [
@@ -455829,8 +456082,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -455969,7 +456221,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C3042/P27780029/Tphoto/IDbde3a701-0000-0500-0000-000016b4a6c1.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 176,
   "id": "c720981951",
@@ -455985,8 +456237,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -456003,7 +456254,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C8759/P29972708/Tphoto/IDe458c901-0000-0500-0000-0000196dbf94.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 62,
   "also_on": [
@@ -456029,8 +456280,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -456047,7 +456297,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C8759/P30166878/Tphoto/ID5e4fcc01-0000-0500-0000-0000197a19d6.JPG",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 70,
   "id": "4f02ef076f",
@@ -456063,8 +456313,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -456081,7 +456330,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C3796/P30966424/Tphoto/ID9882d801-0000-0500-0000-00001a4e06f1.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 68,
   "also_on": [
@@ -456105,8 +456354,7 @@
   "terrace": false,
   "build_why": [
    "portal field estado=em construção"
-  ],
-  "image_from": null
+  ]
  },
  {
   "section": "ready",
@@ -456156,7 +456404,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C6957/P31118346/Tphoto/ID0ad4da01-0000-0500-0000-00001a86e7b9.jpg",
+  "image": "",
   "bedrooms": 4,
   "size_m2": 100,
   "id": "1349b8007f",
@@ -456173,7 +456421,12 @@
   "balcony": false,
   "terrace": false,
   "build_why": [],
-  "image_from": null
+  "also_on": [
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/setubal/imobiliario/moradias/moradia-t4-em-setubal-45391734"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -456190,7 +456443,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C5462/P30399247/Tphoto/ID0fdbcf01-0000-0500-0000-000019ac87cc.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 83,
   "id": "02b038f880",
@@ -456206,8 +456459,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -456257,7 +456509,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C4100/P25270492/Tphoto/IDdc988101-0000-0500-0000-000013b2d52f.jpg",
+  "image": "",
   "bedrooms": 4,
   "size_m2": 150,
   "id": "bfbd7a271a",
@@ -456273,8 +456525,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -456291,7 +456542,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C6350/P23747312/Tphoto/IDf05a6a01-0000-0500-0000-00001139b619.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 181,
   "id": "5778b4fd6b",
@@ -456307,8 +456558,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -456325,7 +456575,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C10629/P30600954/Tphoto/IDfaeed201-0000-0500-0000-000019dd6323.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 104,
   "id": "0bf827ff6d",
@@ -456341,8 +456591,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -456431,7 +456680,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C5462/P25594719/Tphoto/ID5f8b8601-0000-0500-0000-00001830583a.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 106,
   "stretch": "€510k – above the €500k budget",
@@ -456451,8 +456700,7 @@
   "build_why": [
    "portal field condition=new",
    "text: \"a estrear\""
-  ],
-  "image_from": null
+  ]
  },
  {
   "section": "ready",
@@ -456502,7 +456750,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C6642/P27109999/Tphoto/ID6faa9d01-0000-0500-0000-000015c16b0c.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 148,
   "id": "626cb4542e",
@@ -456518,8 +456766,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -456536,7 +456783,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C10685/P29907593/Tphoto/ID895ac801-0000-0500-0000-00001935a08e.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 180,
   "id": "5a8a21e26d",
@@ -456552,8 +456799,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -456570,7 +456816,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C11701/P30506655/Tphoto/ID9f7ed101-0000-0500-0000-00001a0300d7.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 153,
   "id": "7e94a12418",
@@ -456586,8 +456832,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -456655,7 +456900,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C11701/P30506167/Tphoto/IDb77cd101-0000-0500-0000-00001a0788f1.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 170,
   "stretch": "€518k – above the €500k budget",
@@ -456672,8 +456917,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -456690,7 +456934,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C3767/P28717511/Tphoto/IDc731b601-0000-0500-0000-000017a711ea.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 90,
   "stretch": "€520k – above the €500k budget",
@@ -456717,8 +456961,7 @@
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-sao-goncalo-de-lagos-torraltinha-78bc9b9c-c090-11f0-bd5e-060000000058.html"
    }
-  ],
-  "image_from": null
+  ]
  },
  {
   "section": "ready",
@@ -456776,7 +457019,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C3767/P24840443/Tphoto/IDfb087b01-0000-0500-0000-000012ef242f.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 165,
   "also_on": [
@@ -456802,8 +457045,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -456820,7 +457062,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C3302/P30548164/Tphoto/IDc420d201-0000-0500-0000-000019cda892.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 122,
   "stretch": "€525k – above the €500k budget",
@@ -456837,8 +457079,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -456855,7 +457096,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C11580/P30010498/Tphoto/ID82ecc901-0000-0500-0000-0000194b6f1a.jpg",
+  "image": "",
   "bedrooms": 4,
   "size_m2": 282,
   "also_on": [
@@ -456877,8 +457118,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -456895,7 +457135,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C3753/P30505822/Tphoto/ID5e7bd101-0000-0500-0000-00001a6932b5.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 126,
   "id": "518955b3f5",
@@ -456911,8 +457151,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -456929,7 +457168,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C4617/P30160286/Tphoto/ID9e35cc01-0000-0500-0000-000019784625.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 87,
   "also_on": [
@@ -456955,8 +457194,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -456973,7 +457211,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C4079/P31042039/Tphoto/IDf7a9d901-0000-0500-0000-00001a75d112.jpg",
+  "image": "",
   "bedrooms": 4,
   "size_m2": 210,
   "also_on": [
@@ -456995,8 +457233,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -457013,7 +457250,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C14369/P29261457/Tphoto/ID917ebe01-0000-0500-0000-0000187148ac.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 80,
   "id": "db7e53f9e0",
@@ -457029,8 +457266,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -457263,7 +457499,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C4004/P25602890/Tphoto/ID4aab8601-0000-0500-0000-0000143f462a.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 100,
   "id": "9775f1c0db",
@@ -457279,8 +457515,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -457397,7 +457632,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C11580/P30670593/Tphoto/ID01ffd301-0000-0500-0000-000019f33f3e.jpg",
+  "image": "",
   "bedrooms": 4,
   "size_m2": 134,
   "also_on": [
@@ -457419,8 +457654,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": true,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -457437,7 +457671,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C5220/P25546419/Tphoto/IDb3ce8501-0000-0500-0000-00001428ed25.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 100,
   "id": "e3dee75fc4",
@@ -457453,8 +457687,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -457630,7 +457863,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C2844/P28790341/Tphoto/ID454eb701-0000-0500-0000-000017beaea9.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 263,
   "id": "a5c28bcdfb",
@@ -457646,8 +457879,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -457734,7 +457966,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C15734/P30108375/Tphoto/IDd76acb01-0000-0500-0000-00001967fbe7.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 161,
   "stretch": "€509k – above the €500k budget",
@@ -457751,8 +457983,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -457769,7 +458000,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S6/C1110577/P200386688/Tphoto/IDd439bf62-0b49-4a2f-95b8-3ba537d9898b.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 164,
   "stretch": "€525k – above the €500k budget",
@@ -457786,8 +458017,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -457804,7 +458034,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C4263/P31192357/Tphoto/ID25f5db01-0000-0500-0000-00001a9472ba.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 69,
   "id": "5d32854b0c",
@@ -457820,8 +458050,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -457838,7 +458067,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S6/C1114153/P200387643/Tphoto/ID9ca4555d-ee7e-465b-a3d8-639a646b1e11.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 116,
   "id": "9f6e36c061",
@@ -457854,8 +458083,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -457872,7 +458100,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S6/C1092073/P200380605/Tphoto/IDa7a0d4bd-594c-4946-9a20-b4f141152372.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 72,
   "id": "fd58e403b0",
@@ -457888,8 +458116,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -457972,7 +458199,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C4072/P30670955/Tphoto/ID6b00d401-0000-0500-0000-000019fa02c4.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 208,
   "also_on": [
@@ -457994,8 +458221,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -458012,7 +458238,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C40787/P29972435/Tphoto/IDd357c901-0000-0500-0000-0000193c1ecd.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 124,
   "id": "3fc6bdc61b",
@@ -458028,8 +458254,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -458112,7 +458337,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C40977/P30648276/Tphoto/IDd4a7d301-0000-0500-0000-000019ede6f9.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 67,
   "also_on": [
@@ -458138,8 +458363,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": "https://casa.sapo.pt/comprar-moradia-geminada-t3-olhao-b3006ad4-81d4-11f1-ba38-060000000058.html"
+  "build_why": []
  },
  {
   "section": "ready",
@@ -458364,7 +458588,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C39986/P28872617/Tphoto/IDa98fb801-0000-0500-0000-000019af3dc6.jpg",
+  "image": "",
   "bedrooms": 4,
   "size_m2": 126,
   "id": "cba4004514",
@@ -458382,8 +458606,7 @@
   "terrace": false,
   "build_why": [
    "portal field condition=por recuperar"
-  ],
-  "image_from": null
+  ]
  },
  {
   "section": "ready",
@@ -458400,7 +458623,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C39986/P30264756/Tphoto/IDb4cdcd01-0000-0500-0000-0000198c11c7.jpg",
+  "image": "",
   "bedrooms": 5,
   "size_m2": 120,
   "id": "cca1f19b44",
@@ -458416,8 +458639,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -458473,7 +458695,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C5830/P30960620/Tphoto/IDec6bd801-0000-0500-0000-00001a4c89c0.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 131,
   "id": "51e43ddfb8",
@@ -458489,8 +458711,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -458507,7 +458728,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C2585/P27748277/Tphoto/IDb567a701-0000-0500-0000-000019eb1756.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 266,
   "id": "5154d33820",
@@ -458523,8 +458744,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -458607,7 +458827,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C12362/P26920557/Tphoto/ID6dc69a01-0000-0500-0000-00001583b8ad.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 153,
   "id": "59e69bb84a",
@@ -458626,8 +458846,7 @@
   "build_why": [
    "text: \"central, esta moradia t3 em fase de construcao destaca-se pela excelent\"",
    "portal field estado=em construção"
-  ],
-  "image_from": null
+  ]
  },
  {
   "section": "ready",
@@ -458794,7 +459013,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C41284/P31140288/Tphoto/IDc029db01-0000-0500-0000-00001a868f95.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 80,
   "also_on": [
@@ -458820,8 +459039,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "reno",
@@ -458871,7 +459089,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C12583/P29740754/Tphoto/IDd2cec501-0000-0500-0000-0000191ae0eb.jpg",
+  "image": "",
   "bedrooms": 3,
   "size_m2": 126,
   "also_on": [
@@ -458893,8 +459111,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "reno",
@@ -459114,7 +459331,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C12283/P29830558/Tphoto/ID9e2dc701-0000-0500-0000-000019060a04.jpg",
+  "image": "",
   "bedrooms": null,
   "size_m2": 145,
   "id": "37d85719d1",
@@ -459136,8 +459353,7 @@
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-moradia-loule-salir-nave-do-barao-3d5a7333-3291-11f1-90a1-060000000056.html"
    }
-  ],
-  "image_from": "https://casa.sapo.pt/comprar-moradia-loule-salir-nave-do-barao-3d5a7333-3291-11f1-90a1-060000000056.html"
+  ]
  },
  {
   "section": "reno",
@@ -459187,7 +459403,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C2585/P27324094/Tphoto/IDbeeea001-0000-0500-0000-0000162e359f.jpg",
+  "image": "",
   "bedrooms": 2,
   "size_m2": 82,
   "id": "4df53d14b9",
@@ -459203,8 +459419,7 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": [],
-  "image_from": null
+  "build_why": []
  },
  {
   "section": "ready",
@@ -459369,5 +459584,348 @@
   "build_why": [
    "text: \"a estrear\""
   ]
+ },
+ {
+  "section": "ready",
+  "town": "Santiago (Sesimbra), Sesimbra",
+  "typology": "T2",
+  "property_type": "apartment",
+  "price": 525000,
+  "size": "68 m²",
+  "garden": "No garden mentioned (check listing)",
+  "note": "A SUA NOVA CASA JUNTO AO MAR: JÁ EM CONSTRUÇAO!!",
+  "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t2-sesimbra-santiago-sesimbra/125941115-146",
+  "also": false,
+  "first_seen": "2026-10-11",
+  "source": "remax",
+  "auto": true,
+  "coast_km": 0.6,
+  "image": "https://i.maxwork.pt/l-view/listings/12594/6570068/bf0971e3-185a-4ffa-88de-2dd50de1fc01.jpg",
+  "lat": 38.44494,
+  "lon": -9.10129,
+  "coord_approx": true,
+  "coord_note": "listing map pin (approximate area)",
+  "bedrooms": 2,
+  "size_m2": 68,
+  "stretch": "€525.0k – above the €500k budget",
+  "id": "e81ca39638",
+  "municipality": "Sesimbra",
+  "garden_yes": false,
+  "new_build": true,
+  "unfinished": true,
+  "needs_work": false,
+  "balcony": false,
+  "terrace": false,
+  "build_why": [
+   "text: \"va casa junto ao mar: ja em construcao!! a sua nova casa junto\"",
+   "portal field condition=new",
+   "portal field build year 2026",
+   "text: \"novo empreendimento\""
+  ]
+ },
+ {
+  "section": "ready",
+  "town": "Setúbal (São Julião, Nossa Senhora da Anunciada e Santa Maria da Graça), Setúbal",
+  "typology": "T4",
+  "property_type": "apartment",
+  "price": 399990,
+  "size": "148 m²",
+  "garden": "No garden mentioned – has varanda (check listing)",
+  "note": "Apartamento T4 Transformado em T5 com 160m2, no Bonfim-Espaço, Conforto e Versatilidade.",
+  "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t4-setubal-setubal-sao-juliao-nossa-senhora-da-anunciada-e-santa-maria-da-graca/123991084-164",
+  "also": false,
+  "first_seen": "2026-10-11",
+  "source": "remax",
+  "auto": true,
+  "coast_km": 1.0,
+  "image": "https://i.maxwork.pt/l-view/listings/12399/7103879/8da67163-a853-489a-82cc-61e1d8576a9b.jpg",
+  "lat": 38.52844,
+  "lon": -8.89237,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 4,
+  "size_m2": 148,
+  "id": "16356950c9",
+  "municipality": "Setúbal",
+  "garden_yes": false,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": true,
+  "terrace": false,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Aguda - Granja, Arcozelo",
+  "typology": "T2",
+  "property_type": "apartment",
+  "price": 375000,
+  "size": "134 m²",
+  "garden": "No garden mentioned – has terraço (check listing)",
+  "note": "Apartamento T2 em construção com garagem BOX e terraço Empreendimento BraanCamp - GRANJA - Arcozelo Empreendimento, em construção, constituído por 6 pisos, 8…",
+  "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t2-c-terraco-e-garagem-box-em-construcao-granja-ID1j04H",
+  "also": false,
+  "first_seen": "2026-10-11",
+  "source": "imovirtual",
+  "auto": true,
+  "coast_km": 1.4,
+  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InExZnd4Y3pia2xoNS1BUFQiLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.lG3QQCDSgCGmG8KLIG7BfCj7glWAniDMGU5IyIv0kSY/image;s=655x491;q=80",
+  "lat": 41.04264,
+  "lon": -8.64052,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 2,
+  "size_m2": 134,
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-c-terrao-e-garagem-box-em-construo-granja-IDJDBwO.html"
+   }
+  ],
+  "id": "1398b2c45e",
+  "municipality": "Vila Nova de Gaia",
+  "garden_yes": false,
+  "title": "Apartamento T2 c/terraço e garagem BOX - Em construção - GRANJA",
+  "new_build": true,
+  "unfinished": true,
+  "needs_work": false,
+  "balcony": false,
+  "terrace": true,
+  "build_why": [
+   "text: \"/terraco e garagem box - em construcao - granja t2 apartamento\"",
+   "portal field construction_status=to_completion",
+   "portal field build year 2029 (future)",
+   "portal field market=primary (developer/new)",
+   "portal field build year 2029"
+  ]
+ },
+ {
+  "section": "ready",
+  "town": "Bairro Alentejano, Carcavelos e Parede",
+  "typology": "T2",
+  "property_type": "house",
+  "price": 500000,
+  "size": "120 m²",
+  "garden": "Yes – mentions 'logradouro' (check listing)",
+  "note": "Apresentamos este encantador andar de moradia T2 + 2 duplex, recentemente remodelado, com cave, garagem box e pequeno logradouro, ideal para quem procura con…",
+  "url": "https://www.imovirtual.com/pt/anuncio/andar-de-moradia-t2-2-duplex-remodelado-com-cave-garagem-box-e-l-ID1ibYb",
+  "also": false,
+  "first_seen": "2026-10-11",
+  "source": "imovirtual",
+  "auto": true,
+  "coast_km": 1.9,
+  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InN3c2pjMTg3ZXdibC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.5f_GGBEDVq_djoO8Tyz29LV3ykw2YcvpBFzLZKaFvFg/image;s=655x491;q=80",
+  "lat": 38.70055,
+  "lon": -9.35776,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 2,
+  "size_m2": 120,
+  "id": "7fdc786f49",
+  "municipality": "Cascais",
+  "garden_yes": true,
+  "title": "Andar de Moradia T2 + 2 Duplex Remodelado com Cave, Garagem Box e L...",
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": true,
+  "terrace": false,
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/andar-de-moradia-t2-2-duplex-remodelado-com-cave-garagem-box-e-l-IDJkYiT.html"
+   }
+  ]
+ },
+ {
+  "section": "ready",
+  "town": "São Sebastião, Setúbal",
+  "typology": "T3",
+  "property_type": "apartment",
+  "price": 519180,
+  "size": "122 m²",
+  "garden": "No garden mentioned (check listing)",
+  "note": "Vivva Setúbal é realmente um empreendimento que combina o melhor dos dois mundos: a conveniência da vida urbana e a serenidade do litoral.",
+  "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t3-setubal-sao-sebastiao/125581029-109",
+  "also": false,
+  "first_seen": "2026-10-11",
+  "source": "remax",
+  "auto": true,
+  "coast_km": 2.1,
+  "image": "https://i.maxwork.pt/l-view/listings/12558/6780267/3a142297-e249-4a3c-a5dc-9531b5ab7914.jpg",
+  "lat": 38.53337,
+  "lon": -8.87345,
+  "coord_approx": true,
+  "coord_note": "listing map pin (approximate area)",
+  "bedrooms": 3,
+  "size_m2": 122,
+  "stretch": "€519.0k – above the €500k budget",
+  "id": "15f353e3a6",
+  "municipality": "Setúbal",
+  "garden_yes": false,
+  "new_build": true,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": false,
+  "terrace": false,
+  "build_why": [
+   "portal field build year 2024"
+  ],
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t3-setubal-sao-sebastiao-662ed27d-add7-11f1-bc59-060000000052.html"
+   },
+   {
+    "source": "century21",
+    "url": "https://www.century21.pt/ref/C0490-00529"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t3-duplex-novo-no-centro-de-setubal-IDJsN6s.html"
+   },
+   {
+    "source": "remax",
+    "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t3-setubal-sao-sebastiao/124031178-119"
+   }
+  ]
+ },
+ {
+  "section": "ready",
+  "town": "São Sebastião, Setúbal",
+  "typology": "T3",
+  "property_type": "apartment",
+  "price": 519180,
+  "size": "122 m²",
+  "garden": "No garden mentioned (check listing)",
+  "note": "Vivva Setúbal, situado estrategicamente entre Lisboa e as praias idílicas da costa Troia-Comporta-Melides, oferece um acesso privilegiado tanto à vida urbana…",
+  "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t3-setubal-sao-sebastiao/125581029-119",
+  "also": false,
+  "first_seen": "2026-10-11",
+  "source": "remax",
+  "auto": true,
+  "coast_km": 2.1,
+  "image": "https://i.maxwork.pt/l-view/listings/12558/6780383/6744a3f6-f7ef-44cc-90a6-be7bfb6bfb78.jpg",
+  "lat": 38.53337,
+  "lon": -8.87345,
+  "coord_approx": true,
+  "coord_note": "listing map pin (approximate area)",
+  "bedrooms": 3,
+  "size_m2": 122,
+  "stretch": "€519.0k – above the €500k budget",
+  "id": "114af275e9",
+  "municipality": "Setúbal",
+  "garden_yes": false,
+  "new_build": true,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": false,
+  "terrace": false,
+  "build_why": [
+   "portal field build year 2024"
+  ]
+ },
+ {
+  "section": "ready",
+  "town": "São Sebastião, Setúbal",
+  "typology": "T2",
+  "property_type": "apartment",
+  "price": 441660,
+  "size": "107 m²",
+  "garden": "No garden mentioned (check listing)",
+  "note": "Vivva Setúbal, situado estrategicamente entre Lisboa e as praias idílicas da costa Troia-Comporta-Melides, oferece um acesso privilegiado tanto à vida urbana…",
+  "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t2-setubal-sao-sebastiao/125581029-118",
+  "also": false,
+  "first_seen": "2026-10-11",
+  "source": "remax",
+  "auto": true,
+  "coast_km": 2.1,
+  "image": "https://i.maxwork.pt/l-view/listings/12558/6780383/6744a3f6-f7ef-44cc-90a6-be7bfb6bfb78.jpg",
+  "lat": 38.53337,
+  "lon": -8.87345,
+  "coord_approx": true,
+  "coord_note": "listing map pin (approximate area)",
+  "bedrooms": 2,
+  "size_m2": 107,
+  "id": "7137fd8eaa",
+  "municipality": "Setúbal",
+  "garden_yes": false,
+  "new_build": true,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": false,
+  "terrace": false,
+  "build_why": [
+   "portal field build year 2024"
+  ]
+ },
+ {
+  "section": "ready",
+  "town": "São Sebastião, Setúbal",
+  "typology": "T2",
+  "property_type": "apartment",
+  "price": 431460,
+  "size": "107 m²",
+  "garden": "No garden mentioned (check listing)",
+  "note": "Vivva Setúbal, situado estrategicamente entre Lisboa e as praias idílicas da costa Troia-Comporta-Melides, oferece um acesso privilegiado tanto à vida urbana…",
+  "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t2-setubal-sao-sebastiao/125581034-123",
+  "also": false,
+  "first_seen": "2026-10-11",
+  "source": "remax",
+  "auto": true,
+  "coast_km": 2.1,
+  "image": "https://i.maxwork.pt/l-view/listings/12558/6780383/6744a3f6-f7ef-44cc-90a6-be7bfb6bfb78.jpg",
+  "lat": 38.53337,
+  "lon": -8.87345,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 2,
+  "size_m2": 107,
+  "id": "f98c76ac6a",
+  "municipality": "Setúbal",
+  "garden_yes": false,
+  "new_build": true,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": false,
+  "terrace": false,
+  "build_why": [
+   "portal field build year 2024"
+  ]
+ },
+ {
+  "section": "ready",
+  "town": "Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim), Sintra",
+  "typology": "T2",
+  "property_type": "apartment",
+  "price": 510000,
+  "size": "101 m² on 157 m² plot",
+  "garden": "Yes – mentions 'jardim' (check listing)",
+  "note": "Apartamento de Charme em Sintra Entre o charme da arquitetura tradicional e o conforto da vida moderna, descubra este acolhedor apartamento totalmente remode…",
+  "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t2-sintra-sintra-santa-maria-e-sao-miguel-sao-martinho-e-sao-pedro-de-penaferrim/121331205-99",
+  "also": false,
+  "first_seen": "2026-10-11",
+  "source": "remax",
+  "auto": true,
+  "coast_km": 8.1,
+  "image": "https://i.maxwork.pt/l-view/listings/12133/7108037/4ece61f0-6087-4896-a4f2-6b734c7dfe21.jpg",
+  "lat": 38.79911,
+  "lon": -9.38347,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 2,
+  "size_m2": 101,
+  "stretch": "€510.0k – above the €500k budget; 8.1 km from the coast (limit 8 km)",
+  "id": "2951462d63",
+  "municipality": "Sintra",
+  "garden_yes": true,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": false,
+  "terrace": false,
+  "build_why": []
  }
 ]
