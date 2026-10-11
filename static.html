@@ -52,7 +52,8 @@ select.ctl{padding-right:32px;appearance:none;-webkit-appearance:none;background
 /* results toolbar */
 .tb{display:flex;align-items:center;gap:8px;padding-top:16px!important;min-height:56px}
 #count{font-weight:700;font-size:1.05rem;white-space:nowrap;margin-right:8px}
-.chiprow{display:flex;gap:8px;flex:1 1 auto;min-width:0;overflow-x:auto;scrollbar-width:none}.chiprow::-webkit-scrollbar{display:none}
+.chiprow{display:flex;gap:8px;flex:1 1 auto;min-width:0;overflow-x:auto;scrollbar-width:none}.chiprow::-webkit-scrollbar{display:none}#chips{display:contents}#clearall{flex-shrink:0;white-space:nowrap}
+.ts,.hinfo{display:none}.htitle{min-width:0}
 .fchip{display:inline-flex;align-items:center;gap:4px;height:32px;padding:0 4px 0 12px;border-radius:16px;background:#e3f0f4;color:#0b5670;font-size:.84rem;white-space:nowrap;flex-shrink:0}
 .fchip button{border:0;background:none;width:24px;height:24px;border-radius:12px;cursor:pointer;color:inherit;font-size:1rem;line-height:1}.fchip button:hover{background:rgba(0,0,0,.08)}
 .tbr{display:flex;gap:8px;margin-left:auto;flex-shrink:0;align-items:center}
@@ -151,12 +152,28 @@ footer{color:var(--muted);font-size:.83rem;padding-top:16px!important;padding-bo
  #rq{width:80px}
  .sheet{width:100%}
  .tb{flex-wrap:wrap;row-gap:8px}.chiprow{order:3;flex-basis:100%}
+ /* compact mobile header: one slim row, icon buttons, subtitle behind ⓘ; header scrolls away, search bar stays sticky */
+ header .wrap{min-height:48px;gap:8px;flex-wrap:wrap}
+ .htitle{display:flex;align-items:center;gap:4px;flex:1 1 0;min-width:0}
+ header h1{font-size:1rem;line-height:48px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+ .tl{display:none}.ts{display:inline}
+ .hinfo{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;flex-shrink:0;border:0;background:none;color:#fff;opacity:.85;font-size:1rem;cursor:pointer;border-radius:50%}
+ .hinfo:hover,.hinfo[aria-expanded="true"]{background:rgba(255,255,255,.18);opacity:1}
+ header p{display:none}header.showsub p{display:block;order:3;flex-basis:100%;padding-bottom:8px;font-size:.8rem}
+ .htitle{order:1}.hacts{order:2;gap:8px}
+ .hbtn{width:40px;height:36px;padding:0;font-size:1.1rem;display:inline-flex;align-items:center;justify-content:center}.hbtn .bl{display:none}
+ .tb{min-height:0;padding-top:12px!important;gap:8px}
+ #count{font-size:.95rem;margin-right:0}
+ .tbr{gap:8px}.tbr #sort{height:36px;max-width:118px;padding-left:8px;font-size:.85rem}
+ .views{height:36px}.views button{padding:0 10px;font-size:.85rem}
+ .chiprow.empty{display:none}.fchip{height:30px}
+ #filtersbtn{padding:0 12px}#loc::placeholder{font-size:.88rem}
  .frow .ctl{width:60%}
 }
-@media (max-width:480px){header p .upd{display:none}#count{font-size:.95rem}.tbr .ctl{max-width:130px}}
+@media (max-width:480px){header p .upd{display:none}}
 </style></head><body>
-<header><div class="wrap"><div><h1>Portugal coast property</h1><p>West coast &amp; Algarve, Caminha to Castro Marim · curated houses &amp; apartments for sale<span class="upd"> · updated <span id="upd"></span> (Lisbon)</span></p></div>
-<div class="hacts"><button class="hbtn" id="addbtn" type="button">＋ <span class="long">Add property</span><span class="short">Add</span></button><button class="hbtn" id="sharebtn" type="button">♥ My lists</button></div></div></header>
+<header id="hdr"><div class="wrap"><div class="htitle"><h1><span class="tl">Portugal coast property</span><span class="ts">PT Coast Property</span></h1><button class="hinfo" id="hinfo" type="button" aria-label="About this site" title="About this site" aria-expanded="false" aria-controls="hsub">ⓘ</button><p id="hsub">West coast &amp; Algarve, Caminha to Castro Marim · curated houses &amp; apartments for sale<span class="upd"> · updated <span id="upd"></span> (Lisbon)</span></p></div>
+<div class="hacts"><button class="hbtn" id="addbtn" type="button" aria-label="Add property" title="Add property"><span aria-hidden="true">＋</span><span class="bl"> Add property</span></button><button class="hbtn" id="sharebtn" type="button" aria-label="My lists" title="My lists (favourites, share code)"><span aria-hidden="true">♥</span><span class="bl"> My lists</span></button></div></div></header>
 <div id="bar"><div class="wrap">
  <div class="search" id="locwrap"><span class="sicon" id="sicon" aria-hidden="true">🔍</span>
   <input id="loc" class="ctl" type="text" autocomplete="off" placeholder="Place or keyword" aria-label="Search by place or keyword" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="sugg">
@@ -171,7 +188,7 @@ footer{color:var(--muted);font-size:.83rem;padding-top:16px!important;padding-bo
  <span id="slot_beds"><select id="beds" class="ctl" aria-label="Bedrooms"><option value="">Beds: any</option><option value="2">2+ beds</option><option value="3">3+ beds</option><option value="4">4+ beds</option></select></span>
  <button class="ctl pri" id="filtersbtn" type="button" aria-haspopup="dialog">Filters<span id="fcount"></span></button>
 </div><div class="wrap helper" id="helper">Move-in ready €350k–500k · Renovation €100k–200k · prices from the adverts</div></div>
-<div class="wrap tb" id="tb"><span id="count" aria-live="polite">Loading homes…</span><div class="chiprow" id="chips"></div><button class="link" id="clearall" type="button" hidden>Clear all</button>
+<div class="wrap tb" id="tb"><span id="count" aria-live="polite">Loading homes…</span><div class="chiprow empty" id="chiprow"><div id="chips"></div><button class="link" id="clearall" type="button" hidden>Clear all</button></div>
  <div class="tbr"><select id="sort" class="ctl" aria-label="Sort"><option value="newest">Newest</option><option value="price_asc">Price: low to high</option><option value="price_desc">Price: high to low</option><option value="size_desc">Size: largest</option><option value="size_asc">Size: smallest</option><option value="distance">Distance</option></select>
  <div class="seg views" id="views" role="group" aria-label="View"><button data-v="list" class="on" type="button">List</button><button data-v="map" type="button">Map</button></div></div></div>
 <div class="wrap zh" id="zerohint" hidden></div>
@@ -237,7 +254,7 @@ footer{color:var(--muted);font-size:.83rem;padding-top:16px!important;padding-bo
 
 <script>
 "use strict";
-const DATA={"labels":{"imovirtual":"Imovirtual","casasapo":"Casa Sapo","remax":"RE/MAX","century21":"Century 21","olx":"OLX","custojusto":"CustoJusto","idealista":"Idealista","supercasa":"SuperCasa","era":"ERA","bpi":"BPI Expresso Imobiliário","engel":"Engel & Völkers","kw":"KW Portugal","zome":"Zome","iad":"iad Portugal","coldwell":"Coldwell Banker","kyero":"Kyero","idealista_rss":"Idealista RSS","decisoes":"Decisões e Soluções","greenacres":"Green-Acres","rightmove":"Rightmove Overseas","aplaceinthesun":"A Place in the Sun","predimed":"Predimed","casaiberia":"Casaiberia","cgd":"Caixa Imobiliário (CGD)"},"portals":["imovirtual","casasapo","remax","century21","olx","custojusto","idealista"],"regions":{"north":"North coast","centre":"Centre & Silver Coast","lisbon":"Lisbon & Setúbal","alentejo":"Alentejo coast","algarve":"Algarve"},"src":"data.json?v=78224bd19b","sharedFavs":["a0f41248a3","529768acbd","62e8e780ed","c8c3cadb01","8c4e0f321c","1fb432f436","bbbb546b75","53519d7db1","fd88b4a5ee"],"sharedNotes":{},"api":"https://portugal-property-api.maketheboat.workers.dev","key":"pp-shared-7f3a91","munis":{"lisbon":["Almada","Amadora","Cascais","Lisboa","Mafra","Oeiras","Palmela","Seixal","Sesimbra","Setúbal","Sintra","Torres Vedras"],"centre":["Alcobaça","Aveiro","Caldas da Rainha","Figueira da Foz","Lourinhã","Marinha Grande","Mira","Murtosa","Nazaré","Ovar","Peniche","Santa Maria da Feira","Vagos","Ílhavo","Óbidos"],"alentejo":["Grândola","Odemira","Santiago do Cacém","Sines"],"algarve":["Albufeira","Aljezur","Castro Marim","Faro","Lagoa","Lagos","Loulé","Olhão","Portimão","Silves","Tavira","Vila Real de Santo António","Vila do Bispo"],"north":["Barcelos","Caminha","Espinho","Esposende","Gondomar","Maia","Matosinhos","Porto","Póvoa de Varzim","Santa Maria da Feira","Viana do Castelo","Vila Nova de Cerveira","Vila Nova de Gaia","Vila do Conde"]},"gazsrc":"gaz.json?v=3e54d5910b","today":"2026-10-11","updated":"11 Oct 2026, 19:00"};
+const DATA={"labels":{"imovirtual":"Imovirtual","casasapo":"Casa Sapo","remax":"RE/MAX","century21":"Century 21","olx":"OLX","custojusto":"CustoJusto","idealista":"Idealista","supercasa":"SuperCasa","era":"ERA","bpi":"BPI Expresso Imobiliário","engel":"Engel & Völkers","kw":"KW Portugal","zome":"Zome","iad":"iad Portugal","coldwell":"Coldwell Banker","kyero":"Kyero","idealista_rss":"Idealista RSS","decisoes":"Decisões e Soluções","greenacres":"Green-Acres","rightmove":"Rightmove Overseas","aplaceinthesun":"A Place in the Sun","predimed":"Predimed","casaiberia":"Casaiberia","cgd":"Caixa Imobiliário (CGD)"},"portals":["imovirtual","casasapo","remax","century21","olx","custojusto","idealista"],"regions":{"north":"North coast","centre":"Centre & Silver Coast","lisbon":"Lisbon & Setúbal","alentejo":"Alentejo coast","algarve":"Algarve"},"src":"data.json?v=78224bd19b","sharedFavs":["a0f41248a3","529768acbd","62e8e780ed","c8c3cadb01","8c4e0f321c","1fb432f436","bbbb546b75","53519d7db1","fd88b4a5ee"],"sharedNotes":{},"api":"https://portugal-property-api.maketheboat.workers.dev","key":"pp-shared-7f3a91","munis":{"lisbon":["Almada","Amadora","Cascais","Lisboa","Mafra","Oeiras","Palmela","Seixal","Sesimbra","Setúbal","Sintra","Torres Vedras"],"centre":["Alcobaça","Aveiro","Caldas da Rainha","Figueira da Foz","Lourinhã","Marinha Grande","Mira","Murtosa","Nazaré","Ovar","Peniche","Santa Maria da Feira","Vagos","Ílhavo","Óbidos"],"alentejo":["Grândola","Odemira","Santiago do Cacém","Sines"],"algarve":["Albufeira","Aljezur","Castro Marim","Faro","Lagoa","Lagos","Loulé","Olhão","Portimão","Silves","Tavira","Vila Real de Santo António","Vila do Bispo"],"north":["Barcelos","Caminha","Espinho","Esposende","Gondomar","Maia","Matosinhos","Porto","Póvoa de Varzim","Santa Maria da Feira","Viana do Castelo","Vila Nova de Cerveira","Vila Nova de Gaia","Vila do Conde"]},"gazsrc":"gaz.json?v=3e54d5910b","today":"2026-10-11","updated":"11 Oct 2026, 19:21"};
 // a hotlinked photo that fails (throttling, flaky network) gets one retry after 2 s before the placeholder shows
 function ppImgErr(el){if(!el.dataset.retry){el.dataset.retry="1";const u=el.getAttribute("src");setTimeout(()=>{el.src=u+(u.includes("?")?"&":"?")+"r=1";},2000);}else el.remove();}
 if(typeof window!=="undefined")window.ppImgErr=ppImgErr;
@@ -430,8 +447,8 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
  function render(push){if($("muni").dataset.reg!==state.reg)fillMuni();const res=PP.filter(items,state,store,DATA.sharedFavs,today);
   {const s={...state};delete s.view;delete s.mz;delete s.mc;const gk=JSON.stringify(s);if(gk!==gridKey){gridKey=gk;shown=PAGE;}}   // ♥/×/restore keep how far you scrolled
   $("grid").innerHTML=res.length?res.slice(0,shown).map(card).join("")+moreBtn(res.length-shown):'<div class="empty">No homes match these filters. <button class="link" type="button" onclick="document.getElementById(\'clearall\').click()">Clear all filters</button></div>';
-  const homes=n=>`${n} home${n===1?"":"s"}`;$("count").textContent=homes(res.length);$("dapply").textContent="Show "+homes(res.length);
-  const cl=chipList();$("chips").innerHTML=cl.map(([t],i)=>`<span class="fchip">${esc(t)}<button type="button" data-ci="${i}" aria-label="Remove filter ${esc(t)}">×</button></span>`).join("");$("clearall").hidden=!cl.length;
+  const homes=n=>`${Number(n).toLocaleString("en-GB")} home${n===1?"":"s"}`;$("count").textContent=homes(res.length);$("dapply").textContent="Show "+homes(res.length);
+  const cl=chipList();$("chips").innerHTML=cl.map(([t],i)=>`<span class="fchip">${esc(t)}<button type="button" data-ci="${i}" aria-label="Remove filter ${esc(t)}">×</button></span>`).join("");$("clearall").hidden=!cl.length;$("chiprow").classList.toggle("empty",!cl.length);
   syncBar();
   document.body.classList.toggle("mapview",state.view==="map");
   document.querySelectorAll("#views button").forEach(b=>b.classList.toggle("on",b.dataset.v===state.view));
@@ -647,6 +664,7 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
   else if(e.key==="Escape"){RQ.value=state.r+" km";hideR();}});
  RL.addEventListener("mousedown",e=>{const li=e.target.closest("li[data-n]");if(li){e.preventDefault();setR(li.dataset.n);}});
  RQ.addEventListener("blur",()=>setTimeout(()=>{const typed=RQ.value.replace(/[^0-9]/g,"");if(typed&&PP.RADII.includes(+typed)&&typed!==state.r)setR(typed);else{RQ.value=state.r+" km";hideR();}},120));
+ $("hinfo").onclick=()=>{const h=$("hdr"),o=!h.classList.contains("showsub");h.classList.toggle("showsub",o);$("hinfo").setAttribute("aria-expanded",String(o));};
  window.PPUI={choose,showSug,drawMap,setR,textSearch,openDrawer,closeDrawer};
  toUI();render(false);
 })();};
