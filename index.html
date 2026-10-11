@@ -126,6 +126,10 @@ main{padding-top:16px!important;padding-bottom:24px!important}
 .modal .row{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end;margin-top:16px}
 .modal .row button{height:var(--h);border:0;border-radius:var(--r);padding:0 16px;cursor:pointer;font-size:.9rem}.modal .pri{background:var(--accent);color:#fff}.modal .sec{background:#eef3f5}
 .modal p{font-size:.9rem;margin:8px 0}
+.migr{position:fixed;left:50%;transform:translateX(-50%);bottom:72px;z-index:2300;background:#fff;border:1px solid var(--line);box-shadow:0 8px 24px rgba(0,0,0,.18);border-radius:12px;padding:12px 16px;max-width:560px;width:calc(100% - 32px);font-size:.9rem}
+.migr .row{display:flex;gap:8px;justify-content:flex-end;margin-top:8px}.migr button{height:36px;border-radius:var(--r);padding:0 12px;cursor:pointer;border:1px solid var(--line);background:#fff}.migr button.pri{background:var(--accent);color:#fff;border:0}
+.apierr{position:sticky;top:0;z-index:2250;background:#fff4e5;border-bottom:1px solid #f0b429;color:#6b4500;padding:8px 16px;font-size:.9rem;text-align:center}
+#grid.loading{opacity:.55;transition:opacity .15s}
 .notebtn{position:relative}.acts .notebtn{font-size:.9rem}.notebtn .ncount{position:absolute;top:-4px;right:-4px;background:var(--accent);color:#fff;border-radius:9px;font-size:.62rem;min-width:16px;height:16px;line-height:16px;padding:0 3px;font-weight:700}
 .pop .pa .notebtn .ncount{position:static;margin-left:4px}
 .npv{margin-top:8px;font-size:.82rem;color:#3b4a55;background:#fff8e1;border-left:3px solid #f0b429;padding:4px 8px;border-radius:4px;cursor:pointer;overflow:hidden;text-overflow:ellipsis}
@@ -200,19 +204,19 @@ footer{color:var(--muted);font-size:.83rem;padding-top:16px!important;padding-bo
    <div class="frow"><label for="muni">Area</label><select id="muni" class="ctl"><option value="">All areas</option></select></div>
    <div class="frow"><label for="src">Portal</label><select id="src" class="ctl"><option value="">All portals</option></select></div></section>
   <section><h3>Listing</h3>
-   <label class="chk"><input type="checkbox" id="new"><span>Added in the last 7 days</span></label>
-   <label class="chk"><input type="checkbox" id="fav"><span>Favourites only</span></label>
-   <label class="chk"><input type="checkbox" id="notes"><span>Has notes <small id="notesn"></small><em>Homes with your notes or shared notes</em></span></label>
-   <label class="chk"><input type="checkbox" id="showrem"><span>Show removed <small id="remnote"></small><em>Listings you hid with × in this browser</em></span></label></section>
+   <label class="chk"><input type="checkbox" id="new"><span>Added in the last 7 days <small id="newn"></small></span></label>
+   <label class="chk"><input type="checkbox" id="fav"><span>Favourites only <small id="favn"></small></span></label>
+   <label class="chk"><input type="checkbox" id="notes"><span>Has notes <small id="notesn"></small><em>Homes with at least one note</em></span></label>
+   <label class="chk"><input type="checkbox" id="showrem"><span>Show removed <small id="remnote"></small><em>Listings hidden with × (shared)</em></span></label></section>
  </div>
  <div class="sfoot"><button class="ctl" id="dclear" type="button">Clear</button><button class="ctl pri" id="dapply" type="button" data-close>Show homes</button></div>
 </div></div>
 <div id="panel" class="modal" role="dialog" aria-modal="true" aria-labelledby="lh"><div class="dlg">
  <h2 id="lh">My lists</h2>
- <p>Your ♥ favourites, × removed listings and 📝 notes are saved in this browser only. To move them to another device, or send them to us for the shared list, copy this code:</p>
+ <p>♥ Favourites, × removed listings and 📝 notes are <b>shared</b>: everyone using this site sees the same lists. This code is a snapshot of them (for backup or another copy of the site):</p>
  <textarea id="code" readonly rows="3"></textarea>
  <div class="row" style="justify-content:flex-start"><button class="sec" id="copy" type="button">Copy code</button><button class="sec" id="copylink" type="button">Copy link to this view</button></div>
- <label for="incode">Paste a code from another device or person (added to what you have)</label><textarea id="incode" rows="2" placeholder="PP2:…"></textarea>
+ <label for="incode">Paste a code (PP1/PP2) – its favourites, removals and notes are added to the shared lists</label><textarea id="incode" rows="2" placeholder="PP2:…"></textarea>
  <div class="row"><button class="sec" id="clearrem" type="button">Restore all removed</button><button class="sec" type="button" data-lclose>Close</button><button class="pri" id="apply" type="button">Import code</button></div>
 </div></div>
 <div id="notesm" class="modal" role="dialog" aria-modal="true" aria-labelledby="nh"><div class="dlg">
@@ -220,7 +224,7 @@ footer{color:var(--muted);font-size:.83rem;padding-top:16px!important;padding-bo
  <ul id="nlist" class="nlist"></ul>
  <label for="ntext">Add a note</label><textarea id="ntext" rows="3" maxlength="2000" placeholder="e.g. Called the agent, viewing on Saturday…"></textarea>
  <div class="row"><button class="sec" type="button" data-nclose>Close</button><button class="pri" id="nadd" type="button">Add note</button></div>
- <p class="hint">Notes are saved in this browser and included in your My lists code.</p>
+ <p class="hint">Notes are shared: everyone using this site sees them.</p>
 </div></div>
 <div id="addm" class="modal" role="dialog" aria-modal="true" aria-labelledby="addh"><div class="dlg">
  <h2 id="addh">Suggest a property</h2>
@@ -233,11 +237,13 @@ footer{color:var(--muted);font-size:.83rem;padding-top:16px!important;padding-bo
  <div class="row"><button class="sec" id="a_cancel" type="button">Cancel</button><button class="sec" id="a_copy" type="button">Copy details</button><button class="sec" id="a_copylink" type="button">Copy GitHub link</button><button class="pri" id="a_go" type="button">Submit via GitHub →</button></div>
 </div></div>
 <div id="toast"></div>
+<div id="migr" class="migr" hidden role="region" aria-label="Upload saved lists"></div>
+<div id="apierr" class="apierr" hidden role="alert"></div>
 <footer class="wrap">Sources: Imovirtual, Casa Sapo, RE/MAX, Century 21, OLX, CustoJusto and Idealista listings, curated and refreshed daily. Prices, sizes, garden/land details and distances come from the adverts or are approximate. Always check them on the original listing. Listings may be sold or withdrawn at any time. ♥ and × are saved only in your browser.</footer>
 
 <script>
 "use strict";
-const DATA={"labels":{"imovirtual":"Imovirtual","casasapo":"Casa Sapo","remax":"RE/MAX","century21":"Century 21","olx":"OLX","custojusto":"CustoJusto","idealista":"Idealista","supercasa":"SuperCasa","era":"ERA","bpi":"BPI Expresso Imobiliário","engel":"Engel & Völkers","kw":"KW Portugal","zome":"Zome","iad":"iad Portugal","coldwell":"Coldwell Banker","kyero":"Kyero","idealista_rss":"Idealista RSS","decisoes":"Decisões e Soluções","greenacres":"Green-Acres","rightmove":"Rightmove Overseas","aplaceinthesun":"A Place in the Sun","predimed":"Predimed","casaiberia":"Casaiberia","cgd":"Caixa Imobiliário (CGD)"},"portals":["imovirtual","casasapo","remax","century21","olx","custojusto","idealista"],"regions":{"north":"North coast","centre":"Centre & Silver Coast","lisbon":"Lisbon & Setúbal","alentejo":"Alentejo coast","algarve":"Algarve"},"src":"data.json?v=78224bd19b","sharedFavs":["a0f41248a3","529768acbd","62e8e780ed","c8c3cadb01","8c4e0f321c","1fb432f436","bbbb546b75","53519d7db1","fd88b4a5ee"],"sharedNotes":{},"today":"2026-10-11","updated":"11 Oct 2026, 18:41"};
+const DATA={"labels":{"imovirtual":"Imovirtual","casasapo":"Casa Sapo","remax":"RE/MAX","century21":"Century 21","olx":"OLX","custojusto":"CustoJusto","idealista":"Idealista","supercasa":"SuperCasa","era":"ERA","bpi":"BPI Expresso Imobiliário","engel":"Engel & Völkers","kw":"KW Portugal","zome":"Zome","iad":"iad Portugal","coldwell":"Coldwell Banker","kyero":"Kyero","idealista_rss":"Idealista RSS","decisoes":"Decisões e Soluções","greenacres":"Green-Acres","rightmove":"Rightmove Overseas","aplaceinthesun":"A Place in the Sun","predimed":"Predimed","casaiberia":"Casaiberia","cgd":"Caixa Imobiliário (CGD)"},"portals":["imovirtual","casasapo","remax","century21","olx","custojusto","idealista"],"regions":{"north":"North coast","centre":"Centre & Silver Coast","lisbon":"Lisbon & Setúbal","alentejo":"Alentejo coast","algarve":"Algarve"},"src":"data.json?v=78224bd19b","sharedFavs":["a0f41248a3","529768acbd","62e8e780ed","c8c3cadb01","8c4e0f321c","1fb432f436","bbbb546b75","53519d7db1","fd88b4a5ee"],"sharedNotes":{},"api":"https://portugal-property-api.maketheboat.workers.dev","key":"pp-shared-7f3a91","munis":{"lisbon":["Almada","Amadora","Cascais","Lisboa","Mafra","Oeiras","Palmela","Seixal","Sesimbra","Setúbal","Sintra","Torres Vedras"],"centre":["Alcobaça","Aveiro","Caldas da Rainha","Figueira da Foz","Lourinhã","Marinha Grande","Mira","Murtosa","Nazaré","Ovar","Peniche","Santa Maria da Feira","Vagos","Ílhavo","Óbidos"],"alentejo":["Grândola","Odemira","Santiago do Cacém","Sines"],"algarve":["Albufeira","Aljezur","Castro Marim","Faro","Lagoa","Lagos","Loulé","Olhão","Portimão","Silves","Tavira","Vila Real de Santo António","Vila do Bispo"],"north":["Barcelos","Caminha","Espinho","Esposende","Gondomar","Maia","Matosinhos","Porto","Póvoa de Varzim","Santa Maria da Feira","Viana do Castelo","Vila Nova de Cerveira","Vila Nova de Gaia","Vila do Conde"]},"gazsrc":"gaz.json?v=3e54d5910b","today":"2026-10-11","updated":"11 Oct 2026, 18:56"};
 // a hotlinked photo that fails (throttling, flaky network) gets one retry after 2 s before the placeholder shows
 function ppImgErr(el){if(!el.dataset.retry){el.dataset.retry="1";const u=el.getAttribute("src");setTimeout(()=>{el.src=u+(u.includes("?")?"&":"?")+"r=1";},2000);}else el.remove();}
 if(typeof window!=="undefined")window.ppImgErr=ppImgErr;
@@ -326,18 +332,20 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
  const PPBOOT=()=>{(function(){
  const $=id=>document.getElementById(id),esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
  PP.sharedNotes=DATA.sharedNotes||{};
- const items=DATA.listings,shared=new Set(DATA.sharedFavs),today=DATA.today;let lastRes=[],store=PP.loadStore(localStorage),state=PP.stateFromQuery(location.search);
+ const items=[],shared=new Set(),today=DATA.today;
+ const storeFrom=st=>({f:st.fav||[],r:st.rem||[],n:Object.fromEntries(Object.entries(st.notes||{}).map(([k,a])=>[k,a.map(n=>({id:String(n.id),t:n.t,c:n.c,u:n.u,by:n.by||""}))]))});
+ let lastRes=[],lastTotal=0,lastFacets=null,byId=new Map(),store=storeFrom(DATA.state0||{}),state=PP.stateFromQuery(location.search);
+ PP.sharedNotes={};
  $("upd").textContent=DATA.updated;
  const LBL=s=>(DATA.labels||{})[s]||s;
- {const c=(id,n)=>{$(id).textContent=n?`(${n})`:"";};c("stretchn",items.filter(x=>x.stretch).length);c("unfn",items.filter(x=>x.unfinished).length);c("nwn",items.filter(x=>x.needs_work).length);c("balcn",items.filter(x=>x.balcony).length);c("outn",items.filter(x=>x.outside).length);c("gardn",items.filter(x=>x.garden_yes).length);c("terrn",items.filter(x=>x.terrace).length);}
- [...new Set([...(DATA.portals||[]),...items.map(x=>x.source),...items.flatMap(x=>(x.also_on||[]).map(a=>a.source))])].forEach(s=>{const o=document.createElement("option");o.value=s;o.textContent=LBL(s);$("src").appendChild(o);});
- Object.entries(DATA.regions||{}).forEach(([k,v])=>{const n=items.filter(x=>x.region===k).length;if(!n)return;const o=document.createElement("option");o.value=k;o.textContent=`${v} (${n})`;$("reg").appendChild(o);});
- function fillMuni(){const sel=$("muni"),reg=state.reg;const ms=[...new Set(items.filter(x=>!reg||x.region===reg).map(x=>x.municipality).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
-  if(state.muni&&!ms.includes(state.muni))state.muni="";sel.length=1;ms.forEach(m=>{const o=document.createElement("option");o.value=o.textContent=m;sel.appendChild(o);});sel.value=state.muni;sel.dataset.reg=reg;}
+ [...new Set(DATA.portals||[])].forEach(s=>{const o=document.createElement("option");o.value=s;o.textContent=LBL(s);$("src").appendChild(o);});
+ Object.entries(DATA.regions||{}).forEach(([k,v])=>{if(!(DATA.munis||{})[k])return;const o=document.createElement("option");o.value=k;o.textContent=v;o.dataset.l=v;$("reg").appendChild(o);});
+ function fillMuni(){const sel=$("muni"),reg=state.reg;const ms=[...new Set(Object.entries(DATA.munis||{}).filter(([r])=>!reg||r===reg).flatMap(([,m])=>m))].sort((a,b)=>a.localeCompare(b));
+  if(state.muni&&!ms.includes(state.muni))state.muni="";sel.length=1;ms.forEach(m=>{const o=document.createElement("option");o.value=o.textContent=o.dataset.l=m;sel.appendChild(o);});sel.value=state.muni;sel.dataset.reg=reg;}
  fillMuni();
  const fields=["pmin","pmax","ptype","beds","size","reg","muni","src","sort","nb"],checks=["outside","garden","balcony","terrace","new","fav","notes","stretch","hideunf","hidework","showrem"];
  const DRAWER=["size","nb","outside","garden","balcony","terrace","hideunf","hidework","stretch","reg","muni","src","new","fav","notes","showrem"],BASIC=["sec","pmin","pmax","ptype","beds"];
- const gidx=PP.indexGaz(DATA.gaz||[]);
+ let gidx=PP.indexGaz([]);fetch(DATA.gazsrc).then(r=>r.json()).then(g=>{gidx=PP.indexGaz(g);}).catch(()=>{});   // autosuggest data loads after first paint
  const mobile=()=>!!(window.matchMedia&&window.matchMedia("(max-width:860px)").matches);
  const L=$("loc"),UL=$("sugg");
  const fmt=n=>"€"+Number(n).toLocaleString("en-GB",{maximumFractionDigits:0});
@@ -407,48 +415,76 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
    ${(x.also_on||[]).length?`<div class="also">Also on: ${x.also_on.map(a=>`<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(LBL(a.source))}</a>`).join(", ")}</div>`:""}
    ${rm?'<button class="restore" data-act="restore">↩ Restore</button>':""}</div></article>`;}
  const PAGE=48;let shown=PAGE,gridKey=null;
- function allNotes(id){return [...PP.notesOf(id,store).map(n=>({...n,own:true})),...(PP.sharedNotes[id]||[]).map((n,i)=>({id:"s"+i,t:n.t,c:n.c||"",u:n.c||"",by:n.by||"",shared:true}))].sort((a,b)=>(b.c||"").localeCompare(a.c||""));}
+ function allNotes(id){return PP.notesOf(id,store).map(n=>({...n,own:!String(n.id).startsWith("tmp")})).sort((a,b)=>(b.c||"").localeCompare(a.c||""));}
  function noteBtn(id,attr){const n=allNotes(id).length;return `<button class="notebtn${n?" has":""}" data-${attr}="note" type="button" title="${n?n+" note"+(n>1?"s":""):"Add a note"}" aria-label="Notes${n?" ("+n+")":""}">📝${n?`<span class="ncount">${n}</span>`:""}</button>`;}
  function notePreview(id){const a=allNotes(id);if(!a.length)return "";const t=a[0].t.replace(/\s+/g," ");return `<div class="npv" data-act="note" title="Open notes">📝 ${a[0].shared?'<span class="nshared">Shared</span> ':""}${esc(t.length>90?t.slice(0,90)+"…":t)}${a.length>1?` <small>+${a.length-1} more</small>`:""}</div>`;}
  const moreBtn=n=>n>0?`<div class="more" id="more"><button class="ctl" type="button" id="morebtn">Show ${Math.min(PAGE,n)} more <small>(${n} left)</small></button></div>`:"";
- function showMore(){const g=$("grid"),m=$("more");if(m)m.remove();const next=lastRes.slice(shown,shown+PAGE);shown+=next.length;
-  g.insertAdjacentHTML("beforeend",next.map(card).join("")+moreBtn(lastRes.length-shown));watchMore();}
+ let loadingMore=false;
+ function showMore(){if(loadingMore||lastRes.length>=lastTotal)return;loadingMore=true;const my=rseq,b=$("morebtn");if(b)b.disabled=true;
+  PPAPI.get("/listings?"+apiQS({offset:lastRes.length,limit:PAGE})).then(L=>{if(my!==rseq)return;const add=prep(L);lastRes=lastRes.concat(add);shown=lastRes.length;
+   const m=$("more");if(m)m.remove();$("grid").insertAdjacentHTML("beforeend",add.map(card).join("")+moreBtn(lastTotal-lastRes.length));watchMore();})
+  .catch(e=>toast("Could not load more: "+e.message)).finally(()=>{loadingMore=false;});}
  let io=null;function watchMore(){const m=$("more");if(!m||!window.IntersectionObserver)return;if(!io)io=new IntersectionObserver(es=>{if(es.some(e=>e.isIntersecting)&&state.view!=="map")showMore();},{rootMargin:"600px"});io.disconnect();io.observe(m);}
  $("grid").addEventListener("click",e=>{if(e.target.closest("#morebtn"))showMore();});
  // 0 results: say which filters are hiding homes, each with a one-click fix
  let zfix=[];
- function zeroHint(res){const el=$("zerohint");zfix=[];if(res.length){el.hidden=true;el.innerHTML="";return;}
-  const n=s2=>PP.filter(items,s2,store,DATA.sharedFavs,today).length,out=[];
-  chipList().forEach(([t,keys])=>{const s2={...state};keys.forEach(k=>s2[k]=PP.defaults[k]);const k=n(s2);if(k)out.push([k,t,s2]);});
-  [["hideunf",false,"Unfinished/off-plan hidden"],["hidework",false,"Needs-work hidden"],["stretch",true,"Stretch not included"]].forEach(([k,v,t])=>{if(state[k]!==v&&state[k]===PP.defaults[k]){const s2={...state,[k]:v};const c=n(s2);if(c)out.push([c,t,s2]);}});
-  if(state.lat&&+state.r<35){const r=[5,10,15,20,25,35].find(x=>x>+state.r&&n({...state,r:String(x)}));if(r)out.push([n({...state,r:String(r)}),`Radius ${state.r} km – widen to ${r} km`,{...state,r:String(r)}]);}
+ function zeroHint(F){const el=$("zerohint");zfix=[];if(!F||F.total){el.hidden=true;el.innerHTML="";return;}
+  const C=F.clear||{},out=[];
+  chipList().forEach(([t,keys])=>{const k=keys.includes("loc")?C.loc:keys.includes("pmin")?Math.max(C.pmin||0,C.pmax||0):Math.max(...keys.map(k=>C[k]||0));
+   if(k){const s2={...state};keys.forEach(k=>s2[k]=PP.defaults[k]);out.push([k,t,s2]);}});
+  [["hideunf",false,"Unfinished/off-plan hidden"],["hidework",false,"Needs-work hidden"],["stretch",true,"Stretch not included"]].forEach(([k,v,t])=>{if(state[k]!==v&&state[k]===PP.defaults[k]&&F.counts[k])out.push([F.counts[k],t,{...state,[k]:v}]);});
+  if(F.wider&&F.wider.n)out.push([F.wider.n,`Radius ${state.r} km – widen to ${F.wider.r} km`,{...state,r:String(F.wider.r)}]);
   out.sort((a,b)=>b[0]-a[0]);zfix=out.slice(0,5).map(x=>x[2]);
   el.innerHTML=out.length?"<b>No homes match.</b> "+out.slice(0,5).map(([k,t],i)=>`<span>${k} home${k===1?"":"s"} hidden by: <b>${esc(t)}</b><button class="link" type="button" data-zf="${i}">${/^Radius/.test(t)?"widen":"clear"}</button></span>`).join(" · ")
    :`<b>No homes match.</b> Several filters together hide everything.<button class="link" type="button" data-zf="0">clear all filters</button>`;
   if(!out.length)zfix=[{...PP.defaults}];el.hidden=false;}
  $("zerohint").addEventListener("click",e=>{const b=e.target.closest("button[data-zf]");if(!b)return;const s2=zfix[+b.dataset.zf];if(!s2)return;const v=state.view;state={...s2,view:v};toUI();render();});
- function render(push){if($("muni").dataset.reg!==state.reg)fillMuni();const res=PP.filter(items,state,store,DATA.sharedFavs,today);
+ // ---- API glue ----
+ function apiQS(extra){const s={...state};["view","mz","mc","loc"].forEach(k=>delete s[k]);if(!s.lat){delete s.lat;delete s.lon;}
+  const p=new URLSearchParams();for(const k in s){const v=s[k];if(v===""||v==null)continue;p.set(k,typeof v==="boolean"?(v?"1":"0"):v);}for(const k in (extra||{}))p.set(k,extra[k]);return p.toString();}
+ function prep(L){return L.items.map((x,i)=>{x._dist=L.dist?L.dist[i]:null;byId.set(x.id,x);return x;});}
+ let rseq=0;window.PPRENDERS=0;
+ function facetLabels(F){const c=(id,n)=>{const el=$(id);if(el)el.textContent=n!=null?`(${n})`:"";},T=F.total,C=F.counts;
+  // additive options: how many homes you would see if you ticked it (= the result once ticked); hide/include options: how many homes they hide/add
+  ["outside:outn","garden:gardn","balcony:balcn","terrace:terrn","notes:notesn","fav:favn","new:newn"].forEach(p=>{const [k,id]=p.split(":");c(id,state[k]?T:C[k]);});
+  c("unfn",Math.abs(C.hideunf-T));c("nwn",Math.abs(C.hidework-T));c("stretchn",Math.abs(C.stretch-T));
+  $("remnote").textContent=store.r.length?`(${store.r.length} hidden)`:"";
+  const lab=(sel,counts)=>[...$(sel).options].forEach(o=>{if(!o.value)return;const n=counts[o.value]||0;o.textContent=`${o.dataset.l||o.textContent.replace(/ \(\d+\)$/,"")} (${n})`;if(!o.dataset.l)o.dataset.l=o.textContent.replace(/ \(\d+\)$/,"");});
+  lab("reg",F.region||{});lab("muni",F.municipality||{});lab("src",F.src||{});lab("ptype",F.ptype||{});lab("beds",F.beds||{});
+  {const nb=$("nb");[...nb.options].forEach(o=>{if(!o.dataset.l)o.dataset.l=o.textContent;const n=o.value?F.nb[o.value]:F.nb.any;o.textContent=`${o.dataset.l} (${n})`;});}}
+ function apiFail(e){const el=$("apierr");el.hidden=false;el.innerHTML=`The live listings service is not responding (${esc(e.message||e)}). <a href="static.html${esc(location.search)}">Open the static snapshot</a> or try again shortly.`;
+  $("grid").classList.remove("loading");if(!lastRes.length){$("grid").innerHTML='<div class="empty">Listings could not load. <a href="static.html">Static snapshot</a></div>';$("count").textContent="";}}
+ function render(push){if($("muni").dataset.reg!==state.reg)fillMuni();
   {const s={...state};delete s.view;delete s.mz;delete s.mc;const gk=JSON.stringify(s);if(gk!==gridKey){gridKey=gk;shown=PAGE;}}   // ♥/×/restore keep how far you scrolled
-  $("grid").innerHTML=res.length?res.slice(0,shown).map(card).join("")+moreBtn(res.length-shown):'<div class="empty">No homes match these filters. <button class="link" type="button" onclick="document.getElementById(\'clearall\').click()">Clear all filters</button></div>';
-  const homes=n=>`${n} home${n===1?"":"s"}`;$("count").textContent=homes(res.length);$("dapply").textContent="Show "+homes(res.length);
   const cl=chipList();$("chips").innerHTML=cl.map(([t],i)=>`<span class="fchip">${esc(t)}<button type="button" data-ci="${i}" aria-label="Remove filter ${esc(t)}">×</button></span>`).join("");$("clearall").hidden=!cl.length;
-  syncBar();
-  document.body.classList.toggle("mapview",state.view==="map");
+  syncBar();document.body.classList.toggle("mapview",state.view==="map");
   document.querySelectorAll("#views button").forEach(b=>b.classList.toggle("on",b.dataset.v===state.view));
-  zeroHint(res);lastRes=res;watchMore();if(state.view==="map")drawMap(res);
-  const nr=store.r.filter(id=>items.some(x=>x.id===id)).length;$("remnote").textContent=nr?`(${nr} in this browser)`:"";
   $("code").value=PP.encode(store);
-  {const n=items.filter(x=>PP.hasNotes(x.id,store)).length;$("notesn").textContent=n?`(${n})`:"";}
-  const q=PP.stateToQuery(state);if(push!==false)history.replaceState(null,"",location.pathname+q);}
+  const q=PP.stateToQuery(state);if(push!==false)history.replaceState(null,"",location.pathname+q);
+  const my=++rseq;$("grid").classList.add("loading");
+  const pr=Promise.all([PPAPI.get("/listings?"+apiQS({limit:Math.max(PAGE,shown)})),PPAPI.get("/facets?"+apiQS())]).then(([L,F])=>{if(my!==rseq)return;
+   $("apierr").hidden=true;lastRes=prep(L);lastTotal=L.total;lastFacets=F;shown=lastRes.length;$("grid").classList.remove("loading");
+   $("grid").innerHTML=lastTotal?lastRes.map(card).join("")+moreBtn(lastTotal-lastRes.length):'<div class="empty">No homes match these filters. <button class="link" type="button" onclick="document.getElementById(\'clearall\').click()">Clear all filters</button></div>';
+   const homes=n=>`${n} home${n===1?"":"s"}`;$("count").textContent=homes(lastTotal);$("dapply").textContent="Show "+homes(lastTotal);
+   facetLabels(F);zeroHint(F);watchMore();window.PPRENDERS++;}).catch(e=>{if(my===rseq)apiFail(e);});
+  window.PPLAST=pr;if(state.view==="map")drawMap();return pr;}
+ // shared writes: optimistic, then resync from the server
+ function write(m,p,b,undo){return PPAPI.send(m,p,b).catch(e=>{if(undo)undo();render(false);toast("Could not save: "+e.message);throw e;});}
+ function doAct(kind,id){
+  if(kind==="fav"){const on=!store.f.includes(id),was=store.f.slice();store.f=on?[...store.f,id]:store.f.filter(x=>x!==id);
+   document.querySelectorAll(`[data-id="${id}"] [data-act="fav"],[data-id="${id}"] [data-pact="fav"]`).forEach(b=>{b.classList.toggle("on",on);b.innerHTML=b.dataset.pact?`${on?"♥":"♡"} Favourite`:on?"♥":"♡";});
+   restyle(id);write(on?"POST":"DELETE","/favourite/"+id,null,()=>{store.f=was;}).then(()=>render(false)).catch(()=>{});}
+  if(kind==="rem"){const wf=store.f.slice();store.r=[...store.r,id];store.f=store.f.filter(x=>x!==id);
+   if(!state.showrem){const c=document.querySelector(`.card[data-id="${id}"]`);if(c)c.remove();dropMarker(id);}
+   write("POST","/remove/"+id,null,()=>{store.r=store.r.filter(x=>x!==id);store.f=wf;}).then(()=>render(false)).catch(()=>{});
+   toast("Listing removed for everyone (shared list).",()=>doAct("restore",id));}
+  if(kind==="restore"){store.r=store.r.filter(x=>x!==id);write("POST","/restore/"+id).then(()=>render(false)).catch(()=>{});}}
+ function refreshState(){return PPAPI.get("/state").then(st=>{store=storeFrom(st);render(false);});}
  function toast(msg,undo){const t=$("toast");t.innerHTML=esc(msg)+(undo?' <button type="button">Undo</button>':"");t.style.display="block";
   if(undo)t.querySelector("button").onclick=()=>{undo();t.style.display="none";};clearTimeout(toast.h);toast.h=setTimeout(()=>t.style.display="none",6000);}
  $("grid").addEventListener("click",e=>{const b=e.target.closest("[data-act]");if(!b)return;const id=b.closest(".card").dataset.id;
   if(b.dataset.act==="note"){openNotes(id,b);return;}
-  if(b.dataset.act==="fav"){store.f=store.f.includes(id)?store.f.filter(x=>x!==id):[...store.f,id];}
-  if(b.dataset.act==="rem"){store.r=[...store.r,id];store.f=store.f.filter(x=>x!==id);PP.saveStore(localStorage,store);render();
-    toast("Listing removed from your view.",()=>{store.r=store.r.filter(x=>x!==id);PP.saveStore(localStorage,store);render();});return;}
-  if(b.dataset.act==="restore"){store.r=store.r.filter(x=>x!==id);}
-  PP.saveStore(localStorage,store);render();});
+  if(["fav","rem","restore"].includes(b.dataset.act))doAct(b.dataset.act,id);});
  // every filter control: live update (debounced for typing)
  let tmr;[...fields,...checks].forEach(id=>{const el=$(id);
   el.addEventListener("input",()=>{clearTimeout(tmr);tmr=setTimeout(()=>{fromUI();render();},150);});
@@ -478,13 +514,22 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
  // my lists modal
  const PN=$("panel");$("sharebtn").onclick=()=>PN.classList.add("open");
  PN.addEventListener("click",e=>{if(e.target===PN||e.target.closest("[data-lclose]"))PN.classList.remove("open");});
- document.addEventListener("keydown",e=>{if(e.key!=="Escape")return;closePrice();closeDrawer();PN.classList.remove("open");});
+ document.addEventListener("keydown",e=>{if(e.key!=="Escape")return;closePrice();closeDrawer();PN.classList.remove("open");closeNotes();});
  const copy=t=>{(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>toast("Copied."),()=>{prompt("Copy:",t);});};
  $("copy").onclick=()=>copy($("code").value);
  $("copylink").onclick=()=>copy(location.href);
- $("apply").onclick=()=>{try{const s=PP.decode($("incode").value);const nb=Object.values(store.n).flat().length;store.f=[...store.f,...s.f];store.r=[...store.r,...s.r];store.n=PP.mergeNotes(store.n,s.n);PP.saveStore(localStorage,store);render();toast(`Imported ${s.f.length} favourites, ${s.r.length} removed, ${Object.values(store.n).flat().length-nb} new notes.`);$("incode").value="";}catch(e){toast("Invalid code: "+e.message);}};
- $("clearrem").onclick=()=>{const old=store.r;store.r=[];PP.saveStore(localStorage,store);render();toast(`Restored ${old.length} listings.`,()=>{store.r=old;PP.saveStore(localStorage,store);render();});};
- window.addEventListener("storage",e=>{if(e.key===STORE_KEY){store=PP.loadStore(localStorage);render(false);}});
+ $("apply").onclick=()=>{let s;try{s=PP.decode($("incode").value);}catch(e){toast("Invalid code: "+e.message);return;}
+  write("POST","/import",s).then(r=>{$("incode").value="";toast(`Added to the shared lists: ${r.f} favourites, ${r.r} removed, ${r.n} notes.`);return refreshState();}).catch(()=>{});};
+ $("clearrem").onclick=()=>{const old=store.r.slice();if(!old.length){toast("Nothing is removed.");return;}if(!confirm(`Restore all ${old.length} removed listings for everyone?`))return;
+  Promise.all(old.map(id=>PPAPI.send("POST","/restore/"+id).catch(()=>null))).then(()=>{toast(`Restored ${old.length} listings.`);refreshState();});};
+ // one-time: offer to upload what this browser saved before the lists became shared
+ {const loc=PP.loadStore(localStorage),nn=Object.values(loc.n||{}).reduce((a,v)=>a+v.length,0),done=localStorage.getItem("pp.migrated");
+  const nf=loc.f.filter(id=>!store.f.includes(id)).length,nr=loc.r.filter(id=>!store.r.includes(id)).length;
+  if(!done&&(nf||nr||nn)){const el=$("migr");el.hidden=false;
+   el.innerHTML=`<b>Saved in this browser:</b> ${nf} favourite${nf===1?"":"s"}, ${nr} removed, ${nn} note${nn===1?"":"s"}. The lists are now shared with everyone – add yours?<div class="row"><button type="button" id="migno">Not now</button><button type="button" class="pri" id="migyes">Add to shared lists</button></div>`;
+   $("migno").onclick=()=>{el.hidden=true;localStorage.setItem("pp.migrated","declined");};
+   $("migyes").onclick=()=>{write("POST","/import",loc).then(r=>{localStorage.setItem("pp.migrated",new Date().toISOString());el.hidden=true;toast(`Uploaded: ${r.f} favourites, ${r.r} removed, ${r.n} notes.`);refreshState();}).catch(()=>{});};}}
+ document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible"&&Date.now()-(window.PPSTATEAT||0)>60000){window.PPSTATEAT=Date.now();refreshState().catch(()=>{});}});   // pick up other people's changes
  // ----- combined search: places first, then 'Search text "…"' -----
  let sug=[],act=-1,nomT=null,nomLast=0,nomSeq=0;
  function showSug(list,hint,text){sug=list.map(g=>({g}));if(text&&String(text).trim().length>=2)sug.push({t:String(text).trim()});
@@ -560,7 +605,13 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
   else{ms.mode="off";mClear();map.doubleClickZoom.enable();$("map").classList.remove("measuring");b.classList.remove("on");}
   window.PPMEASURE.mode=ms.mode;window.PPMEASURE.km=mkm();window.PPMEASURE.points=ms.pts.length;}
  window.PPMEASURE={toggle:()=>mToggle(),mode:"off",km:0,points:0};
- function drawMap(res){ensureLeaflet().then(()=>{const Lf=window.L;
+ let mseq=0;
+ const toPt=a=>({id:a[0],lat:a[1],lon:a[2],color:a[3]?"#8d5a3b":"#0f6e8c",approx:!!a[5],fav:store.f.includes(a[0])});
+ function popupContent(id,m){const x=byId.get(id);if(x)return popupHtml(x);
+  PPAPI.get("/listing/"+id).then(x=>{byId.set(id,x);if(m.isPopupOpen())m.getPopup().setContent(popupHtml(x));}).catch(()=>{});return '<div class="pop" data-id="'+id+'">Loading…</div>';}
+ function restyle(id){const m=mk.get(id);if(!m)return;const p={...m._pp,fav:store.f.includes(id)};m._pp=p;m._ppfav=p.fav;m.setStyle(mstyle(p));m.setRadius(mstyle(p).radius);}
+ function dropMarker(id){const m=mk.get(id);if(m&&layer){layer.removeLayer(m);mk.delete(id);if(window.PPMAP)window.PPMAP.count=mk.size;}}
+ function drawMap(){const my=++mseq;Promise.all([ensureLeaflet(),PPAPI.get("/map?"+apiQS())]).then(([,M])=>{if(my!==mseq)return;const Lf=window.L;
   if(!map){const sv=savedView();
    map=Lf.map("map",{zoomControl:true});prog++;sv?map.setView(sv.c,sv.z,{animate:false}):map.setView([38.6,-9.1],8,{animate:false});prog--;userMoved=!!sv;
    Lf.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
@@ -572,16 +623,14 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
     history.replaceState(null,"",location.pathname+PP.stateToQuery(state));});
    map.getContainer().addEventListener("click",e=>{const b=e.target.closest("[data-pact]");if(!b)return;const id=b.closest(".pop").dataset.id;
     if(b.dataset.pact==="note"){openNotes(id,b);return;}
-    if(b.dataset.pact==="fav"){store.f=store.f.includes(id)?store.f.filter(x=>x!==id):[...store.f,id];PP.saveStore(localStorage,store);render();}
-    else{store.r=[...store.r,id];store.f=store.f.filter(x=>x!==id);PP.saveStore(localStorage,store);render();
-     toast("Listing removed from your view.",()=>{store.r=store.r.filter(x=>x!==id);PP.saveStore(localStorage,store);render();});}});}
+    doAct(b.dataset.pact==="fav"?"fav":"rem",id);});}
   {const el=map.getContainer(),sz=map.getSize();if(el.clientWidth!==sz.x||el.clientHeight!==sz.y){prog++;map.invalidateSize({pan:false});prog--;}}   // only after List→Map / resize, so ♥/× never nudge the view
   const key=fkey(),lk=[state.lat,state.lon,state.r].join("|"),changed=key!==lastKey,locChanged=lk!==lastLocKey;
-  curById=new Map(res.map(x=>[x.id,x]));const pts=PP.mapPoints(res,store,DATA.sharedFavs),keep=new Set();
+  const pts=M.pts.map(toPt),keep=new Set();
   pts.forEach(p=>{keep.add(p.id);let m=mk.get(p.id);
-   if(!m){m=Lf.circleMarker([p.lat,p.lon],mstyle(p));m.options.ppid=p.id;m._ppfav=p.fav;m.bindPopup(()=>popupHtml(curById.get(p.id)));mk.set(p.id,m);layer.addLayer(m);}
-   else if(m._ppfav!==p.fav){m._ppfav=p.fav;m.setStyle(mstyle(p));m.setRadius(mstyle(p).radius);}
-   if(m.isPopupOpen&&m.isPopupOpen())m.getPopup().setContent(()=>popupHtml(curById.get(p.id)));});
+   if(!m){m=Lf.circleMarker([p.lat,p.lon],mstyle(p));m.options.ppid=p.id;m._ppfav=p.fav;m._pp=p;m.bindPopup(()=>popupContent(p.id,m));mk.set(p.id,m);layer.addLayer(m);}
+   else if(m._ppfav!==p.fav){m._ppfav=p.fav;m._pp=p;m.setStyle(mstyle(p));m.setRadius(mstyle(p).radius);}
+   if(m.isPopupOpen&&m.isPopupOpen()&&byId.has(p.id))m.getPopup().setContent(popupHtml(byId.get(p.id)));});
   const gone=[...mk.keys()].filter(id=>!keep.has(id));if(gone.length){layer.removeLayers?layer.removeLayers(gone.map(id=>mk.get(id))):gone.forEach(id=>layer.removeLayer(mk.get(id)));gone.forEach(id=>mk.delete(id));}
   const lat=parseFloat(state.lat),lon=parseFloat(state.lon),r=parseFloat(state.r),hasLoc=!isNaN(lat)&&!isNaN(lon);
   if(locChanged||!lastLocKey){if(circle){map.removeLayer(circle);circle=null;}
@@ -594,27 +643,30 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
    userMoved=false;lastKey=key;lastLocKey=lk;}
   window.PPMAP={map,layer,markers:mk,count:mk.size,circle:!!(circle&&hasLoc&&r>0),fits:fitted};
  }).catch(e=>{if(window.console)console.error(e);$("map").innerHTML='<div class="empty">Map could not load ('+esc(e.message)+'). Check your connection.</div>';});}
- document.querySelectorAll("#views button").forEach(b=>b.onclick=()=>{state.view=b.dataset.v;render();});
+ document.querySelectorAll("#views button").forEach(b=>b.onclick=()=>{state.view=b.dataset.v;if(state.view==="map"){document.body.classList.add("mapview");document.querySelectorAll("#views button").forEach(x=>x.classList.toggle("on",x.dataset.v==="map"));history.replaceState(null,"",location.pathname+PP.stateToQuery(state));drawMap();}else render();});
  // ----- notes modal (focus-trapped, Esc closes, never touches the map view) -----
  const NM=$("notesm");let noteId=null,noteOpener=null,editing=null;
  const fmtT=iso=>{try{return new Date(iso).toLocaleString("en-GB",{timeZone:"Europe/Lisbon",day:"2-digit",month:"short",year:"numeric",hour:"2-digit",minute:"2-digit"});}catch(e){return iso;}};
- function drawNotes(){const x=items.find(y=>y.id===noteId)||{};$("nsub").textContent=[x.price?fmt(x.price):"",x.typology,x.town].filter(Boolean).join(" · ");
+ function drawNotes(){const x=byId.get(noteId)||{};$("nsub").textContent=[x.price?fmt(x.price):"",x.typology,x.town].filter(Boolean).join(" · ");
   const a=allNotes(noteId);$("nlist").innerHTML=a.length?a.map(n=>`<li data-nid="${esc(n.id)}">${editing===n.id?`<textarea class="nedit" rows="3" maxlength="2000" aria-label="Edit note">${esc(n.t)}</textarea><div class="nm"><button type="button" data-n="save">Save</button><button type="button" data-n="cancel">Cancel</button></div>`:
-   `<div class="nm">${n.shared?`<span class="nshared">Shared${n.by?" · "+esc(n.by):""}</span>`:""}<span>${esc(fmtT(n.c))}${n.u&&n.u!==n.c?" · edited "+esc(fmtT(n.u)):""}</span>${n.own?'<button type="button" data-n="edit">Edit</button><button type="button" class="del" data-n="del">Delete</button>':""}</div><div class="nt">${esc(n.t)}</div>`}</li>`).join(""):'<li class="empty">No notes yet.</li>';}
- function notesChanged(){PP.saveStore(localStorage,store);render(false);drawNotes();}
+   `<div class="nm">${n.by?`<span class="nshared">${esc(n.by)}</span>`:""}<span>${esc(fmtT(n.c))}${n.u&&n.u!==n.c?" · edited "+esc(fmtT(n.u)):""}</span>${n.own?'<button type="button" data-n="edit">Edit</button><button type="button" class="del" data-n="del">Delete</button>':""}</div><div class="nt">${esc(n.t)}</div>`}</li>`).join(""):'<li class="empty">No notes yet.</li>';}
+ function notesChanged(){render(false);drawNotes();
+  if(state.view==="map"){const m=mk.get(noteId);if(m&&m.isPopupOpen()&&byId.has(noteId))m.getPopup().setContent(popupHtml(byId.get(noteId)));}}
  function openNotes(id,opener){noteId=id;noteOpener=opener||null;editing=null;$("ntext").value="";drawNotes();NM.classList.add("open");setTimeout(()=>$("ntext").focus(),30);}
  function closeNotes(){if(!NM.classList.contains("open"))return;NM.classList.remove("open");noteId=null;editing=null;
   const id=noteOpener&&(noteOpener.closest(".card,.pop")||{}).dataset;const back=noteOpener&&document.contains(noteOpener)?noteOpener:(id&&document.querySelector(`[data-id="${id.id}"] .notebtn`));if(back)back.focus();}
  $("nadd").onclick=()=>{const t=$("ntext").value.trim();if(!t){$("ntext").focus();return;}const now=new Date().toISOString();
-  (store.n[noteId]=store.n[noteId]||[]).push({id:"n"+Date.now().toString(36)+Math.random().toString(36).slice(2,6),t,c:now,u:now});$("ntext").value="";notesChanged();toast("Note added.");};
+  const lid=noteId,tmp={id:"tmp"+Date.now(),t,c:now,u:now,by:""};(store.n[lid]=store.n[lid]||[]).push(tmp);$("ntext").value="";drawNotes();
+  write("POST","/notes",{listing_id:lid,text:t},()=>{store.n[lid]=(store.n[lid]||[]).filter(n=>n!==tmp);}).then(r=>{tmp.id=String(r.id);tmp.c=tmp.u=r.c||now;notesChanged();toast("Note added (shared).");}).catch(()=>drawNotes());};
  $("ntext").addEventListener("keydown",e=>{if(e.key==="Enter"&&(e.ctrlKey||e.metaKey))$("nadd").click();});
  $("nlist").addEventListener("click",e=>{const b=e.target.closest("button[data-n]");if(!b)return;const nid=b.closest("li").dataset.nid,lid=noteId,arr=store.n[lid]||[],i=arr.findIndex(n=>n.id===nid);
   if(b.dataset.n==="edit"){editing=nid;drawNotes();const ta=$("nlist").querySelector(".nedit");if(ta){ta.focus();ta.setSelectionRange(ta.value.length,ta.value.length);}return;}
   if(b.dataset.n==="cancel"){editing=null;drawNotes();return;}
   if(i<0)return;
-  if(b.dataset.n==="save"){const t=$("nlist").querySelector(".nedit").value.trim();editing=null;if(t){arr[i]={...arr[i],t,u:new Date().toISOString()};}notesChanged();return;}
-  if(b.dataset.n==="del"){const old=arr[i];arr.splice(i,1);if(!arr.length)delete store.n[lid];notesChanged();
-   toast("Note deleted.",()=>{(store.n[lid]=store.n[lid]||[]).splice(Math.min(i,(store.n[lid]||[]).length),0,old);PP.saveStore(localStorage,store);render(false);if(noteId===lid)drawNotes();});}});
+  if(b.dataset.n==="save"){const t=$("nlist").querySelector(".nedit").value.trim();editing=null;if(t){const old=arr[i];arr[i]={...old,t,u:new Date().toISOString()};write("PUT","/notes/"+nid,{text:t},()=>{arr[i]=old;}).then(()=>notesChanged()).catch(()=>drawNotes());}drawNotes();return;}
+  if(b.dataset.n==="del"){const old=arr[i];arr.splice(i,1);if(!arr.length)delete store.n[lid];drawNotes();
+   write("DELETE","/notes/"+nid,null,()=>{(store.n[lid]=store.n[lid]||[]).splice(i,0,old);}).then(()=>notesChanged()).catch(()=>drawNotes());
+   toast("Note deleted.",()=>{(store.n[lid]=store.n[lid]||[]).splice(Math.min(i,(store.n[lid]||[]).length),0,old);write("PUT","/notes/"+nid,{deleted:0}).then(()=>{render(false);if(noteId===lid)drawNotes();}).catch(()=>{});});}});
  NM.addEventListener("click",e=>{if(e.target===NM||e.target.closest("[data-nclose]"))closeNotes();});
  NM.addEventListener("keydown",e=>{if(e.key==="Escape"){e.stopPropagation();closeNotes();return;}
   if(e.key!=="Tab")return;const f=[...NM.querySelectorAll("button,textarea,input,[href]")].filter(el=>!el.disabled&&el.offsetParent!==null||el===document.activeElement);if(!f.length)return;
@@ -650,7 +702,12 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
  window.PPUI={choose,showSug,drawMap,setR,textSearch,openDrawer,closeDrawer};
  toUI();render(false);
 })();};
- const fail=e=>{if(window.console)console.error(e);const g=document.getElementById("grid");if(g)g.innerHTML='<div class="empty">Listings could not load ('+String(e.message||e).replace(/[<>&]/g,"")+'). Please reload.</div>';document.getElementById("count").textContent="";};
- if(DATA.listings){PPBOOT();window.PPREADY=Promise.resolve();}
- else window.PPREADY=fetch(DATA.src).then(r=>{if(!r.ok)throw new Error("HTTP "+r.status);return r.json();}).then(j=>{Object.assign(DATA,j);PPBOOT();}).catch(fail);}
+ const API=DATA.api;
+ window.PPAPI={get:p=>fetch(API+p).then(r=>r.json().then(j=>{if(!r.ok)throw new Error(j.error||("HTTP "+r.status));return j;})),
+  send:(m,p,b)=>fetch(API+p,{method:m,headers:{"content-type":"application/json","x-pp-key":DATA.key},body:b?JSON.stringify(b):undefined}).then(r=>r.json().catch(()=>({})).then(j=>{if(!r.ok)throw new Error(j.error||("HTTP "+r.status));return j;}))};
+ window.PPSTATEAT=Date.now();
+ window.PPREADY=PPAPI.get("/state").then(st=>{DATA.state0=st;if(st.today)DATA.today=st.today;DATA.listings=[];PPBOOT();return window.PPLAST;})
+  .catch(e=>{if(window.console)console.error(e);const el=document.getElementById("apierr");el.hidden=false;
+   el.innerHTML='The live listings service is not responding ('+String(e.message||e).replace(/[<>&]/g,"")+'). Opening the static snapshot…';
+   document.getElementById("count").textContent="";setTimeout(()=>location.replace("static.html"+location.search),2500);});}
 </script></body></html>

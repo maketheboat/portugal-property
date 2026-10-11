@@ -1,0 +1,656 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Portugal coast property – West coast &amp; Algarve</title>
+<meta name="description" content="Curated houses for sale on Portugal's west coast, Nazaré to Arrifana.">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" crossorigin="">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" crossorigin="">
+<style>
+/* 8px grid · one control height (40px) · one radius (8px) */
+:root{--bg:#f6f4ef;--card:#fff;--ink:#1d2a33;--muted:#6b7780;--accent:#0f6e8c;--accent2:#2a9d8f;--new:#e4572e;--line:#e3e0d8;--ctl:#cfd6da;--h:40px;--r:8px;--pad:24px}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.45}
+button{font:inherit;color:inherit}
+.wrap{max-width:1200px;margin:0 auto;padding:0 var(--pad)}
+/* header */
+header{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:72px}
+header h1{margin:0;font-size:1.25rem;line-height:1.3}header p{margin:0;opacity:.88;font-size:.85rem}
+.hacts{display:flex;gap:8px;flex-shrink:0}
+.hbtn{height:var(--h);padding:0 16px;border-radius:var(--r);border:1px solid rgba(255,255,255,.45);background:rgba(255,255,255,.14);color:#fff;cursor:pointer;font-size:.9rem;font-weight:600;white-space:nowrap}
+.hbtn:hover{background:rgba(255,255,255,.24)}.short{display:none}
+/* controls */
+.ctl{height:var(--h);border:1px solid var(--ctl);border-radius:var(--r);background:#fff;color:var(--ink);font:inherit;font-size:.9rem;padding:0 12px;line-height:calc(var(--h) - 2px);white-space:nowrap}
+.ctl:focus,.ctl:focus-visible{outline:2px solid rgba(15,110,140,.35);outline-offset:0;border-color:var(--accent)}
+select.ctl{padding-right:32px;appearance:none;-webkit-appearance:none;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%236b7780'/%3E%3C/svg%3E") no-repeat right 12px center;cursor:pointer}
+.dd{cursor:pointer;padding-right:32px;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%236b7780'/%3E%3C/svg%3E") no-repeat right 12px center}
+.ctl.on{border-color:var(--accent);color:var(--accent);font-weight:600;background-color:#eef6f8}
+.pri{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600;cursor:pointer}.pri:hover{background:#0c5d77}
+.seg{display:inline-flex;height:var(--h);border:1px solid var(--ctl);border-radius:var(--r);overflow:hidden;background:#fff;flex-shrink:0}
+.seg button{border:0;background:none;padding:0 16px;cursor:pointer;font-size:.9rem;white-space:nowrap}@media(max-width:1180px){.seg button{padding:0 10px}}.seg button+button{border-left:1px solid var(--ctl)}
+.seg button.on{background:var(--accent);color:#fff;font-weight:600}
+.link{background:none;border:0;color:var(--accent);cursor:pointer;font:inherit;font-size:.9rem;padding:0;text-decoration:underline;white-space:nowrap}
+/* search bar */
+#bar{position:sticky;top:0;z-index:1500;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 2px 8px rgba(0,0,0,.04)}
+#bar .wrap{display:flex;align-items:center;gap:8px;padding-top:16px;padding-bottom:8px;flex-wrap:nowrap}
+.helper{font-size:.78rem;color:var(--muted);padding-bottom:8px!important}
+.search{position:relative;flex:1 1 auto;min-width:200px;display:flex}
+.search .ctl{width:100%;padding-left:40px;padding-right:80px}
+.sicon{position:absolute;left:12px;top:50%;transform:translateY(-50%);font-size:.95rem;pointer-events:none;opacity:.75}
+.ibtns{position:absolute;right:4px;top:4px;display:flex;gap:0}
+.ibtn{width:32px;height:32px;border:0;border-radius:var(--r);background:none;cursor:pointer;font-size:1.05rem;color:var(--muted);line-height:1}
+.ibtn:hover{background:#eef3f5;color:var(--ink)}
+#sugg,#rlist{position:absolute;left:0;top:calc(100% + 4px);margin:0;padding:4px 0;list-style:none;background:#fff;border:1px solid var(--line);border-radius:var(--r);box-shadow:0 8px 24px rgba(0,0,0,.12);z-index:2000;max-height:320px;overflow:auto;display:none}
+#sugg{right:0}#sugg li{padding:8px 12px;cursor:pointer;font-size:.9rem;display:flex;justify-content:space-between;gap:8px}
+#sugg li small{color:var(--muted);white-space:nowrap}#sugg li.act,#sugg li:hover{background:#eef6f8}
+#sugg li.txt{border-top:1px solid var(--line);color:var(--accent)}#sugg li.hint{color:var(--muted);cursor:default;background:none;font-size:.82rem}
+.rwrap{position:relative;flex-shrink:0}#rq{width:88px}
+#rlist{min-width:96px;max-height:264px}#rlist li{padding:8px 16px;cursor:pointer;font-size:.9rem}#rlist li.act,#rlist li:hover{background:#eef6f8}#rlist li.sel{font-weight:700;color:var(--accent)}
+.ddwrap{position:relative;flex-shrink:0}
+.pop2{position:absolute;top:calc(100% + 8px);right:0;width:296px;background:#fff;border:1px solid var(--line);border-radius:var(--r);box-shadow:0 8px 24px rgba(0,0,0,.14);padding:16px;z-index:2000;display:none}
+.pop2.open{display:block}.pop2 .poprow{display:flex;justify-content:flex-end;margin-top:16px}
+.pair{display:flex;gap:8px;align-items:center}.pair .ctl{width:100%;min-width:0}.pair span{color:var(--muted)}
+#beds,#ptype{flex-shrink:0}#filtersbtn{flex-shrink:0}
+/* results toolbar */
+.tb{display:flex;align-items:center;gap:8px;padding-top:16px!important;min-height:56px}
+#count{font-weight:700;font-size:1.05rem;white-space:nowrap;margin-right:8px}
+.chiprow{display:flex;gap:8px;flex:1 1 auto;min-width:0;overflow-x:auto;scrollbar-width:none}.chiprow::-webkit-scrollbar{display:none}
+.fchip{display:inline-flex;align-items:center;gap:4px;height:32px;padding:0 4px 0 12px;border-radius:16px;background:#e3f0f4;color:#0b5670;font-size:.84rem;white-space:nowrap;flex-shrink:0}
+.fchip button{border:0;background:none;width:24px;height:24px;border-radius:12px;cursor:pointer;color:inherit;font-size:1rem;line-height:1}.fchip button:hover{background:rgba(0,0,0,.08)}
+.tbr{display:flex;gap:8px;margin-left:auto;flex-shrink:0;align-items:center}
+/* grid + cards */
+main{padding-top:16px!important;padding-bottom:24px!important}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+.card{background:var(--card);border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.08);display:flex;flex-direction:column;overflow:hidden;position:relative}
+.card.removed{opacity:.5}
+.thumb{position:relative;aspect-ratio:4/3;background:linear-gradient(135deg,#cfe3e8,#e9efe6);display:block}
+.thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.thumb .ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:2.4rem;color:#8fb3bd}
+.chips{position:absolute;left:8px;top:8px;display:flex;gap:8px}
+.chip{font-size:.72rem;font-weight:700;padding:4px 8px;border-radius:99px;background:rgba(255,255,255,.94);color:var(--ink);white-space:nowrap}
+.chip.new{background:var(--new);color:#fff}.chip.newb{background:#1565c0;color:#fff}.chip.unf{background:#e65100;color:#fff}.chip.nw{background:#795548;color:#fff}
+.acts{position:absolute;right:8px;top:8px;display:flex;gap:8px}
+.acts button{width:32px;height:32px;border-radius:50%;border:0;background:rgba(255,255,255,.94);cursor:pointer;font-size:1.05rem;line-height:1;box-shadow:0 1px 3px rgba(0,0,0,.2)}
+.acts .fav.on{color:#e0245e}
+.body{padding:16px;display:flex;flex-direction:column;flex:1}
+.price{font-size:1.3rem;font-weight:700;color:var(--accent);line-height:1.2}
+.card h3{margin:4px 0 8px;font-size:1rem}
+.meta{display:flex;gap:8px;flex-wrap:wrap}.meta span{background:#eef3f5;border-radius:6px;padding:2px 8px;font-size:.82rem}
+.tags{margin-top:8px;font-size:.8rem;color:var(--muted)}.tag+.tag:before{content:" · ";color:var(--muted)}
+.tag.ready{color:var(--accent);font-weight:600}.tag.reno{color:#6d4c41;font-weight:600}.tag.newb{color:#1565c0;font-weight:600}.zh{margin:0 auto 12px;padding:12px 16px;background:#fff7e0;border:1px solid #f0d58a;border-radius:10px;font-size:.92rem;line-height:1.7}.zh b{font-weight:600}.zh button{margin-left:6px}
+.more{grid-column:1/-1;display:flex;justify-content:center;padding:8px 0 24px}.more .ctl{padding:0 24px;cursor:pointer;background:#fff}.more small{color:#667;margin-left:4px}
+.tag.amen{color:#2a6f63}.tag.stretch{color:#7a5d00}.tag.shared{color:#9a6a00;font-weight:600}.tag.visitor{color:#7b3fa0}.tag.private{color:#2e7d32}
+.garden{margin-top:8px;font-size:.86rem}.body p{margin:8px 0;font-size:.9rem;flex:1}
+.unfnote{font-size:.8rem;color:#b34700;margin-top:4px}
+.dist{margin-top:8px;font-size:.86rem;color:var(--accent);font-weight:600}
+.loc{margin-top:4px;font-size:.8rem;color:var(--muted)}.loc.approx{color:#9a6a00}.loc a{color:inherit}
+.also{margin-top:8px;font-size:.82rem;color:var(--muted)}.also a{color:var(--accent)}
+.foot{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;font-size:.83rem;margin-top:8px}
+.foot a{color:var(--accent);font-weight:600;text-decoration:none}.seen{color:var(--muted)}
+.restore{margin-top:8px;height:32px;background:var(--accent);color:#fff;border:0;border-radius:var(--r);padding:0 12px;cursor:pointer}
+.empty{padding:48px;text-align:center;color:var(--muted)}
+/* map */
+.mapwrap{display:none;position:relative;z-index:0;isolation:isolate}body.mapview .mapwrap{display:block}body.mapview #grid{display:none}
+#map{position:relative;z-index:0;isolation:isolate;height:72vh;min-height:420px;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.1);background:#dfe8ea}
+.leaflet-bar a.mbtn{font-size:16px;line-height:30px;cursor:pointer;text-decoration:none}.leaflet-bar a.mbtn.on{background:var(--accent);color:#fff}
+#map.measuring{cursor:crosshair}#map.measuring .leaflet-overlay-pane path.leaflet-interactive,#map.measuring .marker-cluster{pointer-events:none}
+.mlabel{background:#1d2a33;color:#fff;font-size:.78rem;font-weight:600;padding:2px 8px;border-radius:6px;white-space:nowrap;width:auto!important;height:auto!important;transform-origin:left}
+.mlabel span{opacity:.75;font-weight:400}
+.legend{position:absolute;left:8px;bottom:24px;z-index:1000;background:rgba(255,255,255,.94);border-radius:var(--r);box-shadow:0 1px 4px rgba(0,0,0,.2);padding:8px 12px;font-size:.78rem;display:flex;flex-direction:column;gap:4px}
+.legend i{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:8px;vertical-align:-1px}
+.pop{width:220px;font-size:.85rem}.pop img{width:100%;height:120px;object-fit:cover;border-radius:6px;display:block;margin-bottom:8px}
+.pop b{font-size:1.05rem;color:var(--accent)}.pop .pa{display:flex;gap:8px;margin-top:8px}.pop .pa button{border:1px solid var(--line);background:#fff;border-radius:6px;padding:4px 8px;cursor:pointer}
+.pop .pa button.on{color:#e0245e}.pop a{color:var(--accent);font-weight:600}.pop .chip{font-size:.68rem;padding:2px 6px}
+/* filters drawer / mobile sheet */
+#drawer{position:fixed;inset:0;z-index:2100;display:none}#drawer.open{display:block}
+.backdrop{position:absolute;inset:0;background:rgba(20,30,40,.4)}
+.sheet{position:absolute;top:0;right:0;bottom:0;width:420px;max-width:100%;background:#fff;display:flex;flex-direction:column;box-shadow:-8px 0 32px rgba(0,0,0,.18)}
+.shead{display:flex;align-items:center;justify-content:space-between;height:64px;padding:0 var(--pad);border-bottom:1px solid var(--line);flex-shrink:0}
+.shead h2{margin:0;font-size:1.1rem}
+.sbody{flex:1;overflow:auto;padding:0 var(--pad) 24px}
+.sbody h3{margin:24px 0 8px;font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.frow{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:8px;min-height:var(--h)}
+.frow label{font-size:.92rem}.frow .ctl{width:200px}
+.chk.sub{padding-left:24px}.chkhelp{margin:4px 0 0 24px;font-size:.8rem;color:#667;line-height:1.35}
+.chk{display:flex;gap:12px;align-items:flex-start;padding:8px 0;cursor:pointer;font-size:.92rem}
+.chk input{width:18px;height:18px;margin:2px 0 0;accent-color:var(--accent);flex-shrink:0}
+.chk em{display:block;font-style:normal;font-size:.8rem;color:var(--muted)}.chk small{color:var(--muted)}
+.sfoot{display:flex;gap:8px;padding:16px var(--pad);border-top:1px solid var(--line);flex-shrink:0}.sfoot .pri{flex:1}
+.monly{display:none}.helper2{font-size:.8rem;color:var(--muted);margin:8px 0 0}
+#ms_price .pair{max-width:100%}
+/* dialogs */
+.modal{position:fixed;inset:0;background:rgba(20,30,40,.45);display:none;align-items:center;justify-content:center;z-index:2200;padding:16px}
+.modal.open{display:flex}.modal .dlg{background:#fff;border-radius:12px;max-width:520px;width:100%;padding:24px;box-shadow:0 10px 40px rgba(0,0,0,.25);max-height:100%;overflow:auto}
+.modal h2{margin:0 0 8px;font-size:1.2rem}.modal label{display:block;font-size:.86rem;margin-top:16px;font-weight:600}
+.modal input,.modal textarea{width:100%;font:inherit;font-size:.9rem;padding:8px 12px;border:1px solid var(--ctl);border-radius:var(--r);margin-top:4px}
+.modal textarea{font-family:ui-monospace,monospace;font-size:.82rem}
+.modal .err{color:#c0392b;font-size:.84rem;min-height:1.1em;margin-top:4px}.modal .hint{font-size:.82rem;color:var(--muted);margin-top:16px}
+.modal .row{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end;margin-top:16px}
+.modal .row button{height:var(--h);border:0;border-radius:var(--r);padding:0 16px;cursor:pointer;font-size:.9rem}.modal .pri{background:var(--accent);color:#fff}.modal .sec{background:#eef3f5}
+.modal p{font-size:.9rem;margin:8px 0}
+.notebtn{position:relative}.acts .notebtn{font-size:.9rem}.notebtn .ncount{position:absolute;top:-4px;right:-4px;background:var(--accent);color:#fff;border-radius:9px;font-size:.62rem;min-width:16px;height:16px;line-height:16px;padding:0 3px;font-weight:700}
+.pop .pa .notebtn .ncount{position:static;margin-left:4px}
+.npv{margin-top:8px;font-size:.82rem;color:#3b4a55;background:#fff8e1;border-left:3px solid #f0b429;padding:4px 8px;border-radius:4px;cursor:pointer;overflow:hidden;text-overflow:ellipsis}
+.nshared,.nlist .nshared{background:#e3f2fd;color:#0b5394;border-radius:4px;padding:0 4px;font-size:.7rem;font-weight:700}
+.nsub{color:var(--muted)}.nlist{list-style:none;margin:8px 0 0;padding:0;max-height:40vh;overflow:auto}
+.nlist li{border:1px solid var(--line);border-radius:var(--r);padding:8px 12px;margin-bottom:8px}.nlist .nt{white-space:pre-wrap;font-size:.9rem;margin:4px 0}
+.nlist .nm{font-size:.76rem;color:var(--muted);display:flex;gap:8px;align-items:center}.nlist .nm button{margin-left:auto;border:0;background:none;color:var(--accent);cursor:pointer;font-size:.8rem;padding:2px 4px}
+.nlist .nm button+button{margin-left:0}.nlist .nm button.del{color:#c0392b}.nlist textarea{font-family:inherit;font-size:.9rem}
+.nlist .empty{color:var(--muted);border:0;padding:4px 0}
+#addm textarea{font-family:inherit;font-size:.9rem}
+#toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#1d2a33;color:#fff;padding:8px 16px;border-radius:var(--r);font-size:.9rem;display:none;z-index:2300}
+#toast button{margin-left:8px;background:none;border:0;color:#7fd3e6;cursor:pointer;text-decoration:underline}
+footer{color:var(--muted);font-size:.83rem;padding-top:16px!important;padding-bottom:24px!important}
+/* tablet & mobile: search field + Filters button; everything else lives in the full-screen sheet */
+@media (max-width:860px){
+ :root{--pad:16px}
+ header .wrap{min-height:64px}header p{font-size:.78rem}
+ .long{display:none}.short{display:inline}.hbtn{padding:0 12px}
+ #slot_type,#slot_price,#slot_ptype,#slot_beds,#bar .helper{display:none}
+ header h1{font-size:1.05rem}
+ .monly{display:block}
+ #bar .wrap{padding-top:8px}
+ #rq{width:80px}
+ .sheet{width:100%}
+ .tb{flex-wrap:wrap;row-gap:8px}.chiprow{order:3;flex-basis:100%}
+ .frow .ctl{width:60%}
+}
+@media (max-width:480px){header p .upd{display:none}#count{font-size:.95rem}.tbr .ctl{max-width:130px}}
+</style></head><body>
+<header><div class="wrap"><div><h1>Portugal coast property</h1><p>West coast &amp; Algarve, Caminha to Castro Marim · curated houses &amp; apartments for sale<span class="upd"> · updated <span id="upd"></span> (Lisbon)</span></p></div>
+<div class="hacts"><button class="hbtn" id="addbtn" type="button">＋ <span class="long">Add property</span><span class="short">Add</span></button><button class="hbtn" id="sharebtn" type="button">♥ My lists</button></div></div></header>
+<div id="bar"><div class="wrap">
+ <div class="search" id="locwrap"><span class="sicon" id="sicon" aria-hidden="true">🔍</span>
+  <input id="loc" class="ctl" type="text" autocomplete="off" placeholder="Place or keyword" aria-label="Search by place or keyword" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="sugg">
+  <span class="ibtns"><button class="ibtn" id="locclear" type="button" title="Clear" aria-label="Clear search" hidden>×</button><button class="ibtn" id="geo" type="button" title="Use my location" aria-label="Use my location">◎</button></span>
+  <ul id="sugg" role="listbox"></ul></div>
+ <span class="rwrap" id="rwrap" hidden><input id="rq" class="ctl dd" type="text" inputmode="numeric" autocomplete="off" value="3 km" aria-label="Radius in km" title="Search radius" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="rlist"><input id="r" type="hidden" value="3"><ul id="rlist" role="listbox"></ul></span>
+ <span id="slot_type"><div class="seg" id="sec" role="group" aria-label="Property type"><button data-v="all" class="on" type="button">All</button><button data-v="ready" type="button" title="Move-in ready €350k–500k">Move-in ready</button><button data-v="reno" type="button" title="Renovation €100k–200k">Renovation</button></div></span>
+ <span class="ddwrap" id="slot_price"><button class="ctl dd" id="pricebtn" type="button" aria-haspopup="true" aria-expanded="false">Price</button>
+  <div class="pop2" id="pricepop" role="dialog" aria-label="Price range"><div id="pricefields"><div class="pair"><input id="pmin" class="ctl" type="number" step="5000" min="0" placeholder="Min €" aria-label="Min price"><span>–</span><input id="pmax" class="ctl" type="number" step="5000" min="0" placeholder="Max €" aria-label="Max price"></div></div>
+  <div class="poprow"><button class="ctl pri" id="pricedone" type="button">Done</button></div></div></span>
+ <span id="slot_ptype"><select id="ptype" class="ctl" aria-label="Property type"><option value="">Any type</option><option value="house">Houses</option><option value="apartment">Apartments</option></select></span>
+ <span id="slot_beds"><select id="beds" class="ctl" aria-label="Bedrooms"><option value="">Beds: any</option><option value="2">2+ beds</option><option value="3">3+ beds</option><option value="4">4+ beds</option></select></span>
+ <button class="ctl pri" id="filtersbtn" type="button" aria-haspopup="dialog">Filters<span id="fcount"></span></button>
+</div><div class="wrap helper" id="helper">Move-in ready €350k–500k · Renovation €100k–200k · prices from the adverts</div></div>
+<div class="wrap tb" id="tb"><span id="count" aria-live="polite">Loading homes…</span><div class="chiprow" id="chips"></div><button class="link" id="clearall" type="button" hidden>Clear all</button>
+ <div class="tbr"><select id="sort" class="ctl" aria-label="Sort"><option value="newest">Newest</option><option value="price_asc">Price: low to high</option><option value="price_desc">Price: high to low</option><option value="size_desc">Size: largest</option><option value="size_asc">Size: smallest</option><option value="distance">Distance</option></select>
+ <div class="seg views" id="views" role="group" aria-label="View"><button data-v="list" class="on" type="button">List</button><button data-v="map" type="button">Map</button></div></div></div>
+<div class="wrap zh" id="zerohint" hidden></div>
+<main class="wrap"><div class="grid" id="grid"></div>
+ <div class="mapwrap" id="mapwrap"><div id="map" aria-label="Map of listings"></div>
+  <div class="legend" id="legend"><span><i style="background:#0f6e8c"></i>Move-in ready</span><span><i style="background:#8d5a3b"></i>Renovation</span><span><i style="background:#f4b400;border:2px solid #e0245e"></i>Favourite</span><span><i style="border:2px dashed #555;background:transparent"></i>Approx. location</span></div></div></main>
+<div id="drawer" role="dialog" aria-modal="true" aria-labelledby="dh"><div class="backdrop" data-close></div><div class="sheet">
+ <div class="shead"><h2 id="dh">Filters</h2><button class="ibtn" type="button" data-close aria-label="Close filters">×</button></div>
+ <div class="sbody">
+  <section class="monly"><h3>Type</h3><div id="ms_type"></div><p class="helper2">Move-in ready €350k–500k · Renovation €100k–200k</p>
+   <h3>Price</h3><div id="ms_price"></div><h3>Property type</h3><div id="ms_ptype"></div><h3>Bedrooms</h3><div id="ms_beds"></div></section>
+  <section><h3>Property</h3>
+   <div class="frow"><label for="size">Min size (m²)</label><input id="size" class="ctl" type="number" step="10" min="0" placeholder="Any"></div>
+   <div class="frow"><label for="nb">New builds</label><select id="nb" class="ctl"><option value="">Any</option><option value="only">New builds only</option><option value="hide">Hide new builds</option></select></div>
+   <label class="chk"><input type="checkbox" id="outside"><span>Has outside space <small id="outn"></small></span></label>
+   <label class="chk sub"><input type="checkbox" id="garden"><span>Garden or land <small id="gardn"></small></span></label>
+   <label class="chk sub"><input type="checkbox" id="balcony"><span>Balcony <small id="balcn"></small></span></label>
+   <label class="chk sub"><input type="checkbox" id="terrace"><span>Terrace <small id="terrn"></small></span></label>
+   <p class="chkhelp">Ticking several shows homes with all of them. Use “Has outside space” for any.</p></section>
+  <section><h3>Condition</h3>
+   <label class="chk"><input type="checkbox" id="hideunf" checked><span>Hide unfinished <small id="unfn"></small><em>Off-plan, under construction or renders only</em></span></label>
+   <label class="chk"><input type="checkbox" id="hidework" checked><span>Hide needs work <small id="nwn"></small><em>Move-in priced homes whose advert says they need works</em></span></label>
+   <label class="chk"><input type="checkbox" id="stretch"><span>Include stretch <small id="stretchn"></small><em>Near-misses: 8–11 km from the coast, or move-in ready €500k–525k</em></span></label></section>
+  <section><h3>Area &amp; source</h3>
+   <div class="frow"><label for="reg">Region</label><select id="reg" class="ctl"><option value="">All regions</option></select></div>
+   <div class="frow"><label for="muni">Area</label><select id="muni" class="ctl"><option value="">All areas</option></select></div>
+   <div class="frow"><label for="src">Portal</label><select id="src" class="ctl"><option value="">All portals</option></select></div></section>
+  <section><h3>Listing</h3>
+   <label class="chk"><input type="checkbox" id="new"><span>Added in the last 7 days</span></label>
+   <label class="chk"><input type="checkbox" id="fav"><span>Favourites only</span></label>
+   <label class="chk"><input type="checkbox" id="notes"><span>Has notes <small id="notesn"></small><em>Homes with your notes or shared notes</em></span></label>
+   <label class="chk"><input type="checkbox" id="showrem"><span>Show removed <small id="remnote"></small><em>Listings you hid with × in this browser</em></span></label></section>
+ </div>
+ <div class="sfoot"><button class="ctl" id="dclear" type="button">Clear</button><button class="ctl pri" id="dapply" type="button" data-close>Show homes</button></div>
+</div></div>
+<div id="panel" class="modal" role="dialog" aria-modal="true" aria-labelledby="lh"><div class="dlg">
+ <h2 id="lh">My lists</h2>
+ <p>Your ♥ favourites, × removed listings and 📝 notes are saved in this browser only. To move them to another device, or send them to us for the shared list, copy this code:</p>
+ <textarea id="code" readonly rows="3"></textarea>
+ <div class="row" style="justify-content:flex-start"><button class="sec" id="copy" type="button">Copy code</button><button class="sec" id="copylink" type="button">Copy link to this view</button></div>
+ <label for="incode">Paste a code from another device or person (added to what you have)</label><textarea id="incode" rows="2" placeholder="PP2:…"></textarea>
+ <div class="row"><button class="sec" id="clearrem" type="button">Restore all removed</button><button class="sec" type="button" data-lclose>Close</button><button class="pri" id="apply" type="button">Import code</button></div>
+</div></div>
+<div id="notesm" class="modal" role="dialog" aria-modal="true" aria-labelledby="nh"><div class="dlg">
+ <h2 id="nh">Notes</h2><p id="nsub" class="nsub"></p>
+ <ul id="nlist" class="nlist"></ul>
+ <label for="ntext">Add a note</label><textarea id="ntext" rows="3" maxlength="2000" placeholder="e.g. Called the agent, viewing on Saturday…"></textarea>
+ <div class="row"><button class="sec" type="button" data-nclose>Close</button><button class="pri" id="nadd" type="button">Add note</button></div>
+ <p class="hint">Notes are saved in this browser and included in your My lists code.</p>
+</div></div>
+<div id="addm" class="modal" role="dialog" aria-modal="true" aria-labelledby="addh"><div class="dlg">
+ <h2 id="addh">Suggest a property</h2>
+ <p>Paste a link to a listing on any portal (Imovirtual, Casa Sapo, Idealista, RE/MAX…). It is checked and added with the next daily update.</p>
+ <label for="a_url">Listing URL *</label><input id="a_url" type="url" placeholder="https://www.imovirtual.com/pt/anuncio/…" required>
+ <div class="err" id="a_err"></div>
+ <label for="a_note">Note (optional)</label><textarea id="a_note" rows="2" maxlength="300" placeholder="Why it is interesting…"></textarea>
+ <label for="a_name">Your name (optional, shown publicly on GitHub)</label><input id="a_name" type="text" maxlength="60">
+ <div class="hint">Submitting opens a pre-filled issue on GitHub (github.com/maketheboat/portugal-property). You need a free GitHub account; click <b>Create</b> there to send it. No account? Use <b>Copy details</b> and send them to us another way.</div>
+ <div class="row"><button class="sec" id="a_cancel" type="button">Cancel</button><button class="sec" id="a_copy" type="button">Copy details</button><button class="sec" id="a_copylink" type="button">Copy GitHub link</button><button class="pri" id="a_go" type="button">Submit via GitHub →</button></div>
+</div></div>
+<div id="toast"></div>
+<footer class="wrap">Sources: Imovirtual, Casa Sapo, RE/MAX, Century 21, OLX, CustoJusto and Idealista listings, curated and refreshed daily. Prices, sizes, garden/land details and distances come from the adverts or are approximate. Always check them on the original listing. Listings may be sold or withdrawn at any time. ♥ and × are saved only in your browser.</footer>
+
+<script>
+"use strict";
+const DATA={"labels":{"imovirtual":"Imovirtual","casasapo":"Casa Sapo","remax":"RE/MAX","century21":"Century 21","olx":"OLX","custojusto":"CustoJusto","idealista":"Idealista","supercasa":"SuperCasa","era":"ERA","bpi":"BPI Expresso Imobiliário","engel":"Engel & Völkers","kw":"KW Portugal","zome":"Zome","iad":"iad Portugal","coldwell":"Coldwell Banker","kyero":"Kyero","idealista_rss":"Idealista RSS","decisoes":"Decisões e Soluções","greenacres":"Green-Acres","rightmove":"Rightmove Overseas","aplaceinthesun":"A Place in the Sun","predimed":"Predimed","casaiberia":"Casaiberia","cgd":"Caixa Imobiliário (CGD)"},"portals":["imovirtual","casasapo","remax","century21","olx","custojusto","idealista"],"regions":{"north":"North coast","centre":"Centre & Silver Coast","lisbon":"Lisbon & Setúbal","alentejo":"Alentejo coast","algarve":"Algarve"},"src":"data.json?v=78224bd19b","sharedFavs":["a0f41248a3","529768acbd","62e8e780ed","c8c3cadb01","8c4e0f321c","1fb432f436","bbbb546b75","53519d7db1","fd88b4a5ee"],"sharedNotes":{},"api":"https://portugal-property-api.maketheboat.workers.dev","key":"pp-shared-7f3a91","munis":{"lisbon":["Almada","Amadora","Cascais","Lisboa","Mafra","Oeiras","Palmela","Seixal","Sesimbra","Setúbal","Sintra","Torres Vedras"],"centre":["Alcobaça","Aveiro","Caldas da Rainha","Figueira da Foz","Lourinhã","Marinha Grande","Mira","Murtosa","Nazaré","Ovar","Peniche","Santa Maria da Feira","Vagos","Ílhavo","Óbidos"],"alentejo":["Grândola","Odemira","Santiago do Cacém","Sines"],"algarve":["Albufeira","Aljezur","Castro Marim","Faro","Lagoa","Lagos","Loulé","Olhão","Portimão","Silves","Tavira","Vila Real de Santo António","Vila do Bispo"],"north":["Barcelos","Caminha","Espinho","Esposende","Gondomar","Maia","Matosinhos","Porto","Póvoa de Varzim","Santa Maria da Feira","Viana do Castelo","Vila Nova de Cerveira","Vila Nova de Gaia","Vila do Conde"]},"gazsrc":"gaz.json?v=3e54d5910b","today":"2026-10-11","updated":"11 Oct 2026, 18:56"};
+// a hotlinked photo that fails (throttling, flaky network) gets one retry after 2 s before the placeholder shows
+function ppImgErr(el){if(!el.dataset.retry){el.dataset.retry="1";const u=el.getAttribute("src");setTimeout(()=>{el.src=u+(u.includes("?")?"&":"?")+"r=1";},2000);}else el.remove();}
+if(typeof window!=="undefined")window.ppImgErr=ppImgErr;
+const STORE_KEY="pp.v1";
+const PP={
+ loadStore(ls){try{const s=JSON.parse(ls.getItem(STORE_KEY)||"{}");return {f:Array.isArray(s.f)?s.f:[],r:Array.isArray(s.r)?s.r:[],n:PP.cleanNotes(s.n)};}catch(e){return {f:[],r:[],n:{}};}},
+ saveStore(ls,s){const n={};for(const k in (s.n||{}))if(s.n[k].length)n[k]=s.n[k];ls.setItem(STORE_KEY,JSON.stringify({f:[...new Set(s.f)],r:[...new Set(s.r)],n}));},
+ // notes: {listingId:[{id,t,c,u}]} (t text, c created ISO, u updated ISO)
+ cleanNotes(n){const o={};if(!n||typeof n!=="object")return o;for(const k in n){if(!/^[0-9a-f]{10}$/.test(k)||!Array.isArray(n[k]))continue;
+   const a=n[k].filter(x=>x&&typeof x.t==="string"&&x.t.trim()&&typeof x.id==="string").map(x=>({id:x.id.slice(0,40),t:x.t.slice(0,2000),c:String(x.c||""),u:String(x.u||x.c||"")}));if(a.length)o[k]=a;}return o;},
+ mergeNotes(a,b){const o={};for(const k of new Set([...Object.keys(a||{}),...Object.keys(b||{})])){const m=new Map();
+   for(const x of [...((a||{})[k]||[]),...((b||{})[k]||[])]){const y=m.get(x.id)||[...m.values()].find(z=>z.t===x.t&&z.c===x.c);if(!y)m.set(x.id,x);else if((x.u||"")>(y.u||""))m.set(y.id,{...x,id:y.id});}
+   o[k]=[...m.values()];}return o;},
+ notesOf(id,s){return ((s&&s.n)||{})[id]||[];},
+ sharedNotes:{},
+ hasNotes(id,s){return PP.notesOf(id,s).length>0||(PP.sharedNotes[id]||[]).length>0;},
+ b64e(str){return btoa(unescape(encodeURIComponent(str))).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,"");},   // UTF-8 safe (notes may have accents)
+ b64d(s){let b=s.replace(/-/g,"+").replace(/_/g,"/");while(b.length%4)b+="=";return decodeURIComponent(escape(atob(b)));},
+ encode(s){const o={f:[...new Set(s.f)],r:[...new Set(s.r)]};const n=PP.cleanNotes(s.n);if(Object.keys(n).length)o.n=n;return "PP2:"+PP.b64e(JSON.stringify(o));},
+ decode(code){code=String(code||"").trim();const v=code.slice(0,4);if(v!=="PP1:"&&v!=="PP2:")throw new Error("Code must start with PP2: (or PP1:)");
+   const o=JSON.parse(v==="PP2:"?PP.b64d(code.slice(4)):atob((b=>{b=b.replace(/-/g,"+").replace(/_/g,"/");while(b.length%4)b+="=";return b;})(code.slice(4))));
+   const ok=a=>Array.isArray(a)?a.filter(x=>typeof x==="string"&&/^[0-9a-f]{10}$/.test(x)):[];return {f:ok(o.f),r:ok(o.r),n:PP.cleanNotes(o.n)};},
+ daysAgo(today,d){return Math.round((Date.parse(today)-Date.parse(d))/86400000);},
+ norm(s){return String(s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");},
+ defaults:{view:"list",q:"",loc:"",lat:"",lon:"",r:"3",sec:"all",pmin:"",pmax:"",beds:"",size:"",reg:"",muni:"",src:"",sort:"newest",garden:false,new:false,fav:false,stretch:false,hideunf:true,hidework:true,nb:"",showrem:false,ptype:"",outside:false,balcony:false,terrace:false,notes:false,mz:"",mc:""},
+ RADII:Array.from({length:35},(_,i)=>i+1),
+ clampR(v){const n=Math.round(parseFloat(v));return n>=1&&n<=35?String(n):PP.defaults.r;},
+ radiusOptions(q){q=String(q||"").replace(/[^0-9]/g,"");return q?PP.RADII.filter(n=>String(n).startsWith(q)):PP.RADII.slice();},
+ stateFromQuery(qs){const p=new URLSearchParams(qs),s={...PP.defaults};for(const k in s){if(!p.has(k))continue;s[k]=typeof s[k]==="boolean"?p.get(k)==="1":p.get(k);}s.r=PP.clampR(s.r);return s;},
+ stateToQuery(s){const p=new URLSearchParams();for(const k in PP.defaults){const v=s[k];if(v===PP.defaults[k]||v===""||v===null)continue;p.set(k,typeof v==="boolean"?(v?"1":"0"):v);}const q=p.toString();return q?"?"+q:"";},
+ REPO:"maketheboat/portugal-property",
+ validUrl(u){try{const x=new URL(String(u).trim());return (x.protocol==="https:"||x.protocol==="http:")&&/\./.test(x.hostname)&&x.hostname.length>3;}catch(e){return false;}},
+ issueUrl(u,note,name){u=String(u).trim();const body=`URL: ${u}\nNote: ${String(note||"").trim().replace(/\n+/g," ")}\nName: ${String(name||"").trim()}\n\n_Submitted from the West Coast Portugal property site. Do not edit the URL line._`;
+   return `https://github.com/${PP.REPO}/issues/new?`+new URLSearchParams({title:"Submission: "+u,body,labels:"submission"}).toString();},
+ mapPoints(list,store,sharedFavs){const fav=new Set([...store.f,...sharedFavs]);return list.filter(x=>x.lat!=null&&x.lon!=null).map(x=>({id:x.id,lat:x.lat,lon:x.lon,
+   color:x.section==="reno"?"#8d5a3b":"#0f6e8c",fav:fav.has(x.id),approx:!!x.coord_approx}));},
+ KR:{t:"town",v:"village",p:"parish",b:"beach",n:"place",m:"my location"},
+ haversine(a1,o1,a2,o2){const R=6371,r=Math.PI/180,dA=(a2-a1)*r,dO=(o2-o1)*r,h=Math.sin(dA/2)**2+Math.cos(a1*r)*Math.cos(a2*r)*Math.sin(dO/2)**2;return 2*R*Math.asin(Math.sqrt(h));},
+ indexGaz(gaz){return gaz.map((g,i)=>({name:g[0],muni:g[1],lat:g[2],lon:g[3],kind:g[4],i,n:PP.norm(g[0]),nm:PP.norm(g[1])}));},
+ suggest(idx,query,limit){limit=limit||8;const q=PP.norm(query).trim().replace(/\s+/g," ");if(q.length<2)return [];
+   const toks=q.split(/[ ,]+/).filter(Boolean),first=toks[0],res=[];
+   for(const g of idx){const hay=g.n+" "+g.nm;if(!toks.every(t=>hay.includes(t)))continue;
+     let sc=g.n===q?0:g.n.startsWith(q)?1:(" "+g.n).includes(" "+first)?2:g.n.includes(first)?3:4;
+     res.push([sc,g.i,g]);}
+   res.sort((a,b)=>a[0]-b[0]||a[1]-b[1]);const seen=new Set(),out=[];
+   for(const [,,g] of res){const k=g.n+"|"+g.nm+"|"+(g.kind==="b"?"b":"x");if(seen.has(k))continue;seen.add(k);out.push(g);if(out.length>=limit)break;}
+   return out;},
+ filter(items,s,store,sharedFavs,today){
+   const fav=new Set([...store.f,...sharedFavs]),rem=new Set(store.r),q=PP.norm(s.q).split(/\s+/).filter(Boolean);
+   const num=v=>v===""||v===null||v===undefined?null:Number(v);
+   const pmin=num(s.pmin),pmax=num(s.pmax),beds=num(s.beds),size=num(s.size);
+   const lat=num(s.lat),lon=num(s.lon),rad=num(s.r),hasLoc=lat!==null&&lon!==null&&!isNaN(lat)&&!isNaN(lon);
+   items.forEach(x=>{x._dist=hasLoc&&x.lat!=null&&x.lon!=null?PP.haversine(lat,lon,x.lat,x.lon):null;});
+   let out=items.filter(x=>{
+     if(hasLoc&&rad){if(x._dist===null||x._dist>rad)return false;}
+     if(rem.has(x.id)&&!s.showrem)return false;
+     if(s.sec!=="all"&&x.section!==s.sec)return false;
+     if(pmin!==null&&x.price<pmin)return false; if(pmax!==null&&x.price>pmax)return false;
+     if(beds!==null&&!(x.bedrooms>=beds))return false;
+     if(size!==null&&!(x.size_m2>=size))return false;
+     if(s.reg&&x.region!==s.reg)return false;
+     if(s.muni&&x.municipality!==s.muni)return false;
+     if(s.src&&x.source!==s.src&&!(x.also_on||[]).some(a=>a.source===s.src))return false;
+     if(s.garden&&!x.garden_yes)return false;
+     if(s.new&&PP.daysAgo(today,x.first_seen)>=7)return false;
+     if(x.stretch&&!s.stretch)return false;
+     if(s.hideunf&&x.unfinished)return false;
+     if(s.hidework&&x.needs_work)return false;
+     if(s.ptype&&(x.property_type||"house")!==s.ptype)return false;
+     if(s.outside&&!x.outside)return false;
+     if(s.balcony&&!x.balcony)return false;
+     if(s.terrace&&!x.terrace)return false;
+     if(s.nb==="only"&&!x.new_build)return false;
+     if(s.nb==="hide"&&x.new_build)return false;
+     if(s.fav&&!fav.has(x.id))return false;
+     if(s.notes&&!PP.hasNotes(x.id,store))return false;
+     if(q.length){const hay=PP.norm([x.town,x.municipality,x.note,x.title,x.typology].join(" "));if(!q.every(w=>hay.includes(w)))return false;}
+     return true;});
+   const by={newest:(a,b)=>b.first_seen.localeCompare(a.first_seen)||(a.also-b.also)||0,price_asc:(a,b)=>a.price-b.price,price_desc:(a,b)=>b.price-a.price,
+     size_desc:(a,b)=>(b.size_m2||0)-(a.size_m2||0),size_asc:(a,b)=>(a.size_m2||1e9)-(b.size_m2||1e9),
+     distance:(a,b)=>(a._dist??1e9)-(b._dist??1e9)||a.price-b.price};
+   return out.slice().sort(by[s.sort]||by.newest);}
+};
+if(typeof module!=="undefined")module.exports=PP;
+if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.assign(DATA,window.PPDATA);   // tests preload the data
+ const PPBOOT=()=>{(function(){
+ const $=id=>document.getElementById(id),esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+ PP.sharedNotes=DATA.sharedNotes||{};
+ const items=DATA.listings,shared=new Set(DATA.sharedFavs),today=DATA.today;let lastRes=[],store=PP.loadStore(localStorage),state=PP.stateFromQuery(location.search);
+ $("upd").textContent=DATA.updated;
+ const LBL=s=>(DATA.labels||{})[s]||s;
+ {const c=(id,n)=>{$(id).textContent=n?`(${n})`:"";};c("stretchn",items.filter(x=>x.stretch).length);c("unfn",items.filter(x=>x.unfinished).length);c("nwn",items.filter(x=>x.needs_work).length);c("balcn",items.filter(x=>x.balcony).length);c("outn",items.filter(x=>x.outside).length);c("gardn",items.filter(x=>x.garden_yes).length);c("terrn",items.filter(x=>x.terrace).length);}
+ [...new Set([...(DATA.portals||[]),...items.map(x=>x.source),...items.flatMap(x=>(x.also_on||[]).map(a=>a.source))])].forEach(s=>{const o=document.createElement("option");o.value=s;o.textContent=LBL(s);$("src").appendChild(o);});
+ Object.entries(DATA.regions||{}).forEach(([k,v])=>{const n=items.filter(x=>x.region===k).length;if(!n)return;const o=document.createElement("option");o.value=k;o.textContent=`${v} (${n})`;$("reg").appendChild(o);});
+ function fillMuni(){const sel=$("muni"),reg=state.reg;const ms=[...new Set(items.filter(x=>!reg||x.region===reg).map(x=>x.municipality).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
+  if(state.muni&&!ms.includes(state.muni))state.muni="";sel.length=1;ms.forEach(m=>{const o=document.createElement("option");o.value=o.textContent=m;sel.appendChild(o);});sel.value=state.muni;sel.dataset.reg=reg;}
+ fillMuni();
+ const fields=["pmin","pmax","ptype","beds","size","reg","muni","src","sort","nb"],checks=["outside","garden","balcony","terrace","new","fav","notes","stretch","hideunf","hidework","showrem"];
+ const DRAWER=["size","nb","outside","garden","balcony","terrace","hideunf","hidework","stretch","reg","muni","src","new","fav","notes","showrem"],BASIC=["sec","pmin","pmax","ptype","beds"];
+ const gidx=PP.indexGaz(DATA.gaz||[]);
+ const mobile=()=>!!(window.matchMedia&&window.matchMedia("(max-width:860px)").matches);
+ const L=$("loc"),UL=$("sugg");
+ const fmt=n=>"€"+Number(n).toLocaleString("en-GB",{maximumFractionDigits:0});
+ const fk=n=>{n=Number(n);return n>=1e6?"€"+(n/1e6).toFixed(n%1e6?2:0).replace(/\.?0+$/,"")+"m":"€"+Math.round(n/1000)+"k";};
+ function priceLabel(){const a=state.pmin,b=state.pmax;return a&&b?`${fk(a)}–${fk(b)}`:a?`From ${fk(a)}`:b?`Up to ${fk(b)}`:"";}
+ function locDisplay(){return state.lat?(state.loc||"Chosen point"):(state.q||"");}
+ function syncLoc(){L.value=locDisplay();$("sicon").textContent=state.lat?"📍":"🔍";$("locclear").hidden=!(state.lat||state.q);
+  $("rwrap").hidden=!state.lat;$("rq").value=state.r+" km";$("r").value=state.r;}
+ function toUI(){if($("muni").dataset.reg!==state.reg)fillMuni();syncLoc();fields.forEach(f=>$(f).value=state[f]);checks.forEach(c=>$(c).checked=state[c]);
+  document.querySelectorAll("#sec button").forEach(b=>b.classList.toggle("on",b.dataset.v===state.sec));syncBar();}
+ function fromUI(){fields.forEach(f=>state[f]=$(f).value);checks.forEach(c=>state[c]=$(c).checked);}
+ const differs=k=>state[k]!==PP.defaults[k]&&!(state[k]===""&&PP.defaults[k]==="");
+ function activeCount(){return DRAWER.filter(differs).length+(mobile()?BASIC.filter(differs).length:0);}
+ function syncBar(){const pl=priceLabel(),pb=$("pricebtn");pb.textContent=pl||"Price";pb.classList.toggle("on",!!pl);
+  $("beds").classList.toggle("on",!!state.beds);$("ptype").classList.toggle("on",!!state.ptype);const n=activeCount();$("fcount").textContent=n?` (${n})`:"";}
+ // ----- active filter chips -----
+ function chipList(){const c=[],D=PP.defaults;
+  if(state.q)c.push([`“${state.q}”`,["q"]]);
+  if(state.lat)c.push([`📍 ${state.loc||"Chosen point"} · ${state.r} km`,["loc","lat","lon","r"]]);
+  if(state.sec!=="all")c.push([state.sec==="ready"?"Move-in ready":"Renovation",["sec"]]);
+  if(priceLabel())c.push([priceLabel(),["pmin","pmax"]]);
+  if(state.ptype)c.push([state.ptype==="apartment"?"Apartments":"Houses",["ptype"]]);
+  if(state.beds)c.push([`${state.beds}+ beds`,["beds"]]);
+  if(state.size)c.push([`${state.size}+ m²`,["size"]]);
+  if(state.garden)c.push(["Garden/land",["garden"]]);
+  if(state.outside)c.push(["Outside space",["outside"]]);
+  if(state.balcony)c.push(["Balcony",["balcony"]]);
+  if(state.terrace)c.push(["Terrace",["terrace"]]);
+  if(state.nb)c.push([state.nb==="only"?"New builds only":"No new builds",["nb"]]);
+  if(!state.hideunf)c.push(["Incl. unfinished",["hideunf"]]);
+  if(!state.hidework)c.push(["Incl. needs work",["hidework"]]);
+  if(state.stretch)c.push(["Incl. stretch",["stretch"]]);
+  if(state.reg)c.push([(DATA.regions||{})[state.reg]||state.reg,["reg","muni"]]);
+  if(state.muni)c.push([state.muni,["muni"]]);
+  if(state.src)c.push([LBL(state.src),["src"]]);
+  if(state.new)c.push(["New this week",["new"]]);
+  if(state.fav)c.push(["♥ Favourites",["fav"]]);
+  if(state.notes)c.push(["📝 Has notes",["notes"]]);
+  if(state.showrem)c.push(["Showing removed",["showrem"]]);
+  return c;}
+ function clearKeys(keys){keys.forEach(k=>state[k]=PP.defaults[k]);if(keys.includes("lat")&&state.sort==="distance")state.sort="newest";toUI();render();}
+ $("chips").addEventListener("click",e=>{const b=e.target.closest("button[data-ci]");if(!b)return;clearKeys(chipList()[+b.dataset.ci][1]);});
+ $("clearall").onclick=()=>{const v=state.view;state={...PP.defaults,view:v};toUI();render();};
+ function card(x){const isNew=PP.daysAgo(today,x.first_seen)<7,lf=store.f.includes(x.id),rm=store.r.includes(x.id);
+  const img=x.image?`<img src="${esc(x.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="ppImgErr(this)">`:"";
+  const d=new Date(x.first_seen+"T12:00:00Z").toLocaleDateString("en-GB",{day:"2-digit",month:"short",year:"numeric"});
+  const status=x.unfinished?'<span class="chip unf">⚠ Unfinished</span>':x.needs_work?'<span class="chip nw">🔧 Needs work</span>':x.new_build?'<span class="chip newb">New build</span>':"";
+  const tags=[`<span class="tag ${x.section}">${x.property_type==="apartment"?"Apartment":"House"} · ${x.section==="ready"?"move-in ready":"renovation"}</span>`];
+  if(x.balcony)tags.push('<span class="tag amen">Balcony</span>');if(x.terrace)tags.push('<span class="tag amen">Terrace</span>');
+  if(x.new_build&&(x.unfinished||x.needs_work))tags.push('<span class="tag newb">New build</span>');
+  if(shared.has(x.id))tags.push('<span class="tag shared">★ Shared pick</span>');
+  if(x.submitted_by)tags.push('<span class="tag visitor">Added by visitor</span>');
+  if(x.private)tags.push('<span class="tag private">Private seller</span>');
+  if(x.stretch)tags.push(`<span class="tag stretch" title="${esc(x.stretch)}">↔ Stretch: ${esc(x.stretch)}</span>`);
+  const why=k=>esc(String(k||"").replace(/^text: /,""));
+  return `<article class="card${rm?" removed":""}" data-id="${x.id}">
+  <a class="thumb" href="${esc(x.url)}" target="_blank" rel="noopener"><span class="ph">🏡</span>${img}<span class="chips">${status}${isNew?'<span class="chip new">New</span>':""}</span></a>
+  <span class="acts"><button class="fav${lf?" on":""}" data-act="fav" title="Favourite" aria-label="Favourite">${lf?"♥":"♡"}</button>${noteBtn(x.id,"act")}${rm?"":'<button data-act="rem" title="Remove (hide)" aria-label="Remove">×</button>'}</span>
+  <div class="body"><div class="price">${x.price?fmt(x.price):"Price n/a"}</div><h3>${esc(x.town)}</h3>
+   <div class="meta"><span>${esc(x.typology)}</span><span>${esc(x.size)}</span>${x.municipality?`<span>${esc(x.municipality)}</span>`:""}</div>
+   <div class="tags">${tags.join("")}</div>
+   ${x._dist!=null?`<div class="dist">${x.coord_approx?"≈ ":""}${x._dist.toFixed(1)} km from ${esc(state.loc||"chosen point")}${x.coord_approx?" (approx. location)":""}</div>`:""}
+   <div class="garden">🌿 Garden/land: ${esc(x.garden)}</div><p>${esc(x.note)}</p>${notePreview(x.id)}
+   ${x.unfinished?`<div class="unfnote">⚠ Not built/finished yet – ${why((x.build_why||[])[0]).slice(0,90)}</div>`:x.needs_work?`<div class="unfnote">🔧 Needs work – ${why((x.build_why||[]).slice(-1)[0]).slice(0,110)}</div>`:""}
+   ${x.lat!=null?`<div class="loc${x.coord_approx?" approx":""}" title="${esc(x.coord_note)}">${x.coord_approx?"≈ Approximate location – "+esc(String(x.coord_note||"").replace(/^approx\. – /,"").replace(/^listing map pin \(approximate area\)$/,"advert shows area only")):"📍 Exact map pin from advert"} · <a href="https://www.openstreetmap.org/?mlat=${x.lat}&mlon=${x.lon}#map=14/${x.lat}/${x.lon}" target="_blank" rel="noopener">map</a></div>`:'<div class="loc approx">No coordinates</div>'}
+   <div class="foot"><a href="${esc(x.url)}" target="_blank" rel="noopener">View on ${esc(LBL(x.source))} →</a><span class="seen">First seen ${d}</span></div>
+   ${(x.also_on||[]).length?`<div class="also">Also on: ${x.also_on.map(a=>`<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(LBL(a.source))}</a>`).join(", ")}</div>`:""}
+   ${rm?'<button class="restore" data-act="restore">↩ Restore</button>':""}</div></article>`;}
+ const PAGE=48;let shown=PAGE,gridKey=null;
+ function allNotes(id){return [...PP.notesOf(id,store).map(n=>({...n,own:true})),...(PP.sharedNotes[id]||[]).map((n,i)=>({id:"s"+i,t:n.t,c:n.c||"",u:n.c||"",by:n.by||"",shared:true}))].sort((a,b)=>(b.c||"").localeCompare(a.c||""));}
+ function noteBtn(id,attr){const n=allNotes(id).length;return `<button class="notebtn${n?" has":""}" data-${attr}="note" type="button" title="${n?n+" note"+(n>1?"s":""):"Add a note"}" aria-label="Notes${n?" ("+n+")":""}">📝${n?`<span class="ncount">${n}</span>`:""}</button>`;}
+ function notePreview(id){const a=allNotes(id);if(!a.length)return "";const t=a[0].t.replace(/\s+/g," ");return `<div class="npv" data-act="note" title="Open notes">📝 ${a[0].shared?'<span class="nshared">Shared</span> ':""}${esc(t.length>90?t.slice(0,90)+"…":t)}${a.length>1?` <small>+${a.length-1} more</small>`:""}</div>`;}
+ const moreBtn=n=>n>0?`<div class="more" id="more"><button class="ctl" type="button" id="morebtn">Show ${Math.min(PAGE,n)} more <small>(${n} left)</small></button></div>`:"";
+ function showMore(){const g=$("grid"),m=$("more");if(m)m.remove();const next=lastRes.slice(shown,shown+PAGE);shown+=next.length;
+  g.insertAdjacentHTML("beforeend",next.map(card).join("")+moreBtn(lastRes.length-shown));watchMore();}
+ let io=null;function watchMore(){const m=$("more");if(!m||!window.IntersectionObserver)return;if(!io)io=new IntersectionObserver(es=>{if(es.some(e=>e.isIntersecting)&&state.view!=="map")showMore();},{rootMargin:"600px"});io.disconnect();io.observe(m);}
+ $("grid").addEventListener("click",e=>{if(e.target.closest("#morebtn"))showMore();});
+ // 0 results: say which filters are hiding homes, each with a one-click fix
+ let zfix=[];
+ function zeroHint(res){const el=$("zerohint");zfix=[];if(res.length){el.hidden=true;el.innerHTML="";return;}
+  const n=s2=>PP.filter(items,s2,store,DATA.sharedFavs,today).length,out=[];
+  chipList().forEach(([t,keys])=>{const s2={...state};keys.forEach(k=>s2[k]=PP.defaults[k]);const k=n(s2);if(k)out.push([k,t,s2]);});
+  [["hideunf",false,"Unfinished/off-plan hidden"],["hidework",false,"Needs-work hidden"],["stretch",true,"Stretch not included"]].forEach(([k,v,t])=>{if(state[k]!==v&&state[k]===PP.defaults[k]){const s2={...state,[k]:v};const c=n(s2);if(c)out.push([c,t,s2]);}});
+  if(state.lat&&+state.r<35){const r=[5,10,15,20,25,35].find(x=>x>+state.r&&n({...state,r:String(x)}));if(r)out.push([n({...state,r:String(r)}),`Radius ${state.r} km – widen to ${r} km`,{...state,r:String(r)}]);}
+  out.sort((a,b)=>b[0]-a[0]);zfix=out.slice(0,5).map(x=>x[2]);
+  el.innerHTML=out.length?"<b>No homes match.</b> "+out.slice(0,5).map(([k,t],i)=>`<span>${k} home${k===1?"":"s"} hidden by: <b>${esc(t)}</b><button class="link" type="button" data-zf="${i}">${/^Radius/.test(t)?"widen":"clear"}</button></span>`).join(" · ")
+   :`<b>No homes match.</b> Several filters together hide everything.<button class="link" type="button" data-zf="0">clear all filters</button>`;
+  if(!out.length)zfix=[{...PP.defaults}];el.hidden=false;}
+ $("zerohint").addEventListener("click",e=>{const b=e.target.closest("button[data-zf]");if(!b)return;const s2=zfix[+b.dataset.zf];if(!s2)return;const v=state.view;state={...s2,view:v};toUI();render();});
+ function render(push){if($("muni").dataset.reg!==state.reg)fillMuni();const res=PP.filter(items,state,store,DATA.sharedFavs,today);
+  {const s={...state};delete s.view;delete s.mz;delete s.mc;const gk=JSON.stringify(s);if(gk!==gridKey){gridKey=gk;shown=PAGE;}}   // ♥/×/restore keep how far you scrolled
+  $("grid").innerHTML=res.length?res.slice(0,shown).map(card).join("")+moreBtn(res.length-shown):'<div class="empty">No homes match these filters. <button class="link" type="button" onclick="document.getElementById(\'clearall\').click()">Clear all filters</button></div>';
+  const homes=n=>`${n} home${n===1?"":"s"}`;$("count").textContent=homes(res.length);$("dapply").textContent="Show "+homes(res.length);
+  const cl=chipList();$("chips").innerHTML=cl.map(([t],i)=>`<span class="fchip">${esc(t)}<button type="button" data-ci="${i}" aria-label="Remove filter ${esc(t)}">×</button></span>`).join("");$("clearall").hidden=!cl.length;
+  syncBar();
+  document.body.classList.toggle("mapview",state.view==="map");
+  document.querySelectorAll("#views button").forEach(b=>b.classList.toggle("on",b.dataset.v===state.view));
+  zeroHint(res);lastRes=res;watchMore();if(state.view==="map")drawMap(res);
+  const nr=store.r.filter(id=>items.some(x=>x.id===id)).length;$("remnote").textContent=nr?`(${nr} in this browser)`:"";
+  $("code").value=PP.encode(store);
+  {const n=items.filter(x=>PP.hasNotes(x.id,store)).length;$("notesn").textContent=n?`(${n})`:"";}
+  const q=PP.stateToQuery(state);if(push!==false)history.replaceState(null,"",location.pathname+q);}
+ function toast(msg,undo){const t=$("toast");t.innerHTML=esc(msg)+(undo?' <button type="button">Undo</button>':"");t.style.display="block";
+  if(undo)t.querySelector("button").onclick=()=>{undo();t.style.display="none";};clearTimeout(toast.h);toast.h=setTimeout(()=>t.style.display="none",6000);}
+ $("grid").addEventListener("click",e=>{const b=e.target.closest("[data-act]");if(!b)return;const id=b.closest(".card").dataset.id;
+  if(b.dataset.act==="note"){openNotes(id,b);return;}
+  if(b.dataset.act==="fav"){store.f=store.f.includes(id)?store.f.filter(x=>x!==id):[...store.f,id];}
+  if(b.dataset.act==="rem"){store.r=[...store.r,id];store.f=store.f.filter(x=>x!==id);PP.saveStore(localStorage,store);render();
+    toast("Listing removed from your view.",()=>{store.r=store.r.filter(x=>x!==id);PP.saveStore(localStorage,store);render();});return;}
+  if(b.dataset.act==="restore"){store.r=store.r.filter(x=>x!==id);}
+  PP.saveStore(localStorage,store);render();});
+ // every filter control: live update (debounced for typing)
+ let tmr;[...fields,...checks].forEach(id=>{const el=$(id);
+  el.addEventListener("input",()=>{clearTimeout(tmr);tmr=setTimeout(()=>{fromUI();render();},150);});
+  el.addEventListener("change",()=>{clearTimeout(tmr);fromUI();render();});});
+ document.querySelectorAll("#sec button").forEach(b=>b.onclick=()=>{state.sec=b.dataset.v;toUI();render();});
+ // price popover
+ const PB=$("pricebtn"),PPOP=$("pricepop");
+ const closePrice=()=>{PPOP.classList.remove("open");PB.setAttribute("aria-expanded","false");};
+ PB.onclick=e=>{e.stopPropagation();const o=!PPOP.classList.contains("open");PPOP.classList.toggle("open",o);PB.setAttribute("aria-expanded",String(o));if(o)setTimeout(()=>$("pmin").focus(),0);};
+ $("pricedone").onclick=()=>{fromUI();render();closePrice();};
+ document.addEventListener("click",e=>{if(PPOP.classList.contains("open")&&!e.target.closest("#slot_price"))closePrice();});
+ PPOP.addEventListener("keydown",e=>{if(e.key==="Enter"){fromUI();render();closePrice();PB.focus();}});
+ // filters drawer (desktop side panel, mobile full-screen sheet with type/price/beds moved in)
+ const DR=$("drawer");
+ function openDrawer(){DR.classList.add("open");document.body.style.overflow="hidden";}
+ function closeDrawer(){DR.classList.remove("open");document.body.style.overflow="";}
+ $("filtersbtn").onclick=openDrawer;
+ DR.addEventListener("click",e=>{if(e.target.closest("[data-close]"))closeDrawer();});
+ $("dclear").onclick=()=>{(mobile()?[...DRAWER,...BASIC]:DRAWER).forEach(k=>state[k]=PP.defaults[k]);toUI();render();};
+ function place(){const m=mobile();
+  (m?$("ms_type"):$("slot_type")).appendChild($("sec"));
+  (m?$("ms_price"):PPOP).insertBefore($("pricefields"),(m?$("ms_price"):PPOP).firstChild);
+  (m?$("ms_ptype"):$("slot_ptype")).appendChild($("ptype"));
+  (m?$("ms_beds"):$("slot_beds")).appendChild($("beds"));syncBar();}
+ if(window.matchMedia){const mq=window.matchMedia("(max-width:860px)");(mq.addEventListener?mq.addEventListener("change",place):mq.addListener&&mq.addListener(place));}
+ place();
+ // my lists modal
+ const PN=$("panel");$("sharebtn").onclick=()=>PN.classList.add("open");
+ PN.addEventListener("click",e=>{if(e.target===PN||e.target.closest("[data-lclose]"))PN.classList.remove("open");});
+ document.addEventListener("keydown",e=>{if(e.key!=="Escape")return;closePrice();closeDrawer();PN.classList.remove("open");closeNotes();});
+ const copy=t=>{(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>toast("Copied."),()=>{prompt("Copy:",t);});};
+ $("copy").onclick=()=>copy($("code").value);
+ $("copylink").onclick=()=>copy(location.href);
+ $("apply").onclick=()=>{try{const s=PP.decode($("incode").value);const nb=Object.values(store.n).flat().length;store.f=[...store.f,...s.f];store.r=[...store.r,...s.r];store.n=PP.mergeNotes(store.n,s.n);PP.saveStore(localStorage,store);render();toast(`Imported ${s.f.length} favourites, ${s.r.length} removed, ${Object.values(store.n).flat().length-nb} new notes.`);$("incode").value="";}catch(e){toast("Invalid code: "+e.message);}};
+ $("clearrem").onclick=()=>{const old=store.r;store.r=[];PP.saveStore(localStorage,store);render();toast(`Restored ${old.length} listings.`,()=>{store.r=old;PP.saveStore(localStorage,store);render();});};
+ window.addEventListener("storage",e=>{if(e.key===STORE_KEY){store=PP.loadStore(localStorage);render(false);}});
+ // ----- combined search: places first, then 'Search text "…"' -----
+ let sug=[],act=-1,nomT=null,nomLast=0,nomSeq=0;
+ function showSug(list,hint,text){sug=list.map(g=>({g}));if(text&&String(text).trim().length>=2)sug.push({t:String(text).trim()});
+  act=sug.length?0:-1;
+  UL.innerHTML=sug.map((s,i)=>s.g?`<li role="option" data-i="${i}" class="${i===act?"act":""}"><span>📍 ${esc(s.g.name)}</span><small>${esc([PP.KR[s.g.kind]||s.g.kind,s.g.muni].filter(Boolean).join(" · "))}</small></li>`
+    :`<li role="option" data-i="${i}" class="txt${i===act?" act":""}"><span>🔍 Search text “${esc(s.t)}”</span><small>in towns, notes, titles</small></li>`).join("")+(hint?`<li class="hint">${esc(hint)}</li>`:"");
+  UL.style.display=sug.length||hint?"block":"none";L.setAttribute("aria-expanded",UL.style.display==="block");}
+ function hideSug(){UL.style.display="none";L.setAttribute("aria-expanded","false");}
+ function choose(g){state.loc=g.name+(g.muni&&g.muni!==g.name?", "+g.muni:"");state.lat=(+g.lat).toFixed(4);state.lon=(+g.lon).toFixed(4);state.q="";
+  if(state.sort==="newest")state.sort="distance";hideSug();toUI();render();}
+ function textSearch(t){state.q=String(t||"").trim();state.loc="";state.lat="";state.lon="";if(state.sort==="distance")state.sort="newest";hideSug();toUI();render();}
+ function pick(i){const s=sug[i];if(!s)return;s.g?choose(s.g):textSearch(s.t);}
+ function nominatim(q){clearTimeout(nomT);const seq=++nomSeq;
+  nomT=setTimeout(()=>{const wait=Math.max(0,1000-(Date.now()-nomLast));setTimeout(()=>{nomLast=Date.now();
+   fetch("https://nominatim.openstreetmap.org/search?format=jsonv2&countrycodes=pt&limit=6&accept-language=pt&q="+encodeURIComponent(q))
+   .then(r=>r.json()).then(j=>{if(seq!==nomSeq||PP.norm(L.value)!==PP.norm(q))return;
+     const list=j.map(o=>({name:o.name||o.display_name.split(",")[0],muni:(o.display_name.split(",")[1]||"").trim(),lat:+o.lat,lon:+o.lon,kind:"n"}));
+     showSug(list,list.length?"Places from OpenStreetMap":"",q);}).catch(()=>showSug([],"",q));},wait);},600);}
+ L.addEventListener("input",()=>{const v=L.value,n=PP.norm(v).trim();if(n.length<2){hideSug();return;}
+  const list=PP.suggest(gidx,v,6);if(list.length)showSug(list,"",v);else{showSug([],n.length>=3?"Looking up places…":"",v);if(n.length>=3)nominatim(v);}});
+ L.addEventListener("keydown",e=>{const open=UL.style.display==="block"&&sug.length;
+  if(open&&(e.key==="ArrowDown"||e.key==="ArrowUp")){e.preventDefault();act=(act+(e.key==="ArrowDown"?1:-1)+sug.length)%sug.length;
+    UL.querySelectorAll("li[data-i]").forEach((li,i)=>li.classList.toggle("act",i===act));}
+  else if(e.key==="Enter"){e.preventDefault();if(open&&act>=0)pick(act);else if(!L.value.trim())$("locclear").click();else if(L.value!==locDisplay())textSearch(L.value);}
+  else if(e.key==="Escape"){hideSug();L.value=locDisplay();}});
+ UL.addEventListener("mousedown",e=>{const li=e.target.closest("li[data-i]");if(li){e.preventDefault();pick(+li.dataset.i);}});
+ L.addEventListener("blur",()=>setTimeout(()=>{hideSug();if(!L.value.trim()&&(state.lat||state.q))$("locclear").click();else L.value=locDisplay();},150));
+ $("locclear").onclick=()=>{state.q="";state.loc="";state.lat="";state.lon="";if(state.sort==="distance")state.sort="newest";toUI();render();};
+ $("geo").onclick=()=>{if(!navigator.geolocation){toast("Location not available in this browser.");return;}
+  navigator.geolocation.getCurrentPosition(p=>choose({name:"My location",muni:"",lat:p.coords.latitude,lon:p.coords.longitude,kind:"m"}),
+   err=>toast("Could not get your location: "+err.message),{enableHighAccuracy:false,timeout:10000,maximumAge:300000});};
+ // ----- map view (Leaflet loaded on demand from unpkg; OSM tiles) -----
+ let map=null,layer=null,circle=null,loading=null;
+ function loadScript(src){return new Promise((ok,bad)=>{const s=document.createElement("script");s.src=src;s.crossOrigin="";s.onload=ok;s.onerror=()=>bad(new Error("load "+src));document.head.appendChild(s);});}
+ function ensureLeaflet(){if(window.L&&window.L.markerClusterGroup)return Promise.resolve();
+  return loading||(loading=loadScript("https://unpkg.com/leaflet@1.9.4/dist/leaflet.js").then(()=>loadScript("https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js")));}
+ function popupHtml(x){const lf=store.f.includes(x.id);return `<div class="pop" data-id="${x.id}">${x.image?`<img src="${esc(x.image)}" alt="" referrerpolicy="no-referrer" onerror="ppImgErr(this)">`:""}
+  <b>${x.price?fmt(x.price):"Price n/a"}</b> · ${esc(x.typology)} ${x.property_type==="apartment"?"apartment":"house"}${x.unfinished?' <span class="chip unf">⚠ Unfinished</span>':""}${x.new_build?' <span class="chip newb">New build</span>':""}${x.needs_work?' <span class="chip nw">🔧 Needs work</span>':""}<br>${esc(x.town)}${x._dist!=null?`<br><span style="color:#0f6e8c">${x.coord_approx?"≈ ":""}${x._dist.toFixed(1)} km from ${esc(state.loc)}</span>`:""}
+  ${x.coord_approx?'<br><small style="color:#9a6a00">≈ approximate location</small>':""}
+  <div class="pa"><button data-pact="fav" class="${lf?"on":""}" type="button">${lf?"♥":"♡"} Favourite</button>${noteBtn(x.id,"pact").replace("📝","📝 Note")}<button data-pact="rem" type="button">× Remove</button></div>${notePreview(x.id).replace('data-act="note"','data-pact="note"')}
+  <div style="margin-top:6px"><a href="${esc(x.url)}" target="_blank" rel="noopener">View on ${esc(LBL(x.source))} →</a>${(x.also_on||[]).length?`<br><small>Also on: ${x.also_on.map(a=>`<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(LBL(a.source))}</a>`).join(", ")}</small>`:""}</div></div>`;}
+ // markers are kept by id and updated in place: ♥/×/restore/undo never rebuild the map or refit it.
+ // fitBounds only when filters/search change, and not if the user panned/zoomed since (unless location/radius changed).
+ const mk=new Map();let fitted=0,curById=new Map(),lastKey=null,lastLocKey=null,userMoved=false,prog=0;
+ const fkey=()=>{const s={...state};delete s.view;delete s.mz;delete s.mc;delete s.sort;return JSON.stringify(s);};
+ const mstyle=p=>({radius:p.fav?10:8,color:p.fav?"#e0245e":p.color,weight:p.fav?3:2,dashArray:p.approx?"3 3":null,fillColor:p.fav?"#f4b400":p.color,fillOpacity:p.approx?0:0.85});
+ function savedView(){const z=parseInt(state.mz,10),c=String(state.mc||"").split(",").map(Number);
+  return z>=3&&z<=19&&c.length===2&&c.every(v=>isFinite(v))&&Math.abs(c[0])<=90&&Math.abs(c[1])<=180?{z,c}:null;}
+ // ----- measure tool: click points, running total (haversine); dblclick/Esc finishes; button again clears. Never re-renders or refits. -----
+ const ms={mode:"off",pts:[],line:null,dots:null,label:null};
+ function mkm(){let k=0;for(let i=1;i<ms.pts.length;i++)k+=PP.haversine(ms.pts[i-1][0],ms.pts[i-1][1],ms.pts[i][0],ms.pts[i][1]);return k;}
+ function initMeasure(Lf){
+  const C=Lf.Control.extend({options:{position:"topleft"},onAdd(){const d=Lf.DomUtil.create("div","leaflet-bar");
+   const a=Lf.DomUtil.create("a","mbtn",d);a.href="#";a.id="measurebtn";a.title="Measure distance";a.setAttribute("role","button");a.setAttribute("aria-label","Measure distance");a.textContent="📏";
+   Lf.DomEvent.disableClickPropagation(d);Lf.DomEvent.on(a,"click",e=>{Lf.DomEvent.preventDefault(e);mToggle();});return d;}});
+  new C().addTo(map);ms.dots=Lf.layerGroup().addTo(map);
+  ms.line=Lf.polyline([],{color:"#1d2a33",weight:3,dashArray:"6 6",interactive:false}).addTo(map);
+  map.on("click",e=>{if(ms.mode!=="on")return;ms.pts.push([e.latlng.lat,e.latlng.lng]);mDraw(Lf);});
+  map.on("dblclick",e=>{if(ms.mode!=="on")return;const n=ms.pts.length;   // a dblclick also fired two clicks at the same spot
+   if(n>=2&&Math.abs(ms.pts[n-1][0]-ms.pts[n-2][0])<1e-9&&Math.abs(ms.pts[n-1][1]-ms.pts[n-2][1])<1e-9)ms.pts.pop();mFinish(Lf);});
+  map.on("popupopen",e=>{if(ms.mode==="on")map.closePopup(e.popup);});
+  document.addEventListener("keydown",e=>{if(e.key==="Escape"&&ms.mode==="on")mFinish(Lf);});}
+ function mDraw(Lf){ms.line.setLatLngs(ms.pts);ms.dots.clearLayers();
+  ms.pts.forEach(p=>Lf.circleMarker(p,{radius:4,color:"#1d2a33",weight:2,fillColor:"#fff",fillOpacity:1,interactive:false}).addTo(ms.dots));
+  if(ms.label){map.removeLayer(ms.label);ms.label=null;}
+  if(ms.pts.length){const k=mkm(),txt=(k<10?k.toFixed(2):k.toFixed(1))+" km"+(ms.mode==="on"?(ms.pts.length<2?' <span>click the next point</span>':' <span>dbl-click or Esc to finish</span>'):"");
+   ms.label=Lf.marker(ms.pts[ms.pts.length-1],{interactive:false,keyboard:false,icon:Lf.divIcon({className:"mlabel",html:txt,iconAnchor:[-10,10]})}).addTo(map);}
+  window.PPMEASURE.km=mkm();window.PPMEASURE.mode=ms.mode;window.PPMEASURE.points=ms.pts.length;}
+ function mFinish(Lf){ms.mode="done";map.doubleClickZoom.enable();$("map").classList.remove("measuring");mDraw(Lf);}
+ function mClear(){ms.pts=[];ms.line.setLatLngs([]);ms.dots.clearLayers();if(ms.label){map.removeLayer(ms.label);ms.label=null;}}
+ function mToggle(){const Lf=window.L,b=$("measurebtn");
+  if(ms.mode==="off"){ms.mode="on";mClear();map.closePopup();map.doubleClickZoom.disable();$("map").classList.add("measuring");b.classList.add("on");}
+  else{ms.mode="off";mClear();map.doubleClickZoom.enable();$("map").classList.remove("measuring");b.classList.remove("on");}
+  window.PPMEASURE.mode=ms.mode;window.PPMEASURE.km=mkm();window.PPMEASURE.points=ms.pts.length;}
+ window.PPMEASURE={toggle:()=>mToggle(),mode:"off",km:0,points:0};
+ function drawMap(res){ensureLeaflet().then(()=>{const Lf=window.L;
+  if(!map){const sv=savedView();
+   map=Lf.map("map",{zoomControl:true});prog++;sv?map.setView(sv.c,sv.z,{animate:false}):map.setView([38.6,-9.1],8,{animate:false});prog--;userMoved=!!sv;
+   Lf.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
+   layer=Lf.markerClusterGroup({showCoverageOnHover:false,maxClusterRadius:35,spiderfyOnMaxZoom:true});map.addLayer(layer);
+   Lf.control.scale({metric:true,imperial:false,position:"bottomright"}).addTo(map);   // inserted above the attribution
+   initMeasure(Lf);
+   map.on("movestart zoomstart",()=>{if(!prog)userMoved=true;});
+   map.on("moveend",()=>{const c=map.getCenter();state.mz=String(map.getZoom());state.mc=c.lat.toFixed(4)+","+c.lng.toFixed(4);
+    history.replaceState(null,"",location.pathname+PP.stateToQuery(state));});
+   map.getContainer().addEventListener("click",e=>{const b=e.target.closest("[data-pact]");if(!b)return;const id=b.closest(".pop").dataset.id;
+    if(b.dataset.pact==="note"){openNotes(id,b);return;}
+    if(b.dataset.pact==="fav"){store.f=store.f.includes(id)?store.f.filter(x=>x!==id):[...store.f,id];PP.saveStore(localStorage,store);render();}
+    else{store.r=[...store.r,id];store.f=store.f.filter(x=>x!==id);PP.saveStore(localStorage,store);render();
+     toast("Listing removed from your view.",()=>{store.r=store.r.filter(x=>x!==id);PP.saveStore(localStorage,store);render();});}});}
+  {const el=map.getContainer(),sz=map.getSize();if(el.clientWidth!==sz.x||el.clientHeight!==sz.y){prog++;map.invalidateSize({pan:false});prog--;}}   // only after List→Map / resize, so ♥/× never nudge the view
+  const key=fkey(),lk=[state.lat,state.lon,state.r].join("|"),changed=key!==lastKey,locChanged=lk!==lastLocKey;
+  curById=new Map(res.map(x=>[x.id,x]));const pts=PP.mapPoints(res,store,DATA.sharedFavs),keep=new Set();
+  pts.forEach(p=>{keep.add(p.id);let m=mk.get(p.id);
+   if(!m){m=Lf.circleMarker([p.lat,p.lon],mstyle(p));m.options.ppid=p.id;m._ppfav=p.fav;m.bindPopup(()=>popupHtml(curById.get(p.id)));mk.set(p.id,m);layer.addLayer(m);}
+   else if(m._ppfav!==p.fav){m._ppfav=p.fav;m.setStyle(mstyle(p));m.setRadius(mstyle(p).radius);}
+   if(m.isPopupOpen&&m.isPopupOpen())m.getPopup().setContent(()=>popupHtml(curById.get(p.id)));});
+  const gone=[...mk.keys()].filter(id=>!keep.has(id));if(gone.length){layer.removeLayers?layer.removeLayers(gone.map(id=>mk.get(id))):gone.forEach(id=>layer.removeLayer(mk.get(id)));gone.forEach(id=>mk.delete(id));}
+  const lat=parseFloat(state.lat),lon=parseFloat(state.lon),r=parseFloat(state.r),hasLoc=!isNaN(lat)&&!isNaN(lon);
+  if(locChanged||!lastLocKey){if(circle){map.removeLayer(circle);circle=null;}
+   if(hasLoc){circle=Lf.layerGroup().addTo(map);Lf.circleMarker([lat,lon],{radius:5,color:"#e4572e",fillOpacity:1}).addTo(circle);
+    if(r>0)Lf.circle([lat,lon],{radius:r*1000,color:"#e4572e",weight:2,fillOpacity:.06}).addTo(circle);}}
+  if(changed){
+   if(!userMoved||(locChanged&&lastKey!==null)){let bb=pts.length?Lf.latLngBounds(pts.map(p=>[p.lat,p.lon])):null;
+    if(hasLoc){const cb=r>0?Lf.latLng(lat,lon).toBounds(r*2000):Lf.latLngBounds([[lat,lon],[lat,lon]]);bb=bb?bb.extend(cb):cb;}
+    if(bb){prog++;map.fitBounds(bb.pad(0.08),{maxZoom:14,animate:false});prog--;fitted++;}}
+   userMoved=false;lastKey=key;lastLocKey=lk;}
+  window.PPMAP={map,layer,markers:mk,count:mk.size,circle:!!(circle&&hasLoc&&r>0),fits:fitted};
+ }).catch(e=>{if(window.console)console.error(e);$("map").innerHTML='<div class="empty">Map could not load ('+esc(e.message)+'). Check your connection.</div>';});}
+ document.querySelectorAll("#views button").forEach(b=>b.onclick=()=>{state.view=b.dataset.v;render();});
+ // ----- notes modal (focus-trapped, Esc closes, never touches the map view) -----
+ const NM=$("notesm");let noteId=null,noteOpener=null,editing=null;
+ const fmtT=iso=>{try{return new Date(iso).toLocaleString("en-GB",{timeZone:"Europe/Lisbon",day:"2-digit",month:"short",year:"numeric",hour:"2-digit",minute:"2-digit"});}catch(e){return iso;}};
+ function drawNotes(){const x=items.find(y=>y.id===noteId)||{};$("nsub").textContent=[x.price?fmt(x.price):"",x.typology,x.town].filter(Boolean).join(" · ");
+  const a=allNotes(noteId);$("nlist").innerHTML=a.length?a.map(n=>`<li data-nid="${esc(n.id)}">${editing===n.id?`<textarea class="nedit" rows="3" maxlength="2000" aria-label="Edit note">${esc(n.t)}</textarea><div class="nm"><button type="button" data-n="save">Save</button><button type="button" data-n="cancel">Cancel</button></div>`:
+   `<div class="nm">${n.shared?`<span class="nshared">Shared${n.by?" · "+esc(n.by):""}</span>`:""}<span>${esc(fmtT(n.c))}${n.u&&n.u!==n.c?" · edited "+esc(fmtT(n.u)):""}</span>${n.own?'<button type="button" data-n="edit">Edit</button><button type="button" class="del" data-n="del">Delete</button>':""}</div><div class="nt">${esc(n.t)}</div>`}</li>`).join(""):'<li class="empty">No notes yet.</li>';}
+ function notesChanged(){PP.saveStore(localStorage,store);render(false);drawNotes();}
+ function openNotes(id,opener){noteId=id;noteOpener=opener||null;editing=null;$("ntext").value="";drawNotes();NM.classList.add("open");setTimeout(()=>$("ntext").focus(),30);}
+ function closeNotes(){if(!NM.classList.contains("open"))return;NM.classList.remove("open");noteId=null;editing=null;
+  const id=noteOpener&&(noteOpener.closest(".card,.pop")||{}).dataset;const back=noteOpener&&document.contains(noteOpener)?noteOpener:(id&&document.querySelector(`[data-id="${id.id}"] .notebtn`));if(back)back.focus();}
+ $("nadd").onclick=()=>{const t=$("ntext").value.trim();if(!t){$("ntext").focus();return;}const now=new Date().toISOString();
+  (store.n[noteId]=store.n[noteId]||[]).push({id:"n"+Date.now().toString(36)+Math.random().toString(36).slice(2,6),t,c:now,u:now});$("ntext").value="";notesChanged();toast("Note added.");};
+ $("ntext").addEventListener("keydown",e=>{if(e.key==="Enter"&&(e.ctrlKey||e.metaKey))$("nadd").click();});
+ $("nlist").addEventListener("click",e=>{const b=e.target.closest("button[data-n]");if(!b)return;const nid=b.closest("li").dataset.nid,lid=noteId,arr=store.n[lid]||[],i=arr.findIndex(n=>n.id===nid);
+  if(b.dataset.n==="edit"){editing=nid;drawNotes();const ta=$("nlist").querySelector(".nedit");if(ta){ta.focus();ta.setSelectionRange(ta.value.length,ta.value.length);}return;}
+  if(b.dataset.n==="cancel"){editing=null;drawNotes();return;}
+  if(i<0)return;
+  if(b.dataset.n==="save"){const t=$("nlist").querySelector(".nedit").value.trim();editing=null;if(t){arr[i]={...arr[i],t,u:new Date().toISOString()};}notesChanged();return;}
+  if(b.dataset.n==="del"){const old=arr[i];arr.splice(i,1);if(!arr.length)delete store.n[lid];notesChanged();
+   toast("Note deleted.",()=>{(store.n[lid]=store.n[lid]||[]).splice(Math.min(i,(store.n[lid]||[]).length),0,old);PP.saveStore(localStorage,store);render(false);if(noteId===lid)drawNotes();});}});
+ NM.addEventListener("click",e=>{if(e.target===NM||e.target.closest("[data-nclose]"))closeNotes();});
+ NM.addEventListener("keydown",e=>{if(e.key==="Escape"){e.stopPropagation();closeNotes();return;}
+  if(e.key!=="Tab")return;const f=[...NM.querySelectorAll("button,textarea,input,[href]")].filter(el=>!el.disabled&&el.offsetParent!==null||el===document.activeElement);if(!f.length)return;
+  const first=f[0],last=f[f.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}});
+ // ----- add property modal -----
+ const AM=$("addm");
+ $("addbtn").onclick=()=>{AM.classList.add("open");$("a_err").textContent="";setTimeout(()=>$("a_url").focus(),30);};
+ const closeAdd=()=>AM.classList.remove("open");$("a_cancel").onclick=closeAdd;AM.addEventListener("click",e=>{if(e.target===AM)closeAdd();});
+ document.addEventListener("keydown",e=>{if(e.key==="Escape"&&AM.classList.contains("open"))closeAdd();});
+ function checkAdd(){const u=$("a_url").value.trim();if(!PP.validUrl(u)){$("a_err").textContent="Please paste a full link starting with https://";return null;}$("a_err").textContent="";return u;}
+ $("a_go").onclick=()=>{const u=checkAdd();if(!u)return;const href=PP.issueUrl(u,$("a_note").value,$("a_name").value);window.PPLAST=href;window.open(href,"_blank","noopener");toast("GitHub opened in a new tab – click “Create” there to send it.");closeAdd();};
+ $("a_copylink").onclick=()=>{const u=checkAdd();if(u)copy(PP.issueUrl(u,$("a_note").value,$("a_name").value));};
+ $("a_copy").onclick=()=>{const u=checkAdd();if(u)copy(`Property suggestion\nURL: ${u}\nNote: ${$("a_note").value.trim()}\nName: ${$("a_name").value.trim()}`);};
+ // ----- radius combobox (1–35 km, type to filter) -----
+ const RQ=$("rq"),RL=$("rlist");let ropts=[],ract=-1;
+ function showR(filter){ropts=PP.radiusOptions(filter);const cur=+state.r;ract=Math.max(0,ropts.indexOf(cur));if(!ropts.length)ract=-1;
+  RL.innerHTML=ropts.map((n,i)=>`<li role="option" data-n="${n}" class="${i===ract?"act ":""}${n===cur?"sel":""}" aria-selected="${n===cur}">${n} km</li>`).join("");
+  RL.style.display=ropts.length?"block":"none";RQ.setAttribute("aria-expanded",ropts.length?"true":"false");
+  const a=RL.querySelector("li.act");if(a&&a.scrollIntoView)a.scrollIntoView({block:"nearest"});}
+ function hideR(){RL.style.display="none";RQ.setAttribute("aria-expanded","false");}
+ function setR(n){state.r=PP.clampR(n);$("r").value=state.r;RQ.value=state.r+" km";hideR();render();}
+ RQ.addEventListener("focus",()=>{RQ.select&&RQ.select();showR("");});
+ RQ.addEventListener("input",e=>{e.stopPropagation();showR(RQ.value);});
+ RQ.addEventListener("change",e=>e.stopPropagation());
+ RQ.addEventListener("keydown",e=>{
+  if(e.key==="ArrowDown"||e.key==="ArrowUp"){e.preventDefault();if(RL.style.display!=="block"){showR("");return;}if(!ropts.length)return;
+    ract=(ract+(e.key==="ArrowDown"?1:-1)+ropts.length)%ropts.length;RL.querySelectorAll("li").forEach((li,i)=>li.classList.toggle("act",i===ract));}
+  else if(e.key==="Enter"){e.preventDefault();const typed=RQ.value.replace(/[^0-9]/g,"");
+    if(RL.style.display==="block"&&ract>=0)setR(ropts[ract]);else if(typed&&PP.RADII.includes(+typed))setR(typed);else{RQ.value=state.r+" km";hideR();}}
+  else if(e.key==="Escape"){RQ.value=state.r+" km";hideR();}});
+ RL.addEventListener("mousedown",e=>{const li=e.target.closest("li[data-n]");if(li){e.preventDefault();setR(li.dataset.n);}});
+ RQ.addEventListener("blur",()=>setTimeout(()=>{const typed=RQ.value.replace(/[^0-9]/g,"");if(typed&&PP.RADII.includes(+typed)&&typed!==state.r)setR(typed);else{RQ.value=state.r+" km";hideR();}},120));
+ window.PPUI={choose,showSug,drawMap,setR,textSearch,openDrawer,closeDrawer};
+ toUI();render(false);
+})();};
+ const fail=e=>{if(window.console)console.error(e);const g=document.getElementById("grid");if(g)g.innerHTML='<div class="empty">Listings could not load ('+String(e.message||e).replace(/[<>&]/g,"")+'). Please reload.</div>';document.getElementById("count").textContent="";};
+ if(DATA.listings){PPBOOT();window.PPREADY=Promise.resolve();}
+ else window.PPREADY=fetch(DATA.src).then(r=>{if(!r.ok)throw new Error("HTTP "+r.status);return r.json();}).then(j=>{Object.assign(DATA,j);PPBOOT();}).catch(fail);}
+</script></body></html>
