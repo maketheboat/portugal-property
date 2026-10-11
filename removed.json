@@ -311,6 +311,242 @@
    "muni_key": "albufeira",
    "removed_at": "2026-10-10",
    "reason": "wrong location: advert pin in Albufeira, text says 300 m from the Arade dam (inland Silves)"
+  },
+  {
+   "section": "ready",
+   "town": "Ribamar, Lourinhã",
+   "typology": "T2",
+   "price": 350000,
+   "size": "134 m²",
+   "garden": "Yes – large plot",
+   "note": "2 min from the beaches; convertible to T3.",
+   "url": "https://www.imovirtual.com/pt/anuncio/moradia-t2-venda-em-ribamar-lourinha-ID1iayS",
+   "also": false,
+   "first_seen": "2026-10-09",
+   "source": "imovirtual",
+   "id": "29acde7242",
+   "municipality": "Lourinhã",
+   "bedrooms": 2,
+   "size_m2": 134,
+   "garden_yes": true,
+   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InZxM3N2c2xoeTk5YjMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.6MwN_T295O3kdcc_NGyNDY_40xLj4lPp7C05cSgpMA0/image;s=655x491;q=80",
+   "title": "Moradia T2 Venda em Ribamar,Lourinhã",
+   "lat": 39.20186,
+   "lon": -9.3322,
+   "coord_approx": false,
+   "coord_note": "listing map pin",
+   "also_on": [
+    {
+     "source": "olx",
+     "url": "https://www.olx.pt/d/anuncio/moradia-t2-venda-em-ribamar-lourinh-IDJkp9r.html"
+    },
+    {
+     "source": "idealista",
+     "url": "https://www.idealista.pt/imovel/34928932/"
+    }
+   ],
+   "new_build": false,
+   "unfinished": false,
+   "build_why": [],
+   "needs_work": false,
+   "property_type": "house",
+   "balcony": false,
+   "terrace": false,
+   "coast_km": 1.8,
+   "muni_key": "lourinha",
+   "removed_at": "2026-10-11"
+  },
+  {
+   "section": "ready",
+   "town": "Peniche",
+   "typology": "T4",
+   "price": 445000,
+   "size": "144 m²",
+   "garden": "Yes – mentions 'logradouro' (check listing)",
+   "note": "Moradia T4 com sótão, garagem e logradouro, perto da praia em Peniche Apresentamos esta agradável moradia T4 em Peniche, ideal para habitação própria, casa d…",
+   "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t4-peniche-peniche/123981050-55",
+   "also": false,
+   "first_seen": "2026-10-09",
+   "source": "remax",
+   "auto": true,
+   "coast_km": 0.0,
+   "image": "https://i.maxwork.pt/l-view/listings/12398/7243336/9b2f2a88-16a7-4823-b55d-7d08230e268e.jpg",
+   "lat": 39.36367,
+   "lon": -9.37736,
+   "coord_approx": false,
+   "coord_note": "listing map pin",
+   "bedrooms": 4,
+   "size_m2": 144,
+   "id": "7a728539d7",
+   "municipality": "Peniche",
+   "garden_yes": true,
+   "also_on": [
+    {
+     "source": "imovirtual",
+     "url": "https://www.imovirtual.com/pt/anuncio/moradia-t4-para-venda-ID1iSKY"
+    },
+    {
+     "source": "olx",
+     "url": "https://www.olx.pt/d/anuncio/moradia-t4-para-venda-IDJApDB.html"
+    },
+    {
+     "source": "casasapo",
+     "url": "https://casa.sapo.pt/comprar-moradia-t4-peniche-54b96bc3-b766-11f1-9aaf-060000000054.html"
+    }
+   ],
+   "new_build": false,
+   "unfinished": false,
+   "build_why": [],
+   "needs_work": false,
+   "property_type": "house",
+   "balcony": false,
+   "terrace": false,
+   "muni_key": "peniche",
+   "removed_at": "2026-10-11"
+  },
+  {
+   "section": "ready",
+   "town": "Peniche",
+   "typology": "T2",
+   "price": 350000,
+   "size": "122 m²",
+   "garden": "Yes – quintal + garage",
+   "note": "Fully renovated, in town ~0.1 km from the sea.",
+   "url": "https://www.imovirtual.com/pt/anuncio/moradia-t2-para-venda-ID1iRqo",
+   "also": false,
+   "first_seen": "2026-10-09",
+   "source": "imovirtual",
+   "id": "0c7f1bc376",
+   "municipality": "Peniche",
+   "bedrooms": 2,
+   "size_m2": 122,
+   "garden_yes": true,
+   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImRzMWg4NDdveG5xdS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.5H-mJ-bHrluDfEbWEdVr3QfVwvvrnrA1xj7p6o09Siw/image;s=655x491;q=80",
+   "title": "Moradia T2 para venda",
+   "lat": 39.3621,
+   "lon": -9.39423,
+   "coord_approx": false,
+   "coord_note": "listing map pin",
+   "also_on": [
+    {
+     "source": "remax",
+     "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t2-peniche-peniche/123981050-54"
+    },
+    {
+     "source": "olx",
+     "url": "https://www.olx.pt/d/anuncio/moradia-t2-para-venda-IDJzVkl.html"
+    }
+   ],
+   "new_build": false,
+   "unfinished": false,
+   "build_why": [],
+   "needs_work": false,
+   "property_type": "house",
+   "balcony": false,
+   "terrace": false,
+   "coast_km": 0.1,
+   "muni_key": "peniche",
+   "removed_at": "2026-10-11"
+  },
+  {
+   "section": "ready",
+   "town": "Atouguia da Baleia (Supertubos), Peniche",
+   "typology": "T2",
+   "price": 385000,
+   "size": "100 m²",
+   "garden": "Yes – quintal",
+   "note": "Fully renovated, two suites, sea view, steps from Supertubos beach.",
+   "url": "https://www.imovirtual.com/pt/anuncio/moradia-t2-com-quintal-e-vista-mar-junto-aos-supertubos-ID1hmmf",
+   "also": false,
+   "first_seen": "2026-10-09",
+   "source": "imovirtual",
+   "id": "e613e464cc",
+   "municipality": "Peniche",
+   "bedrooms": 2,
+   "size_m2": 100,
+   "garden_yes": true,
+   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InA2eXlvNnJmYXA2by1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.0h__pQbk-AhL1qPkPmipSijtvQTB4igg1vGBRhjOABE/image;s=655x491;q=80",
+   "title": "Moradia T2 com quintal e vista mar junto aos Supertubos",
+   "lat": 39.34539,
+   "lon": -9.35272,
+   "coord_approx": true,
+   "coord_note": "listing map pin (approximate area)",
+   "also_on": [
+    {
+     "source": "olx",
+     "url": "https://www.olx.pt/d/anuncio/moradia-t2-com-quintal-e-vista-mar-junto-aos-supertubos-IDJ4Sff.html"
+    },
+    {
+     "source": "olx",
+     "url": "https://www.olx.pt/d/anuncio/casa-villa-t2-em-atouguia-da-baleia-de-100-m2-IDJymiQ.html"
+    },
+    {
+     "source": "custojusto",
+     "url": "https://www.custojusto.pt/leiria/imobiliario/moradias/casa-villa-t2-em-atouguia-da-45219935"
+    },
+    {
+     "source": "imovirtual",
+     "url": "https://www.imovirtual.com/pt/anuncio/casa-villa-t2-em-atouguia-da-baleia-de-100-m2-ID1iOmt"
+    },
+    {
+     "source": "casasapo",
+     "url": "https://casa.sapo.pt/comprar-moradia-t2-peniche-atouguia-da-baleia-casal-da-vala-b2c1083c-52ed-11ee-a521-060000000056.html"
+    },
+    {
+     "source": "casasapo",
+     "url": "https://casa.sapo.pt/comprar-moradia-t2-peniche-atouguia-da-baleia-af8a2978-ae6d-11f1-90a1-060000000056.html"
+    },
+    {
+     "source": "casasapo",
+     "url": "https://casa.sapo.pt/comprar-moradia-t2-peniche-atouguia-da-baleia-3acc9d9b-a4c7-11f1-9c13-060000000051.html"
+    }
+   ],
+   "new_build": true,
+   "unfinished": false,
+   "build_why": [
+    "portal field build year 2025"
+   ],
+   "needs_work": false,
+   "property_type": "house",
+   "balcony": false,
+   "terrace": false,
+   "coast_km": 2.4,
+   "muni_key": "peniche",
+   "removed_at": "2026-10-11"
+  },
+  {
+   "section": "ready",
+   "town": "São Pedro da Cadeira, Torres Vedras",
+   "typology": "T3",
+   "price": 435000,
+   "size": "275 m² on 680 m² plot",
+   "garden": "Yes – mentions 'jardim' (check listing)",
+   "note": "Moradia T3 Remodelada com Vista Mar Apresentamos esta magnífica moradia T3, totalmente remodelada e pronta a habitar, que combina na perfeição modernidade, c…",
+   "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t3-torres-vedras-sao-pedro-da-cadeira/124151299-5",
+   "also": false,
+   "first_seen": "2026-10-09",
+   "source": "remax",
+   "auto": true,
+   "coast_km": 2.3,
+   "image": "https://i.maxwork.pt/l-view/listings/12415/7138571/26f1eb08-49c3-4332-8765-30c827f9385c.jpg",
+   "lat": 39.06781,
+   "lon": -9.36722,
+   "coord_approx": false,
+   "coord_note": "listing map pin",
+   "bedrooms": 3,
+   "size_m2": 275,
+   "id": "eff2942ca9",
+   "municipality": "Torres Vedras",
+   "garden_yes": true,
+   "new_build": false,
+   "unfinished": false,
+   "build_why": [],
+   "needs_work": false,
+   "property_type": "house",
+   "balcony": false,
+   "terrace": true,
+   "muni_key": "torresvedras",
+   "removed_at": "2026-10-11"
   }
  ]
 }

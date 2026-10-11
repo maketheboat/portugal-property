@@ -126,6 +126,15 @@ main{padding-top:16px!important;padding-bottom:24px!important}
 .modal .row{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end;margin-top:16px}
 .modal .row button{height:var(--h);border:0;border-radius:var(--r);padding:0 16px;cursor:pointer;font-size:.9rem}.modal .pri{background:var(--accent);color:#fff}.modal .sec{background:#eef3f5}
 .modal p{font-size:.9rem;margin:8px 0}
+.notebtn{position:relative}.acts .notebtn{font-size:.9rem}.notebtn .ncount{position:absolute;top:-4px;right:-4px;background:var(--accent);color:#fff;border-radius:9px;font-size:.62rem;min-width:16px;height:16px;line-height:16px;padding:0 3px;font-weight:700}
+.pop .pa .notebtn .ncount{position:static;margin-left:4px}
+.npv{margin-top:8px;font-size:.82rem;color:#3b4a55;background:#fff8e1;border-left:3px solid #f0b429;padding:4px 8px;border-radius:4px;cursor:pointer;overflow:hidden;text-overflow:ellipsis}
+.nshared,.nlist .nshared{background:#e3f2fd;color:#0b5394;border-radius:4px;padding:0 4px;font-size:.7rem;font-weight:700}
+.nsub{color:var(--muted)}.nlist{list-style:none;margin:8px 0 0;padding:0;max-height:40vh;overflow:auto}
+.nlist li{border:1px solid var(--line);border-radius:var(--r);padding:8px 12px;margin-bottom:8px}.nlist .nt{white-space:pre-wrap;font-size:.9rem;margin:4px 0}
+.nlist .nm{font-size:.76rem;color:var(--muted);display:flex;gap:8px;align-items:center}.nlist .nm button{margin-left:auto;border:0;background:none;color:var(--accent);cursor:pointer;font-size:.8rem;padding:2px 4px}
+.nlist .nm button+button{margin-left:0}.nlist .nm button.del{color:#c0392b}.nlist textarea{font-family:inherit;font-size:.9rem}
+.nlist .empty{color:var(--muted);border:0;padding:4px 0}
 #addm textarea{font-family:inherit;font-size:.9rem}
 #toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#1d2a33;color:#fff;padding:8px 16px;border-radius:var(--r);font-size:.9rem;display:none;z-index:2300}
 #toast button{margin-left:8px;background:none;border:0;color:#7fd3e6;cursor:pointer;text-decoration:underline}
@@ -193,17 +202,25 @@ footer{color:var(--muted);font-size:.83rem;padding-top:16px!important;padding-bo
   <section><h3>Listing</h3>
    <label class="chk"><input type="checkbox" id="new"><span>Added in the last 7 days</span></label>
    <label class="chk"><input type="checkbox" id="fav"><span>Favourites only</span></label>
+   <label class="chk"><input type="checkbox" id="notes"><span>Has notes <small id="notesn"></small><em>Homes with your notes or shared notes</em></span></label>
    <label class="chk"><input type="checkbox" id="showrem"><span>Show removed <small id="remnote"></small><em>Listings you hid with × in this browser</em></span></label></section>
  </div>
  <div class="sfoot"><button class="ctl" id="dclear" type="button">Clear</button><button class="ctl pri" id="dapply" type="button" data-close>Show homes</button></div>
 </div></div>
 <div id="panel" class="modal" role="dialog" aria-modal="true" aria-labelledby="lh"><div class="dlg">
  <h2 id="lh">My lists</h2>
- <p>Your ♥ favourites and × removed listings are saved in this browser only. To move them to another device, or send them to us for the shared list, copy this code:</p>
+ <p>Your ♥ favourites, × removed listings and 📝 notes are saved in this browser only. To move them to another device, or send them to us for the shared list, copy this code:</p>
  <textarea id="code" readonly rows="3"></textarea>
  <div class="row" style="justify-content:flex-start"><button class="sec" id="copy" type="button">Copy code</button><button class="sec" id="copylink" type="button">Copy link to this view</button></div>
- <label for="incode">Paste a code from another device or person (added to what you have)</label><textarea id="incode" rows="2" placeholder="PP1:…"></textarea>
+ <label for="incode">Paste a code from another device or person (added to what you have)</label><textarea id="incode" rows="2" placeholder="PP2:…"></textarea>
  <div class="row"><button class="sec" id="clearrem" type="button">Restore all removed</button><button class="sec" type="button" data-lclose>Close</button><button class="pri" id="apply" type="button">Import code</button></div>
+</div></div>
+<div id="notesm" class="modal" role="dialog" aria-modal="true" aria-labelledby="nh"><div class="dlg">
+ <h2 id="nh">Notes</h2><p id="nsub" class="nsub"></p>
+ <ul id="nlist" class="nlist"></ul>
+ <label for="ntext">Add a note</label><textarea id="ntext" rows="3" maxlength="2000" placeholder="e.g. Called the agent, viewing on Saturday…"></textarea>
+ <div class="row"><button class="sec" type="button" data-nclose>Close</button><button class="pri" id="nadd" type="button">Add note</button></div>
+ <p class="hint">Notes are saved in this browser and included in your My lists code.</p>
 </div></div>
 <div id="addm" class="modal" role="dialog" aria-modal="true" aria-labelledby="addh"><div class="dlg">
  <h2 id="addh">Suggest a property</h2>
@@ -220,18 +237,32 @@ footer{color:var(--muted);font-size:.83rem;padding-top:16px!important;padding-bo
 
 <script>
 "use strict";
-const DATA={"labels":{"imovirtual":"Imovirtual","casasapo":"Casa Sapo","remax":"RE/MAX","century21":"Century 21","olx":"OLX","custojusto":"CustoJusto","idealista":"Idealista","supercasa":"SuperCasa","era":"ERA","bpi":"BPI Expresso Imobiliário","engel":"Engel & Völkers","kw":"KW Portugal","zome":"Zome","iad":"iad Portugal","coldwell":"Coldwell Banker","kyero":"Kyero","idealista_rss":"Idealista RSS","decisoes":"Decisões e Soluções","greenacres":"Green-Acres","rightmove":"Rightmove Overseas","aplaceinthesun":"A Place in the Sun","predimed":"Predimed","casaiberia":"Casaiberia","cgd":"Caixa Imobiliário (CGD)"},"portals":["imovirtual","casasapo","remax","century21","olx","custojusto","idealista"],"regions":{"north":"North coast","centre":"Centre & Silver Coast","lisbon":"Lisbon & Setúbal","alentejo":"Alentejo coast","algarve":"Algarve"},"src":"data.json?v=cb811ae9dd","sharedFavs":[],"today":"2026-10-10","updated":"10 Oct 2026, 23:09"};
+const DATA={"labels":{"imovirtual":"Imovirtual","casasapo":"Casa Sapo","remax":"RE/MAX","century21":"Century 21","olx":"OLX","custojusto":"CustoJusto","idealista":"Idealista","supercasa":"SuperCasa","era":"ERA","bpi":"BPI Expresso Imobiliário","engel":"Engel & Völkers","kw":"KW Portugal","zome":"Zome","iad":"iad Portugal","coldwell":"Coldwell Banker","kyero":"Kyero","idealista_rss":"Idealista RSS","decisoes":"Decisões e Soluções","greenacres":"Green-Acres","rightmove":"Rightmove Overseas","aplaceinthesun":"A Place in the Sun","predimed":"Predimed","casaiberia":"Casaiberia","cgd":"Caixa Imobiliário (CGD)"},"portals":["imovirtual","casasapo","remax","century21","olx","custojusto","idealista"],"regions":{"north":"North coast","centre":"Centre & Silver Coast","lisbon":"Lisbon & Setúbal","alentejo":"Alentejo coast","algarve":"Algarve"},"src":"data.json?v=4f41e17145","sharedFavs":["a0f41248a3","529768acbd","62e8e780ed","c8c3cadb01","8c4e0f321c","1fb432f436","bbbb546b75","53519d7db1","fd88b4a5ee"],"sharedNotes":{},"today":"2026-10-11","updated":"11 Oct 2026, 09:07"};
+// a hotlinked photo that fails (throttling, flaky network) gets one retry after 2 s before the placeholder shows
+function ppImgErr(el){if(!el.dataset.retry){el.dataset.retry="1";const u=el.getAttribute("src");setTimeout(()=>{el.src=u+(u.includes("?")?"&":"?")+"r=1";},2000);}else el.remove();}
+if(typeof window!=="undefined")window.ppImgErr=ppImgErr;
 const STORE_KEY="pp.v1";
 const PP={
- loadStore(ls){try{const s=JSON.parse(ls.getItem(STORE_KEY)||"{}");return {f:Array.isArray(s.f)?s.f:[],r:Array.isArray(s.r)?s.r:[]};}catch(e){return {f:[],r:[]};}},
- saveStore(ls,s){ls.setItem(STORE_KEY,JSON.stringify({f:[...new Set(s.f)],r:[...new Set(s.r)]}));},
- encode(s){const j=JSON.stringify({f:[...new Set(s.f)],r:[...new Set(s.r)]});return "PP1:"+btoa(j).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,"");},
- decode(code){code=String(code||"").trim();if(!code.startsWith("PP1:"))throw new Error("Code must start with PP1:");
-   let b=code.slice(4).replace(/-/g,"+").replace(/_/g,"/");while(b.length%4)b+="=";const o=JSON.parse(atob(b));
-   const ok=a=>Array.isArray(a)?a.filter(x=>typeof x==="string"&&/^[0-9a-f]{10}$/.test(x)):[];return {f:ok(o.f),r:ok(o.r)};},
+ loadStore(ls){try{const s=JSON.parse(ls.getItem(STORE_KEY)||"{}");return {f:Array.isArray(s.f)?s.f:[],r:Array.isArray(s.r)?s.r:[],n:PP.cleanNotes(s.n)};}catch(e){return {f:[],r:[],n:{}};}},
+ saveStore(ls,s){const n={};for(const k in (s.n||{}))if(s.n[k].length)n[k]=s.n[k];ls.setItem(STORE_KEY,JSON.stringify({f:[...new Set(s.f)],r:[...new Set(s.r)],n}));},
+ // notes: {listingId:[{id,t,c,u}]} (t text, c created ISO, u updated ISO)
+ cleanNotes(n){const o={};if(!n||typeof n!=="object")return o;for(const k in n){if(!/^[0-9a-f]{10}$/.test(k)||!Array.isArray(n[k]))continue;
+   const a=n[k].filter(x=>x&&typeof x.t==="string"&&x.t.trim()&&typeof x.id==="string").map(x=>({id:x.id.slice(0,40),t:x.t.slice(0,2000),c:String(x.c||""),u:String(x.u||x.c||"")}));if(a.length)o[k]=a;}return o;},
+ mergeNotes(a,b){const o={};for(const k of new Set([...Object.keys(a||{}),...Object.keys(b||{})])){const m=new Map();
+   for(const x of [...((a||{})[k]||[]),...((b||{})[k]||[])]){const y=m.get(x.id)||[...m.values()].find(z=>z.t===x.t&&z.c===x.c);if(!y)m.set(x.id,x);else if((x.u||"")>(y.u||""))m.set(y.id,{...x,id:y.id});}
+   o[k]=[...m.values()];}return o;},
+ notesOf(id,s){return ((s&&s.n)||{})[id]||[];},
+ sharedNotes:{},
+ hasNotes(id,s){return PP.notesOf(id,s).length>0||(PP.sharedNotes[id]||[]).length>0;},
+ b64e(str){return btoa(unescape(encodeURIComponent(str))).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,"");},   // UTF-8 safe (notes may have accents)
+ b64d(s){let b=s.replace(/-/g,"+").replace(/_/g,"/");while(b.length%4)b+="=";return decodeURIComponent(escape(atob(b)));},
+ encode(s){const o={f:[...new Set(s.f)],r:[...new Set(s.r)]};const n=PP.cleanNotes(s.n);if(Object.keys(n).length)o.n=n;return "PP2:"+PP.b64e(JSON.stringify(o));},
+ decode(code){code=String(code||"").trim();const v=code.slice(0,4);if(v!=="PP1:"&&v!=="PP2:")throw new Error("Code must start with PP2: (or PP1:)");
+   const o=JSON.parse(v==="PP2:"?PP.b64d(code.slice(4)):atob((b=>{b=b.replace(/-/g,"+").replace(/_/g,"/");while(b.length%4)b+="=";return b;})(code.slice(4))));
+   const ok=a=>Array.isArray(a)?a.filter(x=>typeof x==="string"&&/^[0-9a-f]{10}$/.test(x)):[];return {f:ok(o.f),r:ok(o.r),n:PP.cleanNotes(o.n)};},
  daysAgo(today,d){return Math.round((Date.parse(today)-Date.parse(d))/86400000);},
  norm(s){return String(s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");},
- defaults:{view:"list",q:"",loc:"",lat:"",lon:"",r:"3",sec:"all",pmin:"",pmax:"",beds:"",size:"",reg:"",muni:"",src:"",sort:"newest",garden:false,new:false,fav:false,stretch:false,hideunf:true,hidework:true,nb:"",showrem:false,ptype:"",outside:false,balcony:false,terrace:false,mz:"",mc:""},
+ defaults:{view:"list",q:"",loc:"",lat:"",lon:"",r:"3",sec:"all",pmin:"",pmax:"",beds:"",size:"",reg:"",muni:"",src:"",sort:"newest",garden:false,new:false,fav:false,stretch:false,hideunf:true,hidework:true,nb:"",showrem:false,ptype:"",outside:false,balcony:false,terrace:false,notes:false,mz:"",mc:""},
  RADII:Array.from({length:35},(_,i)=>i+1),
  clampR(v){const n=Math.round(parseFloat(v));return n>=1&&n<=35?String(n):PP.defaults.r;},
  radiusOptions(q){q=String(q||"").replace(/[^0-9]/g,"");return q?PP.RADII.filter(n=>String(n).startsWith(q)):PP.RADII.slice();},
@@ -282,6 +313,7 @@ const PP={
      if(s.nb==="only"&&!x.new_build)return false;
      if(s.nb==="hide"&&x.new_build)return false;
      if(s.fav&&!fav.has(x.id))return false;
+     if(s.notes&&!PP.hasNotes(x.id,store))return false;
      if(q.length){const hay=PP.norm([x.town,x.municipality,x.note,x.title,x.typology].join(" "));if(!q.every(w=>hay.includes(w)))return false;}
      return true;});
    const by={newest:(a,b)=>b.first_seen.localeCompare(a.first_seen)||(a.also-b.also)||0,price_asc:(a,b)=>a.price-b.price,price_desc:(a,b)=>b.price-a.price,
@@ -293,6 +325,7 @@ if(typeof module!=="undefined")module.exports=PP;
 if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.assign(DATA,window.PPDATA);   // tests preload the data
  const PPBOOT=()=>{(function(){
  const $=id=>document.getElementById(id),esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+ PP.sharedNotes=DATA.sharedNotes||{};
  const items=DATA.listings,shared=new Set(DATA.sharedFavs),today=DATA.today;let lastRes=[],store=PP.loadStore(localStorage),state=PP.stateFromQuery(location.search);
  $("upd").textContent=DATA.updated;
  const LBL=s=>(DATA.labels||{})[s]||s;
@@ -302,8 +335,8 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
  function fillMuni(){const sel=$("muni"),reg=state.reg;const ms=[...new Set(items.filter(x=>!reg||x.region===reg).map(x=>x.municipality).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
   if(state.muni&&!ms.includes(state.muni))state.muni="";sel.length=1;ms.forEach(m=>{const o=document.createElement("option");o.value=o.textContent=m;sel.appendChild(o);});sel.value=state.muni;sel.dataset.reg=reg;}
  fillMuni();
- const fields=["pmin","pmax","ptype","beds","size","reg","muni","src","sort","nb"],checks=["outside","garden","balcony","terrace","new","fav","stretch","hideunf","hidework","showrem"];
- const DRAWER=["size","nb","outside","garden","balcony","terrace","hideunf","hidework","stretch","reg","muni","src","new","fav","showrem"],BASIC=["sec","pmin","pmax","ptype","beds"];
+ const fields=["pmin","pmax","ptype","beds","size","reg","muni","src","sort","nb"],checks=["outside","garden","balcony","terrace","new","fav","notes","stretch","hideunf","hidework","showrem"];
+ const DRAWER=["size","nb","outside","garden","balcony","terrace","hideunf","hidework","stretch","reg","muni","src","new","fav","notes","showrem"],BASIC=["sec","pmin","pmax","ptype","beds"];
  const gidx=PP.indexGaz(DATA.gaz||[]);
  const mobile=()=>!!(window.matchMedia&&window.matchMedia("(max-width:860px)").matches);
  const L=$("loc"),UL=$("sugg");
@@ -342,13 +375,14 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
   if(state.src)c.push([LBL(state.src),["src"]]);
   if(state.new)c.push(["New this week",["new"]]);
   if(state.fav)c.push(["♥ Favourites",["fav"]]);
+  if(state.notes)c.push(["📝 Has notes",["notes"]]);
   if(state.showrem)c.push(["Showing removed",["showrem"]]);
   return c;}
  function clearKeys(keys){keys.forEach(k=>state[k]=PP.defaults[k]);if(keys.includes("lat")&&state.sort==="distance")state.sort="newest";toUI();render();}
  $("chips").addEventListener("click",e=>{const b=e.target.closest("button[data-ci]");if(!b)return;clearKeys(chipList()[+b.dataset.ci][1]);});
  $("clearall").onclick=()=>{const v=state.view;state={...PP.defaults,view:v};toUI();render();};
  function card(x){const isNew=PP.daysAgo(today,x.first_seen)<7,lf=store.f.includes(x.id),rm=store.r.includes(x.id);
-  const img=x.image?`<img src="${esc(x.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:"";
+  const img=x.image?`<img src="${esc(x.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="ppImgErr(this)">`:"";
   const d=new Date(x.first_seen+"T12:00:00Z").toLocaleDateString("en-GB",{day:"2-digit",month:"short",year:"numeric"});
   const status=x.unfinished?'<span class="chip unf">⚠ Unfinished</span>':x.needs_work?'<span class="chip nw">🔧 Needs work</span>':x.new_build?'<span class="chip newb">New build</span>':"";
   const tags=[`<span class="tag ${x.section}">${x.property_type==="apartment"?"Apartment":"House"} · ${x.section==="ready"?"move-in ready":"renovation"}</span>`];
@@ -361,18 +395,21 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
   const why=k=>esc(String(k||"").replace(/^text: /,""));
   return `<article class="card${rm?" removed":""}" data-id="${x.id}">
   <a class="thumb" href="${esc(x.url)}" target="_blank" rel="noopener"><span class="ph">🏡</span>${img}<span class="chips">${status}${isNew?'<span class="chip new">New</span>':""}</span></a>
-  <span class="acts"><button class="fav${lf?" on":""}" data-act="fav" title="Favourite" aria-label="Favourite">${lf?"♥":"♡"}</button>${rm?"":'<button data-act="rem" title="Remove (hide)" aria-label="Remove">×</button>'}</span>
+  <span class="acts"><button class="fav${lf?" on":""}" data-act="fav" title="Favourite" aria-label="Favourite">${lf?"♥":"♡"}</button>${noteBtn(x.id,"act")}${rm?"":'<button data-act="rem" title="Remove (hide)" aria-label="Remove">×</button>'}</span>
   <div class="body"><div class="price">${x.price?fmt(x.price):"Price n/a"}</div><h3>${esc(x.town)}</h3>
    <div class="meta"><span>${esc(x.typology)}</span><span>${esc(x.size)}</span>${x.municipality?`<span>${esc(x.municipality)}</span>`:""}</div>
    <div class="tags">${tags.join("")}</div>
    ${x._dist!=null?`<div class="dist">${x.coord_approx?"≈ ":""}${x._dist.toFixed(1)} km from ${esc(state.loc||"chosen point")}${x.coord_approx?" (approx. location)":""}</div>`:""}
-   <div class="garden">🌿 Garden/land: ${esc(x.garden)}</div><p>${esc(x.note)}</p>
+   <div class="garden">🌿 Garden/land: ${esc(x.garden)}</div><p>${esc(x.note)}</p>${notePreview(x.id)}
    ${x.unfinished?`<div class="unfnote">⚠ Not built/finished yet – ${why((x.build_why||[])[0]).slice(0,90)}</div>`:x.needs_work?`<div class="unfnote">🔧 Needs work – ${why((x.build_why||[]).slice(-1)[0]).slice(0,110)}</div>`:""}
    ${x.lat!=null?`<div class="loc${x.coord_approx?" approx":""}" title="${esc(x.coord_note)}">${x.coord_approx?"≈ Approximate location – "+esc(String(x.coord_note||"").replace(/^approx\. – /,"").replace(/^listing map pin \(approximate area\)$/,"advert shows area only")):"📍 Exact map pin from advert"} · <a href="https://www.openstreetmap.org/?mlat=${x.lat}&mlon=${x.lon}#map=14/${x.lat}/${x.lon}" target="_blank" rel="noopener">map</a></div>`:'<div class="loc approx">No coordinates</div>'}
    <div class="foot"><a href="${esc(x.url)}" target="_blank" rel="noopener">View on ${esc(LBL(x.source))} →</a><span class="seen">First seen ${d}</span></div>
    ${(x.also_on||[]).length?`<div class="also">Also on: ${x.also_on.map(a=>`<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(LBL(a.source))}</a>`).join(", ")}</div>`:""}
    ${rm?'<button class="restore" data-act="restore">↩ Restore</button>':""}</div></article>`;}
  const PAGE=48;let shown=PAGE,gridKey=null;
+ function allNotes(id){return [...PP.notesOf(id,store).map(n=>({...n,own:true})),...(PP.sharedNotes[id]||[]).map((n,i)=>({id:"s"+i,t:n.t,c:n.c||"",u:n.c||"",by:n.by||"",shared:true}))].sort((a,b)=>(b.c||"").localeCompare(a.c||""));}
+ function noteBtn(id,attr){const n=allNotes(id).length;return `<button class="notebtn${n?" has":""}" data-${attr}="note" type="button" title="${n?n+" note"+(n>1?"s":""):"Add a note"}" aria-label="Notes${n?" ("+n+")":""}">📝${n?`<span class="ncount">${n}</span>`:""}</button>`;}
+ function notePreview(id){const a=allNotes(id);if(!a.length)return "";const t=a[0].t.replace(/\s+/g," ");return `<div class="npv" data-act="note" title="Open notes">📝 ${a[0].shared?'<span class="nshared">Shared</span> ':""}${esc(t.length>90?t.slice(0,90)+"…":t)}${a.length>1?` <small>+${a.length-1} more</small>`:""}</div>`;}
  const moreBtn=n=>n>0?`<div class="more" id="more"><button class="ctl" type="button" id="morebtn">Show ${Math.min(PAGE,n)} more <small>(${n} left)</small></button></div>`:"";
  function showMore(){const g=$("grid"),m=$("more");if(m)m.remove();const next=lastRes.slice(shown,shown+PAGE);shown+=next.length;
   g.insertAdjacentHTML("beforeend",next.map(card).join("")+moreBtn(lastRes.length-shown));watchMore();}
@@ -401,10 +438,12 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
   zeroHint(res);lastRes=res;watchMore();if(state.view==="map")drawMap(res);
   const nr=store.r.filter(id=>items.some(x=>x.id===id)).length;$("remnote").textContent=nr?`(${nr} in this browser)`:"";
   $("code").value=PP.encode(store);
+  {const n=items.filter(x=>PP.hasNotes(x.id,store)).length;$("notesn").textContent=n?`(${n})`:"";}
   const q=PP.stateToQuery(state);if(push!==false)history.replaceState(null,"",location.pathname+q);}
  function toast(msg,undo){const t=$("toast");t.innerHTML=esc(msg)+(undo?' <button type="button">Undo</button>':"");t.style.display="block";
   if(undo)t.querySelector("button").onclick=()=>{undo();t.style.display="none";};clearTimeout(toast.h);toast.h=setTimeout(()=>t.style.display="none",6000);}
- $("grid").addEventListener("click",e=>{const b=e.target.closest("button[data-act]");if(!b)return;const id=b.closest(".card").dataset.id;
+ $("grid").addEventListener("click",e=>{const b=e.target.closest("[data-act]");if(!b)return;const id=b.closest(".card").dataset.id;
+  if(b.dataset.act==="note"){openNotes(id,b);return;}
   if(b.dataset.act==="fav"){store.f=store.f.includes(id)?store.f.filter(x=>x!==id):[...store.f,id];}
   if(b.dataset.act==="rem"){store.r=[...store.r,id];store.f=store.f.filter(x=>x!==id);PP.saveStore(localStorage,store);render();
     toast("Listing removed from your view.",()=>{store.r=store.r.filter(x=>x!==id);PP.saveStore(localStorage,store);render();});return;}
@@ -443,7 +482,7 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
  const copy=t=>{(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>toast("Copied."),()=>{prompt("Copy:",t);});};
  $("copy").onclick=()=>copy($("code").value);
  $("copylink").onclick=()=>copy(location.href);
- $("apply").onclick=()=>{try{const s=PP.decode($("incode").value);store.f=[...store.f,...s.f];store.r=[...store.r,...s.r];PP.saveStore(localStorage,store);render();toast(`Imported ${s.f.length} favourites, ${s.r.length} removed.`);$("incode").value="";}catch(e){toast("Invalid code: "+e.message);}};
+ $("apply").onclick=()=>{try{const s=PP.decode($("incode").value);const nb=Object.values(store.n).flat().length;store.f=[...store.f,...s.f];store.r=[...store.r,...s.r];store.n=PP.mergeNotes(store.n,s.n);PP.saveStore(localStorage,store);render();toast(`Imported ${s.f.length} favourites, ${s.r.length} removed, ${Object.values(store.n).flat().length-nb} new notes.`);$("incode").value="";}catch(e){toast("Invalid code: "+e.message);}};
  $("clearrem").onclick=()=>{const old=store.r;store.r=[];PP.saveStore(localStorage,store);render();toast(`Restored ${old.length} listings.`,()=>{store.r=old;PP.saveStore(localStorage,store);render();});};
  window.addEventListener("storage",e=>{if(e.key===STORE_KEY){store=PP.loadStore(localStorage);render(false);}});
  // ----- combined search: places first, then 'Search text "…"' -----
@@ -482,10 +521,10 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
  function loadScript(src){return new Promise((ok,bad)=>{const s=document.createElement("script");s.src=src;s.crossOrigin="";s.onload=ok;s.onerror=()=>bad(new Error("load "+src));document.head.appendChild(s);});}
  function ensureLeaflet(){if(window.L&&window.L.markerClusterGroup)return Promise.resolve();
   return loading||(loading=loadScript("https://unpkg.com/leaflet@1.9.4/dist/leaflet.js").then(()=>loadScript("https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js")));}
- function popupHtml(x){const lf=store.f.includes(x.id);return `<div class="pop" data-id="${x.id}">${x.image?`<img src="${esc(x.image)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`:""}
+ function popupHtml(x){const lf=store.f.includes(x.id);return `<div class="pop" data-id="${x.id}">${x.image?`<img src="${esc(x.image)}" alt="" referrerpolicy="no-referrer" onerror="ppImgErr(this)">`:""}
   <b>${x.price?fmt(x.price):"Price n/a"}</b> · ${esc(x.typology)} ${x.property_type==="apartment"?"apartment":"house"}${x.unfinished?' <span class="chip unf">⚠ Unfinished</span>':""}${x.new_build?' <span class="chip newb">New build</span>':""}${x.needs_work?' <span class="chip nw">🔧 Needs work</span>':""}<br>${esc(x.town)}${x._dist!=null?`<br><span style="color:#0f6e8c">${x.coord_approx?"≈ ":""}${x._dist.toFixed(1)} km from ${esc(state.loc)}</span>`:""}
   ${x.coord_approx?'<br><small style="color:#9a6a00">≈ approximate location</small>':""}
-  <div class="pa"><button data-pact="fav" class="${lf?"on":""}" type="button">${lf?"♥":"♡"} Favourite</button><button data-pact="rem" type="button">× Remove</button></div>
+  <div class="pa"><button data-pact="fav" class="${lf?"on":""}" type="button">${lf?"♥":"♡"} Favourite</button>${noteBtn(x.id,"pact").replace("📝","📝 Note")}<button data-pact="rem" type="button">× Remove</button></div>${notePreview(x.id).replace('data-act="note"','data-pact="note"')}
   <div style="margin-top:6px"><a href="${esc(x.url)}" target="_blank" rel="noopener">View on ${esc(LBL(x.source))} →</a>${(x.also_on||[]).length?`<br><small>Also on: ${x.also_on.map(a=>`<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(LBL(a.source))}</a>`).join(", ")}</small>`:""}</div></div>`;}
  // markers are kept by id and updated in place: ♥/×/restore/undo never rebuild the map or refit it.
  // fitBounds only when filters/search change, and not if the user panned/zoomed since (unless location/radius changed).
@@ -531,7 +570,8 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
    map.on("movestart zoomstart",()=>{if(!prog)userMoved=true;});
    map.on("moveend",()=>{const c=map.getCenter();state.mz=String(map.getZoom());state.mc=c.lat.toFixed(4)+","+c.lng.toFixed(4);
     history.replaceState(null,"",location.pathname+PP.stateToQuery(state));});
-   map.getContainer().addEventListener("click",e=>{const b=e.target.closest("button[data-pact]");if(!b)return;const id=b.closest(".pop").dataset.id;
+   map.getContainer().addEventListener("click",e=>{const b=e.target.closest("[data-pact]");if(!b)return;const id=b.closest(".pop").dataset.id;
+    if(b.dataset.pact==="note"){openNotes(id,b);return;}
     if(b.dataset.pact==="fav"){store.f=store.f.includes(id)?store.f.filter(x=>x!==id):[...store.f,id];PP.saveStore(localStorage,store);render();}
     else{store.r=[...store.r,id];store.f=store.f.filter(x=>x!==id);PP.saveStore(localStorage,store);render();
      toast("Listing removed from your view.",()=>{store.r=store.r.filter(x=>x!==id);PP.saveStore(localStorage,store);render();});}});}
@@ -555,6 +595,30 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
   window.PPMAP={map,layer,markers:mk,count:mk.size,circle:!!(circle&&hasLoc&&r>0),fits:fitted};
  }).catch(e=>{if(window.console)console.error(e);$("map").innerHTML='<div class="empty">Map could not load ('+esc(e.message)+'). Check your connection.</div>';});}
  document.querySelectorAll("#views button").forEach(b=>b.onclick=()=>{state.view=b.dataset.v;render();});
+ // ----- notes modal (focus-trapped, Esc closes, never touches the map view) -----
+ const NM=$("notesm");let noteId=null,noteOpener=null,editing=null;
+ const fmtT=iso=>{try{return new Date(iso).toLocaleString("en-GB",{timeZone:"Europe/Lisbon",day:"2-digit",month:"short",year:"numeric",hour:"2-digit",minute:"2-digit"});}catch(e){return iso;}};
+ function drawNotes(){const x=items.find(y=>y.id===noteId)||{};$("nsub").textContent=[x.price?fmt(x.price):"",x.typology,x.town].filter(Boolean).join(" · ");
+  const a=allNotes(noteId);$("nlist").innerHTML=a.length?a.map(n=>`<li data-nid="${esc(n.id)}">${editing===n.id?`<textarea class="nedit" rows="3" maxlength="2000" aria-label="Edit note">${esc(n.t)}</textarea><div class="nm"><button type="button" data-n="save">Save</button><button type="button" data-n="cancel">Cancel</button></div>`:
+   `<div class="nm">${n.shared?`<span class="nshared">Shared${n.by?" · "+esc(n.by):""}</span>`:""}<span>${esc(fmtT(n.c))}${n.u&&n.u!==n.c?" · edited "+esc(fmtT(n.u)):""}</span>${n.own?'<button type="button" data-n="edit">Edit</button><button type="button" class="del" data-n="del">Delete</button>':""}</div><div class="nt">${esc(n.t)}</div>`}</li>`).join(""):'<li class="empty">No notes yet.</li>';}
+ function notesChanged(){PP.saveStore(localStorage,store);render(false);drawNotes();}
+ function openNotes(id,opener){noteId=id;noteOpener=opener||null;editing=null;$("ntext").value="";drawNotes();NM.classList.add("open");setTimeout(()=>$("ntext").focus(),30);}
+ function closeNotes(){if(!NM.classList.contains("open"))return;NM.classList.remove("open");noteId=null;editing=null;
+  const id=noteOpener&&(noteOpener.closest(".card,.pop")||{}).dataset;const back=noteOpener&&document.contains(noteOpener)?noteOpener:(id&&document.querySelector(`[data-id="${id.id}"] .notebtn`));if(back)back.focus();}
+ $("nadd").onclick=()=>{const t=$("ntext").value.trim();if(!t){$("ntext").focus();return;}const now=new Date().toISOString();
+  (store.n[noteId]=store.n[noteId]||[]).push({id:"n"+Date.now().toString(36)+Math.random().toString(36).slice(2,6),t,c:now,u:now});$("ntext").value="";notesChanged();toast("Note added.");};
+ $("ntext").addEventListener("keydown",e=>{if(e.key==="Enter"&&(e.ctrlKey||e.metaKey))$("nadd").click();});
+ $("nlist").addEventListener("click",e=>{const b=e.target.closest("button[data-n]");if(!b)return;const nid=b.closest("li").dataset.nid,lid=noteId,arr=store.n[lid]||[],i=arr.findIndex(n=>n.id===nid);
+  if(b.dataset.n==="edit"){editing=nid;drawNotes();const ta=$("nlist").querySelector(".nedit");if(ta){ta.focus();ta.setSelectionRange(ta.value.length,ta.value.length);}return;}
+  if(b.dataset.n==="cancel"){editing=null;drawNotes();return;}
+  if(i<0)return;
+  if(b.dataset.n==="save"){const t=$("nlist").querySelector(".nedit").value.trim();editing=null;if(t){arr[i]={...arr[i],t,u:new Date().toISOString()};}notesChanged();return;}
+  if(b.dataset.n==="del"){const old=arr[i];arr.splice(i,1);if(!arr.length)delete store.n[lid];notesChanged();
+   toast("Note deleted.",()=>{(store.n[lid]=store.n[lid]||[]).splice(Math.min(i,(store.n[lid]||[]).length),0,old);PP.saveStore(localStorage,store);render(false);if(noteId===lid)drawNotes();});}});
+ NM.addEventListener("click",e=>{if(e.target===NM||e.target.closest("[data-nclose]"))closeNotes();});
+ NM.addEventListener("keydown",e=>{if(e.key==="Escape"){e.stopPropagation();closeNotes();return;}
+  if(e.key!=="Tab")return;const f=[...NM.querySelectorAll("button,textarea,input,[href]")].filter(el=>!el.disabled&&el.offsetParent!==null||el===document.activeElement);if(!f.length)return;
+  const first=f[0],last=f[f.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}});
  // ----- add property modal -----
  const AM=$("addm");
  $("addbtn").onclick=()=>{AM.classList.add("open");$("a_err").textContent="";setTimeout(()=>$("a_url").focus(),30);};
