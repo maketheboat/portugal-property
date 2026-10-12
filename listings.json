@@ -27115,6 +27115,10 @@
    {
     "source": "remax",
     "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t2-mafra-ericeira/120611192-1121"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-mafra-ericeira-093218ff-21d4-11ef-8add-060000000054.html"
    }
   ]
  },
@@ -29217,7 +29221,13 @@
   "needs_work": false,
   "balcony": true,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t3-mafra-ericeira-carrasqueira-dd28367e-6e46-11f1-bc59-060000000052.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -34833,6 +34843,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-venda-vista-mar-varanda-arrecadao-IDJmU8O.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-cascais-sao-domingos-de-rana-6b801a32-5f11-11f1-90a1-060000000056.html"
    }
   ]
  },
@@ -35793,6 +35807,14 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-em-alcabideche--44943162"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-cascais-sao-domingos-de-rana-9baa5d70-be83-11f1-90a1-060000000056.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-cascais-alcabideche-f38d6e87-816b-11f1-9c13-060000000051.html"
    }
   ]
  },
@@ -38394,6 +38416,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-cascais-sao-domingos-de-rana-f3c7b358-acde-11f1-90a1-060000000056.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-cascais-e-estoril-2991b9f4-7d0e-11f1-9aaf-060000000054.html"
    }
   ],
   "id": "2c37b4c0e8",
@@ -39220,6 +39246,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t3-no-estoril-fontanhas-IDJwXsN.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t3-cascais-e-estoril-3be24b74-b673-11f1-9aaf-060000000054.html"
    }
   ],
   "id": "d07bc339dd",
@@ -39823,6 +39853,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-cave-totalmente-remodelado-em-cascais-conforto-efici-IDJtLaq.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-cascais-sao-domingos-de-rana-b319f273-813b-11f1-ba38-060000000058.html"
    }
   ]
  },
@@ -39856,6 +39890,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-em-atib-bicesse-cascais-IDJvP2o.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-cascais-alcabideche-64f1d2e4-bd8f-11f1-b6e5-060000000058.html"
    }
   ],
   "id": "c158d66820",
@@ -39907,6 +39945,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/t3-no-bairro-da-terplana-107-m2-com-varanda-arrecadao-para-remodel-IDJA3n1.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t3-cascais-sao-domingos-de-rana-67dd3bed-af3a-11f1-90a1-060000000056.html"
    }
   ]
  },
@@ -49211,6 +49253,10 @@
    {
     "source": "remax",
     "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t2-cascais-sao-domingos-de-rana/122481113-482"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-cascais-sao-domingos-de-rana-fa595a89-ab65-11f1-9aaf-060000000054.html"
    }
   ],
   "id": "b3a77864d6",
@@ -53891,7 +53937,13 @@
   "needs_work": false,
   "balcony": true,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-cascais-sao-domingos-de-rana-172ea7a7-af35-11f1-90a1-060000000056.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -85334,6 +85386,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-1-em-monte-gordo-a-300-m-da-praia-IDJzi7u.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-vila-real-de-santo-antonio-monte-gordo-8c75859b-8c31-11f1-ba38-060000000058.html"
    }
   ],
   "id": "3f7dfae2fb",
@@ -85436,6 +85492,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/faro/imobiliario/apartamentos/apartamento-t2-em-monte-gordo--44855993"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-vila-real-de-santo-antonio-monte-gordo-b8578fcc-0dc4-11f1-b3d3-060000000057.html"
    }
   ],
   "id": "31382df92e",
@@ -88233,6 +88293,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-para-venda-IDJAvYF.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-vila-real-de-santo-antonio-monte-gordo-38e88459-3d97-11f1-bc59-060000000052.html"
    }
   ],
   "id": "7858249525",
@@ -88276,6 +88340,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t3-venda-urbanizao-rias-parque-vila-real-de-san-IDJx2b7.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t3-vila-real-de-santo-antonio-aeac953c-6a59-11f1-ba38-060000000058.html"
    }
   ],
   "id": "7862c43e9b",
@@ -88400,6 +88468,14 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t2-em-edificio-pombalino-centro-ID1fgQS"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-vila-real-de-santo-antonio-61918408-2765-11f1-b868-060000000058.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-vila-real-de-santo-antonio-d89826f6-3897-11f1-90a1-060000000056.html"
    }
   ],
   "id": "d09f82eaa4",
@@ -92299,6 +92375,14 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-sao-goncalo-de-lagos-fb42991a-d5eb-11f0-9e61-060000000056.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-sao-goncalo-de-lagos-ameijeira-30ec281f-b994-11f0-a463-060000000052.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-sao-goncalo-de-lagos-da73647d-3e30-11f1-b868-060000000058.html"
    }
   ],
   "id": "a8c0adfe2d",
@@ -92370,6 +92454,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-sao-goncalo-de-lagos-santa-maria-ba2991e3-ba55-11f0-9e61-060000000056.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-sao-goncalo-de-lagos-ameijeira-b93ba02b-b9a1-11f0-a463-060000000052.html"
    }
   ],
   "id": "0a94aadbba",
@@ -92498,6 +92586,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/faro/imobiliario/apartamentos/apartamento-t3-em-sao-goncalo--44404067"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t3-sao-goncalo-de-lagos-aeee3b22-ae5d-11f0-8359-060000000051.html"
    }
   ],
   "id": "92de07f6af",
@@ -92562,6 +92654,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-sao-goncalo-de-lagos-torraltinha-80b51966-c090-11f0-bd5e-060000000058.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-sao-goncalo-de-lagos-d3993de0-3e2f-11f1-b868-060000000058.html"
    }
   ]
  },
@@ -92644,6 +92740,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-sao-goncalo-de-lagos-3823b519-d67f-11f0-9e61-060000000056.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-sao-goncalo-de-lagos-e6c95e22-2206-11f1-9d12-060000000054.html"
    }
   ]
  },
@@ -93905,7 +94005,13 @@
    "text: \"mara municipal de lagos. conclusao prevista para 2028/2029. dispomos\"",
    "text: \"de lagos. conclusao prevista para 2028/2029\""
   ],
-  "size_fixed": 6282
+  "size_fixed": 6282,
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-sao-goncalo-de-lagos-2e343dc8-9735-11f1-9a8d-060000000057.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -99178,6 +99284,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/t3-faro-conforto-e-proximidade-IDJCBEo.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t3-faro-(se-e-sao-pedro)-b568a4e2-c195-11f1-9a8d-060000000057.html"
    }
   ],
   "id": "8948bdb16c",
@@ -102606,6 +102716,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/faro/imobiliario/apartamentos/apartamento-t2-na-baixa-de-far-44323080"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-faro-(se-e-sao-pedro)-c2647764-27ad-4655-8118-2533162f5b76.html"
    }
   ],
   "id": "45ddcfc9b7",
@@ -103580,7 +103694,17 @@
   "needs_work": false,
   "balcony": true,
   "terrace": true,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-faro-(se-e-sao-pedro)-36caccb7-3c77-11f0-8add-060000000054.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-faro-(se-e-sao-pedro)-baixa-e741e7cf-f582-11ed-8a2b-060000000053.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -103722,6 +103846,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/faro/imobiliario/apartamentos/apartamento-t3-em-faro-se-e-s-45105498"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t3-faro-(se-e-sao-pedro)-9b9e203e-71b5-11f1-9c13-060000000051.html"
    }
   ],
   "id": "f445b35650",
@@ -104234,6 +104362,10 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t3-em-vila-nova-de-cacela-de-115-m2-ID1i3wg"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t3-vila-real-de-santo-antonio-vila-nova-de-cacela-5f58f579-21f1-11f1-9fa0-060000000057.html"
    }
   ],
   "id": "5dd66359a7",
@@ -105324,6 +105456,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-em-montenegro-de-128-m2-IDJusW5.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-faro-montenegro-0fc2059b-8f2a-11f1-bc59-060000000052.html"
    }
   ],
   "id": "b51c126b09",
@@ -107123,6 +107259,10 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t3-em-odiaxere-de-97-6-m2-ID1ia8H"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t3-sao-goncalo-de-lagos-0032dad7-b9cc-11f1-9aaf-060000000054.html"
    }
   ]
  },
@@ -107539,6 +107679,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-faro-(se-e-sao-pedro)-avenida-calouste-gulbenkian-151771af-0891-11f0-9e61-060000000056.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-faro-(se-e-sao-pedro)-41482d4a-fb3e-11ef-8add-060000000054.html"
    }
   ],
   "id": "19da66e942",
@@ -112477,6 +112621,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t3-para-venda-IDJArTL.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t3-faro-(se-e-sao-pedro)-4c991b91-b1a5-11f1-9aaf-060000000054.html"
    }
   ],
   "id": "7064711539",
@@ -113433,6 +113581,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-para-venda-mobilado-e-equipado-faro-IDJxhsq.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-faro-(se-e-sao-pedro)-7c98f66c-fb3e-11ef-8add-060000000054.html"
    }
   ],
   "id": "c45bf398ea",
@@ -126231,7 +126383,13 @@
   "needs_work": false,
   "balcony": true,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-faro-montenegro-125ef980-3b52-4596-96e9-c8105cae61c1.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -126946,6 +127104,14 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-faro-(se-e-sao-pedro)-64e50fa8-99ff-11f1-90a1-060000000056.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-faro-montenegro-baba5d21-9084-11ef-96bc-060000000058.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-faro-montenegro-dfa04f1a-3f15-11f1-bc59-060000000052.html"
    }
   ]
  },
@@ -128122,6 +128288,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/excelente-t2-novo-com-piscina-jardim-arrecadao-e-garagem-IDJCVzU.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-faro-(se-e-sao-pedro)-d8329485-c2fc-11f1-b6e5-060000000058.html"
    }
   ],
   "id": "980eae819e",
@@ -135303,6 +135473,12 @@
    "text: \"era por si. apartamentos em fase de construcao, localizados junto ao fo\"",
    "portal field build year 2027 (future)",
    "portal field build year 2027"
+  ],
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t3-faro-(se-e-sao-pedro)-55200c1a-fb44-11ef-8add-060000000054.html"
+   }
   ]
  },
  {
@@ -138348,6 +138524,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/faro/imobiliario/apartamentos/apartamento-t3-de-luxo-em-cons-44955244"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t3-faro-(se-e-sao-pedro)-b7fbfb11-335c-11f1-b868-060000000058.html"
    }
   ],
   "id": "2f58622f3f",
@@ -144756,6 +144936,14 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-cff90d4a-7bb6-11f1-9aaf-060000000054.html"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/34794995/"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35345929/"
    }
   ]
  },
@@ -148273,7 +148461,13 @@
   "needs_work": false,
   "balcony": true,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-leca-da-palmeira-f6ecbf60-867f-11f1-9aaf-060000000054.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -149723,6 +149917,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t3-matosinhos-leca-da-palmeira-3c06faec-3c7b-11f1-90a1-060000000056.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t3-matosinhos-lavra-efb9ba2b-6bc6-11f1-9aaf-060000000054.html"
    }
   ],
   "id": "cb86f2cde8",
@@ -150132,6 +150330,18 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-6f78eb4b-cbdd-11f0-9e61-060000000056.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-e34ace49-cae2-11f0-9e61-060000000056.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-sul-af13c614-c92d-11f0-a463-060000000052.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-sul-41351c68-f603-11f0-a463-060000000052.html"
    }
   ]
  },
@@ -154249,6 +154459,12 @@
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)",
    "portal field build year 2026"
+  ],
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-45dd672c-cc57-11ef-a463-060000000052.html"
+   }
   ]
  },
  {
@@ -156789,6 +157005,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-1966241e-484b-11ef-b7c3-060000000057.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-57dad15b-48d1-11ef-b7c3-060000000057.html"
    }
   ],
   "id": "197067c642",
@@ -156832,6 +157052,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-09b54f4a-900e-11f1-90a1-060000000056.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-9dbffce4-b8f7-11f1-9aaf-060000000054.html"
    }
   ],
   "id": "c28bc6ce93",
@@ -156904,6 +157128,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-custoias-f1c87aee-6c88-11f0-9e61-060000000056.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-custoias-00d1bcc7-a8ed-11f0-8359-060000000051.html"
    }
   ]
  },
@@ -157127,6 +157355,12 @@
   "terrace": true,
   "build_why": [
    "portal field market=primary (developer/new)"
+  ],
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-ffd2a63b-165a-11f1-8add-060000000054.html"
+   }
   ]
  },
  {
@@ -157162,6 +157396,12 @@
   "terrace": true,
   "build_why": [
    "portal field market=primary (developer/new)"
+  ],
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-a9804349-f20d-11f0-b7cf-060000000058.html"
+   }
   ]
  },
  {
@@ -159601,6 +159841,14 @@
    {
     "source": "remax",
     "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t3-barreiro-barreiro-e-lavradio/120861373-35"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35385886/"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35347747/"
    }
   ],
   "id": "0cee53a24e",
@@ -159657,6 +159905,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-82e4f1a2-900f-11f1-90a1-060000000056.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-0e238f26-be6b-11f1-b6e5-060000000058.html"
    }
   ],
   "id": "548afe13d0",
@@ -159709,6 +159961,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-leca-da-palmeira-2800e26e-7d4a-11f1-9aaf-060000000054.html"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35363383/"
    }
   ]
  },
@@ -160192,6 +160448,14 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t3-matosinhos-0276996d-85c0-11f1-9c13-060000000051.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t3-matosinhos-3938731c-4af3-11f1-9a8d-060000000057.html"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35136948/"
    }
   ]
  },
@@ -160435,6 +160699,12 @@
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)",
    "portal field build year 2025"
+  ],
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-sul-cdf4df70-2bc1-11ee-a521-060000000056.html"
+   }
   ]
  },
  {
@@ -163268,6 +163538,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-25ad9545-6e28-11f1-ba38-060000000058.html"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35169733/"
    }
   ],
   "id": "0704b77096",
@@ -163594,6 +163868,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t3-renovado-no-corao-de-matosinhos-IDJuqok.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t3-matosinhos-7c168a8a-a77f-11f1-9aaf-060000000054.html"
    }
   ],
   "id": "72087c12f3",
@@ -163771,6 +164049,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-1e6106df-d2e4-4c66-aae2-cbc73c888efc.html"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35366302/"
    }
   ],
   "id": "c264678c1d",
@@ -163970,6 +164252,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-leca-da-palmeira-75809fb6-705c-11f1-90a1-060000000056.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-leca-da-palmeira-875d210e-7514-11f1-90a1-060000000056.html"
    }
   ],
   "id": "7fbdf6831d",
@@ -164203,7 +164489,13 @@
   "needs_work": false,
   "balcony": false,
   "terrace": true,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-custoias-6706ec8c-9a1b-11f1-9c13-060000000051.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -169272,6 +169564,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t3-matosinhos-sao-mamede-de-infesta-45033bf5-2a01-11f1-9aaf-060000000054.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t3-matosinhos-sao-mamede-de-infesta-790b4f51-a603-11f0-b3d3-060000000057.html"
    }
   ],
   "id": "95634a320f",
@@ -170044,6 +170340,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-leca-da-palmeira-673fdf7a-f6e5-11f0-9e61-060000000056.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-7c63413a-5417-11f1-90a1-060000000056.html"
    }
   ],
   "id": "d687a1f114",
@@ -170096,6 +170396,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-duplex-t2-matosinhos-senhora-da-hora-27d755f6-4af0-11f1-9a8d-060000000057.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-senhora-da-hora-caulinos-75e07f42-2cc7-11f1-9aaf-060000000054.html"
    }
   ],
   "id": "72560dade0",
@@ -170366,6 +170670,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-em-matosinhos-e-lea-da-palmeira-de-132-00-m2-IDJvR1G.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-b53c25de-bc06-11f1-9c13-060000000051.html"
    }
   ],
   "id": "20f900517e",
@@ -170593,6 +170901,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-venda-na-rua-scar-da-silva-IDJzmNP.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-leca-da-palmeira-5b48cd49-2bf3-11f0-a2bc-060000000058.html"
    }
   ],
   "id": "ea266477a8",
@@ -175462,6 +175774,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t3-matosinhos-senhora-da-hora-b5a9af8c-545f-11f1-9a8d-060000000057.html"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35051255/"
    }
   ]
  },
@@ -178437,6 +178753,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/t2-smart-com-vista-mar-flower-tower-ii-camellia-lea-da-palmeira-IDJx8iK.html"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35049050/"
    }
   ],
   "id": "40aaca4e32",
@@ -178932,6 +179252,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-senhora-da-hora-4469b97a-bd88-11f1-9a8d-060000000057.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-51dbb2e6-be01-11f1-9aaf-060000000054.html"
    }
   ]
  },
@@ -192681,6 +193005,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t3-para-venda-IDJx0Oz.html"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t3-em-aldoar-foz--45190080"
    }
   ],
   "id": "b555225796",
@@ -226617,6 +226945,12 @@
   "terrace": false,
   "build_why": [
    "portal field build year 2024"
+  ],
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-09c426d8-b9fa-11f1-b6e5-060000000058.html"
+   }
   ]
  },
  {
@@ -234807,6 +235141,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/excelente-apartamento-mobilado-com-garagem-e-arrecadao-a-800m-da-praia-e-a-20-min-de-lisboa-IDJB0BH.html"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35221958/"
    }
   ],
   "id": "6f756d6993",
@@ -252025,6 +252363,10 @@
    {
     "source": "remax",
     "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t2-matosinhos-sao-mamede-de-infesta-e-senhora-da-hora/125411283-86"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/34605100/"
    }
   ]
  },
@@ -253842,6 +254184,10 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t2-com-varanda-e-garagem-em-custoias-ID1ih12"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35315833/"
    }
   ],
   "id": "874955a942",
@@ -253906,6 +254252,14 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-f7ba9cbc-a782-11f1-9aaf-060000000054.html"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35327741/"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35251042/"
    }
   ]
  },
@@ -342355,6 +342709,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-com-vista-para-o-rio-em-vila-real-de-santo-antnio-IDJvDxi.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-vila-real-de-santo-antonio-2b8b48d5-90c3-11f1-9912-060000000058.html"
    }
   ],
   "id": "354ef041ac",
@@ -346500,7 +346858,13 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t3-faro-(se-e-sao-pedro)-cc2d18cd-52aa-11f1-9aaf-060000000054.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -350506,6 +350870,14 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/no-coracao-de-matosinhos-t2-du-45170236"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35174522/"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35119210/"
    }
   ]
  },
@@ -352414,6 +352786,10 @@
    {
     "source": "remax",
     "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t3-matosinhos-matosinhos-e-leca-da-palmeira/124261250-20"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35338136/"
    }
   ],
   "id": "b13f67bca9",
@@ -367318,6 +367694,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/faro/imobiliario/apartamentos/apartamentos-novos-em-construc-45151255"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-sao-goncalo-de-lagos-sao-sebastiao-e45d8c01-4457-11f1-90a1-060000000056.html"
    }
   ],
   "id": "61a6a5c71a",
@@ -367515,6 +367895,10 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/apartamentos-t2-em-construcao-em-ameijeira-lagos-ID15QEe"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-sao-goncalo-de-lagos-sao-sebastiao-314af317-4458-11f1-90a1-060000000056.html"
    }
   ],
   "id": "7a296004e8",
@@ -369357,6 +369741,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/t3-perto-do-shopping-frum-algarve-IDJDcMe.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t3-faro-(se-e-sao-pedro)-612865f4-1f14-11ed-883a-060000000053.html"
    }
   ],
   "id": "08cad7c892",
@@ -386165,6 +386553,10 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/t2-remodelado-no-estoril-pronto-a-habitar-nascente-poente-ID1ivdr"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-cascais-alcabideche-amoreira-07d55b6e-b8cb-11f1-bc59-060000000052.html"
    }
   ]
  },
@@ -395696,6 +396088,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-para-renovar-na-rua-fontinha-baixa-do-porto-IDIkVqD.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-t2-porto-cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-e-vitoria-09fd9ee4-20ab-11ef-b7c3-060000000057.html"
    }
   ]
  },
@@ -397133,6 +397529,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-moradia-t2-porto-cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-e-vitoria-e2dbd7b9-8c3e-11ed-adb9-060000000054.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-andar-de-moradia-t2-porto-cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-e-vitoria-6439921d-9cc9-4bd2-a37f-66424e57a522.html"
    }
   ]
  },
@@ -425078,7 +425478,13 @@
   "needs_work": false,
   "balcony": true,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/33923164/"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -456172,6 +456578,10 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/moradia-t2-para-venda-ID1iFok"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-t2-murtosa-e8511e33-8a6c-11f1-9aaf-060000000054.html"
    }
   ],
   "id": "90c859638c",
@@ -456183,5 +456593,144 @@
   "balcony": false,
   "terrace": false,
   "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Alcabideche, Cascais",
+  "typology": "T2",
+  "property_type": "apartment",
+  "price": 515000,
+  "size": "88 m²",
+  "garden": "No garden mentioned (check listing)",
+  "note": "apt2722 Apartamento T2 inserido num condomínio privado e exclusivo de apenas 16 apartamentos, localizado junto à Estrada de Manique, em Cascais.",
+  "url": "https://casa.sapo.pt/comprar-apartamento-t2-cascais-alcabideche-db209184-c5b2-11f1-9aaf-060000000054.html",
+  "also": false,
+  "first_seen": "2026-10-12",
+  "source": "casasapo",
+  "auto": true,
+  "coast_km": null,
+  "image": "https://media.casasapo.pt/Z720x540/OAYES/S5/C4014/P31208021/Tphoto/ID5532dc01-0000-0500-0000-00001a9920e5.jpg",
+  "bedrooms": 2,
+  "size_m2": 88,
+  "stretch": "€515k – above the €500k budget",
+  "id": "7bef0efc25",
+  "municipality": "Cascais",
+  "garden_yes": false,
+  "title": "Apartamento T2 Venda 515.000 € em Cascais, Alcabideche",
+  "lat": 38.73975,
+  "lon": -9.40823,
+  "coord_approx": true,
+  "coord_note": "approx. – centre of Alcabideche, Cascais",
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": false,
+  "terrace": true,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Cascais e Estoril",
+  "typology": "T2",
+  "property_type": "apartment",
+  "price": 515000,
+  "size": "81 m²",
+  "garden": "No garden mentioned (check listing)",
+  "note": "Apartamento T2 - Estoril, Cascais.",
+  "url": "https://casa.sapo.pt/comprar-apartamento-t2-cascais-e-estoril-9e574ecc-bc54-11ef-9e61-060000000056.html",
+  "also": false,
+  "first_seen": "2026-10-12",
+  "source": "casasapo",
+  "auto": true,
+  "coast_km": null,
+  "image": "https://media.casasapo.pt/Z720x540/OAYES/S5/C12918/P25514594/Tphoto/ID62528501-0000-0500-0000-00001a6819af.jpg",
+  "bedrooms": 2,
+  "size_m2": 81,
+  "stretch": "€515k – above the €500k budget",
+  "id": "b3ed212a03",
+  "municipality": "Cascais",
+  "garden_yes": false,
+  "title": "Apartamento T2 Venda 515.000 € em Cascais, Cascais e Estoril",
+  "lat": 38.71503,
+  "lon": -9.45677,
+  "coord_approx": true,
+  "coord_note": "approx. – centre of Cascais e Estoril, Cascais",
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": true,
+  "terrace": false,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "São Gonçalo de Lagos",
+  "typology": "T2",
+  "property_type": "apartment",
+  "price": 520000,
+  "size": "84 m²",
+  "garden": "No garden mentioned (check listing)",
+  "note": "Apresentamos um novo e exclusivo empreendimento residencial em Lagos, atualmente em construção, situado numa das zonas mais centrais e valorizadas da cidade.",
+  "url": "https://casa.sapo.pt/comprar-apartamento-t2-sao-goncalo-de-lagos-fa157757-1ede-494b-a14a-64ad44b6d967.html",
+  "also": false,
+  "first_seen": "2026-10-12",
+  "source": "casasapo",
+  "auto": true,
+  "coast_km": null,
+  "image": "https://media.casasapo.pt/Z720x540/OAYES/S5/C5271/P29482438/Tphoto/IDc6ddc101-0000-0500-0000-0000188ae926.jpg",
+  "bedrooms": 2,
+  "size_m2": 84,
+  "stretch": "€520k – above the €500k budget",
+  "id": "41ce6f9070",
+  "municipality": "Lagos",
+  "garden_yes": false,
+  "title": "Apartamento T2 Venda 520.000 € em Lagos, São Gonçalo de Lagos",
+  "lat": 37.11528,
+  "lon": -8.68074,
+  "coord_approx": true,
+  "coord_note": "approx. – centre of São Gonçalo de Lagos, Lagos",
+  "new_build": true,
+  "unfinished": true,
+  "needs_work": false,
+  "balcony": true,
+  "terrace": false,
+  "build_why": [
+   "text: \"ial em lagos, atualmente em construcao, situado numa das zonas\"",
+   "portal field estado=em construção"
+  ]
+ },
+ {
+  "section": "reno",
+  "town": "Sesimbra, Sesimbra (Santiago)",
+  "typology": "T2",
+  "property_type": "apartment",
+  "price": 145000,
+  "size": "45 m²",
+  "garden": "No garden mentioned (check listing)",
+  "note": "Apartamento T2 em Ruina a 50 mt da praia - Sesimbra Imóvel de 3 assoalhadas em ruina, ideal para quem procura um projecto de remodelação com uma excelente lo…",
+  "url": "https://casa.sapo.pt/comprar-apartamento-t2-sesimbra-(santiago)-sesimbra-0779c743-4449-11ef-bf55-060000000056.html",
+  "also": false,
+  "first_seen": "2026-10-12",
+  "source": "casasapo",
+  "auto": true,
+  "coast_km": null,
+  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C6012/P25132714/Tphoto/IDaa7e7f01-0000-0500-0000-0000136c9cb9.jpg",
+  "bedrooms": 2,
+  "size_m2": 45,
+  "id": "bba63d9433",
+  "municipality": "Sesimbra",
+  "garden_yes": false,
+  "title": null,
+  "lat": 38.48761,
+  "lon": -9.11437,
+  "coord_approx": true,
+  "coord_note": "approx. – centre of Sesimbra, Sesimbra",
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": false,
+  "terrace": false,
+  "build_why": [],
+  "image_from": null
  }
 ]
