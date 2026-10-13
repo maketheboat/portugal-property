@@ -700,6 +700,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-trrea-para-reabilitar-com-terreno-vista-mar-e-vista-sti-IDJkLvx.html"
+   },
+   {
+    "source": "analima",
+    "url": "https://www.analimarealestate.pt/imoveis/comprar/moradia/t4/barrio/66885"
    }
   ]
  },
@@ -65310,6 +65314,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t3-caldas-da-rainha-santo-onofre-e-serra-do-bouro-8629c9e2-b1d8-11f1-9aaf-060000000054.html"
+   },
+   {
+    "source": "analima",
+    "url": "https://www.analimarealestate.pt/imoveis/comprar/apartamento/t3/nossa-senhora-do-populo-coto-e-sao-gregorio/68068"
    }
   ],
   "id": "221fe2194e",
@@ -460309,71 +460317,6 @@
   "unfinished": false,
   "needs_work": false,
   "balcony": false,
-  "terrace": false,
-  "build_why": []
- },
- {
-  "section": "reno",
-  "town": "Bárrio, Alcobaça",
-  "typology": "T4",
-  "property_type": "house",
-  "price": 169990,
-  "size": "107 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Moradia térrea em ruína, inserida em terreno com 3092 m², localizada na zona do Bárrio, no concelho de Alcobaça, numa área tranquila, com excelente exposição…",
-  "url": "https://www.analimarealestate.pt/imoveis/comprar/moradia/t4/barrio/66885",
-  "also": false,
-  "first_seen": "2026-10-13",
-  "source": "analima",
-  "auto": true,
-  "coast_km": 6.8,
-  "image": "https://maismls.fsn1.your-objectstorage.com/uploads/image/12850/06262047b2/wm-c5f657dcc0-4dcaa63987.webp",
-  "lat": 39.55235,
-  "lon": -9.01956,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 4,
-  "size_m2": 107,
-  "id": "58becd6914",
-  "municipality": "Alcobaça",
-  "garden_yes": true,
-  "new_build": false,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": true,
-  "terrace": false,
-  "build_why": []
- },
- {
-  "section": "ready",
-  "town": "Nossa Senhora do Pópulo, Caldas da Rainha",
-  "typology": "T3",
-  "property_type": "apartment",
-  "price": 425000,
-  "size": "150 m²",
-  "garden": "No garden mentioned – has varanda (check listing)",
-  "note": "Apartamento T3 de 150m2 na Quinta das Oliveiras!",
-  "url": "https://www.analimarealestate.pt/imoveis/comprar/apartamento/t3/nossa-senhora-do-populo-coto-e-sao-gregorio/68068",
-  "also": false,
-  "first_seen": "2026-10-13",
-  "source": "analima",
-  "auto": true,
-  "coast_km": 8.4,
-  "image": "https://maismls.fsn1.your-objectstorage.com/uploads/image/43d78/5e6d7bfdc4/wm-8815c1902e-4dcaa63987.webp",
-  "lat": 39.39637,
-  "lon": -9.13846,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 3,
-  "size_m2": 150,
-  "stretch": "8.4 km from the coast (limit 8 km)",
-  "id": "976426bc80",
-  "municipality": "Caldas da Rainha",
-  "garden_yes": false,
-  "new_build": false,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": true,
   "terrace": false,
   "build_why": []
  },
