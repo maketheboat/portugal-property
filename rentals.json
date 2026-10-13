@@ -1,6 +1,185 @@
 [
  {
   "section": "rent",
+  "town": "Azeitão (São Lourenço e São Simão), Setúbal",
+  "typology": "T3",
+  "property_type": "apartment",
+  "price": 1000,
+  "size": "73 m²",
+  "garden": "No garden mentioned (check listing)",
+  "note": "Apartamento T3 disponível para arrendamento em Vendas de Azeitão, na União das Freguesias de Azeitão (São Lourenço e São Simão), com uma área bruta privativa…",
+  "url": "https://www.kwportugal.pt/pt/Imovel/Arrendamento/Apartamento/Setubal/Setubal/Azeitao-Sao-Lourenco-e-Sao-Simao/85722",
+  "also": false,
+  "first_seen": "2026-10-13",
+  "source": "kwalfa",
+  "auto": true,
+  "coast_km": 6.5,
+  "image": "https://imgs.soukwportugal.pt/36612/properties/78274e12-781c-49ad-b1ef-b3f181856d3c_s.jpg",
+  "title": "Apartamento T3 para Arrendamento | Vendas de Azeitão",
+  "bedrooms": 3,
+  "size_m2": 73,
+  "balcony": false,
+  "terrace": false,
+  "pets": "unknown",
+  "bills": "unknown",
+  "internet": "unknown",
+  "deposit_m": null,
+  "deposit_eur": null,
+  "lat": 38.53533,
+  "lon": -8.99146,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "let_checked": "2026-10-13",
+  "also_on": [
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/setubal/imobiliario/apartamentos/apartamento-t2-1-nas-fontainha-45213428"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-em-setbal-so-gabriel-IDJCy6N.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-1-nas-fontainhas-setbal-IDJy2f3.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/alugo-apartamento-t2-mobilado-em-setubal-IDJiXCW.html"
+   }
+  ]
+ },
+ {
+  "section": "rent",
+  "town": "Carcavelos e Parede, Cascais",
+  "typology": "T1",
+  "property_type": "apartment",
+  "price": 1900,
+  "size": "68 m²",
+  "garden": "No garden mentioned (check listing)",
+  "note": "Apartamento T1 com 67 m², localizado no edifício Terraços da Parede, no centro da Parede.",
+  "url": "https://www.kwportugal.pt/pt/Imovel/Arrendamento/Apartamento/Lisboa/Cascais/Carcavelos-e-Parede/63005",
+  "also": false,
+  "first_seen": "2026-10-13",
+  "source": "kwalfa",
+  "auto": true,
+  "coast_km": 0.8,
+  "image": "https://imgs.soukwportugal.pt/34510/properties/77156e82-fdfb-4aa4-96a4-261219cfed52_s.jpg",
+  "title": "T1 Remodelado com Terraço Privativo no Centro da Parede",
+  "bedrooms": 1,
+  "size_m2": 68,
+  "balcony": false,
+  "terrace": true,
+  "pets": "unknown",
+  "bills": "unknown",
+  "internet": "unknown",
+  "deposit_m": null,
+  "deposit_eur": null,
+  "lat": 38.69059,
+  "lon": -9.3566,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "let_checked": "2026-10-13"
+ },
+ {
+  "section": "rent",
+  "town": "Alcabideche, Cascais",
+  "typology": "T2",
+  "property_type": "apartment",
+  "price": 1350,
+  "size": "62 m²",
+  "garden": "No garden mentioned (check listing)",
+  "note": "Se procura a privacidade e a independência de uma moradia combinadas com a praticidade de um apartamento moderno, este andar de moradia T2 em Alcabideche é a…",
+  "url": "https://www.kwportugal.pt/pt/Imovel/Arrendamento/Apartamento/Lisboa/Cascais/Alcabideche/65397",
+  "also": false,
+  "first_seen": "2026-10-13",
+  "source": "kwalfa",
+  "auto": true,
+  "coast_km": 3.7,
+  "image": "https://imgs.soukwportugal.pt/39335/properties/1174d35e-14e6-42dc-812d-e1873e29ceab_s.jpg",
+  "title": "Andar de Moradia T2 Totalmente Renovado – Alcabideche, Cascais",
+  "bedrooms": 2,
+  "size_m2": 62,
+  "balcony": false,
+  "terrace": false,
+  "pets": "unknown",
+  "bills": "unknown",
+  "internet": "unknown",
+  "deposit_m": null,
+  "deposit_eur": null,
+  "lat": 38.73033,
+  "lon": -9.41025,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "let_checked": "2026-10-13"
+ },
+ {
+  "section": "rent",
+  "town": "Carcavelos e Parede, Cascais",
+  "typology": "T2",
+  "property_type": "apartment",
+  "price": 2000,
+  "size": "72 m²",
+  "garden": "No garden mentioned (check listing)",
+  "note": "Inserido no Edifício Terraços da Parede, na Avenida da República, este apartamento T2 mobilado encontra-se numa das zonas mais centrais da Linha de Cascais.",
+  "url": "https://www.kwportugal.pt/pt/Imovel/Arrendamento/Apartamento/Lisboa/Cascais/Carcavelos-e-Parede/63008",
+  "also": false,
+  "first_seen": "2026-10-13",
+  "source": "kwalfa",
+  "auto": true,
+  "coast_km": 0.8,
+  "image": "https://imgs.soukwportugal.pt/34510/properties/5856fa96-462a-4838-8693-5a1f3c45fbca_s.jpg",
+  "title": "T2 Mobilado para Arrendamento no Centro da Parede - Cascais",
+  "bedrooms": 2,
+  "size_m2": 72,
+  "balcony": false,
+  "terrace": true,
+  "pets": "unknown",
+  "bills": "unknown",
+  "internet": "unknown",
+  "deposit_m": null,
+  "deposit_eur": null,
+  "lat": 38.69059,
+  "lon": -9.3566,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "let_checked": "2026-10-13"
+ },
+ {
+  "section": "rent",
+  "town": "Cacém e São Marcos, Sintra",
+  "typology": "T1",
+  "property_type": "apartment",
+  "price": 950,
+  "size": "59 m²",
+  "garden": "No garden mentioned (check listing)",
+  "note": "Disponível para arrendamento, este apartamento acolhedor T1 com cozinha equipada com máquinas de roupa e loiça, frigorifico, fogão e forno, esquentador.",
+  "url": "https://www.kwportugal.pt/pt/Imovel/Arrendamento/Apartamento/Lisboa/Sintra/Cacem-e-Sao-Marcos/61463",
+  "also": false,
+  "first_seen": "2026-10-13",
+  "source": "kwalfa",
+  "auto": true,
+  "coast_km": 8.1,
+  "image": "https://imgs.soukwportugal.pt/39018/properties/16c4b275-d027-4999-9f48-c605ec658ed9_s.jpg",
+  "title": "T1 para arrendamento em São Marcos",
+  "bedrooms": 1,
+  "size_m2": 59,
+  "balcony": false,
+  "terrace": false,
+  "pets": "unknown",
+  "bills": "unknown",
+  "internet": "unknown",
+  "deposit_m": null,
+  "deposit_eur": null,
+  "lat": 38.74876,
+  "lon": -9.29654,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "stretch": "8.1 km from the coast (limit 8 km)",
+  "let_checked": "2026-10-13"
+ },
+ {
+  "section": "rent",
   "town": "Nadadouro, Caldas da Rainha",
   "typology": "T3",
   "property_type": "house",
@@ -28,7 +207,8 @@
   "lat": 39.42138,
   "lon": -9.18933,
   "coord_approx": false,
-  "coord_note": "listing map pin"
+  "coord_note": "listing map pin",
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -59,7 +239,8 @@
   "lat": 39.36901,
   "lon": -9.32808,
   "coord_approx": false,
-  "coord_note": "listing map pin"
+  "coord_note": "listing map pin",
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -90,7 +271,8 @@
   "lat": 39.23893,
   "lon": -9.31293,
   "coord_approx": false,
-  "coord_note": "listing map pin"
+  "coord_note": "listing map pin",
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -121,7 +303,8 @@
   "lat": 39.24975,
   "lon": -9.28965,
   "coord_approx": false,
-  "coord_note": "listing map pin"
+  "coord_note": "listing map pin",
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -158,7 +341,8 @@
     "source": "casasapo",
     "url": "https://casa.sapo.pt/alugar-apartamento-t1-lourinha-0ecf8d90-8b0f-11f1-9a8d-060000000057.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -211,7 +395,8 @@
     "source": "casasapo",
     "url": "https://casa.sapo.pt/alugar-apartamento-t2-caldas-da-rainha-foz-do-arelho-2be94d9c-87ea-11f1-9a8d-060000000057.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -242,7 +427,8 @@
   "lat": 39.36653,
   "lon": -9.3351,
   "coord_approx": false,
-  "coord_note": "listing map pin"
+  "coord_note": "listing map pin",
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -3421,7 +3607,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-novo-centro-da-cidade-IDIYIdi.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -3458,7 +3645,8 @@
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t1-novo-centro-da-cidade-ID1hfWt"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -3495,7 +3683,8 @@
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t2-novo-centro-da-cidade-ID1h5DR"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -3536,7 +3725,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-novo-centro-da-cidade-IDJ2jng.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -3573,7 +3763,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-duplex-no-centro-de-viana-do-castelo-para-arrendar-IDJujb0.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -3604,7 +3795,8 @@
   "lat": 41.71346,
   "lon": -8.7984,
   "coord_approx": false,
-  "coord_note": "listing map pin"
+  "coord_note": "listing map pin",
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -3635,7 +3827,8 @@
   "lat": 41.69526,
   "lon": -8.83983,
   "coord_approx": false,
-  "coord_note": "listing map pin"
+  "coord_note": "listing map pin",
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -3666,7 +3859,8 @@
   "lat": 41.69331,
   "lon": -8.83451,
   "coord_approx": false,
-  "coord_note": "listing map pin"
+  "coord_note": "listing map pin",
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -3711,7 +3905,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t1-novo-centro-histrico-IDJw4Mp.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -3748,7 +3943,8 @@
     "source": "casasapo",
     "url": "https://casa.sapo.pt/alugar-apartamento-t2-viana-do-castelo-darque-cabedelo-22888434-b2a9-11f1-9c13-060000000051.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -3793,7 +3989,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t4-mobilado-darque-IDJAJeH.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -3824,7 +4021,8 @@
   "lat": 41.48241,
   "lon": -8.77202,
   "coord_approx": false,
-  "coord_note": "listing map pin"
+  "coord_note": "listing map pin",
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -3861,7 +4059,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t4-para-arrendamento-condomnio-quinta-da-barca-em-esposende-IDJC6bE.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -3902,7 +4101,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/andar-moradia-em-aplia-IDJBM36.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -3939,7 +4139,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t4-com-piscina-para-arrendamento-em-esposende-IDJBruL.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -3976,7 +4177,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t4-para-arrendamento-nas-dunas-de-ofir-IDJmnm7.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -4017,7 +4219,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/t2-arrendamento-ofir-a-6-minutos-da-praia-IDJzhs7.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -4070,7 +4273,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/t2-com-garagem-para-arrendar-em-condomnio-com-piscina-junto-aos-IDJDRyB.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -4107,7 +4311,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/arrendamento-estdio-IDJDQVZ.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -4144,7 +4349,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-frente-ao-mar-da-aplia-em-condomnio-fechado-IDJwiKJ.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -4181,7 +4387,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-c-piscina-em-ofir-condomnio-privado-IDJDQ0p.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -4218,7 +4425,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/t0-quinta-da-barca-IDJDKdt.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -4259,7 +4467,8 @@
     "source": "casasapo",
     "url": "https://casa.sapo.pt/alugar-apartamento-t3-esposende-9f9d982a-8bb1-11ef-8359-060000000051.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -4300,7 +4509,8 @@
     "source": "custojusto",
     "url": "https://www.custojusto.pt/braga/imobiliario/apartamentos/apartamento-t1-quinta-da-barc-45420866"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -4345,7 +4555,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-para-arrendamento-em-fo-esposende-IDJCP5g.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -4382,7 +4593,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/t3-em-condomnio-privado-centro-de-esposende-IDJBcwo.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -4423,7 +4635,8 @@
     "source": "custojusto",
     "url": "https://www.custojusto.pt/braga/imobiliario/apartamentos/t1-moderno-e-mobilado-sotao--45378496"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -4460,7 +4673,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/t1-em-condomnio-fechado-com-vista-piscina-IDJBmrX.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -4501,7 +4715,8 @@
     "source": "casasapo",
     "url": "https://casa.sapo.pt/alugar-apartamento-t2-esposende-marinhas-62b9318e-2e1f-11f1-9c13-060000000051.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -4538,7 +4753,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t3-para-arrendar-na-aplia-poucos-metros-do-mar-IDJzLLY.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -4575,7 +4791,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/modern-studio-w-balcony-rooftop-prime-location-contas-includas-IDJCaXq.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -4624,7 +4841,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/t2-para-arrendar-em-esposende-IDJsJkK.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -4661,7 +4879,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t3-para-arrendamento-aplia-esposende-IDJC6yg.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -4698,7 +4917,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-inserido-em-condominio-de-luxo-IDJBJqB.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -4739,7 +4959,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/arrendamento-t2-apulia-IDJAuEW.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -4780,7 +5001,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-para-arrendar-em-esposende-a-partir-de-outubro-IDJzpmD.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -4811,7 +5033,8 @@
   "lat": 41.51422,
   "lon": -8.77575,
   "coord_approx": false,
-  "coord_note": "listing map pin"
+  "coord_note": "listing map pin",
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -4848,7 +5071,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/t1-condominio-fechado-IDJylLm.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -4889,7 +5113,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-em-rio-tinto-com-garagem-e-terrao-entrada-imediata-IDJCBbw.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -4930,7 +5155,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t3-mobilado-em-ofir-cond-com-piscina-IDJxGxd.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -4971,7 +5197,8 @@
     "source": "casasapo",
     "url": "https://casa.sapo.pt/alugar-apartamento-t2-esposende-marinhas-c42577f9-5671-11f0-a463-060000000052.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -5002,7 +5229,8 @@
   "lat": 41.49701,
   "lon": -8.77023,
   "coord_approx": false,
-  "coord_note": "listing map pin"
+  "coord_note": "listing map pin",
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -5039,7 +5267,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/t2-em-condominio-fechado-IDJuUON.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -5088,7 +5317,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/t1-rio-tinto-junto-ao-metro-IDJkmNq.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -5119,7 +5349,8 @@
   "lat": 41.51455,
   "lon": -8.77952,
   "coord_approx": false,
-  "coord_note": "listing map pin"
+  "coord_note": "listing map pin",
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -5156,7 +5387,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/andar-moradia-t3-mobilada-e-equipada-IDJD4Xm.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -5193,7 +5425,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-nova-t4-com-garagem-jardim-IDJyJhO.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -5230,7 +5463,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t3-mobilada-com-piscina-em-terroso-pvoa-de-varzim-IDJzLG2.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -5261,7 +5495,8 @@
   "lat": 41.37867,
   "lon": -8.73373,
   "coord_approx": false,
-  "coord_note": "listing map pin"
+  "coord_note": "listing map pin",
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -5292,44 +5527,8 @@
   "lat": 41.37867,
   "lon": -8.73373,
   "coord_approx": false,
-  "coord_note": "listing map pin"
- },
- {
-  "section": "rent",
-  "town": "Póvoa de Varzim, Beiriz e Argivai, Póvoa de Varzim",
-  "typology": "T3",
-  "property_type": "apartment",
-  "price": 900,
-  "size": "95 m²",
-  "garden": "No garden mentioned (check listing)",
-  "note": "-Apartamento T3 totalmente renovado, com 95 m², luz natural em abundância e vistas panorâmicas sobre a cidade e o mar.",
-  "url": "https://www.imovirtual.com/pt/anuncio/arrendamento-t3-renovado-com-vistas-mar-ID1j0gL",
-  "also": false,
-  "first_seen": "2026-10-13",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 1.2,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/4t2utcinyu2s3-PT/image;s=640x480",
-  "title": "Arrendamento T3 renovado com vistas mar",
-  "bedrooms": 3,
-  "size_m2": 95,
-  "balcony": false,
-  "terrace": false,
-  "pets": "unknown",
-  "bills": "unknown",
-  "internet": "unknown",
-  "deposit_m": null,
-  "deposit_eur": null,
-  "lat": 41.37521,
-  "lon": -8.75822,
-  "coord_approx": false,
   "coord_note": "listing map pin",
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/arrendamento-t3-renovado-com-vistas-mar-IDJDRCV.html"
-   }
-  ]
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -5366,7 +5565,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/alugo-apartamento-IDJDsUs.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -5397,7 +5597,8 @@
   "lat": 41.38529,
   "lon": -8.76097,
   "coord_approx": false,
-  "coord_note": "listing map pin"
+  "coord_note": "listing map pin",
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -5428,7 +5629,8 @@
   "lat": 41.38943,
   "lon": -8.77261,
   "coord_approx": false,
-  "coord_note": "listing map pin"
+  "coord_note": "listing map pin",
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -5469,7 +5671,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/aluguer-t3-com-2-wc-IDJzFcR.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -5506,7 +5709,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t1-totalmente-renovado-em-aver-o-mar-IDJD4Kj.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -5543,7 +5747,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/arrendo-apartamento-t1-em-aver-o-mar-com-vistas-mar-IDJCWXm.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -5580,7 +5785,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/t1-arrendamento-c-61m-no-centro-da-pvoa-de-varzim-IDJCMNS.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -5617,7 +5823,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/arrendamento-apartamento-pvoa-de-varzim-a-50-metros-da-esplanada-do-carvalhido-IDJCIgs.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -5648,7 +5855,8 @@
   "lat": 41.38204,
   "lon": -8.76879,
   "coord_approx": false,
-  "coord_note": "listing map pin"
+  "coord_note": "listing map pin",
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -5685,7 +5893,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/arrenda-se-apartamento-t1-pvoa-de-varzim-IDJBW5n.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -5722,7 +5931,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-com-garagem-IDJBI0G.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -5759,7 +5969,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t3-novo-c-2-wc-IDJBHNa.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -5800,7 +6011,8 @@
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t3-a-50m-da-praia-na-pvoa-de-varzim-IDJxdN4.html"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -5831,7 +6043,8 @@
   "lat": 41.37867,
   "lon": -8.73373,
   "coord_approx": false,
-  "coord_note": "listing map pin"
+  "coord_note": "listing map pin",
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -5868,7 +6081,8 @@
     "source": "remax",
     "url": "https://www.remax.pt/pt/imoveis/arrendamento-apartamento-t1-povoa-de-varzim-povoa-de-varzim-beiriz-e-argivai/123061451-13"
    }
-  ]
+  ],
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -5899,7 +6113,8 @@
   "lat": 41.37867,
   "lon": -8.73373,
   "coord_approx": false,
-  "coord_note": "listing map pin"
+  "coord_note": "listing map pin",
+  "let_checked": "2026-10-13"
  },
  {
   "section": "rent",
@@ -62869,7 +63084,13 @@
   "lon": -9.05574,
   "coord_approx": false,
   "coord_note": "listing map pin",
-  "stretch": "9.9 km from the coast (limit 8 km)"
+  "stretch": "9.9 km from the coast (limit 8 km)",
+  "also_on": [
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Arrendamento/Moradia/Setubal/Seixal/Fernao-Ferro/68063"
+   }
+  ]
  },
  {
   "section": "rent",
@@ -108206,52 +108427,6 @@
   "lon": -8.89477,
   "coord_approx": true,
   "coord_note": "approx. – centre of S.Julião, Setúbal"
- },
- {
-  "section": "rent",
-  "town": "Setúbal (São Sebastião), Setúbal",
-  "typology": "T3",
-  "property_type": "apartment",
-  "price": 1000,
-  "size": "80 m²",
-  "garden": "No garden mentioned (check listing)",
-  "note": "Imóvel a ser convertido de comercio para habitação, dois quartos normais com janela para o exterior e outro sem janela para o exterior, 2w.c ( 1 de serviço o…",
-  "url": "https://www.custojusto.pt/setubal/imobiliario/apartamentos/apartamento-t2-1-nas-fontainha-45213428",
-  "also": false,
-  "first_seen": "2026-10-13",
-  "source": "custojusto",
-  "auto": true,
-  "coast_km": 0.5,
-  "image": "https://prod-images.custojusto.pt/gallery/9082318030-apartamento-t2-plus-1-nas-fontainhas-setubal.jpg",
-  "title": "Apartamento T2+1 nas fontainhas Setúbal",
-  "bedrooms": 3,
-  "size_m2": 80,
-  "balcony": false,
-  "terrace": false,
-  "pets": "unknown",
-  "bills": "unknown",
-  "internet": "unknown",
-  "deposit_m": null,
-  "deposit_eur": null,
-  "lat": 38.5206,
-  "lon": -8.8844,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "private": true,
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-em-setbal-so-gabriel-IDJCy6N.html"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-1-nas-fontainhas-setbal-IDJy2f3.html"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/alugo-apartamento-t2-mobilado-em-setubal-IDJiXCW.html"
-   }
-  ]
  },
  {
   "section": "rent",

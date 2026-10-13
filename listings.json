@@ -1146,6 +1146,10 @@
    {
     "source": "idealista",
     "url": "https://www.idealista.pt/imovel/34896707/"
+   },
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Moradia/Lisboa/Lourinha/Lourinha-e-Atalaia/64884"
    }
   ],
   "new_build": false,
@@ -11234,6 +11238,10 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/moradia-nova-isolada-t3-c-piscina-caldas-da-rainha-ID1i5aP"
+   },
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Moradia/Leiria/Caldas-da-Rainha/Nossa-Senhora-do-Populo-Coto-e-Sao-Gregorio/65033"
    }
   ],
   "id": "e9d8b86739",
@@ -19886,7 +19894,13 @@
   "needs_work": false,
   "property_type": "house",
   "balcony": true,
-  "terrace": false
+  "terrace": false,
+  "also_on": [
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Moradia/Setubal/Palmela/Palmela/69351"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -22940,6 +22954,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/a-jia-de-bidos-moradia-exclusiva-com-terreno-amplo-e-jacuzzi-priva-IDIZl9b.html"
+   },
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Moradia/Leiria/Obidos/Santa-Maria-Sao-Pedro-e-Sobral-da-Lagoa/54909"
    }
   ],
   "id": "8e11c70183",
@@ -24843,6 +24861,10 @@
    {
     "source": "remax",
     "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t3-lourinha-lourinha-e-atalaia/124181028-143"
+   },
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Lisboa/Lourinha/Lourinha-e-Atalaia/84435"
    }
   ]
  },
@@ -32390,6 +32412,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-com-sute-varanda-estacionamento-e-ginsio-panorama-IDJtSqL.html"
+   },
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Leiria/Peniche/Peniche/69756"
    }
   ]
  },
@@ -32440,6 +32466,14 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-com-sute-varanda-e-estacionamento-panorama-views-IDJtS3w.html"
+   },
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Leiria/Peniche/Peniche/69754"
+   },
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Leiria/Peniche/Peniche/69758"
    }
   ]
  },
@@ -42399,7 +42433,13 @@
   "needs_work": false,
   "balcony": true,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Lisboa/Cascais/Carcavelos-e-Parede/61563"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -42441,6 +42481,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamendo-t3-feijo-IDJBugR.html"
+   },
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Setubal/Almada/Costa-de-Caparica/84869"
    }
   ]
  },
@@ -47921,7 +47965,13 @@
   "needs_work": false,
   "balcony": true,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Lisboa/Lourinha/Lourinha-e-Atalaia/84439"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -49547,6 +49597,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-cascais-sao-domingos-de-rana-27c13f4c-f394-11f0-8add-060000000054.html"
+   },
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Lisboa/Cascais/Sao-Domingos-de-Rana/69110"
    }
   ],
   "id": "b3a77864d6",
@@ -51965,6 +52019,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/t2-totalmente-remodelado-com-terrao-de-90m2-junto-saint-dominics-IDJzICB.html"
+   },
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Lisboa/Cascais/Sao-Domingos-de-Rana/83316"
    }
   ]
  },
@@ -55823,6 +55881,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-1-com-rooftop-e-terrao-panormico-no-centro-de-mafra-IDJvrBI.html"
+   },
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Lisboa/Mafra/Mafra/82476"
    }
   ]
  },
@@ -61413,6 +61475,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/t2-de-99-m2-com-suite-lareira-e-estacionamento-a-5-min-do-metro-sul-d-IDJvOME.html"
+   },
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Setubal/Almada/Almada-Cova-da-Piedade-Pragal-e-Cacilhas/82188"
    }
   ]
  },
@@ -61783,6 +61849,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/setubal/imobiliario/apartamentos/apartamento-t3-c-2terraco-no--44947268"
+   },
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Setubal/Almada/Almada-Cova-da-Piedade-Pragal-e-Cacilhas/68619"
    }
   ]
  },
@@ -80149,6 +80219,10 @@
    {
     "source": "remax",
     "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t4-seixal-amora/121291134-342"
+   },
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Setubal/Seixal/Amora/82030"
    }
   ]
  },
@@ -81464,7 +81538,13 @@
   "needs_work": false,
   "balcony": true,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Lisboa/Oeiras/Carnaxide-e-Queijas/85008"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -94567,7 +94647,13 @@
   "needs_work": false,
   "balcony": true,
   "terrace": true,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Faro/Tavira/Conceicao-e-Cabanas-de-Tavira/61251"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -111356,6 +111442,10 @@
    {
     "source": "remax",
     "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t2-loule-quarteira/122261418-49"
+   },
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Faro/Loule/Quarteira/64097"
    }
   ],
   "id": "bd14dc3159",
@@ -119694,6 +119784,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/t3-no-ltimo-piso-com-terrao-e-churrasqueira-tavira-IDJx8hc.html"
+   },
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Faro/Tavira/Tavira-Santa-Maria-e-Santiago/81123"
    }
   ]
  },
@@ -168288,7 +168382,13 @@
   "needs_work": false,
   "balcony": true,
   "terrace": true,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Coimbra/Figueira-da-Foz/Buarcos/81493"
+   }
+  ]
  },
  {
   "section": "reno",
@@ -332576,6 +332676,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t3-com-sute-terreno-de-3-500-m2-IDJkYoo.html"
+   },
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Moradia/Aveiro/Aveiro/Cacia/59301"
    }
   ],
   "id": "10a0d61ef7",
@@ -341743,7 +341847,13 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Lisboa/Mafra/Ericeira/82655"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -350111,6 +350221,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t3-peniche-atouguia-da-baleia-5e5c1521-23a1-11f1-9d12-060000000054.html"
+   },
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Leiria/Peniche/Peniche/69749"
    }
   ],
   "id": "ce213c7f95",
@@ -373388,6 +373502,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t2-no-centro-de-sa-44985236"
+   },
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Lisboa/Cascais/Carcavelos-e-Parede/85349"
    }
   ],
   "id": "ea2eaac35e",
@@ -380042,6 +380160,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-renovado-no-monte-estoril-IDJC6iu.html"
+   },
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Lisboa/Cascais/Cascais-e-Estoril/67242"
    }
   ]
  },
@@ -394169,7 +394291,13 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Setubal/Almada/Caparica-e-Trafaria/69627"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -429557,6 +429685,14 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t3-com-2-sutes-e-piscina-em-ferno-ferro-IDJmaUx.html"
+   },
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Moradia/Setubal/Seixal/Fernao-Ferro/70054"
+   },
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Moradia/Setubal/Seixal/Fernao-Ferro/70052"
    }
   ]
  },
@@ -429595,6 +429731,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-trrea-isolada-ferno-ferro-450-000-IDJmfS5.html"
+   },
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Moradia/Setubal/Seixal/Fernao-Ferro/70057"
    }
   ]
  },
@@ -429693,6 +429833,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t3-duplex-c-2-sutes-excelentes-reas-IDJAZeg.html"
+   },
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Moradia/Setubal/Seixal/Fernao-Ferro/70056"
    }
   ]
  },
@@ -434355,7 +434499,6 @@
   "coord_note": "listing map pin",
   "bedrooms": 3,
   "size_m2": 97,
-  "stretch": "8.5 km from the coast (limit 8 km)",
   "id": "4fa0f26c46",
   "municipality": "Oeiras",
   "garden_yes": false,
@@ -434364,7 +434507,13 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "kwalfa",
+    "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Lisboa/Oeiras/Alges-Linda-a-Velha-e-Cruz-Quebrada-Dafundo/81478"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -460350,6 +460499,273 @@
   "unfinished": false,
   "needs_work": false,
   "balcony": false,
+  "terrace": false,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Buarcos, Figueira da Foz",
+  "typology": "T2",
+  "property_type": "apartment",
+  "price": 495000,
+  "size": "91 m²",
+  "garden": "No garden mentioned – has varanda (check listing)",
+  "note": "Situado na Cais de Alfândega, a apenas 50 metros da Marina da Figueira da Foz, o Edifício Cais é um projeto residencial exclusivo com apenas 17 apartamentos …",
+  "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Coimbra/Figueira-da-Foz/Buarcos/81515",
+  "also": false,
+  "first_seen": "2026-10-13",
+  "source": "kwalfa",
+  "auto": true,
+  "coast_km": 2.0,
+  "image": "https://imgs.soukwportugal.pt/40827/properties/76a4dcbd-69d9-42c8-8d68-7d918e4c1d2d_s.jpg",
+  "lat": 40.149,
+  "lon": -8.85741,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 2,
+  "size_m2": 91,
+  "id": "8e4a381395",
+  "municipality": "Figueira da Foz",
+  "garden_yes": false,
+  "new_build": true,
+  "unfinished": true,
+  "needs_work": false,
+  "balcony": true,
+  "terrace": true,
+  "build_why": [
+   "text: \"os 5 min a pe de escolas conclusao prevista: setembro de 2026 precos\"",
+   "text: \"e escolas conclusao prevista: setembro de 2026 prec\""
+  ]
+ },
+ {
+  "section": "ready",
+  "town": "Oeiras e S.Julião da Barra, Paço de Arcos e Caxias, Oeiras",
+  "typology": "T2",
+  "property_type": "apartment",
+  "price": 450000,
+  "size": "65 m²",
+  "garden": "No garden mentioned (check listing)",
+  "note": "Exclusividade no Centro Histórico: T1+1 com Vista Rio em Paço de Arcos Descubra uma oportunidade rara de investimento ou habitação própria no coração de Paço…",
+  "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Lisboa/Oeiras/Oeiras-e-S-Juliao-da-Barra-Paco-de-Arcos-e-Caxias/66755",
+  "also": false,
+  "first_seen": "2026-10-13",
+  "source": "kwalfa",
+  "auto": true,
+  "coast_km": 3.0,
+  "image": "https://imgs.soukwportugal.pt/39493/properties/c1fc3899-d203-436e-9776-411c457beb84_s.jpg",
+  "lat": 38.69471,
+  "lon": -9.29391,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 2,
+  "size_m2": 65,
+  "id": "40f1e582d3",
+  "municipality": "Oeiras",
+  "garden_yes": false,
+  "new_build": true,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": false,
+  "terrace": false,
+  "build_why": [
+   "text: \"a estrear\""
+  ]
+ },
+ {
+  "section": "ready",
+  "town": "Oeiras e S.Julião da Barra, Paço de Arcos e Caxias, Oeiras",
+  "typology": "T4",
+  "property_type": "apartment",
+  "price": 390000,
+  "size": "160 m²",
+  "garden": "No garden mentioned (check listing)",
+  "note": "Procura um apartamento espaçoso e bem localizado?",
+  "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Lisboa/Oeiras/Oeiras-e-S-Juliao-da-Barra-Paco-de-Arcos-e-Caxias/49009",
+  "also": false,
+  "first_seen": "2026-10-13",
+  "source": "kwalfa",
+  "auto": true,
+  "coast_km": 3.6,
+  "image": "https://imgs.soukwportugal.pt/34046/properties/112c9129-1974-49f7-9099-855e41222730_s.jpg",
+  "lat": 38.70214,
+  "lon": -9.29643,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 4,
+  "size_m2": 160,
+  "id": "505b8c5c3c",
+  "municipality": "Oeiras",
+  "garden_yes": false,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": false,
+  "terrace": false,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Alcabideche, Cascais",
+  "typology": "T3",
+  "property_type": "apartment",
+  "price": 485000,
+  "size": "125 m²",
+  "garden": "No garden mentioned – has terraço (check listing)",
+  "note": "Apartamento T3 Remodelado com Terraço e Garagem Box - Alcabideche Se procura a combinação perfeita entre qualidade de vida, boa localização e um imóvel total…",
+  "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Lisboa/Cascais/Alcabideche/59364",
+  "also": false,
+  "first_seen": "2026-10-13",
+  "source": "kwalfa",
+  "auto": true,
+  "coast_km": 6.0,
+  "image": "https://imgs.soukwportugal.pt/39161/properties/53015d01-9bf7-47ca-96b3-f472e2c0219b_s.jpg",
+  "lat": 38.74331,
+  "lon": -9.39018,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 3,
+  "size_m2": 125,
+  "id": "a171007a9c",
+  "municipality": "Cascais",
+  "garden_yes": false,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": true,
+  "terrace": true,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Nossa Senhora do Pópulo, Coto e São Gregório, Caldas da Rainha",
+  "typology": "T3",
+  "property_type": "house",
+  "price": 460000,
+  "size": "175 m² on 900 m² plot",
+  "garden": "Yes – mentions 'terreno' (check listing)",
+  "note": "Venha conhecer esta fantástica moradia isolada de 3 quartos, dois WC e piscina, a 2 min.",
+  "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Moradia/Leiria/Caldas-da-Rainha/Nossa-Senhora-do-Populo-Coto-e-Sao-Gregorio/64996",
+  "also": false,
+  "first_seen": "2026-10-13",
+  "source": "kwalfa",
+  "auto": true,
+  "coast_km": 7.5,
+  "image": "https://imgs.soukwportugal.pt/38774/properties/3f25f024-b560-4a43-a29a-b118b6a162c5_s.jpg",
+  "lat": 39.42143,
+  "lon": -9.12439,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 3,
+  "size_m2": 175,
+  "id": "4a396ac961",
+  "municipality": "Caldas da Rainha",
+  "garden_yes": true,
+  "new_build": true,
+  "unfinished": true,
+  "needs_work": false,
+  "balcony": false,
+  "terrace": false,
+  "build_why": [
+   "text: \"m conjunto de 8 moradias em construcao. venha escolher a sua! a\"",
+   "text: \"moradia nova\""
+  ]
+ },
+ {
+  "section": "ready",
+  "town": "Seixal, Arrentela e Aldeia de Paio Pires, Seixal",
+  "typology": "T4",
+  "property_type": "house",
+  "price": 490000,
+  "size": "155 m² on 281 m² plot",
+  "garden": "Yes – mentions 'logradouro' (check listing)",
+  "note": "Moradia, construída em 1998, com 185 m² de área bruta de construção, distribuída por dois pisos, inserida numa zona residencial tranquila de moradias, ideal …",
+  "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Moradia/Setubal/Seixal/Seixal-Arrentela-e-Aldeia-de-Paio-Pires/63368",
+  "also": false,
+  "first_seen": "2026-10-13",
+  "source": "kwalfa",
+  "auto": true,
+  "coast_km": 8.6,
+  "image": "https://imgs.soukwportugal.pt/36612/properties/cba0740c-f8fb-4154-9740-0cefe142da71_s.jpg",
+  "lat": 38.59204,
+  "lon": -9.09542,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 4,
+  "size_m2": 155,
+  "stretch": "8.6 km from the coast (limit 8 km)",
+  "id": "2c3f7acf24",
+  "municipality": "Seixal",
+  "garden_yes": true,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": true,
+  "terrace": false,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Algueirão-Mem Martins, Sintra",
+  "typology": "T3",
+  "property_type": "apartment",
+  "price": 390000,
+  "size": "114 m²",
+  "garden": "No garden mentioned – has varanda (check listing)",
+  "note": "Nem sempre é fácil encontrar um apartamento que consiga reunir espaço, funcionalidade e uma localização prática para o dia a dia.",
+  "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Lisboa/Sintra/Algueirao-Mem-Martins/68436",
+  "also": false,
+  "first_seen": "2026-10-13",
+  "source": "kwalfa",
+  "auto": true,
+  "coast_km": 10.2,
+  "image": "https://imgs.soukwportugal.pt/34042/properties/482950f0-9a85-48d3-af9a-177c22def0de_s.jpg",
+  "lat": 38.80813,
+  "lon": -9.35205,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 3,
+  "size_m2": 114,
+  "stretch": "10.2 km from the coast (limit 8 km)",
+  "id": "aabc06a982",
+  "municipality": "Sintra",
+  "garden_yes": false,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": true,
+  "terrace": false,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Alfragide, Amadora",
+  "typology": "T3",
+  "property_type": "apartment",
+  "price": 395000,
+  "size": "73 m²",
+  "garden": "No garden mentioned – has varanda (check listing)",
+  "note": "Apartamento T3, inserido em prédio de 1989, com elevador, localizado ao nível do 1.º andar, na prestigiada zona da Quinta Grande, em Alfragide.",
+  "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Lisboa/Amadora/Alfragide/62998",
+  "also": false,
+  "first_seen": "2026-10-13",
+  "source": "kwalfa",
+  "auto": true,
+  "coast_km": 10.3,
+  "image": "https://imgs.soukwportugal.pt/34510/properties/29b35294-33f0-44d1-9ac0-41c77df48ddb_s.jpg",
+  "lat": 38.73843,
+  "lon": -9.22126,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 3,
+  "size_m2": 73,
+  "stretch": "10.3 km from the coast (limit 8 km)",
+  "id": "8df3b31a7b",
+  "municipality": "Amadora",
+  "garden_yes": false,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": true,
   "terrace": false,
   "build_why": []
  }
