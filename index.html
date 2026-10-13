@@ -15,7 +15,11 @@ button{font:inherit;color:inherit}
 header{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff}
 header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:72px}
 header h1{margin:0;font-size:1.25rem;line-height:1.3}header p{margin:0;opacity:.88;font-size:.85rem}
-.hacts{display:flex;gap:8px;flex-shrink:0}
+.hacts{display:flex;gap:8px;flex-shrink:0;align-items:center}
+.seg.mode{height:36px;border:1px solid rgba(255,255,255,.55);background:rgba(255,255,255,.12)}.seg.mode button{color:#fff;padding:0 14px;font-weight:600}.seg.mode button+button{border-left:1px solid rgba(255,255,255,.55)}.seg.mode button.on{background:#fff;color:var(--accent)}
+body.rent .buyonly{display:none!important}body:not(.rent) .rentonly{display:none!important}
+.rentrow{display:flex;flex-wrap:wrap;gap:4px 10px;font-size:.82rem;color:#333;margin:6px 0}.rentrow .no{color:#a33}.rentrow .yes{color:#2a6f63}.rentrow .unk{color:#888}
+.tag.rent{color:#2e7d32}.price small{font-size:.8rem;font-weight:500;color:#555}
 .hbtn{height:var(--h);padding:0 16px;border-radius:var(--r);border:1px solid rgba(255,255,255,.45);background:rgba(255,255,255,.14);color:#fff;cursor:pointer;font-size:.9rem;font-weight:600;white-space:nowrap}
 .hbtn:hover{background:rgba(255,255,255,.24)}.short{display:none}
 /* controls */
@@ -173,7 +177,7 @@ footer{color:var(--muted);font-size:.83rem;padding-top:16px!important;padding-bo
  .hinfo:hover,.hinfo[aria-expanded="true"]{background:rgba(255,255,255,.18);opacity:1}
  header p{display:none}header.showsub p{display:block;order:3;flex-basis:100%;padding-bottom:8px;font-size:.8rem}
  .htitle{order:1}.hacts{order:2;gap:8px}
- .hbtn{width:40px;height:36px;padding:0;font-size:1.1rem;display:inline-flex;align-items:center;justify-content:center}.hbtn .bl{display:none}
+ .hbtn{width:40px;height:36px;padding:0;font-size:1.1rem;display:inline-flex;align-items:center;justify-content:center}.hbtn .bl{display:none}.seg.mode{height:32px}.seg.mode button{padding:0 10px;font-size:.85rem}
  .tb{min-height:0;padding-top:12px!important;gap:8px}
  #count{font-size:.95rem;margin-right:0}
  .tbr{gap:8px}.tbr #sort{height:36px;max-width:118px;padding-left:8px;font-size:.85rem}
@@ -184,45 +188,46 @@ footer{color:var(--muted);font-size:.83rem;padding-top:16px!important;padding-bo
 }
 @media (max-width:480px){header p .upd{display:none}}
 </style></head><body>
-<header id="hdr"><div class="wrap"><div class="htitle"><h1><span class="tl">Portugal coast property</span><span class="ts">PT Coast Property</span></h1><button class="hinfo" id="hinfo" type="button" aria-label="About this site" title="About this site" aria-expanded="false" aria-controls="hsub">ⓘ</button><p id="hsub">West coast &amp; Algarve, Caminha to Castro Marim · curated houses &amp; apartments for sale<span class="upd"> · updated <span id="upd"></span> (Lisbon)</span></p></div>
-<div class="hacts"><button class="hbtn" id="addbtn" type="button" aria-label="Add property" title="Add property"><span aria-hidden="true">＋</span><span class="bl"> Add property</span></button><button class="hbtn" id="sharebtn" type="button" aria-label="My lists" title="My lists (favourites, share code)"><span aria-hidden="true">♥</span><span class="bl"> My lists</span></button></div></div></header>
+<header id="hdr"><div class="wrap"><div class="htitle"><h1><span class="tl">Portugal coast property</span><span class="ts">PT Coast Property</span></h1><button class="hinfo" id="hinfo" type="button" aria-label="About this site" title="About this site" aria-expanded="false" aria-controls="hsub">ⓘ</button><p id="hsub">West coast &amp; Algarve, Caminha to Castro Marim · curated houses &amp; apartments <span class="buyonly">for sale</span><span class="rentonly">for long-term rent</span><span class="upd"> · updated <span id="upd"></span> (Lisbon)</span></p></div>
+<div class="hacts"><div class="seg mode" id="mode" role="group" aria-label="Buy or rent"><button data-v="buy" class="on" type="button">Buy</button><button data-v="rent" type="button">Rent</button></div><button class="hbtn" id="addbtn" type="button" aria-label="Add property" title="Add property"><span aria-hidden="true">＋</span><span class="bl"> Add property</span></button><button class="hbtn" id="sharebtn" type="button" aria-label="My lists" title="My lists (favourites, share code)"><span aria-hidden="true">♥</span><span class="bl"> My lists</span></button></div></div></header>
 <div id="bar"><div class="wrap">
  <div class="search" id="locwrap"><span class="sicon" id="sicon" aria-hidden="true">🔍</span>
   <input id="loc" class="ctl" type="text" autocomplete="off" placeholder="Place or keyword" aria-label="Search by place or keyword" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="sugg">
   <span class="ibtns"><button class="ibtn" id="locclear" type="button" title="Clear" aria-label="Clear search" hidden>×</button><button class="ibtn" id="geo" type="button" title="Use my location" aria-label="Use my location">◎</button></span>
   <ul id="sugg" role="listbox"></ul></div>
  <span class="rwrap" id="rwrap" hidden><input id="rq" class="ctl dd" type="text" inputmode="numeric" autocomplete="off" value="3 km" aria-label="Radius in km" title="Search radius" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="rlist"><input id="r" type="hidden" value="3"><ul id="rlist" role="listbox"></ul></span>
- <span id="slot_type"><div class="seg" id="sec" role="group" aria-label="Property type"><button data-v="all" class="on" type="button">All</button><button data-v="ready" type="button" title="Move-in ready €350k–500k">Move-in ready</button><button data-v="reno" type="button" title="Renovation €100k–200k">Renovation</button></div></span>
+ <span id="slot_type" class="buyonly"><div class="seg" id="sec" role="group" aria-label="Property type"><button data-v="all" class="on" type="button">All</button><button data-v="ready" type="button" title="Move-in ready €350k–500k">Move-in ready</button><button data-v="reno" type="button" title="Renovation €100k–200k">Renovation</button></div></span>
  <span class="ddwrap" id="slot_price"><button class="ctl dd" id="pricebtn" type="button" aria-haspopup="true" aria-expanded="false">Price</button>
   <div class="pop2" id="pricepop" role="dialog" aria-label="Price range"><div id="pricefields"><div class="pair"><input id="pmin" class="ctl" type="number" step="5000" min="0" placeholder="Min €" aria-label="Min price"><span>–</span><input id="pmax" class="ctl" type="number" step="5000" min="0" placeholder="Max €" aria-label="Max price"></div></div>
   <div class="poprow"><button class="ctl pri" id="pricedone" type="button">Done</button></div></div></span>
  <span id="slot_ptype"><select id="ptype" class="ctl" aria-label="Property type"><option value="">Any type</option><option value="house">Houses</option><option value="apartment">Apartments</option></select></span>
  <span id="slot_beds"><select id="beds" class="ctl" aria-label="Bedrooms"><option value="">Beds: any</option><option value="2">2+ beds</option><option value="3">3+ beds</option><option value="4">4+ beds</option></select></span>
  <button class="ctl pri" id="filtersbtn" type="button" aria-haspopup="dialog">Filters<span id="fcount"></span></button>
-</div><div class="wrap helper" id="helper">Move-in ready €350k–500k · Renovation €100k–200k · prices from the adverts</div></div>
+</div><div class="wrap helper" id="helper"><span class="buyonly">Move-in ready €350k–500k · Renovation €100k–200k · prices from the adverts</span><span class="rentonly">Long-term rentals (whole homes, no holiday lets or rooms) · monthly rent from the adverts</span></div></div>
 <div class="wrap tb" id="tb"><span id="count" aria-live="polite">Loading homes…</span><div class="chiprow empty" id="chiprow"><div id="chips"></div><button class="link" id="clearall" type="button" hidden>Clear all</button></div>
  <div class="tbr"><select id="sort" class="ctl" aria-label="Sort"><option value="newest">Newest</option><option value="price_asc">Price: low to high</option><option value="price_desc">Price: high to low</option><option value="size_desc">Size: largest</option><option value="size_asc">Size: smallest</option><option value="distance">Distance</option></select>
  <div class="seg views" id="views" role="group" aria-label="View"><button data-v="list" class="on" type="button">List</button><button data-v="map" type="button">Map</button></div></div></div>
 <div class="wrap zh" id="zerohint" hidden></div>
 <main class="wrap"><div class="grid" id="grid"></div>
  <div class="mapwrap" id="mapwrap"><div id="map" aria-label="Map of listings"></div>
-  <div class="legend" id="legend"><span><i style="background:#0f6e8c"></i>Move-in ready</span><span><i style="background:#8d5a3b"></i>Renovation</span><span><i style="background:#f4b400;border:2px solid #e0245e"></i>Favourite</span><span><i style="border:2px dashed #555;background:transparent"></i>Approx. location</span></div></div></main>
+  <div class="legend" id="legend"><span class="buyonly"><i style="background:#0f6e8c"></i>Move-in ready</span><span class="buyonly"><i style="background:#8d5a3b"></i>Renovation</span><span class="rentonly"><i style="background:#0f6e8c"></i>For rent</span><span><i style="background:#f4b400;border:2px solid #e0245e"></i>Favourite</span><span><i style="border:2px dashed #555;background:transparent"></i>Approx. location</span></div></div></main>
 <div id="drawer" role="dialog" aria-modal="true" aria-labelledby="dh"><div class="backdrop" data-close></div><div class="sheet">
  <div class="shead"><h2 id="dh">Filters</h2><button class="ibtn" type="button" data-close aria-label="Close filters">×</button></div>
  <div class="sbody">
-  <section class="monly"><h3>Type</h3><div id="ms_type"></div><p class="helper2">Move-in ready €350k–500k · Renovation €100k–200k</p>
+  <section class="monly"><div class="buyonly"><h3>Type</h3><div id="ms_type"></div><p class="helper2">Move-in ready €350k–500k · Renovation €100k–200k</p></div>
    <h3>Price</h3><div id="ms_price"></div><h3>Property type</h3><div id="ms_ptype"></div><h3>Bedrooms</h3><div id="ms_beds"></div></section>
   <section><h3>Property</h3>
+   <div class="rentonly"><h3 style="margin-top:0">Rental terms</h3><div class="frow"><label for="pets">Pets <small id="petsn"></small></label><select id="pets" class="ctl"><option value="uy">Pets allowed or not stated</option><option value="y">Pets allowed (stated)</option><option value="nuy">Any</option><option value="n">No</option><option value="u">Not stated</option></select></div><div class="frow"><label for="bills">Bills (water, power…) <small id="billsn"></small></label><select id="bills" class="ctl"><option value="uy">Included or not stated</option><option value="y">Included (stated)</option><option value="nuy">Any</option><option value="n">No</option><option value="u">Not stated</option></select></div><div class="frow"><label for="inet">Internet <small id="inetn"></small></label><select id="inet" class="ctl"><option value="uy">Included or not stated</option><option value="y">Included (stated)</option><option value="nuy">Any</option><option value="n">No</option><option value="u">Not stated</option></select></div><div class="frow"><label for="dmax">Max deposit</label><select id="dmax" class="ctl"><option value="">Any</option><option value="1">Up to 1 month</option><option value="2">Up to 2 months</option><option value="3">Up to 3 months</option></select></div><p class="helper2">Read from the advert text; “not stated” means the advert doesn’t say. Unknown deposits stay in the list.</p></div>
    <div class="frow"><label for="size">Min size (m²)</label><input id="size" class="ctl" type="number" step="10" min="0" placeholder="Any"></div>
-   <div class="frow"><label for="nb">New builds</label><select id="nb" class="ctl"><option value="">Any</option><option value="only">New builds only</option><option value="hide">Hide new builds</option></select></div>
+   <div class="frow buyonly"><label for="nb">New builds</label><select id="nb" class="ctl"><option value="">Any</option><option value="only">New builds only</option><option value="hide">Hide new builds</option></select></div>
    <label class="chk"><input type="checkbox" id="outside"><span>Has outside space <small id="outn"></small></span></label>
    <label class="chk sub"><input type="checkbox" id="garden"><span>Garden or land <small id="gardn"></small></span></label>
    <label class="chk sub"><input type="checkbox" id="balcony"><span>Balcony <small id="balcn"></small></span></label>
    <label class="chk sub"><input type="checkbox" id="terrace"><span>Terrace <small id="terrn"></small></span></label>
    <p class="chkhelp">Ticking several shows homes with all of them. Use “Has outside space” for any.</p></section>
   <section><h3>Condition</h3>
-   <label class="chk"><input type="checkbox" id="hideunf" checked><span>Hide unfinished <small id="unfn"></small><em>Off-plan, under construction or renders only</em></span></label>
-   <label class="chk"><input type="checkbox" id="hidework" checked><span>Hide needs work <small id="nwn"></small><em>Move-in priced homes whose advert says they need works</em></span></label>
+   <label class="chk buyonly"><input type="checkbox" id="hideunf" checked><span>Hide unfinished <small id="unfn"></small><em>Off-plan, under construction or renders only</em></span></label>
+   <label class="chk buyonly"><input type="checkbox" id="hidework" checked><span>Hide needs work <small id="nwn"></small><em>Move-in priced homes whose advert says they need works</em></span></label>
    <label class="chk"><input type="checkbox" id="stretch"><span>Include stretch <small id="stretchn"></small><em>Near-misses: 8–11 km from the coast, or move-in ready €500k–525k</em></span></label></section>
   <section><h3>Area &amp; source</h3>
    <div class="frow"><label for="reg">Region</label><select id="reg" class="ctl"><option value="">All regions</option></select></div>
@@ -268,7 +273,7 @@ footer{color:var(--muted);font-size:.83rem;padding-top:16px!important;padding-bo
 
 <script>
 "use strict";
-const DATA={"labels":{"imovirtual":"Imovirtual","casasapo":"Casa Sapo","remax":"RE/MAX","century21":"Century 21","olx":"OLX","custojusto":"CustoJusto","idealista":"Idealista","ego":"eGO agencies","improxy":"Improxy agencies","supercasa":"SuperCasa","era":"ERA","bpi":"BPI Expresso Imobiliário","engel":"Engel & Völkers","kw":"KW Portugal","zome":"Zome","iad":"iad Portugal","coldwell":"Coldwell Banker","kyero":"Kyero","idealista_rss":"Idealista RSS","decisoes":"Decisões e Soluções","greenacres":"Green-Acres","rightmove":"Rightmove Overseas","aplaceinthesun":"A Place in the Sun","predimed":"Predimed","casaiberia":"Casaiberia","cgd":"Caixa Imobiliário (CGD)","rainhavip":"Rainha VIP","westlife":"West Life","mrhouse":"Mr House","veigas":"Veigas Imobiliária","jcouto":"J Couto Imobiliária","dulceenoivo":"Dulce e Noivo","imonazare":"IMO Nazaré","smin":"S.M.I.N. Nazaré","jzegre":"JZegre Sesimbra","lnhouse":"LN House","landa":"L&A Real Estate","redereal":"Rede Real","vistasalgarve":"Vistas do Algarve","eurovivenda":"Eurovivenda"},"portals":["imovirtual","casasapo","remax","century21","olx","custojusto","idealista","ego","improxy"],"regions":{"north":"North coast","centre":"Centre & Silver Coast","lisbon":"Lisbon & Setúbal","alentejo":"Alentejo coast","algarve":"Algarve"},"src":"data.json?v=cd21d0ea73","sharedFavs":["a0f41248a3","529768acbd","62e8e780ed","c8c3cadb01","8c4e0f321c","1fb432f436","bbbb546b75","53519d7db1","fd88b4a5ee"],"sharedNotes":{},"api":"https://portugal-property-api.maketheboat.workers.dev","key":"pp-shared-7f3a91","munis":{"lisbon":["Almada","Amadora","Cascais","Lisboa","Mafra","Oeiras","Palmela","Seixal","Sesimbra","Setúbal","Sintra","Torres Vedras"],"centre":["Alcobaça","Aveiro","Caldas da Rainha","Figueira da Foz","Lourinhã","Marinha Grande","Mira","Murtosa","Nazaré","Ovar","Peniche","Santa Maria da Feira","Vagos","Ílhavo","Óbidos"],"alentejo":["Grândola","Odemira","Santiago do Cacém","Sines"],"algarve":["Albufeira","Aljezur","Castro Marim","Faro","Lagoa","Lagos","Loulé","Olhão","Portimão","Silves","Tavira","Vila Real de Santo António","Vila do Bispo"],"north":["Barcelos","Caminha","Espinho","Esposende","Gondomar","Maia","Matosinhos","Porto","Póvoa de Varzim","Santa Maria da Feira","Viana do Castelo","Vila Nova de Cerveira","Vila Nova de Gaia","Vila do Conde"]},"gazsrc":"gaz.json?v=3e54d5910b","today":"2026-10-13","updated":"13 Oct 2026, 08:11"};
+const DATA={"labels":{"imovirtual":"Imovirtual","casasapo":"Casa Sapo","remax":"RE/MAX","century21":"Century 21","olx":"OLX","custojusto":"CustoJusto","idealista":"Idealista","ego":"eGO agencies","improxy":"Improxy agencies","supercasa":"SuperCasa","era":"ERA","bpi":"BPI Expresso Imobiliário","engel":"Engel & Völkers","kw":"KW Portugal","zome":"Zome","iad":"iad Portugal","coldwell":"Coldwell Banker","kyero":"Kyero","idealista_rss":"Idealista RSS","decisoes":"Decisões e Soluções","greenacres":"Green-Acres","rightmove":"Rightmove Overseas","aplaceinthesun":"A Place in the Sun","predimed":"Predimed","casaiberia":"Casaiberia","cgd":"Caixa Imobiliário (CGD)","rainhavip":"Rainha VIP","westlife":"West Life","mrhouse":"Mr House","veigas":"Veigas Imobiliária","jcouto":"J Couto Imobiliária","dulceenoivo":"Dulce e Noivo","imonazare":"IMO Nazaré","smin":"S.M.I.N. Nazaré","jzegre":"JZegre Sesimbra","lnhouse":"LN House","landa":"L&A Real Estate","redereal":"Rede Real","vistasalgarve":"Vistas do Algarve","eurovivenda":"Eurovivenda"},"portals":["imovirtual","casasapo","remax","century21","olx","custojusto","idealista","ego","improxy"],"regions":{"north":"North coast","centre":"Centre & Silver Coast","lisbon":"Lisbon & Setúbal","alentejo":"Alentejo coast","algarve":"Algarve"},"src":"data.json?v=c0e1cc0d42","sharedFavs":["a0f41248a3","529768acbd","62e8e780ed","c8c3cadb01","8c4e0f321c","1fb432f436","bbbb546b75","53519d7db1","fd88b4a5ee"],"sharedNotes":{},"api":"https://portugal-property-api.maketheboat.workers.dev","key":"pp-shared-7f3a91","munis":{"lisbon":["Almada","Amadora","Cascais","Lisboa","Mafra","Oeiras","Palmela","Seixal","Sesimbra","Setúbal","Sintra","Torres Vedras"],"centre":["Alcobaça","Aveiro","Bombarral","Caldas da Rainha","Estarreja","Figueira da Foz","Leiria","Lourinhã","Marinha Grande","Mira","Murtosa","Nazaré","Ovar","Peniche","Santa Maria da Feira","Vagos","Ílhavo","Óbidos"],"alentejo":["Alcácer do Sal","Grândola","Odemira","Santiago do Cacém","Sines"],"algarve":["Albufeira","Aljezur","Castro Marim","Faro","Lagoa","Lagos","Loulé","Olhão","Portimão","Silves","Tavira","Vila Real de Santo António","Vila do Bispo"],"north":["Barcelos","Caminha","Espinho","Esposende","Gondomar","Maia","Matosinhos","Porto","Póvoa de Varzim","Santa Maria da Feira","Viana do Castelo","Vila Nova de Cerveira","Vila Nova de Gaia","Vila do Conde"]},"gazsrc":"gaz.json?v=3e54d5910b","today":"2026-10-13","updated":"13 Oct 2026, 10:11"};
 // a hotlinked photo that fails (throttling, flaky network) gets one retry after 2 s before the placeholder shows
 function ppImgErr(el){if(!el.dataset.retry){el.dataset.retry="1";const u=el.getAttribute("src");setTimeout(()=>{el.src=u+(u.includes("?")?"&":"?")+"r=1";},2000);}else el.remove();}
 if(typeof window!=="undefined")window.ppImgErr=ppImgErr;
@@ -293,12 +298,14 @@ const PP={
    const ok=a=>Array.isArray(a)?a.filter(x=>typeof x==="string"&&/^[0-9a-f]{10}$/.test(x)):[];return {f:ok(o.f),r:ok(o.r),n:PP.cleanNotes(o.n)};},
  daysAgo(today,d){return Math.round((Date.parse(today)-Date.parse(d))/86400000);},
  norm(s){return String(s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");},
- defaults:{view:"list",layer:"",lbl:true,q:"",loc:"",lat:"",lon:"",r:"3",sec:"all",pmin:"",pmax:"",beds:"",size:"",reg:"",muni:"",src:"",sort:"newest",garden:false,new:false,fav:false,stretch:false,hideunf:true,hidework:true,nb:"",showrem:false,ptype:"",outside:false,balcony:false,terrace:false,notes:false,mz:"",mc:""},
+ defaults:{mode:"buy",dmax:"",pets:"",bills:"",inet:"",view:"list",layer:"",lbl:true,q:"",loc:"",lat:"",lon:"",r:"3",sec:"all",pmin:"",pmax:"",beds:"",size:"",reg:"",muni:"",src:"",sort:"newest",garden:false,new:false,fav:false,stretch:false,hideunf:true,hidework:true,nb:"",showrem:false,ptype:"",outside:false,balcony:false,terrace:false,notes:false,mz:"",mc:""},
+ RENT:{pmin:"600",pmax:"1100",pets:"uy",bills:"uy",inet:"uy"},
+ def(m){return m==="rent"?{...PP.defaults,mode:"rent",...PP.RENT}:PP.defaults;},
  RADII:Array.from({length:35},(_,i)=>i+1),
  clampR(v){const n=Math.round(parseFloat(v));return n>=1&&n<=35?String(n):PP.defaults.r;},
  radiusOptions(q){q=String(q||"").replace(/[^0-9]/g,"");return q?PP.RADII.filter(n=>String(n).startsWith(q)):PP.RADII.slice();},
- stateFromQuery(qs){const p=new URLSearchParams(qs),s={...PP.defaults};for(const k in s){if(!p.has(k))continue;s[k]=typeof s[k]==="boolean"?p.get(k)==="1":p.get(k);}s.r=PP.clampR(s.r);return s;},
- stateToQuery(s){const p=new URLSearchParams();for(const k in PP.defaults){const v=s[k];if(v===PP.defaults[k]||v===""||v===null)continue;p.set(k,typeof v==="boolean"?(v?"1":"0"):v);}const q=p.toString();return q?"?"+q:"";},
+ stateFromQuery(qs){const p=new URLSearchParams(qs),s={...PP.def(p.get("mode"))};for(const k in s){if(!p.has(k))continue;s[k]=typeof s[k]==="boolean"?p.get(k)==="1":p.get(k);}s.r=PP.clampR(s.r);return s;},
+ stateToQuery(s){const p=new URLSearchParams(),D=PP.def(s.mode);for(const k in D){const v=s[k];if(v===D[k]||v===null||v===undefined||(v===""&&D[k]===""))continue;p.set(k,typeof v==="boolean"?(v?"1":"0"):v);}const q=p.toString();return q?"?"+q:"";},
  REPO:"maketheboat/portugal-property",
  validUrl(u){try{const x=new URL(String(u).trim());return (x.protocol==="https:"||x.protocol==="http:")&&/\./.test(x.hostname)&&x.hostname.length>3;}catch(e){return false;}},
  issueUrl(u,note,name){u=String(u).trim();const body=`URL: ${u}\nNote: ${String(note||"").trim().replace(/\n+/g," ")}\nName: ${String(name||"").trim()}\n\n_Submitted from the West Coast Portugal property site. Do not edit the URL line._`;
@@ -325,7 +332,10 @@ const PP={
    let out=items.filter(x=>{
      if(hasLoc&&rad){if(x._dist===null||x._dist>rad)return false;}
      if(rem.has(x.id)&&!s.showrem)return false;
-     if(s.sec!=="all"&&x.section!==s.sec)return false;
+     if((s.mode==="rent")!==(x.section==="rent"))return false;
+     if(s.sec!=="all"&&s.mode!=="rent"&&x.section!==s.sec)return false;
+     if(s.mode==="rent"){for(const k of ["pets","bills","inet"]){const v=(x[k==="inet"?"internet":k]||"u")[0];if(s[k]&&s[k]!=="nuy"&&!s[k].includes(v))return false;}
+       if(s.dmax!==""&&s.dmax!=null&&x.deposit_m!=null&&x.deposit_m>Number(s.dmax))return false;}
      if(pmin!==null&&x.price<pmin)return false; if(pmax!==null&&x.price>pmax)return false;
      if(beds!==null&&!(x.bedrooms>=beds))return false;
      if(size!==null&&!(x.size_m2>=size))return false;
@@ -335,8 +345,8 @@ const PP={
      if(s.garden&&!x.garden_yes)return false;
      if(s.new&&PP.daysAgo(today,x.first_seen)>=7)return false;
      if(x.stretch&&!s.stretch)return false;
-     if(s.hideunf&&x.unfinished)return false;
-     if(s.hidework&&x.needs_work)return false;
+     if(s.mode!=="rent"&&s.hideunf&&x.unfinished)return false;
+     if(s.mode!=="rent"&&s.hidework&&x.needs_work)return false;
      if(s.ptype&&(x.property_type||"house")!==s.ptype)return false;
      if(s.outside&&!x.outside)return false;
      if(s.balcony&&!x.balcony)return false;
@@ -368,21 +378,23 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
  function fillMuni(){const sel=$("muni"),reg=state.reg;const ms=[...new Set(Object.entries(DATA.munis||{}).filter(([r])=>!reg||r===reg).flatMap(([,m])=>m))].sort((a,b)=>a.localeCompare(b));
   if(state.muni&&!ms.includes(state.muni))state.muni="";sel.length=1;ms.forEach(m=>{const o=document.createElement("option");o.value=o.textContent=o.dataset.l=m;sel.appendChild(o);});sel.value=state.muni;sel.dataset.reg=reg;}
  fillMuni();
- const fields=["pmin","pmax","ptype","beds","size","reg","muni","src","sort","nb"],checks=["outside","garden","balcony","terrace","new","fav","notes","stretch","hideunf","hidework","showrem"];
- const DRAWER=["size","nb","outside","garden","balcony","terrace","hideunf","hidework","stretch","reg","muni","src","new","fav","notes","showrem"],BASIC=["sec","pmin","pmax","ptype","beds"];
+ const fields=["pmin","pmax","ptype","beds","size","reg","muni","src","sort","nb","pets","bills","inet","dmax"],checks=["outside","garden","balcony","terrace","new","fav","notes","stretch","hideunf","hidework","showrem"];
+ const DRAWER=["pets","bills","inet","dmax","size","nb","outside","garden","balcony","terrace","hideunf","hidework","stretch","reg","muni","src","new","fav","notes","showrem"],BASIC=["sec","pmin","pmax","ptype","beds"];
  let gidx=PP.indexGaz([]);fetch(DATA.gazsrc).then(r=>r.json()).then(g=>{gidx=PP.indexGaz(g);}).catch(()=>{});   // autosuggest data loads after first paint
  const mobile=()=>!!(window.matchMedia&&window.matchMedia("(max-width:860px)").matches);
  const L=$("loc"),UL=$("sugg");
- const fmt=n=>"€"+Number(n).toLocaleString("en-GB",{maximumFractionDigits:0});
+ const fmt=n=>"€"+Number(n).toLocaleString("en-GB",{maximumFractionDigits:0}),RENT=()=>state.mode==="rent",DF=()=>PP.def(state.mode);
  const fk=n=>{n=Number(n);return n>=1e6?"€"+(n/1e6).toFixed(n%1e6?2:0).replace(/\.?0+$/,"")+"m":"€"+Math.round(n/1000)+"k";};
- function priceLabel(){const a=state.pmin,b=state.pmax;return a&&b?`${fk(a)}–${fk(b)}`:a?`From ${fk(a)}`:b?`Up to ${fk(b)}`:"";}
+ function priceLabel(){const a=state.pmin,b=state.pmax;if(RENT()){const e=n=>"€"+Number(n).toLocaleString("en-GB");return a&&b?`${e(a)}–${e(b)}/mo`:a?`From ${e(a)}/mo`:b?`Up to ${e(b)}/mo`:"";}return a&&b?`${fk(a)}–${fk(b)}`:a?`From ${fk(a)}`:b?`Up to ${fk(b)}`:"";}
  function locDisplay(){return state.lat?(state.loc||"Chosen point"):(state.q||"");}
  function syncLoc(){L.value=locDisplay();$("sicon").textContent=state.lat?"📍":"🔍";$("locclear").hidden=!(state.lat||state.q);
   $("rwrap").hidden=!state.lat;$("rq").value=state.r+" km";$("r").value=state.r;}
  function toUI(){if($("muni").dataset.reg!==state.reg)fillMuni();syncLoc();fields.forEach(f=>$(f).value=state[f]);checks.forEach(c=>$(c).checked=state[c]);
-  document.querySelectorAll("#sec button").forEach(b=>b.classList.toggle("on",b.dataset.v===state.sec));syncBar();}
+  document.querySelectorAll("#sec button").forEach(b=>b.classList.toggle("on",b.dataset.v===state.sec));syncMode();syncBar();}
+ function syncMode(){const r=RENT();document.body.classList.toggle("rent",r);document.querySelectorAll("#mode button").forEach(b=>b.classList.toggle("on",b.dataset.v===state.mode));
+  $("pmin").step=$("pmax").step=r?"50":"5000";$("pmin").placeholder=r?"Min €/month":"Min €";$("pmax").placeholder=r?"Max €/month":"Max €";}
  function fromUI(){fields.forEach(f=>state[f]=$(f).value);checks.forEach(c=>state[c]=$(c).checked);}
- const differs=k=>state[k]!==PP.defaults[k]&&!(state[k]===""&&PP.defaults[k]==="");
+ const differs=k=>state[k]!==DF()[k]&&!(state[k]===""&&DF()[k]==="");
  function activeCount(){return DRAWER.filter(differs).length+(mobile()?BASIC.filter(differs).length:0);}
  function syncBar(){const pl=priceLabel(),pb=$("pricebtn");pb.textContent=pl||"Price";pb.classList.toggle("on",!!pl);
   $("beds").classList.toggle("on",!!state.beds);$("ptype").classList.toggle("on",!!state.ptype);const n=activeCount();$("fcount").textContent=n?` (${n})`:"";}
@@ -390,7 +402,10 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
  function chipList(){const c=[],D=PP.defaults;
   if(state.q)c.push([`“${state.q}”`,["q"]]);
   if(state.lat)c.push([`📍 ${state.loc||"Chosen point"} · ${state.r} km`,["loc","lat","lon","r"]]);
-  if(state.sec!=="all")c.push([state.sec==="ready"?"Move-in ready":"Renovation",["sec"]]);
+  if(RENT()){const L3={pets:"Pets",bills:"Bills incl.",inet:"Internet incl."},V={uy:"",y:"yes",n:"no",u:"not stated",nuy:"any"};
+   ["pets","bills","inet"].forEach(k=>{if(state[k]!==DF()[k])c.push([`${L3[k]}: ${V[state[k]]||state[k]}`,[k]]);});
+   if(state.dmax)c.push([`Deposit ≤ ${state.dmax} mo`,["dmax"]]);}
+  if(!RENT()&&state.sec!=="all")c.push([state.sec==="ready"?"Move-in ready":"Renovation",["sec"]]);
   if(priceLabel())c.push([priceLabel(),["pmin","pmax"]]);
   if(state.ptype)c.push([state.ptype==="apartment"?"Apartments":"Houses",["ptype"]]);
   if(state.beds)c.push([`${state.beds}+ beds`,["beds"]]);
@@ -399,9 +414,9 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
   if(state.outside)c.push(["Outside space",["outside"]]);
   if(state.balcony)c.push(["Balcony",["balcony"]]);
   if(state.terrace)c.push(["Terrace",["terrace"]]);
-  if(state.nb)c.push([state.nb==="only"?"New builds only":"No new builds",["nb"]]);
-  if(!state.hideunf)c.push(["Incl. unfinished",["hideunf"]]);
-  if(!state.hidework)c.push(["Incl. needs work",["hidework"]]);
+  if(!RENT()&&state.nb)c.push([state.nb==="only"?"New builds only":"No new builds",["nb"]]);
+  if(!RENT()&&!state.hideunf)c.push(["Incl. unfinished",["hideunf"]]);
+  if(!RENT()&&!state.hidework)c.push(["Incl. needs work",["hidework"]]);
   if(state.stretch)c.push(["Incl. stretch",["stretch"]]);
   if(state.reg)c.push([(DATA.regions||{})[state.reg]||state.reg,["reg","muni"]]);
   if(state.muni)c.push([state.muni,["muni"]]);
@@ -411,14 +426,14 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
   if(state.notes)c.push(["📝 Has notes",["notes"]]);
   if(state.showrem)c.push(["Showing removed",["showrem"]]);
   return c;}
- function clearKeys(keys){keys.forEach(k=>state[k]=PP.defaults[k]);if(keys.includes("lat")&&state.sort==="distance")state.sort="newest";toUI();render();}
+ function clearKeys(keys){keys.forEach(k=>state[k]=DF()[k]);if(keys.includes("lat")&&state.sort==="distance")state.sort="newest";toUI();render();}
  $("chips").addEventListener("click",e=>{const b=e.target.closest("button[data-ci]");if(!b)return;clearKeys(chipList()[+b.dataset.ci][1]);});
- $("clearall").onclick=()=>{const v=state.view;state={...PP.defaults,view:v};toUI();render();};
+ $("clearall").onclick=()=>{const v=state.view;state={...DF(),view:v};toUI();render();};
  function card(x){const isNew=PP.daysAgo(today,x.first_seen)<7,lf=store.f.includes(x.id),rm=store.r.includes(x.id);
   const img=x.image?`<img src="${esc(x.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="ppImgErr(this)">`:"";
   const d=new Date(x.first_seen+"T12:00:00Z").toLocaleDateString("en-GB",{day:"2-digit",month:"short",year:"numeric"});
   const status=x.unfinished?'<span class="chip unf">⚠ Unfinished</span>':x.needs_work?'<span class="chip nw">🔧 Needs work</span>':x.new_build?'<span class="chip newb">New build</span>':"";
-  const tags=[`<span class="tag ${x.section}">${x.property_type==="apartment"?"Apartment":"House"} · ${x.section==="ready"?"move-in ready":"renovation"}</span>`];
+  const tags=[`<span class="tag ${x.section}">${x.property_type==="apartment"?"Apartment":"House"} · ${x.section==="ready"?"move-in ready":x.section==="rent"?"long-term rent":"renovation"}</span>`];
   if(x.balcony)tags.push('<span class="tag amen">Balcony</span>');if(x.terrace)tags.push('<span class="tag amen">Terrace</span>');
   if(x.new_build&&(x.unfinished||x.needs_work))tags.push('<span class="tag newb">New build</span>');
   if(shared.has(x.id))tags.push('<span class="tag shared">★ Shared pick</span>');
@@ -429,17 +444,20 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
   return `<article class="card${rm?" removed":""}" data-id="${x.id}">
   <a class="thumb" href="${esc(x.url)}" target="_blank" rel="noopener"><span class="ph">🏡</span>${img}<span class="chips">${status}${isNew?'<span class="chip new">New</span>':""}</span></a>
   <span class="acts"><button class="fav${lf?" on":""}" data-act="fav" title="Favourite" aria-label="Favourite">${lf?"♥":"♡"}</button>${noteBtn(x.id,"act")}${rm?"":'<button data-act="rem" title="Remove (hide)" aria-label="Remove">×</button>'}</span>
-  <div class="body"><div class="price">${x.price?fmt(x.price):"Price n/a"}</div><h3>${esc(x.town)}</h3>
+  <div class="body"><div class="price">${x.price?fmt(x.price):"Price n/a"}${x.section==="rent"&&x.price?" <small>/month</small>":""}</div><h3>${esc(x.town)}</h3>
    <div class="meta"><span>${esc(x.typology)}</span><span>${esc(x.size)}</span>${x.municipality?`<span>${esc(x.municipality)}</span>`:""}</div>
    <div class="tags">${tags.join("")}</div>
    ${x._dist!=null?`<div class="dist">${x.coord_approx?"≈ ":""}${x._dist.toFixed(1)} km from ${esc(state.loc||"chosen point")}${x.coord_approx?" (approx. location)":""}</div>`:""}
-   <div class="garden">🌿 Garden/land: ${esc(x.garden)}</div><p>${esc(x.note)}</p>${notePreview(x.id)}
+   ${x.section==="rent"?rentRow(x):""}<div class="garden">🌿 Garden/land: ${esc(x.garden)}</div><p>${esc(x.note)}</p>${notePreview(x.id)}
    ${x.unfinished?`<div class="unfnote">⚠ Not built/finished yet – ${why((x.build_why||[])[0]).slice(0,90)}</div>`:x.needs_work?`<div class="unfnote">🔧 Needs work – ${why((x.build_why||[]).slice(-1)[0]).slice(0,110)}</div>`:""}
    ${x.lat!=null?`<div class="loc${x.coord_approx?" approx":""}" title="${esc(x.coord_note)}">${x.coord_approx?"≈ Approximate location – "+esc(String(x.coord_note||"").replace(/^approx\. – /,"").replace(/^listing map pin \(approximate area\)$/,"advert shows area only")):"📍 Exact map pin from advert"} · <a href="https://www.openstreetmap.org/?mlat=${x.lat}&mlon=${x.lon}#map=14/${x.lat}/${x.lon}" target="_blank" rel="noopener">map</a></div>`:'<div class="loc approx">No coordinates</div>'}
    <div class="foot"><a href="${esc(x.url)}" target="_blank" rel="noopener">View on ${esc(LBL(x.source))} →</a><span class="seen">First seen ${d}</span></div>
    ${gmap(x)?`<div class="gmrow">${gmap(x)}</div>`:""}
    ${(x.also_on||[]).length?`<div class="also">Also on: ${x.also_on.map(a=>`<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(LBL(a.source))}</a>`).join(", ")}</div>`:""}
    ${rm?'<button class="restore" data-act="restore">↩ Restore</button>':""}</div></article>`;}
+ function rentRow(x){const w=v=>v==="yes"?'<b class="yes">yes</b>':v==="no"?'<b class="no">no</b>':'<span class="unk">not stated</span>';
+  const dep=x.deposit_m!=null?(x.deposit_m===0?"none":`${x.deposit_m} month${x.deposit_m==1?"":"s"}${x.deposit_eur?` (${fmt(x.deposit_eur)})`:""}`):'<span class="unk">not stated</span>';
+  return `<div class="rentrow"><span>🐾 Pets: ${w(x.pets)}</span><span>💡 Bills incl.: ${w(x.bills)}</span><span>🌐 Internet incl.: ${w(x.internet)}</span><span>🔑 Deposit: ${dep}</span></div>`;}
  const PAGE=48;let shown=PAGE,gridKey=null;
  function allNotes(id){return PP.notesOf(id,store).map(n=>({...n,own:!String(n.id).startsWith("tmp")})).sort((a,b)=>(b.c||"").localeCompare(a.c||""));}
  function noteBtn(id,attr){const n=allNotes(id).length;return `<button class="notebtn${n?" has":""}" data-${attr}="note" type="button" title="${n?n+" note"+(n>1?"s":""):"Add a note"}" aria-label="Notes${n?" ("+n+")":""}">📝${n?`<span class="ncount">${n}</span>`:""}</button>`;}
@@ -457,13 +475,13 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
  function zeroHint(F){const el=$("zerohint");zfix=[];if(!F||F.total){el.hidden=true;el.innerHTML="";return;}
   const C=F.clear||{},out=[];
   chipList().forEach(([t,keys])=>{const k=keys.includes("loc")?C.loc:keys.includes("pmin")?Math.max(C.pmin||0,C.pmax||0):Math.max(...keys.map(k=>C[k]||0));
-   if(k){const s2={...state};keys.forEach(k=>s2[k]=PP.defaults[k]);out.push([k,t,s2]);}});
-  [["hideunf",false,"Unfinished/off-plan hidden"],["hidework",false,"Needs-work hidden"],["stretch",true,"Stretch not included"]].forEach(([k,v,t])=>{if(state[k]!==v&&state[k]===PP.defaults[k]&&F.counts[k])out.push([F.counts[k],t,{...state,[k]:v}]);});
+   if(k){const s2={...state};keys.forEach(k=>s2[k]=DF()[k]);out.push([k,t,s2]);}});
+  [["hideunf",false,"Unfinished/off-plan hidden"],["hidework",false,"Needs-work hidden"],["stretch",true,"Stretch not included"]].forEach(([k,v,t])=>{if((!RENT()||k==="stretch")&&state[k]!==v&&state[k]===DF()[k]&&F.counts[k])out.push([F.counts[k],t,{...state,[k]:v}]);});
   if(F.wider&&F.wider.n)out.push([F.wider.n,`Radius ${state.r} km – widen to ${F.wider.r} km`,{...state,r:String(F.wider.r)}]);
   out.sort((a,b)=>b[0]-a[0]);zfix=out.slice(0,5).map(x=>x[2]);
   el.innerHTML=out.length?"<b>No homes match.</b> "+out.slice(0,5).map(([k,t],i)=>`<span>${k} home${k===1?"":"s"} hidden by: <b>${esc(t)}</b><button class="link" type="button" data-zf="${i}">${/^Radius/.test(t)?"widen":"clear"}</button></span>`).join(" · ")
    :`<b>No homes match.</b> Several filters together hide everything.<button class="link" type="button" data-zf="0">clear all filters</button>`;
-  if(!out.length)zfix=[{...PP.defaults}];el.hidden=false;}
+  if(!out.length)zfix=[{...DF()}];el.hidden=false;}
  $("zerohint").addEventListener("click",e=>{const b=e.target.closest("button[data-zf]");if(!b)return;const s2=zfix[+b.dataset.zf];if(!s2)return;const v=state.view;state={...s2,view:v};toUI();render();});
  // ---- API glue ----
  function apiQS(extra){const s={...state};["view","mz","mc","loc","layer","lbl"].forEach(k=>delete s[k]);if(!s.lat){delete s.lat;delete s.lon;}
@@ -477,7 +495,8 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
   $("remnote").textContent=store.r.length?`(${store.r.length} hidden)`:"";
   const lab=(sel,counts)=>[...$(sel).options].forEach(o=>{if(!o.value)return;const n=counts[o.value]||0;o.textContent=`${o.dataset.l||o.textContent.replace(/ \(\d+\)$/,"")} (${n})`;if(!o.dataset.l)o.dataset.l=o.textContent.replace(/ \(\d+\)$/,"");});
   lab("reg",F.region||{});lab("muni",F.municipality||{});lab("src",F.src||{});lab("ptype",F.ptype||{});lab("beds",F.beds||{});
-  {const nb=$("nb");[...nb.options].forEach(o=>{if(!o.dataset.l)o.dataset.l=o.textContent;const n=o.value?F.nb[o.value]:F.nb.any;o.textContent=`${o.dataset.l} (${n})`;});}}
+  {const nb=$("nb");[...nb.options].forEach(o=>{if(!o.dataset.l)o.dataset.l=o.textContent;const n=o.value?F.nb[o.value]:F.nb.any;o.textContent=`${o.dataset.l} (${n})`;});}
+  if(RENT())["pets","bills","inet"].forEach(k=>{const f=F[k]||{};[...$(k).options].forEach(o=>{if(!o.dataset.l)o.dataset.l=o.textContent;o.textContent=`${o.dataset.l} (${[...o.value].reduce((a,c)=>a+(f[c]||0),0)})`;});});}
  function apiFail(e){const el=$("apierr");el.hidden=false;el.innerHTML=`The live listings service is not responding (${esc(e.message||e)}). <a href="static.html${esc(location.search)}">Open the static snapshot</a> or try again shortly.`;
   $("grid").classList.remove("loading");if(!lastRes.length){$("grid").innerHTML='<div class="empty">Listings could not load. <a href="static.html">Static snapshot</a></div>';$("count").textContent="";}}
  function render(push){if($("muni").dataset.reg!==state.reg)fillMuni();
@@ -492,7 +511,7 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
   const lp=PPAPI.get("/listings?"+apiQS({limit:Math.max(PAGE,shown)})).then(L=>{if(my!==rseq)return;
    $("apierr").hidden=true;lastRes=prep(L);lastTotal=L.total;shown=lastRes.length;$("grid").classList.remove("loading");
    $("grid").innerHTML=lastTotal?lastRes.map(card).join("")+moreBtn(lastTotal-lastRes.length):'<div class="empty">No homes match these filters. <button class="link" type="button" onclick="document.getElementById(\'clearall\').click()">Clear all filters</button></div>';
-   const homes=n=>`${Number(n).toLocaleString("en-GB")} home${n===1?"":"s"}`;$("count").textContent=homes(lastTotal);$("dapply").textContent="Show "+homes(lastTotal);
+   const homes=n=>`${Number(n).toLocaleString("en-GB")} ${RENT()?"rental":"home"}${n===1?"":"s"}`;$("count").textContent=homes(lastTotal);$("dapply").textContent="Show "+homes(lastTotal);
    watchMore();});
   const pr=Promise.all([lp,fp]).then(([,F])=>{if(my!==rseq)return;lastFacets=F;facetLabels(F);zeroHint(F);window.PPRENDERS++;}).catch(e=>{if(my===rseq)apiFail(e);});
   window.PPLAST=pr;if(state.view==="map")drawMap();return pr;}
@@ -518,6 +537,9 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
   el.addEventListener("input",()=>{clearTimeout(tmr);tmr=setTimeout(()=>{fromUI();render();},150);});
   el.addEventListener("change",()=>{clearTimeout(tmr);fromUI();render();});});
  document.querySelectorAll("#sec button").forEach(b=>b.onclick=()=>{state.sec=b.dataset.v;toUI();render();});
+ // Buy / Rent: each mode starts from its own defaults; location, search, view and sort are kept
+ document.querySelectorAll("#mode button").forEach(b=>b.onclick=()=>{if(b.dataset.v===state.mode)return;const keep={};["q","loc","lat","lon","r","view","layer","lbl","mz","mc","sort","fav","notes","showrem"].forEach(k=>keep[k]=state[k]);
+  state={...PP.def(b.dataset.v),...keep};if(window.PPMAPRESET)window.PPMAPRESET();toUI();render();});
  // price popover
  const PB=$("pricebtn"),PPOP=$("pricepop");
  const closePrice=()=>{PPOP.classList.remove("open");PB.setAttribute("aria-expanded","false");};
@@ -531,7 +553,7 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
  function closeDrawer(){DR.classList.remove("open");document.body.style.overflow="";}
  $("filtersbtn").onclick=openDrawer;
  DR.addEventListener("click",e=>{if(e.target.closest("[data-close]"))closeDrawer();});
- $("dclear").onclick=()=>{(mobile()?[...DRAWER,...BASIC]:DRAWER).forEach(k=>state[k]=PP.defaults[k]);toUI();render();};
+ $("dclear").onclick=()=>{(mobile()?[...DRAWER,...BASIC]:DRAWER).forEach(k=>state[k]=DF()[k]);toUI();render();};
  function place(){const m=mobile();
   (m?$("ms_type"):$("slot_type")).appendChild($("sec"));
   (m?$("ms_price"):PPOP).insertBefore($("pricefields"),(m?$("ms_price"):PPOP).firstChild);
@@ -597,9 +619,9 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
  function gmap(x,cls){if(x.lat==null||x.lon==null)return "";const ap=!!x.coord_approx,q=(+x.lat).toFixed(6)+","+(+x.lon).toFixed(6);
   return `<a class="gmap${ap?" approx":""}${cls?" "+cls:""}" href="https://www.google.com/maps/search/?api=1&amp;query=${q}" target="_blank" rel="noopener" title="${ap?"Approximate location – opens Google Maps":"Open this location in Google Maps"}"><span aria-hidden="true">📍</span> Google Maps${ap?" (approx.)":""}</a>`;}
  function popupHtml(x){const lf=store.f.includes(x.id);return `<div class="pop" data-id="${x.id}">${x.image?`<img src="${esc(x.image)}" alt="" referrerpolicy="no-referrer" onerror="ppImgErr(this)">`:""}
-  <b>${x.price?fmt(x.price):"Price n/a"}</b> · ${esc(x.typology)} ${x.property_type==="apartment"?"apartment":"house"}${x.unfinished?' <span class="chip unf">⚠ Unfinished</span>':""}${x.new_build?' <span class="chip newb">New build</span>':""}${x.needs_work?' <span class="chip nw">🔧 Needs work</span>':""}<br>${esc(x.town)}${x._dist!=null?`<br><span style="color:#0f6e8c">${x.coord_approx?"≈ ":""}${x._dist.toFixed(1)} km from ${esc(state.loc)}</span>`:""}
+  <b>${x.price?fmt(x.price):"Price n/a"}${x.section==="rent"&&x.price?"/mo":""}</b> · ${esc(x.typology)} ${x.property_type==="apartment"?"apartment":"house"}${x.unfinished?' <span class="chip unf">⚠ Unfinished</span>':""}${x.new_build?' <span class="chip newb">New build</span>':""}${x.needs_work?' <span class="chip nw">🔧 Needs work</span>':""}<br>${esc(x.town)}${x._dist!=null?`<br><span style="color:#0f6e8c">${x.coord_approx?"≈ ":""}${x._dist.toFixed(1)} km from ${esc(state.loc)}</span>`:""}
   ${x.coord_approx?'<br><small style="color:#9a6a00">≈ approximate location</small>':""}
-  <div class="pa"><button data-pact="fav" class="${lf?"on":""}" type="button">${lf?"♥":"♡"} Favourite</button>${noteBtn(x.id,"pact").replace("📝","📝 Note")}<button data-pact="rem" type="button">× Remove</button></div>${notePreview(x.id).replace('data-act="note"','data-pact="note"')}
+  ${x.section==="rent"?rentRow(x):""}<div class="pa"><button data-pact="fav" class="${lf?"on":""}" type="button">${lf?"♥":"♡"} Favourite</button>${noteBtn(x.id,"pact").replace("📝","📝 Note")}<button data-pact="rem" type="button">× Remove</button></div>${notePreview(x.id).replace('data-act="note"','data-pact="note"')}
   <div style="margin-top:6px"><a href="${esc(x.url)}" target="_blank" rel="noopener">View on ${esc(LBL(x.source))} →</a>${gmap(x)?"<br>"+gmap(x):""}${(x.also_on||[]).length?`<br><small>Also on: ${x.also_on.map(a=>`<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(LBL(a.source))}</a>`).join(", ")}</small>`:""}</div></div>`;}
  // markers are kept by id and updated in place: ♥/×/restore/undo never rebuild the map or refit it.
  // fitBounds only when filters/search change, and not if the user panned/zoomed since (unless location/radius changed).
