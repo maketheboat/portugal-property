@@ -29,6 +29,12 @@
    "created_at": "2026-10-11"
   }
  ],
- "removed": [],
+ "removed": [
+  {
+   "listing_id": "7a1da42294",
+   "created_at": "2026-10-15T14:44:52.163Z",
+   "reason": "site"
+  }
+ ],
  "notes": []
 }
