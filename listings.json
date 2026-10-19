@@ -10907,40 +10907,6 @@
  },
  {
   "section": "ready",
-  "town": "Cova da Piedade, Almada, Cova da Piedade, Pragal e Cacilhas",
-  "typology": "T3",
-  "price": 415000,
-  "size": "91 m²",
-  "garden": "Yes – mentions 'logradouro' (check listing)",
-  "note": "T3 Totalmente Remodelado com Logradouro Privado – Cova da Piedade Excelente T3 no 1.º andar de moradia , totalmente remodelado, situado na Cova da Piedade , …",
-  "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1iQcw",
-  "also": false,
-  "first_seen": "2026-10-09",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 7.6,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImsxenVuYjltNDZrai1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.-pc4hDkwZv_2gcf6Ek_7xFpz2QToymtbyQNVP4mbNcc/image;s=655x491;q=80",
-  "lat": 38.66681,
-  "lon": -9.15918,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 3,
-  "size_m2": 91,
-  "also_on": [],
-  "id": "cd8703fa9c",
-  "municipality": "Almada",
-  "garden_yes": true,
-  "title": "Moradia T3 para venda",
-  "new_build": false,
-  "unfinished": false,
-  "build_why": [],
-  "needs_work": false,
-  "property_type": "house",
-  "balcony": false,
-  "terrace": false
- },
- {
-  "section": "ready",
   "town": "Vale de Choupos - Choilo - Galeotas, Azeitão (São Lourenço e São Simão)",
   "typology": "T3",
   "price": 455000,
@@ -13375,10 +13341,10 @@
   "size": "130 m²",
   "garden": "Yes – mentions 'jardim' (check listing)",
   "note": "MORADIA T4 | QUINTA DO CONDE | LOTE 351 M² Esta moradia T4, situada na Quinta do Conde, encontra-se implantada num lote de 351 m² e dispõe de 130 m² de Área …",
-  "url": "https://www.imovirtual.com/pt/anuncio/moradia-t4-para-venda-ID1iTs6",
+  "url": "https://casa.sapo.pt/comprar-andar-de-moradia-t4-sesimbra-quinta-do-conde-6b135840-2469-11f1-9e13-060000000058.html",
   "also": false,
   "first_seen": "2026-10-09",
-  "source": "imovirtual",
+  "source": "casasapo",
   "auto": true,
   "coast_km": 9.7,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Ino3MXM0emZsNjNlZTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.JpdA0Vh70YgftK-EELl6ccR8_MsrY_DpbtNbCqPfOH0/image;s=655x491;q=80",
@@ -13390,10 +13356,6 @@
   "size_m2": 130,
   "stretch": "9.7 km from the coast (limit 8 km)",
   "also_on": [
-   {
-    "source": "casasapo",
-    "url": "https://casa.sapo.pt/comprar-andar-de-moradia-t4-sesimbra-quinta-do-conde-6b135840-2469-11f1-9e13-060000000058.html"
-   },
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/moradia-geminada-3-quartos-venda-ID1hX8u"
@@ -13413,7 +13375,15 @@
   "needs_work": false,
   "property_type": "house",
   "balcony": false,
-  "terrace": false
+  "terrace": false,
+  "pin_id": "ae16e6f0cd",
+  "liveness_log": [
+   {
+    "date": "2026-10-19",
+    "dropped": "https://www.imovirtual.com/pt/anuncio/moradia-t4-para-venda-ID1iTs6",
+    "why": "HTTP 410"
+   }
+  ]
  },
  {
   "section": "reno",
@@ -22339,40 +22309,6 @@
  },
  {
   "section": "ready",
-  "town": "Amora, Seixal",
-  "typology": "T5",
-  "price": 498000,
-  "size": "235 m² on 320 m² plot",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Moradia T5 | Cruz de Pau, Amora Há casas que se visitam.",
-  "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t5-seixal-amora/123211364-55",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "remax",
-  "auto": true,
-  "coast_km": 8.8,
-  "image": "https://i.maxwork.pt/l-view/listings/12321/7241554/809ccfde-99ba-48fd-8285-11a30aaed430.jpg",
-  "lat": 38.63035,
-  "lon": -9.11643,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 5,
-  "size_m2": 235,
-  "stretch": "8.8 km from the coast (limit 8 km)",
-  "also_on": [],
-  "id": "6dbbbed61e",
-  "municipality": "Seixal",
-  "garden_yes": true,
-  "new_build": false,
-  "unfinished": false,
-  "build_why": [],
-  "needs_work": false,
-  "property_type": "house",
-  "balcony": true,
-  "terrace": true
- },
- {
-  "section": "ready",
   "town": "Fernão Ferro",
   "typology": "T4",
   "price": 480000,
@@ -22719,6 +22655,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-trrea-bem-localizada-IDJbrpe.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t4-c-garagem-em-ferno-ferro-IDJDRnT.html"
    }
   ],
   "new_build": false,
@@ -23411,6 +23351,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t3-1-com-3-sutes-em-pinhal-general-ferno-ferro-IDJuUzZ.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t4-nos-redondos-IDJDRek.html"
    }
   ],
   "new_build": false,
@@ -25211,7 +25155,7 @@
   "size": "131 m²",
   "garden": "No garden mentioned – apartment with terraço (check listing)",
   "note": "Apartamento T3 com piscina privada e vistas sobre a natureza | Pestana Tróia Eco-Resort No coração da Península de Tróia, entre o pinhal, a natureza protegid…",
-  "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t3-com-piscina-troia-grndola-ID1iZ7F",
+  "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t3-com-piscina-troia-grndola-ID1j26r",
   "also": false,
   "first_seen": "2026-10-10",
   "source": "imovirtual",
@@ -25237,22 +25181,6 @@
   "also_on": [
    {
     "source": "imovirtual",
-    "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t3-com-piscina-troia-grndola-ID1iZ7C"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/apartamento-t3-com-piscina-tria-grndola-IDJCSFK.html"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/apartamento-t3-com-piscina-tria-grndola-IDJCSFP.html"
-   },
-   {
-    "source": "imovirtual",
-    "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t3-com-piscina-troia-grndola-ID1j26r"
-   },
-   {
-    "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t3-com-piscina-troia-grndola-ID1j26s"
    },
    {
@@ -25262,6 +25190,14 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t3-com-piscina-tria-grndola-IDJEpMj.html"
+   }
+  ],
+  "pin_id": "ffde81565f",
+  "liveness_log": [
+   {
+    "date": "2026-10-19",
+    "dropped": "https://www.imovirtual.com/pt/anuncio/apartamento-t3-com-piscina-troia-grndola-ID1iZ7F",
+    "why": "HTTP 410"
    }
   ]
  },
@@ -28166,6 +28102,12 @@
   "terrace": false,
   "build_why": [
    "portal field build year 2026"
+  ],
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t3-novo-em-condomnio-privado-com-piscina-e-box-ericeira-IDJAHMa.html"
+   }
   ]
  },
  {
@@ -38729,6 +38671,10 @@
    {
     "source": "century21",
     "url": "https://www.century21.pt/ref/C0537-00280"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t1-1-no-estoril-a-poucos-minutos-da-praia-IDJpx2b.html"
    }
   ]
  },
@@ -40670,67 +40616,6 @@
   "typology": "T2",
   "property_type": "apartment",
   "price": 380000,
-  "size": "83 m²",
-  "garden": "No garden mentioned – apartment with varanda (check listing)",
-  "note": "Apartamento T2 Novo, a 2 Minutos do Baleal, Ferrel Conforto, Modernidade e o Estilo de Vida que Sempre Sonhou Este magnífico apartamento (Fração K), situado …",
-  "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t2-em-ferrel-de-83-00-m2-ID1hn3U",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 1.6,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImdhZ2FyNGluejR5ZjEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.PjeLZCHKFjsyN35AGAjTxPFxPNlCrUEsGHcIgLA-IHw/image;s=655x491;q=80",
-  "lat": 39.36367,
-  "lon": -9.31941,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 2,
-  "size_m2": 83,
-  "also_on": [
-   {
-    "source": "remax",
-    "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t2-peniche-ferrel/123981071-37"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-para-venda-IDJAKhe.html"
-   },
-   {
-    "source": "custojusto",
-    "url": "https://www.custojusto.pt/leiria/imobiliario/apartamentos/apartamento-t2-em-ferrel-de-83-44392223"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-em-ferrel-de-83-00-m2-IDJ58iG.html"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-em-ferrel-de-82-00-m2-IDJ58hP.html"
-   },
-   {
-    "source": "casasapo",
-    "url": "https://casa.sapo.pt/comprar-apartamento-t2-peniche-ferrel-12f431f4-bf5d-11f0-8359-060000000051.html"
-   }
-  ],
-  "id": "d3fe441c59",
-  "municipality": "Peniche",
-  "garden_yes": false,
-  "title": "Apartamento T2 em Ferrel de 83,00 m2",
-  "new_build": true,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": true,
-  "terrace": false,
-  "build_why": [
-   "portal field build year 2025"
-  ]
- },
- {
-  "section": "ready",
-  "town": "Ferrel, Peniche",
-  "typology": "T2",
-  "property_type": "apartment",
-  "price": 380000,
   "size": "82 m²",
   "garden": "No garden mentioned – apartment with varanda (check listing)",
   "note": "Apartamento T2 Novo, a 2 Minutos do Baleal, Ferrel Conforto, Modernidade e o Estilo de Vida que Sempre Sonhou Este magnífico apartamento (Fração H), situado …",
@@ -40767,6 +40652,22 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-novo-com-garagem-privativa-e-varanda-ampla-em-ferre-IDJr0sa.html"
+   },
+   {
+    "source": "remax",
+    "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t2-peniche-ferrel/123981071-37"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-para-venda-IDJAKhe.html"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/leiria/imobiliario/apartamentos/apartamento-t2-em-ferrel-de-83-44392223"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t2-peniche-ferrel-12f431f4-bf5d-11f0-8359-060000000051.html"
    }
   ]
  },
@@ -51992,6 +51893,10 @@
    {
     "source": "kwalfa",
     "url": "https://www.kwportugal.pt/pt/Imovel/Venda/Apartamento/Lisboa/Cascais/Sao-Domingos-de-Rana/83316"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-com-suite-terrao-e-garagem-box-s-domingos-de-rana-IDJxzM3.html"
    }
   ]
  },
@@ -53071,10 +52976,6 @@
     "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t3-almada-charneca-de-caparica-e-sobreda/122081150-357"
    },
    {
-    "source": "century21",
-    "url": "https://www.century21.pt/ref/0739-04600"
-   },
-   {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t3-em-almada-cova-da-piedade-pragal-e-cacilhas-de-95-88-IDJBCdP.html"
    },
@@ -53192,12 +53093,7 @@
   "coord_note": "listing map pin",
   "bedrooms": 2,
   "size_m2": 93,
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-alcabideche-cascais-IDJC7HG.html"
-   }
-  ],
+  "also_on": [],
   "id": "2e0c392892",
   "municipality": "Cascais",
   "garden_yes": false,
@@ -54362,10 +54258,6 @@
    {
     "source": "remax",
     "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t2-torres-vedras-ponte-do-rol/121701472-32"
-   },
-   {
-    "source": "remax",
-    "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t2-torres-vedras-ponte-do-rol/121701472-28"
    },
    {
     "source": "olx",
@@ -61108,6 +61000,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/lisboa/imobiliario/apartamentos/apartamento-t3-2-duplex-cent-45363509"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t3-2-duplex-centro-de-mafra-IDJAFMa.html"
    }
   ]
  },
@@ -62715,6 +62611,30 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-venda-IDJEk58.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-com-parqueamento-em-algueiro-mem-martins-IDJqtms.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-com-parqueamento-IDJqnXV.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/excelente-apartamento-t2-com-parqueamento-em-algueiro-IDJqJr2.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t2-com-100m2-parqueamento-na-cavaleira-em-sintra-IDJql92.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-c-parqueamento-algueiro-IDJqrkv.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-c-parqueamento-na-cavaleira-algueiro-IDJwdU0.html"
    }
   ]
  },
@@ -63103,6 +63023,10 @@
    {
     "source": "remax",
     "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t3-sintra-sintra-santa-maria-e-sao-miguel-sao-martinho-e-sao-pedro-de-penaferrim/120611448-132"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t3-para-venda-IDJAFEP.html"
    }
   ],
   "id": "50df8e3e17",
@@ -64934,6 +64858,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-em-so-marcos-IDJuWm9.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t2-casal-de-cambra-IDJEssV.html"
    }
   ]
  },
@@ -65430,41 +65358,6 @@
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-num-condomnio-com-piscina-em-so-martinho-do-porto-IDJvZtO.html"
    }
   ]
- },
- {
-  "section": "ready",
-  "town": "Nossa Senhora do Pópulo, Coto e São Gregório, Caldas da Rainha",
-  "typology": "T4",
-  "property_type": "apartment",
-  "price": 480000,
-  "size": "150 m²",
-  "garden": "No garden mentioned – apartment with terrace (check listing)",
-  "note": "Nem todos os T4 no Caldas Terrace são iguais.",
-  "url": "https://www.imovirtual.com/pt/anuncio/t4-em-condominio-com-piscina-excelente-estado-caldas-terrace-ID1iiHQ",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 8.5,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InZkZ2Rnb2Nlc2g5aC1BUFQiLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.HV1nYN5Bg4SbKUP4O8M2VTL1ZMRjJJqIutygvZID-RA/image;s=655x491;q=80",
-  "lat": 39.39746,
-  "lon": -9.135,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 4,
-  "size_m2": 150,
-  "stretch": "8.5 km from the coast (limit 8 km)",
-  "id": "f406d29049",
-  "municipality": "Caldas da Rainha",
-  "garden_yes": false,
-  "title": "T4 em condomínio com piscina – Excelente estado – Caldas Terrace",
-  "new_build": false,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": true,
-  "terrace": true,
-  "build_why": [],
-  "also_on": []
  },
  {
   "section": "ready",
@@ -66470,6 +66363,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-almada-cova-da-piedade-pragal-e-cacilhas-dfc8c7f7-6238-11f0-8add-060000000054.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t3-costa-da-caparica-IDJxyJK.html"
    }
   ],
   "stretch": "8.7 km from the coast (limit 8 km)"
@@ -69784,6 +69681,14 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-para-venda-IDJw7Hq.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t2-espaoso-com-varanda-e-garagem-IDJqsfV.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t2-com-parqueamento-espao-conforto-IDJqvdo.html"
    }
   ],
   "id": "e928086ad3",
@@ -70111,6 +70016,10 @@
    {
     "source": "remax",
     "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t2-sintra-rio-de-mouro/120531496-3"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t2-remodelado-urbanizao-moinho-da-cavaleira-IDJBM2D.html"
    }
   ],
   "id": "16dc226d99",
@@ -70212,40 +70121,6 @@
     "url": "https://www.olx.pt/d/anuncio/apartamento-de-tipologia-t2-e-terrao-coberto-localizado-frente-est-IDJABpD.html"
    }
   ]
- },
- {
-  "section": "ready",
-  "town": "Cavaleira, Algueirão-Mem Martins",
-  "typology": "T2",
-  "property_type": "apartment",
-  "price": 355000,
-  "size": "100 m²",
-  "garden": "No garden mentioned – apartment with varanda (check listing)",
-  "note": "Com parqueamento e acesso a varanda a partir de ambos os quartos, este apartamento T2 no Casal da Cavaleira, em Algueirão-Mem Martins, combina espaço exterio…",
-  "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t2-com-parqueamento-no-casal-da-cavaleira-algueirao-me-ID1iZeF",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 10.2,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InZocWZvZDhoYTkyaTMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.hIK0Y9La3aWihIqFb-WfkMKtcjFwA-Fw_wrSaQlOCVo/image;s=655x491;q=80",
-  "lat": 38.8047,
-  "lon": -9.35421,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 2,
-  "size_m2": 100,
-  "stretch": "10.2 km from the coast (limit 8 km)",
-  "id": "8553360ed6",
-  "municipality": "Sintra",
-  "garden_yes": false,
-  "title": "Apartamento T2 com parqueamento no Casal da Cavaleira, Algueirão-Me...",
-  "new_build": false,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": true,
-  "terrace": false,
-  "build_why": []
  },
  {
   "section": "ready",
@@ -73049,6 +72924,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/t2-com-garagem-elevador-e-lareira-algueiro-mem-martins-IDJzDQ0.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t3-duplex-renovado-parqueamento-arrecadao-rio-de-mouro-IDJAFX6.html"
    }
   ]
  },
@@ -73459,7 +73338,6 @@
   "coord_note": "listing map pin",
   "bedrooms": 2,
   "size_m2": 80,
-  "stretch": "10.6 km from the coast (limit 8 km)",
   "id": "50533fc690",
   "municipality": "Mafra",
   "garden_yes": false,
@@ -73482,6 +73360,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-bairro-afonso-costa-IDJAALf.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-areia-branca-lourinh-IDJAfAk.html"
    }
   ]
  },
@@ -74597,6 +74479,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/t2-boavista-a-casa-da-musica-e-45421057"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t2-em-paranhos-de--44782716"
    }
   ]
  },
@@ -74683,6 +74569,10 @@
    {
     "source": "idealista",
     "url": "https://www.idealista.pt/imovel/35376736/"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-com-varanda-salgueiros-residence-paranhos-IDJxyow.html"
    }
   ],
   "id": "9b943a8611",
@@ -81460,39 +81350,6 @@
   "town": "Fernão Ferro",
   "typology": "T3",
   "property_type": "apartment",
-  "price": 379500,
-  "size": "111 m²",
-  "garden": "No garden mentioned – apartment with varanda (check listing)",
-  "note": "A Fátima Cordeiro Imobiliária apresenta-lhe mais uma excelente novidade!",
-  "url": "https://www.olx.pt/d/anuncio/t3-com-parqueamento-coberto-e-arrecadao-individual-ferno-ferro-IDJBIDx.html",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 8.5,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/erzvs9dq745i3-PT/image;s=640x480",
-  "lat": 38.58853,
-  "lon": -9.09493,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 111,
-  "stretch": "8.5 km from the coast (limit 8 km)",
-  "id": "a7e4e1df23",
-  "municipality": "Seixal",
-  "garden_yes": false,
-  "new_build": false,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": true,
-  "terrace": false,
-  "build_why": []
- },
- {
-  "section": "ready",
-  "town": "Fernão Ferro",
-  "typology": "T3",
-  "property_type": "apartment",
   "price": 371000,
   "size": "96 m²",
   "garden": "No garden mentioned – apartment with varanda (check listing)",
@@ -86272,10 +86129,10 @@
   "size": "76 m²",
   "garden": "No garden mentioned – apartment with varanda (check listing)",
   "note": "Apresentamos este fantástico duplex em Monte Gordo, com configuração T1+2, com vista mar e a apenas 250 metros da praia.",
-  "url": "https://www.imovirtual.com/pt/anuncio/duplex-t3-com-vista-mar-em-monte-gordo-a-250-mts-da-praia-ID1hUwE",
+  "url": "https://www.custojusto.pt/faro/imobiliario/apartamentos/duplex-t3-com-vista-mar-em-mon-44945399",
   "also": false,
   "first_seen": "2026-10-10",
-  "source": "imovirtual",
+  "source": "custojusto",
   "auto": true,
   "coast_km": 0.0,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImhjM2lxZXV0ZG9neTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.O0yxGQys0kfjkNXhBpbJ0tFMI1Qomxbm2Wg33vTo60E/image;s=655x491;q=80",
@@ -86285,12 +86142,7 @@
   "coord_note": "listing map pin",
   "bedrooms": 3,
   "size_m2": 76,
-  "also_on": [
-   {
-    "source": "custojusto",
-    "url": "https://www.custojusto.pt/faro/imobiliario/apartamentos/duplex-t3-com-vista-mar-em-mon-44945399"
-   }
-  ],
+  "also_on": [],
   "id": "5bb7c1f19e",
   "municipality": "Vila Real de Santo António",
   "garden_yes": false,
@@ -86302,6 +86154,14 @@
   "terrace": true,
   "build_why": [
    "portal field build year 2026"
+  ],
+  "pin_id": "5bb7c1f19e",
+  "liveness_log": [
+   {
+    "date": "2026-10-19",
+    "dropped": "https://www.imovirtual.com/pt/anuncio/duplex-t3-com-vista-mar-em-monte-gordo-a-250-mts-da-praia-ID1hUwE",
+    "why": "HTTP 410"
+   }
   ]
  },
  {
@@ -96220,6 +96080,10 @@
    {
     "source": "century21",
     "url": "https://www.century21.pt/ref/C0240-03716"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-em-armao-de-pra-silves-IDJAHHx.html"
    }
   ],
   "id": "d8c7fc1b6c",
@@ -99566,6 +99430,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/elevado-potencial-ltimo-piso-com-vista-mar-a-200-m-da-praia-IDJuUOd.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-com-vista-mar-localizado-no-cerro-de-malpique-albufeira-IDJAGO1.html"
    }
   ]
  },
@@ -104070,10 +103938,10 @@
   "size": "62 m²",
   "garden": "No garden mentioned – apartment with varanda (check listing)",
   "note": "Novo Empreendimento em Quarteira | Apartamentos T1, T2 e Exclusivas Penthouses Descubra este novo empreendimento em Quarteira, concebido para oferecer confor…",
-  "url": "https://www.olx.pt/d/anuncio/novo-apartamentos-t2-quarteira-algarve-IDJz4Gb.html",
+  "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t2-loule-quarteira/123561184-52",
   "also": false,
   "first_seen": "2026-10-10",
-  "source": "olx",
+  "source": "remax",
   "auto": true,
   "coast_km": 1.0,
   "image": "https://ireland.apollo.olxcdn.com:443/v1/files/8z98mvg85xa8-PT/image;s=640x480",
@@ -104085,24 +103953,12 @@
   "size_m2": 62,
   "also_on": [
    {
-    "source": "remax",
-    "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t2-loule-quarteira/123561184-52"
-   },
-   {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/faro/imobiliario/apartamentos/apartamento-t2-em-quarteira-de-45167820"
    },
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/faro/imobiliario/apartamentos/quarteira-apartamento-perto--45208555"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/novo-apartamentos-t2-quarteira-algarve-IDJz4xi.html"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/novo-apartamentos-t2-quarteira-algarve-IDJz4xk.html"
    },
    {
     "source": "imovirtual",
@@ -104115,6 +103971,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-loule-quarteira-cavacos-788ace44-68d0-11f1-9aaf-060000000054.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-em-quarteira-de-60-00-m2-IDJwIaC.html"
    }
   ],
   "id": "ce7780034b",
@@ -104127,6 +103987,14 @@
   "terrace": false,
   "build_why": [
    "text: \"novo empreendimento\""
+  ],
+  "pin_id": "ce7780034b",
+  "liveness_log": [
+   {
+    "date": "2026-10-19",
+    "dropped": "https://www.olx.pt/d/anuncio/novo-apartamentos-t2-quarteira-algarve-IDJz4Gb.html",
+    "why": "HTTP 410"
+   }
   ]
  },
  {
@@ -113982,6 +113850,10 @@
    {
     "source": "century21",
     "url": "https://www.century21.pt/ref/C0254-01827"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-v2-aproveitamento-sto-remodelada-c-piscina-tavira-IDJDVsU.html"
    }
   ],
   "id": "5038fc3577",
@@ -131510,10 +131382,6 @@
   ],
   "also_on": [
    {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/apartamento-t3-com-varandas-e-vista-deslumbrante-sobre-a-ria-formosa-IDJw4la.html"
-   },
-   {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t3-olhao-quelfes-356065ba-df19-11eb-adb9-060000000054.html"
    }
@@ -142070,49 +141938,6 @@
   "town": "Loulé (São Clemente), Loulé",
   "typology": "T3",
   "property_type": "apartment",
-  "price": 350000,
-  "size": "106 m²",
-  "garden": "No garden mentioned – apartment with varanda (check listing)",
-  "note": "Apartamento T3 situado numa praceta residencial tranquila em Loulé, beneficiando de uma localização central, boa exposição solar e agradáveis vistas sobre a …",
-  "url": "https://www.olx.pt/d/anuncio/apartamento-t3-com-3-varandas-e-vista-mar-em-loul-IDJwRlK.html",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 10.6,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImN1ZWlvdGpobGIwMy1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.04JXB0Bx192y0rEYd_8mzjhp8B57kDyolBOrsY9vi-c/image;s=655x491;q=80",
-  "lat": 37.13637,
-  "lon": -8.01133,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 3,
-  "size_m2": 106,
-  "stretch": "10.6 km from the coast (limit 8 km)",
-  "id": "59e52239f6",
-  "municipality": "Loulé",
-  "garden_yes": false,
-  "title": "Apartamento T3 com 3 Varandas e Vista Mar em Loulé",
-  "new_build": false,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": true,
-  "terrace": false,
-  "build_why": [],
-  "also_on": [],
-  "pin_id": "59e52239f6",
-  "liveness_log": [
-   {
-    "date": "2026-10-15",
-    "dropped": "https://www.imovirtual.com/pt/anuncio/apartamento-t3-com-3-varandas-e-vista-mar-em-loule-ID1iFOJ",
-    "why": "HTTP 410"
-   }
-  ]
- },
- {
-  "section": "ready",
-  "town": "Loulé (São Clemente), Loulé",
-  "typology": "T3",
-  "property_type": "apartment",
   "price": 450000,
   "size": "126 m²",
   "garden": "No garden mentioned – apartment with terraço (check listing)",
@@ -142151,39 +141976,6 @@
     "url": "https://casa.sapo.pt/comprar-apartamento-t3-loule-loule-(sao-clemente)-dcf9b50f-a6da-11f1-b6e5-060000000058.html"
    }
   ]
- },
- {
-  "section": "ready",
-  "town": "São Clemente, Loulé",
-  "typology": "T2",
-  "property_type": "apartment",
-  "price": 350000,
-  "size": "75 m²",
-  "garden": "No garden mentioned – apartment with varanda (check listing)",
-  "note": "Apartamento T2 - PARCIALMENTE RENOVADO EM LOULÉ Este T2 de 75,20 m² destaca-se pela renovação, parcial de algumas das divisões, e pela luminosidade, oferecen…",
-  "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t2-loule-sao-clemente/122001106-17",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "remax",
-  "auto": true,
-  "coast_km": 10.6,
-  "image": "https://i.maxwork.pt/l-view/listings/12200/7238727/0163a040-233c-4a32-9527-2d0f82603866.jpg",
-  "lat": 37.1402,
-  "lon": -8.0192,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 2,
-  "size_m2": 75,
-  "stretch": "10.6 km from the coast (limit 8 km)",
-  "id": "ef52546a17",
-  "municipality": "Loulé",
-  "garden_yes": false,
-  "new_build": false,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": true,
-  "terrace": false,
-  "build_why": []
  },
  {
   "section": "ready",
@@ -145733,6 +145525,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-novo-com-varanda-e-vista-de-mar-em-canidelo-IDJxuiO.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-no-sal-douro-coast-onde-a-cidade-encontra-o-mar-IDJAHYF.html"
    }
   ],
   "id": "4cc49473f2",
@@ -146263,47 +146059,6 @@
   "stretch": "€525k – above the €500k budget",
   "also_on": [],
   "id": "38f3fc1790",
-  "municipality": "Viana do Castelo",
-  "garden_yes": false,
-  "title": "Apartamento T2 de Luxo no Parque da Cidade, Viana do Castelo",
-  "new_build": true,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": true,
-  "terrace": false,
-  "build_why": [
-   "portal field market=primary (developer/new)"
-  ]
- },
- {
-  "section": "ready",
-  "town": "Santa Maria Maior e Monserrate e Meadela, Viana do Castelo",
-  "typology": "T2",
-  "property_type": "apartment",
-  "price": 495000,
-  "size": "107 m²",
-  "garden": "No garden mentioned – apartment with varanda (check listing)",
-  "note": "Descubra o privilégio de viver num apartamento T2 de arquitetura contemporânea, inserido num dos empreendimentos mais promissores de Viana do Castelo, recent…",
-  "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t2-de-luxo-no-parque-da-cidade-viana-do-castelo-ID1iCy8",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 3.1,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjNzc2luZjB2c25mcS1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.2trlmu2vXjXpT2Yi6jYWtApP7n7ny35VXvUjFk0uK98/image;s=655x491;q=80",
-  "lat": 41.69694,
-  "lon": -8.81478,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 2,
-  "size_m2": 107,
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-de-luxo-no-parque-da-cidade-viana-do-castelo-IDJw4ex.html"
-   }
-  ],
-  "id": "6397c8ed4d",
   "municipality": "Viana do Castelo",
   "garden_yes": false,
   "title": "Apartamento T2 de Luxo no Parque da Cidade, Viana do Castelo",
@@ -149367,6 +149122,10 @@
    {
     "source": "idealista",
     "url": "https://www.idealista.pt/imovel/35398722/"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t2-em-canidelo-apenas-a-100mts-do-mar-vista-mar-rua-de-caste-branco-canidelo-IDJj6w9.html"
    }
   ],
   "id": "f5d0077306",
@@ -151021,6 +150780,12 @@
   "build_why": [
    "text: \"novo, no empreendimento em construcao \"las palmeras\", com 2 qu\"",
    "portal field build year 2026"
+  ],
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-venda-em-matosinhos-e-lea-da-palmeira-matosinhos-IDJAHFq.html"
+   }
   ]
  },
  {
@@ -151062,6 +150827,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-senhora-da-hora-3ae59045-9bd3-11f1-90a1-060000000056.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-venda-em-matosinhos-e-lea-da-palmeira-matosinhos-IDJAHFi.html"
    }
   ]
  },
@@ -151278,48 +151047,6 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-2268bb1b-7152-11f0-a52b-060000000058.html"
-   }
-  ]
- },
- {
-  "section": "ready",
-  "town": "Zona Histórica de Matosinhos, Matosinhos e Leça da Palmeira",
-  "typology": "T3",
-  "property_type": "apartment",
-  "price": 379000,
-  "size": "109 m²",
-  "garden": "No garden mentioned – apartment with varanda (check listing)",
-  "note": "T2+1 em Matosinhos Sul | Renovado | Duas Frentes | Metro a 100 m | A 700 m da Praia A poucos minutos da praia, entre o mar, o comércio tradicional, os melhor…",
-  "url": "https://www.olx.pt/d/anuncio/apartamento-t3-venda-em-matosinhos-e-lea-da-palmeira-matosinhos-IDJuqDR.html",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 0.5,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InQ5djRpMjM4bHgwMjMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.-YoeI806ndfhRcRf0pEvIvhGEQ-55cSh2kEaksLfq4s/image;s=655x491;q=80",
-  "lat": 41.18444,
-  "lon": -8.69628,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 3,
-  "size_m2": 109,
-  "also_on": [],
-  "id": "0c83ca6924",
-  "municipality": "Matosinhos",
-  "garden_yes": false,
-  "title": "Apartamento T3 Venda em Matosinhos e Leça da Palmeira,Matosinhos",
-  "new_build": false,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": true,
-  "terrace": false,
-  "build_why": [],
-  "pin_id": "0c83ca6924",
-  "liveness_log": [
-   {
-    "date": "2026-10-16",
-    "dropped": "https://www.imovirtual.com/pt/anuncio/apartamento-t3-venda-em-matosinhos-e-leca-da-palmeira-matosinhos-ID1izrB",
-    "why": "HTTP 410"
    }
   ]
  },
@@ -152622,6 +152349,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/t3-todo-remodelado-IDJAtM5.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t3-centro-de-matosinhos-IDJxq7T.html"
    }
   ],
   "id": "75710eae4f",
@@ -155521,6 +155252,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/4-andares-moradia-t2-2-sutes-jardim-privativo-condomnio-fechad-IDJzUiP.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/4-andares-moradia-t2-2-sutes-jardim-privativo-condomnio-fechad-IDJAIID.html"
    }
   ]
  },
@@ -158715,6 +158450,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-leca-da-palmeira-76472c1d-de6a-11f0-8add-060000000054.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-venda-em-custias-lea-do-balio-e-guifes-matosinhos-IDJAHFc.html"
    }
   ]
  },
@@ -162492,10 +162231,6 @@
    },
    {
     "source": "imovirtual",
-    "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t2-no-empreendimento-canidelo-living-mad-02177-mh-ID1iTrJ"
-   },
-   {
-    "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t2-no-empreendimento-canidelo-living-ID1iOeI"
    },
    {
@@ -162589,6 +162324,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-vila-nova-de-gaia-oliveira-do-douro-435ffef7-4586-11f1-90a1-060000000056.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t2-em-empreendimento-em-s-felix-da-marinha-IDJAIP3.html"
    }
   ],
   "id": "e1840182c9",
@@ -163623,40 +163362,6 @@
   "town": "Buarcos e São Julião, Figueira da Foz",
   "typology": "T2",
   "property_type": "apartment",
-  "price": 375000,
-  "size": "116 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "T2 Com Vista de Mar - Fozvillage Exclusivo Imojardim Prédio de construção de 2006, foi pintado exteriormente no ano passado Localizado em frente à praia com …",
-  "url": "https://www.imovirtual.com/pt/anuncio/t2-com-vista-de-mar-ID1iLqr",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 1.0,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImJ3NDFueGxmdGt6aDEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.QG-b-iMpgVM7cgJGPxois1kK5eDEeyPykvfcHqpHx_8/image;s=655x491;q=80",
-  "lat": 40.17191,
-  "lon": -8.88872,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 2,
-  "size_m2": 116,
-  "also_on": [],
-  "id": "82091427bd",
-  "municipality": "Figueira da Foz",
-  "garden_yes": true,
-  "title": "T2 com Vista de mar",
-  "new_build": false,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": true,
-  "terrace": true,
-  "build_why": []
- },
- {
-  "section": "ready",
-  "town": "Buarcos e São Julião, Figueira da Foz",
-  "typology": "T2",
-  "property_type": "apartment",
   "price": 398000,
   "size": "78 m²",
   "garden": "No garden mentioned – apartment with varanda (check listing)",
@@ -164555,6 +164260,10 @@
    {
     "source": "remax",
     "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t3-povoa-de-varzim-povoa-de-varzim-beiriz-e-argivai/124831084-53"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t3-novo-a-300-metros-da-praia-com-varanda-e-lugar-de-IDJ5otH.html"
    }
   ],
   "id": "390d734e5d",
@@ -165501,6 +165210,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-leca-da-palmeira-d8d17338-b3ee-11f1-90a1-060000000056.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/vende-se-t2-v-n-gaia-madalena-com-piscina-IDJAG5J.html"
    }
   ]
  },
@@ -165544,6 +165257,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-matosinhos-leca-da-palmeira-d237db39-b3ee-11f1-90a1-060000000056.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/vende-se-t2-v-n-gaia-madalena-com-piscina-IDJAG5x.html"
    }
   ]
  },
@@ -166450,6 +166167,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/t2-novo-2-varandas-garagem-45195617"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-com-varanda-e-garagem-foz-IDJxAjW.html"
    }
   ],
   "id": "eb99a647dd",
@@ -166622,6 +166343,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-de-luxo-no-empreendimento-so-paio-IDJDVTy.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t2-novo-com-3-frentes-2-sutes-e-3-varandas-so-flix-da-marinha-IDJxAyK.html"
    }
   ],
   "id": "520c8f3da1",
@@ -170681,6 +170406,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t3-vila-do-conde-95e11044-779b-11f1-9aaf-060000000054.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t3-venda-em-vila-do-conde-vila-do-conde-IDJweyy.html"
    }
   ],
   "id": "7b0da46106",
@@ -173249,41 +172978,6 @@
     "source": "custojusto",
     "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t2-com-varanda-e-v-43566483"
    }
-  ]
- },
- {
-  "section": "ready",
-  "town": "Praia de Brito - São Félix da Marinha, São Félix da Marinha",
-  "typology": "T2",
-  "property_type": "apartment",
-  "price": 374900,
-  "size": "85 m²",
-  "garden": "No garden mentioned – apartment with varanda (check listing)",
-  "note": "Apresentamos este Apartamento T2 + 1 , localizado em São Félix da Marinha, uma zona tranquila e muito procurada pela proximidade às praias.",
-  "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t2-1-c-varanda-l-garagem-e-arrumos-proximo-do-mar-ID1iT9H",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 1.2,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InJpdW0ydm9iOWdmdy1BUFQiLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.VFipO6TwaszpCfpdfWGtpWsFlM-PHU5GFOwjHEFtvhM/image;s=655x491;q=80",
-  "lat": 41.02451,
-  "lon": -8.64077,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 2,
-  "size_m2": 85,
-  "id": "4a082658a3",
-  "municipality": "Vila Nova de Gaia",
-  "garden_yes": false,
-  "title": "Apartamento T2 + 1 C/ Varanda , L. Garagem e Arrumos | Próximo do mar",
-  "new_build": true,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": true,
-  "terrace": false,
-  "build_why": [
-   "portal field market=primary (developer/new)"
   ]
  },
  {
@@ -178116,10 +177810,10 @@
   "size": "117 m²",
   "garden": "No garden mentioned – apartment with terraço (check listing)",
   "note": "EMPREENDIMENTO QUINTA DE VILARES || EXCLUSIVO CHAVE NOVA || Apartamento T3 Novo, para venda, em Arcozelo, Vila Nova de Gaia, distrito do Porto.",
-  "url": "https://www.imovirtual.com/pt/anuncio/apart-t3-novo-c-terraco-37-26m2-empreendimento-quinta-de-vilares-ID1it0o",
+  "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t3-em-arcozelo-de--45029259",
   "also": false,
   "first_seen": "2026-10-10",
-  "source": "imovirtual",
+  "source": "custojusto",
   "auto": true,
   "coast_km": 1.3,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Ijl0cXZlMGRrNHVwdS1BUFQiLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.kQGoTcT-JxJqbhve4enhoZeRElydv2dYM7YEkoE0qvM/image;s=655x491;q=80",
@@ -178147,10 +177841,6 @@
   "also_on": [
    {
     "source": "custojusto",
-    "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t3-em-arcozelo-de--45029259"
-   },
-   {
-    "source": "custojusto",
     "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamentos-t2-e-t3-novos-com-44874113"
    },
    {
@@ -178172,6 +177862,14 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apart-t3-novo-c-terrao-37-26m2-empreendimento-quinta-de-vilares-IDJEqkj.html"
+   }
+  ],
+  "pin_id": "14fcce56b7",
+  "liveness_log": [
+   {
+    "date": "2026-10-19",
+    "dropped": "https://www.imovirtual.com/pt/anuncio/apart-t3-novo-c-terraco-37-26m2-empreendimento-quinta-de-vilares-ID1it0o",
+    "why": "HTTP 410"
    }
   ]
  },
@@ -180208,6 +179906,12 @@
   "terrace": false,
   "build_why": [
    "portal field market=primary (developer/new)"
+  ],
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t3-IDJ55pn.html"
+   }
   ]
  },
  {
@@ -180722,6 +180426,10 @@
    {
     "source": "remax",
     "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t2-matosinhos-matosinhos-e-leca-da-palmeira/123061530-9"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-para-venda-IDJAI0d.html"
    }
   ],
   "id": "dee25cc136",
@@ -181607,6 +181315,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/t3-mobilado-c-lugar-de-garagem-em-gulpilhares-francelos-IDJw3og.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t3-em-francelos-conforto-e-qualidade-de-vida-junto-ao-mar-IDJweBt.html"
    }
   ]
  },
@@ -187771,51 +187483,6 @@
  },
  {
   "section": "ready",
-  "town": "Praia de Brito - São Félix da Marinha, São Félix da Marinha",
-  "typology": "T2",
-  "property_type": "apartment",
-  "price": 425000,
-  "size": "106 m²",
-  "garden": "No garden mentioned – apartment with varanda (check listing)",
-  "note": "Entre o azul infinito do Atlântico e a energia vibrante da cidade, nasce o House São Félix Residence, um refúgio onde modernidade, elegância e autenticidade …",
-  "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t2-orientacao-solar-a-poente-ID1irzY",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 1.6,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Im9qdHV4cmwwOWc1aDEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.gdK_SDMCSKrqTJ29zo7i8bNJR1cQzumFaeWm0gbMMxY/image;s=655x491;q=80",
-  "lat": 41.02287,
-  "lon": -8.63627,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 2,
-  "size_m2": 106,
-  "id": "72c9d00b16",
-  "municipality": "Vila Nova de Gaia",
-  "garden_yes": false,
-  "title": "Apartamento T2 em São Félix da Marinha",
-  "new_build": true,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": true,
-  "terrace": false,
-  "build_why": [
-   "portal field market=primary (developer/new)",
-   "portal field build year 2026"
-  ],
-  "also_on": [],
-  "pin_id": "72c9d00b16",
-  "liveness_log": [
-   {
-    "date": "2026-10-17",
-    "dropped": "https://www.imovirtual.com/pt/anuncio/apartamento-t2-em-sao-felix-da-marinha-ID1irA8",
-    "why": "HTTP 410"
-   }
-  ]
- },
- {
-  "section": "ready",
   "town": "Aguda - Granja, Arcozelo",
   "typology": "T2",
   "property_type": "apartment",
@@ -188316,6 +187983,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-espinho-1fc14859-5ddc-11f1-ba38-060000000058.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t2-em-espinho-com-terrao-de-66m2-IDJqL6g.html"
    }
   ],
   "id": "75a68a3e15",
@@ -189539,6 +189210,10 @@
    {
     "source": "remax",
     "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t3-vila-nova-de-gaia-sao-felix-da-marinha/126921021-16"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t3-condomnio-fechado-s-flix-da-marinha-IDJAG38.html"
    }
   ]
  },
@@ -191098,6 +190773,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-no-essence-new-tradition-porto-IDJDYAF.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t2-nos-pinhais-da-foz-junto-catlica-IDJxAjS.html"
    }
   ]
  },
@@ -194518,10 +194197,6 @@
     "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t3-em-bonfim-de-10-44506495"
    },
    {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/apartamento-t3-para-venda-IDJx0Oz.html"
-   },
-   {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t3-em-aldoar-foz--45190080"
    }
@@ -195019,6 +194694,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t3-vila-nova-de-gaia-centro-(santa-marinha)-c4a467c6-5531-11f1-9aaf-060000000054.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t3-em-canidelo-IDJjeal.html"
    }
   ],
   "id": "c95d0c9f5f",
@@ -197029,6 +196708,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t3-em-canidelo-IDJw1Hy.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t3-com-garagem-em-canidelo-IDJwfd9.html"
    }
   ],
   "id": "0319b0946b",
@@ -198820,6 +198503,10 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/t2-novo-penultimo-piso-c-2-lugares-de-garagem-em-arcozelo-ID1iTRw"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t2-novo-penltimo-piso-c-2-lugares-de-garagem-em-arcozelo-IDJAHHU.html"
    }
   ],
   "id": "46fa34b176",
@@ -198966,6 +198653,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t2-em-oliveira-do--45401505"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-em-valadares-gaia-IDJAFwN.html"
    }
   ],
   "id": "62fe49faee",
@@ -200422,12 +200113,7 @@
    "portal field market=primary (developer/new)",
    "portal field build year 2026"
   ],
-  "also_on": [
-   {
-    "source": "imovirtual",
-    "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t3-para-venda-ID1hILu"
-   }
-  ]
+  "also_on": []
  },
  {
   "section": "ready",
@@ -202472,6 +202158,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-1-remodelado-2-suites-2-lugares-garagem-lado-com-2-suites-e-garagem-dupla-paranhos-porto-possibilidade-de-venda-conjunta-com-loja-IDJrquT.html"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/t2-1-2-suites-e-1-quarto-inte-45181327"
    }
   ]
  },
@@ -209019,6 +208709,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-porto-cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-e-vitoria-ef2694c1-3e58-11f1-bc59-060000000052.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t2-totalmente-remodelado-a-200m-da-rotunda-da-boavista-rua-5-de-outub-IDJAHnE.html"
    }
   ],
   "id": "6e760aaecc",
@@ -211962,6 +211656,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-com-projeto-aprovado-para-moradia-t2-com-piscina-em-gaia-IDJpAyt.html"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35025710/"
    }
   ],
   "id": "f1b44164a7",
@@ -212434,6 +212132,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t2-antas-em-constr-44948094"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t2-no-empreendime-44638911"
    }
   ],
   "id": "61ef74bd89",
@@ -212542,6 +212244,10 @@
    {
     "source": "remax",
     "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t2-porto-cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-e-vitoria/123821239-134"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t2-no-empreendimen-44638873"
    }
   ]
  },
@@ -214777,10 +214483,10 @@
   "size": "291 m²",
   "garden": "Yes – mentions 'jardim' (check listing)",
   "note": "Descubra o equilíbrio perfeito entre conforto, elegância e qualidade de vida nesta magnífica moradia T4, localizada numa das zonas mais prestigiadas das Mari…",
-  "url": "https://www.imovirtual.com/pt/anuncio/exclusiva-moradia-t4-em-condominio-fechado-com-piscina-nas-marinha-ID1iIkq",
+  "url": "https://www.olx.pt/d/anuncio/moradia-esposende-marinhas-e-gandra-IDJfs5Q.html",
   "also": false,
   "first_seen": "2026-10-10",
-  "source": "imovirtual",
+  "source": "olx",
   "auto": true,
   "coast_km": 2.7,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjI4dnBjcjEyMzkwZjEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.uKjFGWThKS454jOIw8_8ChzMKtqMx4JDIz1duAp8egI/image;s=655x491;q=80",
@@ -214790,12 +214496,7 @@
   "coord_note": "listing map pin",
   "bedrooms": 4,
   "size_m2": 291,
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-esposende-marinhas-e-gandra-IDJfs5Q.html"
-   }
-  ],
+  "also_on": [],
   "id": "8017f14b0e",
   "municipality": "Esposende",
   "garden_yes": true,
@@ -214805,7 +214506,15 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "pin_id": "8017f14b0e",
+  "liveness_log": [
+   {
+    "date": "2026-10-19",
+    "dropped": "https://www.imovirtual.com/pt/anuncio/exclusiva-moradia-t4-em-condominio-fechado-com-piscina-nas-marinha-ID1iIkq",
+    "why": "HTTP 410"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -215063,6 +214772,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t3-com-varanda-no-centro-do-porto-IDIThlc.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t3-duplex-com-varanda-e-garagem-ipanema-residence-IDJ5nza.html"
    }
   ],
   "id": "3812033390",
@@ -215936,6 +215649,10 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t2-varandas-da-foz-varanda-praia-lugar-de-garagem-ID1iLUA"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-varandas-da-foz-varanda-praia-lugar-de-garagem-IDJxBlv.html"
    }
   ]
  },
@@ -216812,6 +216529,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/t2-como-novo-c-terrao-em-santa-marinha-candal-IDJw4qX.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-como-novo-c-terrao-40-m2-IDJwfaU.html"
    }
   ]
  },
@@ -218446,12 +218167,7 @@
   "balcony": true,
   "terrace": false,
   "build_why": [],
-  "also_on": [
-   {
-    "source": "imovirtual",
-    "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t2-1-com-varanda-garagem-e-arrecadacao-ID1iTOl"
-   }
-  ]
+  "also_on": []
  },
  {
   "section": "ready",
@@ -219992,7 +219708,13 @@
   "needs_work": false,
   "balcony": true,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-com-varandas-e-garagem-IDJxxNV.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -221383,6 +221105,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-porto-cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-e-vitoria-55bd21d2-a2ff-11f1-90a1-060000000056.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t2-com-varanda-orientao-a-sul-porto-IDJAGak.html"
    }
   ],
   "id": "68584b6e8c",
@@ -221471,6 +221197,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/exclusivo-t2-conforto-e-modernidade-junto-quinta-do-covelo-port-IDJEceS.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t2-em-condmino-fechado-antas-premier-IDJAAlU.html"
    }
   ]
  },
@@ -226158,45 +225888,6 @@
   ]
  },
  {
-  "section": "ready",
-  "town": "Praia de Mira, Mira",
-  "typology": "T4",
-  "property_type": "house",
-  "price": 415000,
-  "size": "211 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "Vendo vivenda V3 com 245m² de área bruta e 211m² área útil.",
-  "url": "https://www.imovirtual.com/pt/anuncio/vivenda-v3-miravillas-245m-570m-terreno-ID1i7pW",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 3.3,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InZwbmtiMjVydWg3ODEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.2QwyOhKeY0sWRK8yl2Qr3d4kg-0yE0amHucIOZbiqPk/image;s=655x491;q=80",
-  "lat": 40.44494,
-  "lon": -8.79691,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 4,
-  "size_m2": 211,
-  "id": "502f6ccd18",
-  "municipality": "Mira",
-  "garden_yes": true,
-  "title": "Vivenda V3 Miravillas, 245m² , 570m² terreno.",
-  "new_build": false,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": false,
-  "terrace": false,
-  "build_why": [],
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/vivenda-v3-miravillas-245m-570m-terreno-IDJjjEk.html"
-   }
-  ]
- },
- {
   "section": "reno",
   "town": "Perre, Viana do Castelo",
   "typology": "T3",
@@ -228689,6 +228380,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t2-para-venda-IDJBUIT.html"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35371532/"
    }
   ],
   "id": "49040821cf",
@@ -228950,6 +228645,10 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/t3-renovado-c-terraco-e-garagem-junto-a-vl8-e-futura-linha-rubi-ID1isds"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/ps-apartamento-t3-renovado-3-frentes-terrao-garagem-junto-vl8-IDJwe0D.html"
    }
   ]
  },
@@ -231375,7 +231074,13 @@
   "needs_work": false,
   "balcony": true,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "remax",
+    "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t2-matosinhos-sao-mamede-de-infesta-e-senhora-da-hora/124261091-107"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -231934,42 +231639,6 @@
  },
  {
   "section": "ready",
-  "town": "Vilar do Paraíso - Junqueira - São Caetano, Mafamude e Vilar do Paraíso",
-  "typology": "T4",
-  "property_type": "house",
-  "price": 400000,
-  "size": "198 m²",
-  "garden": "Yes – mentions 'terreno' (check listing)",
-  "note": "286 m² de área bruta | Terreno de 600 m² Localizada na Rua do Jardim 1476, Vilar do Paraíso, esta moradia é composta por dois corpos e distribuída por quatro…",
-  "url": "https://www.imovirtual.com/pt/anuncio/moradia-com-4-pisos-e-garagem-dupla-em-vilar-do-paraiso-ID1iOyY",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 4.1,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjBzYWtkajI5bXY2bjMtQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.cHJb-PjxQJCztHEoejYF5qeJohAzrzQzsEkJ9SNCsDM/image;s=655x491;q=80",
-  "lat": 41.10159,
-  "lon": -8.61903,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 4,
-  "size_m2": 198,
-  "also_on": [],
-  "id": "1f80326fa3",
-  "municipality": "Vila Nova de Gaia",
-  "garden_yes": true,
-  "title": "Moradia com 4 pisos e garagem dupla em Vilar do Paraíso",
-  "new_build": false,
-  "unfinished": false,
-  "needs_work": true,
-  "balcony": true,
-  "terrace": true,
-  "build_why": [
-   "text: \"a um excelente potencial para renovacao, ampliacao ou personaliz\""
-  ]
- },
- {
-  "section": "ready",
   "town": "Barrosa - Devesas - Telheira do Meio, Santa Marinha e São Pedro da Afurada",
   "typology": "T3",
   "property_type": "apartment",
@@ -232130,10 +231799,10 @@
   "size": "86 m²",
   "garden": "No garden mentioned – apartment with terraço (check listing)",
   "note": "Apartamento T2 Duplex em Esmoriz junto à praia — Terraço amplo com vista mar, no último andar do prédio.",
-  "url": "https://www.olx.pt/d/anuncio/duplex-t2-em-esmoriz-de-86-m2-IDJCzfZ.html",
+  "url": "https://www.custojusto.pt/aveiro/imobiliario/apartamentos/duplex-t2-em-esmoriz-de-86-m2-45405113",
   "also": false,
   "first_seen": "2026-10-10",
-  "source": "olx",
+  "source": "custojusto",
   "auto": true,
   "coast_km": 4.0,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Inl5Zm03ZTM4YWpocDItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.hWaZZpwpZkpR86FVtAm0eiLL5ebR-55OwlTc2VpugQA/image;s=655x491;q=80",
@@ -232143,12 +231812,7 @@
   "coord_note": "listing map pin",
   "bedrooms": 2,
   "size_m2": 86,
-  "also_on": [
-   {
-    "source": "custojusto",
-    "url": "https://www.custojusto.pt/aveiro/imobiliario/apartamentos/duplex-t2-em-esmoriz-de-86-m2-45405113"
-   }
-  ],
+  "also_on": [],
   "id": "5373520c68",
   "municipality": "Ovar",
   "garden_yes": false,
@@ -232164,6 +231828,11 @@
    {
     "date": "2026-10-17",
     "dropped": "https://www.imovirtual.com/pt/anuncio/duplex-t2-em-esmoriz-de-86-m2-ID1iYmi",
+    "why": "HTTP 410"
+   },
+   {
+    "date": "2026-10-19",
+    "dropped": "https://www.olx.pt/d/anuncio/duplex-t2-em-esmoriz-de-86-m2-IDJCzfZ.html",
     "why": "HTTP 410"
    }
   ]
@@ -234055,6 +233724,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/4-andares-moradia-t2-2-sutes-jardim-privativo-condomnio-fechad-IDJzUiP.html"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t2-vila-do-conde-45422251"
    }
   ]
  },
@@ -234278,6 +233951,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-boavista-junto-rotunda-totalmente-restaurado-IDJEbJV.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apt-t2-renovado-boavista-porto-IDJxzLR.html"
    }
   ]
  },
@@ -235887,6 +235564,12 @@
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)",
    "text: \"novo empreendimento\""
+  ],
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-novo-na-avenida-da-boavista-porto-IDJAHpg.html"
+   }
   ]
  },
  {
@@ -237129,42 +236812,6 @@
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)",
    "text: \"novo empreendimento\""
-  ]
- },
- {
-  "section": "ready",
-  "town": "Boavista, Cedofeita, Ildefonso, Sé, Miragaia, Nicolau, Vitória",
-  "typology": "T2",
-  "property_type": "apartment",
-  "price": 460000,
-  "size": "83 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Apartamento T2 com 83 m2 e 2 varanda com 4 m2.",
-  "url": "https://www.imovirtual.com/pt/anuncio/t2-com-varanda-boavista-prestige-ID1iuP9",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 5.1,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InYzZDQxMnIyMWFzZDMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.lWmXpAIWaDQc8Q6UZTctO5MfZInvksek1jN3UjD8ZFE/image;s=655x491;q=80",
-  "lat": 41.1582,
-  "lon": -8.6244,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 2,
-  "size_m2": 83,
-  "id": "3006775b94",
-  "municipality": "Porto",
-  "garden_yes": true,
-  "title": "T2 com varanda - Boavista Prestige",
-  "new_build": true,
-  "unfinished": true,
-  "needs_work": false,
-  "balcony": true,
-  "terrace": true,
-  "build_why": [
-   "portal field construction_status=to_completion",
-   "portal field market=primary (developer/new)"
   ]
  },
  {
@@ -238427,6 +238074,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-venda-em-porto-IDJEcMm.html"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t2-novo-em-constru-38382786"
    }
   ]
  },
@@ -243649,7 +243300,13 @@
   "needs_work": false,
   "balcony": true,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t4-no-carvalhido-com-3-casas-de-banho-e-varanda-IDJxAlY.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -246166,6 +245823,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t2-porto-cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-e-vitoria-boavista-(cedofeita)-31ab8060-276c-11f1-90a1-060000000056.html"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-com-garagem-em-bes-45082131"
    }
   ]
  },
@@ -246754,6 +246415,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-apartamento-t3-vila-nova-de-gaia-canelas-d697b3e1-966d-11f1-9c13-060000000051.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t3-novo-empreendimento-delfim-canelas-vila-nova-de-gaia-IDJxxKE.html"
    }
   ]
  },
@@ -246783,6 +246448,10 @@
    {
     "source": "remax",
     "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t3-vila-nova-de-gaia-mafamude-e-vilar-do-paraiso/123821099-154"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t3-para-venda-IDJxxIZ.html"
    }
   ],
   "id": "fe6806a4ff",
@@ -247554,48 +247223,6 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/moradia-t-3-rustica-em-pedra-ID1gNvy"
-   }
-  ]
- },
- {
-  "section": "ready",
-  "town": "Póvoa de Varzim, Beiriz e Argivai, Póvoa de Varzim",
-  "typology": "T4",
-  "property_type": "house",
-  "price": 470000,
-  "size": "195 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Moradia T4 em Beiriz - Póvoa de Varzim.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t4-em-beiriz-na-pvoa-de-varzim-IDJwpKt.html",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 5.1,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImxtMjB2OW9wZ3pxaDMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.TpkEhuz_wvWaY7FAaOtHnxejt2HX19x8hpKwN3FxWKI/image;s=655x491;q=80",
-  "lat": 41.40295,
-  "lon": -8.7231,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 4,
-  "size_m2": 195,
-  "also_on": [],
-  "id": "10ca4ea41e",
-  "municipality": "Póvoa de Varzim",
-  "garden_yes": true,
-  "title": "Moradia T4 em Beiriz na Póvoa de Varzim",
-  "new_build": false,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": true,
-  "terrace": false,
-  "build_why": [],
-  "pin_id": "10ca4ea41e",
-  "liveness_log": [
-   {
-    "date": "2026-10-17",
-    "dropped": "https://www.imovirtual.com/pt/anuncio/moradia-t4-em-beiriz-na-povoa-de-varzim-ID1iDWo",
-    "why": "HTTP 410"
    }
   ]
  },
@@ -249811,6 +249438,10 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t2-com-2-varandas-novo-empreendimento-de-luxo-paranhos-ID1iZ1t"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/antas-porto-apartamento-t2-com-garagem-IDJxyY6.html"
    }
   ],
   "id": "e2336aeaf7",
@@ -251659,6 +251290,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t2-porto-42434053"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/t2-inserido-no-novo-empreendim-44640539"
    }
   ],
   "id": "0ed0c6cc6a",
@@ -261791,6 +261426,10 @@
    {
     "source": "idealista",
     "url": "https://www.idealista.pt/imovel/35357362/"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t3-em-bonfim-de-11-44782715"
    }
   ]
  },
@@ -268973,6 +268612,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t2-1-duplex-chave-45396975"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-1-duplex-chave-na-mo-bonfim-porto-IDJAGzy.html"
    }
   ]
  },
@@ -270971,6 +270614,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t3-campanha-po-45441196"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t3-em-bonfim-de-11-44783877"
    }
   ]
  },
@@ -272306,6 +271953,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t3-1-no-empreendim-44919494"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t3-em-bonfim-de-12-44783429"
    }
   ]
  },
@@ -275738,47 +275389,6 @@
  {
   "section": "ready",
   "town": "Pedra Verde, São Mamede de Infesta e Senhora da Hora",
-  "typology": "T2",
-  "property_type": "apartment",
-  "price": 395000,
-  "size": "93 m²",
-  "garden": "No garden mentioned – apartment with varanda (check listing)",
-  "note": "Apresentamos este excelente T2 no 1º piso para venda em São Mamede de Infesta.",
-  "url": "https://www.imovirtual.com/pt/anuncio/excelente-t2-para-venda-em-sao-mamede-de-infesta-ID1irDO",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 6.4,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImJzZm96Y2tlaHRobTItRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.ELMHmpWuNsJ65As0CQYor5iidEQ4pDaE0VGeLCT6Cgg/image;s=655x491;q=80",
-  "lat": 41.1918,
-  "lon": -8.6216,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 2,
-  "size_m2": 93,
-  "also_on": [
-   {
-    "source": "remax",
-    "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t2-matosinhos-sao-mamede-de-infesta-e-senhora-da-hora/124261091-107"
-   }
-  ],
-  "id": "0b58216c6a",
-  "municipality": "Matosinhos",
-  "garden_yes": false,
-  "title": "EXCELENTE T2 PARA VENDA EM SÃO MAMEDE DE INFESTA",
-  "new_build": true,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": true,
-  "terrace": false,
-  "build_why": [
-   "portal field market=primary (developer/new)"
-  ]
- },
- {
-  "section": "ready",
-  "town": "Pedra Verde, São Mamede de Infesta e Senhora da Hora",
   "typology": "T3",
   "property_type": "apartment",
   "price": 510000,
@@ -276398,6 +276008,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t2-novo-boavista-42228823"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/t2-jardim-privativo-30-m2--44854732"
    }
   ]
  },
@@ -276739,6 +276353,10 @@
    {
     "source": "remax",
     "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t3-porto-bonfim/123711183-10"
+   },
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t3-em-bonfim-de-16-44783875"
    }
   ],
   "id": "4af840ea95",
@@ -279624,42 +279242,6 @@
   "balcony": true,
   "terrace": false,
   "build_why": []
- },
- {
-  "section": "ready",
-  "town": "Arca d'Água - Campo Lindo - Vale Formoso, Paranhos",
-  "typology": "T2",
-  "property_type": "apartment",
-  "price": 449000,
-  "size": "110 m²",
-  "garden": "No garden mentioned – apartment with varanda (check listing)",
-  "note": "Apartamento T2 pronto a habitar, situado no 4.º andar de um moderno bloco de apartamentos em Paranhos, Porto.",
-  "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t2-novo-com-garagem-e-varanda-ID1ixDk",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 6.8,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InEzZnZ0anZ0aGp0bTItQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.e3oY6d_cEQbe5sL6AUEvx3G8kcwC_ekZzTKuy8c1aGE/image;s=655x491;q=80",
-  "lat": 41.17032,
-  "lon": -8.60647,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 2,
-  "size_m2": 110,
-  "id": "60c62001e1",
-  "municipality": "Porto",
-  "garden_yes": false,
-  "title": "Apartamento T2 novo com garagem e varanda",
-  "new_build": true,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": true,
-  "terrace": false,
-  "build_why": [
-   "portal field market=primary (developer/new)",
-   "portal field build year 2026"
-  ]
  },
  {
   "section": "ready",
@@ -283875,6 +283457,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t3-em-vila-nova-de-gaia-IDJAtmi.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamentos-t3-em-construo-vila-nova-gaia-IDJAHvl.html"
    }
   ],
   "id": "9e7e971b1d",
@@ -290769,6 +290355,26 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/porto/imobiliario/apartamentos/apartamento-t2-no-bonfim-port-45439838"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-com-varanda-salgueiros-residence-paranhos-IDJxyt0.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-com-varanda-salgueiros-residence-paranhos-IDJxys3.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-com-varanda-salgueiros-residence-paranhos-IDJxyqq.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-com-varanda-salgueiros-residence-paranhos-IDJxyqF.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-com-varanda-salgueiros-residence-paranhos-IDJxypu.html"
    }
   ]
  },
@@ -292039,6 +291645,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/t2-com-duas-sutes-varanda-e-garagem-so-mamede-park-IDJAhbL.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t2-novo-a-estrear-2-suites-varanda-a-poente-em-so-mamede-infesta-IDJAHMu.html"
    }
   ],
   "id": "fa692cf014",
@@ -293289,6 +292899,10 @@
    {
     "source": "custojusto",
     "url": "https://www.custojusto.pt/porto/imobiliario/moradias/andar-moradia-t4-com-2-terraco-44997198"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-em-banda-v3-c-logradouro-em-canidelo-IDJDrLT.html"
    }
   ],
   "id": "84e0f467b6",
@@ -294567,6 +294181,14 @@
    {
     "source": "remax",
     "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t2-vila-nova-de-gaia-grijo-e-sermonde/125061230-195"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-para-venda-IDJwgAd.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-para-venda-IDJwgAh.html"
    }
   ],
   "id": "742af85a3a",
@@ -297623,6 +297245,10 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/moradia-terrea-para-reconstrucao-ID1hZkh"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/34356845/"
    }
   ],
   "id": "2024163ecd",
@@ -301460,7 +301086,7 @@
   "size": "267 m²",
   "garden": "Yes – mentions 'terreno' (check listing)",
   "note": "Uma propriedade com 2.860 m² de terreno, 4 frentes e múltiplas possibilidades, atualmente em fase de remodelação total.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t3-localizada-em-santa-maria-da-feira-IDJxdcf.html",
+  "url": "https://www.olx.pt/d/anuncio/moradia-de-4-frentes-de-rs-do-cho-e-1-andar-inserida-em-terreno-de-IDJtYvO.html",
   "also": false,
   "first_seen": "2026-10-10",
   "source": "olx",
@@ -301485,15 +301111,19 @@
   "also_on": [
    {
     "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-de-4-frentes-de-rs-do-cho-e-1-andar-inserida-em-terreno-de-IDJtYvO.html"
-   },
-   {
-    "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-isolada-e-totalmente-renovada-sta-maria-lamas-IDJk0Zy.html"
    },
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-com-terreno-de-2860m2-IDIZXe4.html"
+   }
+  ],
+  "pin_id": "9c191ed498",
+  "liveness_log": [
+   {
+    "date": "2026-10-19",
+    "dropped": "https://www.olx.pt/d/anuncio/moradia-t3-localizada-em-santa-maria-da-feira-IDJxdcf.html",
+    "why": "HTTP 410"
    }
   ]
  },
@@ -307632,18 +307262,6 @@
   "size_m2": 78,
   "also_on": [
    {
-    "source": "remax",
-    "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t2-aveiro-gloria-e-vera-cruz/126021134-37"
-   },
-   {
-    "source": "remax",
-    "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t2-aveiro-gloria-e-vera-cruz/126021134-34"
-   },
-   {
-    "source": "remax",
-    "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t2-aveiro-gloria-e-vera-cruz/126021134-29"
-   },
-   {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-semi-novo-com-garagem-no-centro-da-cidade-de-aveiro-IDJmnQp.html"
    },
@@ -310381,6 +309999,10 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t3-141-m2-maia-ID1j227"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t3-para-venda-IDJBa0E.html"
    }
   ],
   "id": "8cee9a6f5e",
@@ -320107,6 +319729,12 @@
    "text: \"stic 3 bedroom apartment under construction in oporto( city center m\"",
    "portal field construction_status=to_completion",
    "portal field market=primary (developer/new)"
+  ],
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t3-IDJihlA.html"
+   }
   ]
  },
  {
@@ -325553,10 +325181,6 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t3-trrea-em-oliveirinha-quints-IDJBnAA.html"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-t3-trrea-a-escassos-minutos-do-centro-de-aveiro-IDJnp9d.html"
    }
   ]
  },
@@ -327927,39 +327551,6 @@
   "size_m2": 141,
   "stretch": "€505k – above the €500k budget; 9.1 km from the coast (limit 8 km)",
   "id": "4e27ae3d2c",
-  "municipality": "Maia",
-  "garden_yes": false,
-  "new_build": false,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": true,
-  "terrace": true,
-  "build_why": []
- },
- {
-  "section": "ready",
-  "town": "Pedrouços",
-  "typology": "T3",
-  "property_type": "apartment",
-  "price": 450000,
-  "size": "141 m²",
-  "garden": "No garden mentioned – apartment with varanda (check listing)",
-  "note": "Entre a dinâmica de Pedrouços e a proximidade ao centro do Porto, este apartamento T3 distingue-se pela combinação entre espaço, funcionalidade e conforto co…",
-  "url": "https://www.olx.pt/d/anuncio/apartamento-t3-com-reas-amplas-varanda-e-garagem-em-pedrouos-IDJx0u7.html",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 9.1,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/7wkpqjclul5r-PT/image;s=640x480",
-  "lat": 41.18896,
-  "lon": -8.58489,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 141,
-  "stretch": "9.1 km from the coast (limit 8 km)",
-  "id": "fd619da099",
   "municipality": "Maia",
   "garden_yes": false,
   "new_build": false,
@@ -332472,39 +332063,6 @@
   "unfinished": false,
   "needs_work": false,
   "balcony": true,
-  "terrace": true,
-  "build_why": []
- },
- {
-  "section": "ready",
-  "town": "Fiães",
-  "typology": "T3",
-  "property_type": "house",
-  "price": 460000,
-  "size": "167 m²",
-  "garden": "Yes – mentions 'jardim' (check listing)",
-  "note": "Apresentamos esta fantástica moradia em banda T3+1, situada em Fiães, Santa Maria da Feira, uma excelente oportunidade para quem procura uma casa espaçosa, c…",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t3-1-em-banda-fies-santa-maria-da-feira-IDJBVbH.html",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 10.3,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/d3m98bbr93fh-PT/image;s=640x480",
-  "lat": 40.98788,
-  "lon": -8.53291,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 3,
-  "size_m2": 167,
-  "stretch": "10.3 km from the coast (limit 8 km)",
-  "id": "96bc7d9346",
-  "municipality": "Santa Maria da Feira",
-  "garden_yes": true,
-  "new_build": false,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": false,
   "terrace": true,
   "build_why": []
  },
@@ -342801,41 +342359,6 @@
  },
  {
   "section": "ready",
-  "town": "Quarteira",
-  "typology": "T2",
-  "property_type": "apartment",
-  "price": 350000,
-  "size": "60 m²",
-  "garden": "No garden mentioned (check listing)",
-  "note": "T2 no Empreendimento Quarteira City | FASE DE PRÉ-VENDA Garante já a teu apartamento.",
-  "url": "https://www.olx.pt/d/anuncio/apartamento-t2-em-quarteira-de-60-00-m2-IDJwIaC.html",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 0.4,
-  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/srmeh33zshw71-PT/image;s=640x480",
-  "lat": 37.07127,
-  "lon": -8.10226,
-  "coord_approx": true,
-  "coord_note": "listing map pin (approximate area)",
-  "bedrooms": 2,
-  "size_m2": 60,
-  "id": "c5d42e8d63",
-  "municipality": "Loulé",
-  "garden_yes": false,
-  "new_build": true,
-  "unfinished": true,
-  "needs_work": false,
-  "balcony": false,
-  "terrace": false,
-  "build_why": [
-   "text: \"revisto: outubro de 2026 conclusao prevista: 2029 com mais de metade\"",
-   "text: \"o de 2026 conclusao prevista: 2029 com\""
-  ]
- },
- {
-  "section": "ready",
   "town": "Chafé, Viana do Castelo",
   "typology": "T5",
   "property_type": "house",
@@ -343395,10 +342918,6 @@
   "bedrooms": 2,
   "size_m2": 109,
   "also_on": [
-   {
-    "source": "remax",
-    "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t2-alcobaca-sao-martinho-do-porto/123781012-208"
-   },
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-para-venda-IDJvQzL.html"
@@ -346861,12 +346380,7 @@
   "coord_note": "listing map pin",
   "bedrooms": 4,
   "size_m2": 196,
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-nova-t4-2-linha-de-praia-vila-do-conde-IDJeD62.html"
-   }
-  ],
+  "also_on": [],
   "id": "a3764e3524",
   "municipality": "Vila do Conde",
   "garden_yes": false,
@@ -352178,10 +351692,10 @@
   "size": "120 m²",
   "garden": "No garden mentioned (check listing)",
   "note": "Moradia T3 para Restauro em Vila Mou, Viana do Castelo Uma excelente oportunidade para transformar esta moradia na casa dos seus sonhos!",
-  "url": "https://casa.sapo.pt/comprar-moradia-t3-viana-do-castelo-torre-e-vila-mou-03b90f94-a2c0-11f1-9c13-060000000051.html",
+  "url": "https://www.custojusto.pt/viana-do-castelo/imobiliario/moradias/casa-villa-t3-em-torre-e-vil-45216847",
   "also": false,
   "first_seen": "2026-10-10",
-  "source": "casasapo",
+  "source": "custojusto",
   "auto": true,
   "coast_km": 0.8,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjVvdmRrM3N5M2NqNzEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.zoqocGhXrMlzlrv2ffcrrioxx_o-IVazJGMI53O7Ld4/image;s=655x491;q=80",
@@ -352191,12 +351705,7 @@
   "coord_note": "listing map pin",
   "bedrooms": 3,
   "size_m2": 120,
-  "also_on": [
-   {
-    "source": "custojusto",
-    "url": "https://www.custojusto.pt/viana-do-castelo/imobiliario/moradias/casa-villa-t3-em-torre-e-vil-45216847"
-   }
-  ],
+  "also_on": [],
   "id": "90ab411a5e",
   "municipality": "Viana do Castelo",
   "garden_yes": false,
@@ -352212,6 +351721,11 @@
    {
     "date": "2026-10-15",
     "dropped": "https://www.imovirtual.com/pt/anuncio/casa-villa-t3-em-torre-e-vila-mou-de-120-m2-ID1iNUj",
+    "why": "HTTP 410"
+   },
+   {
+    "date": "2026-10-19",
+    "dropped": "https://casa.sapo.pt/comprar-moradia-t3-viana-do-castelo-torre-e-vila-mou-03b90f94-a2c0-11f1-9c13-060000000051.html",
     "why": "HTTP 410"
    }
   ]
@@ -359468,43 +358982,6 @@
   "town": "Póvoa de Varzim, Beiriz e Argivai, Póvoa de Varzim",
   "typology": "T3",
   "property_type": "apartment",
-  "price": 500000,
-  "size": "117 m²",
-  "garden": "No garden mentioned (check listing)",
-  "note": "Venda de Apartamento T3 em fase de construção, situado numa localização privilegiada da cidade da Póvoa de Varzim, próximo de uma das mais desejadas zonas ba…",
-  "url": "https://www.imovirtual.com/pt/anuncio/venda-de-apartamento-t3-povoa-de-varzim-ID1iK4O",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 1.2,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImtlbHI5MTM3N2E5ZjEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.PWbSvWxJTAKxGX-DdSwyyh5vN8dhWvP3gMVKv0nsHCo/image;s=655x491;q=80",
-  "lat": 41.38924,
-  "lon": -8.76697,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 3,
-  "size_m2": 117,
-  "id": "2d0a351d62",
-  "municipality": "Póvoa de Varzim",
-  "garden_yes": false,
-  "title": "Venda de Apartamento T3, Póvoa de Varzim",
-  "new_build": true,
-  "unfinished": true,
-  "needs_work": false,
-  "balcony": false,
-  "terrace": false,
-  "build_why": [
-   "text: \"venda de apartamento t3 em fase de construcao, situado numa localizaca\"",
-   "portal field build year 2026",
-   "text: \"novo empreendimento\""
-  ]
- },
- {
-  "section": "ready",
-  "town": "Póvoa de Varzim, Beiriz e Argivai, Póvoa de Varzim",
-  "typology": "T3",
-  "property_type": "apartment",
   "price": 415000,
   "size": "119 m²",
   "garden": "No garden mentioned (check listing)",
@@ -364369,45 +363846,6 @@
  {
   "section": "ready",
   "town": "Póvoa de Varzim, Beiriz e Argivai, Póvoa de Varzim",
-  "typology": "T3",
-  "property_type": "apartment",
-  "price": 495000,
-  "size": "211 m²",
-  "garden": "No garden mentioned (check listing)",
-  "note": "Apartamento T3 , condomínio fechado com piscina, Póvoa de Varzim Este imóvel residencial, tipologia T3, encontra-se inserido numa zona urbana de referência, …",
-  "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t3-povoa-de-varzim-ID1iSB4",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 1.4,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InpjMnk1bjMzeHA2MTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.gk8krFBt70l_fEc-or1iUMuMgNzifXAbIMTh7FbBJ1U/image;s=655x491;q=80",
-  "lat": 41.39014,
-  "lon": -8.76443,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 3,
-  "size_m2": 211,
-  "id": "57259b0458",
-  "municipality": "Póvoa de Varzim",
-  "garden_yes": false,
-  "title": "Apartamento T3, Póvoa de Varzim",
-  "new_build": false,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": false,
-  "terrace": false,
-  "build_why": [],
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/apartamento-t3-pvoa-de-varzim-IDJAmQC.html"
-   }
-  ]
- },
- {
-  "section": "ready",
-  "town": "Póvoa de Varzim, Beiriz e Argivai, Póvoa de Varzim",
   "typology": "T4",
   "property_type": "apartment",
   "price": 450000,
@@ -366542,7 +365980,12 @@
   "coord_note": "listing map pin",
   "bedrooms": 2,
   "size_m2": 74,
-  "also_on": [],
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-com-terrao-na-quinta-do-baro-carcavelos-IDJwf2O.html"
+   }
+  ],
   "id": "1fe9a18cf2",
   "municipality": "Cascais",
   "garden_yes": false,
@@ -368162,7 +367605,13 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-1-com-varandas-para-venda-no-bonfim-no-porto-IDJxzPw.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -368926,6 +368375,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/casa-para-restaurar-madalena-IDJzsYB.html"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35012930/"
    }
   ]
  },
@@ -372027,10 +371480,6 @@
     "url": "https://www.imovirtual.com/pt/anuncio/moradia-geminada-t3-1-sao-francisco-ID1gfuq"
    },
    {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-t3-renovada-castelo-do-neiva-IDFzCYF.html"
-   },
-   {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-moradia-t3-viana-do-castelo-santa-maria-maior-e-monserrate-e-meadela-a1d1ae30-88dd-11f0-9e61-060000000056.html"
    }
@@ -374423,7 +373872,12 @@
   "balcony": false,
   "terrace": false,
   "build_why": [],
-  "also_on": []
+  "also_on": [
+   {
+    "source": "imovirtual",
+    "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t3-de-luxo-espinho-ID1b29A"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -374793,6 +374247,10 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/t3-renovado-3-frentes-universidade-lusiada-parque-da-cidade-bo-ID1iTWu"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t3-renovado-3-frentes-universidade-lusada-parque-da-cidade-bo-IDJAIew.html"
    }
   ],
   "id": "b35476f604",
@@ -374939,6 +374397,10 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/moradia-em-banda-v3-nova-c-terraco-na-madalena-ID1iXRd"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-em-banda-v3-nova-c-terrao-na-madalena-IDJCTOU.html"
    }
   ]
  },
@@ -374973,6 +374435,14 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-em-banda-v3-nova-c-terrao-na-madalena-IDJBDxP.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-em-banda-v3-nova-c-terrao-na-madalena-IDJC6yl.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-em-banda-v3-nova-c-terrao-na-madalena-IDJBXmK.html"
    }
   ],
   "id": "6259a9ef6e",
@@ -381852,10 +381322,6 @@
   "size_m2": 46,
   "also_on": [
    {
-    "source": "remax",
-    "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t2-tavira-tavira-santa-maria-e-santiago/120871197-8"
-   },
-   {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t2-para-venda-IDJDphW.html"
    },
@@ -385935,49 +385401,6 @@
  },
  {
   "section": "ready",
-  "town": "Lourinhã e Atalaia, Lourinhã",
-  "typology": "T3",
-  "property_type": "house",
-  "price": 489000,
-  "size": "179 m²",
-  "garden": "No garden mentioned – has terraço (check listing)",
-  "note": "+++++ OPEN HOUSE / 17-10-2026 / 15h - 17h +++++ Entre nesta residência moderna e repleta de luz no centro da Lourinhã e veja como um design bem pensado cria …",
-  "url": "https://www.imovirtual.com/pt/anuncio/moradia-com-2-quartos-e-piscina-interior-lourinha-ID1iwis",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 2.7,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InJ6NmxqbTl2a2tuYjEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.o3KgvmLvbBNeW4YMv4MARR_qRE95pXK61RVWE9d4oUw/image;s=655x491;q=80",
-  "lat": 39.2442,
-  "lon": -9.30622,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 3,
-  "size_m2": 179,
-  "also_on": [
-   {
-    "source": "century21",
-    "url": "https://www.century21.pt/ref/C0364-06105"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-com-2-quartos-e-piscina-interior-lourinh-IDJtaoM.html"
-   }
-  ],
-  "id": "ef22730deb",
-  "municipality": "Lourinhã",
-  "garden_yes": false,
-  "title": "Moradia com 2 quartos e piscina interior - Lourinhã",
-  "new_build": false,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": false,
-  "terrace": true,
-  "build_why": []
- },
- {
-  "section": "ready",
   "town": "Marco Cabaço - Vale Cavala, Charneca de Caparica e Sobreda",
   "typology": "T3",
   "property_type": "house",
@@ -387204,6 +386627,12 @@
   "terrace": false,
   "build_why": [
    "portal field market=primary (developer/new)"
+  ],
+  "also_on": [
+   {
+    "source": "custojusto",
+    "url": "https://www.custojusto.pt/aveiro/imobiliario/apartamentos/apartamento-t2-em-construcao--45220362"
+   }
   ]
  },
  {
@@ -387933,6 +387362,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/jd-apartamento-t3-como-novo-c-2-lugares-de-garagem-na-madalena-IDJAvCK.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/fn-t3-com-126m-c-2-lugares-garagem-madalena-vila-nova-de-gaia-IDJAFWV.html"
    }
   ],
   "id": "1ef1185ca6",
@@ -392687,7 +392120,13 @@
   "needs_work": false,
   "balcony": true,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-1-em-condomnio-fechado-senhora-da-hora-matosinhos-IDJweFH.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -397644,48 +397083,6 @@
  },
  {
   "section": "ready",
-  "town": "Corroios, Seixal",
-  "typology": "T3",
-  "property_type": "house",
-  "price": 456000,
-  "size": "110 m²",
-  "garden": "No garden mentioned – has varanda (check listing)",
-  "note": "Moradia T3 com garagem Apresentamos esta acolhedora moradia T3, distribuída por três pisos e complementada por um sótão em bruto.",
-  "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t3-seixal-corroios/121701512-115",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "remax",
-  "auto": true,
-  "coast_km": 4.2,
-  "image": "https://i.maxwork.pt/l-view/listings/12170/7246098/268b3b4f-3678-4009-9c1b-3ee5cee84851.jpg",
-  "lat": 38.62166,
-  "lon": -9.17126,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 3,
-  "size_m2": 110,
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-t3-para-venda-IDJBsBV.html"
-   },
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-t4-para-venda-IDJCA47.html"
-   }
-  ],
-  "id": "2c8d7ea96f",
-  "municipality": "Seixal",
-  "garden_yes": false,
-  "new_build": false,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": true,
-  "terrace": false,
-  "build_why": []
- },
- {
-  "section": "ready",
   "town": "São Romão de Neiva, Viana do Castelo",
   "typology": "T4",
   "property_type": "house",
@@ -399698,6 +399095,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-andar-de-moradia-t2-porto-cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-e-vitoria-6439921d-9cc9-4bd2-a37f-66424e57a522.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/andar-moradia-t2-venda-em-cedofeita-santo-ildefonso-s-miragaia-s-IDJiDaB.html"
    }
   ]
  },
@@ -401435,10 +400836,10 @@
   "size": "130 m²",
   "garden": "No garden mentioned – has varanda (check listing)",
   "note": "Descubra esta fantástica moradia T3 de arquitetura contemporânea, construída em 2025, que alia conforto, funcionalidade e qualidade de construção, inserida n…",
-  "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-contempornea-construcao-de-2025-praias-do-sado-setub-ID1iyT3",
+  "url": "https://casa.sapo.pt/comprar-moradia-t3-setubal-sado-953d5d53-79c9-11f1-9aaf-060000000054.html",
   "also": false,
   "first_seen": "2026-10-10",
-  "source": "imovirtual",
+  "source": "casasapo",
   "auto": true,
   "coast_km": 4.8,
   "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImRhemwyZXA4cGFqZC1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.1a-zhJcIBEir73yNOYmnGWiN5Ke52rqnzm32cpecqI8/image;s=655x491;q=80",
@@ -401449,16 +400850,7 @@
   "bedrooms": 3,
   "size_m2": 130,
   "stretch": "€519k – above the €500k budget",
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/moradia-t3-contempornea-construo-de-2025-praias-do-sado-setb-IDJui7z.html"
-   },
-   {
-    "source": "casasapo",
-    "url": "https://casa.sapo.pt/comprar-moradia-t3-setubal-sado-953d5d53-79c9-11f1-9aaf-060000000054.html"
-   }
-  ],
+  "also_on": [],
   "id": "bd9bd674cd",
   "municipality": "Setúbal",
   "garden_yes": false,
@@ -401470,6 +400862,14 @@
   "terrace": false,
   "build_why": [
    "portal field market=primary (developer/new)"
+  ],
+  "pin_id": "bd9bd674cd",
+  "liveness_log": [
+   {
+    "date": "2026-10-19",
+    "dropped": "https://www.imovirtual.com/pt/anuncio/moradia-t3-contempornea-construcao-de-2025-praias-do-sado-setub-ID1iyT3",
+    "why": "HTTP 410"
+   }
   ]
  },
  {
@@ -403349,50 +402749,6 @@
   "terrace": true,
   "build_why": [
    "portal field build year 2026"
-  ]
- },
- {
-  "section": "ready",
-  "town": "Seixas, Caminha",
-  "typology": "T3",
-  "property_type": "house",
-  "price": 400000,
-  "size": "139 m²",
-  "garden": "No garden mentioned (check listing)",
-  "note": "O seu refúgio secreto no Minho, em Caminha e relativamente próximo à Praia do Moledo, vai nascer sobre o desenho do arquitecto italiano Massimiliano Tudisco.",
-  "url": "https://www.olx.pt/d/anuncio/moradia-t3-para-venda-IDJ07GX.html",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "olx",
-  "auto": true,
-  "coast_km": 5.0,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Im0zeW1pb3I1emlkeTEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.Uh8-DAra9GcF2frxei43QTXNw3JRK8Wjdq8QbNTztZQ/image;s=655x491;q=80",
-  "lat": 41.89029,
-  "lon": -8.82377,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 3,
-  "size_m2": 139,
-  "also_on": [],
-  "id": "305a23ac74",
-  "municipality": "Caminha",
-  "garden_yes": false,
-  "title": "Moradia T3 para venda",
-  "new_build": true,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": true,
-  "terrace": true,
-  "build_why": [
-   "portal field build year 2026"
-  ],
-  "pin_id": "305a23ac74",
-  "liveness_log": [
-   {
-    "date": "2026-10-16",
-    "dropped": "https://www.imovirtual.com/pt/anuncio/moradia-t3-para-venda-ID1h9Me",
-    "why": "HTTP 410"
-   }
   ]
  },
  {
@@ -407355,6 +406711,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/oportunidade-nica-moradia-em-runa-no-centro-de-gaia-IDIkWMF.html"
+   },
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/33230868/"
    }
   ],
   "id": "3cf47432b7",
@@ -409266,6 +408626,12 @@
   "build_why": [
    "portal field market=primary (developer/new)",
    "portal field build year 2026"
+  ],
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-com-varanda-no-boss-gardens-porto-IDJAFDw.html"
+   }
   ]
  },
  {
@@ -428298,6 +427664,10 @@
    {
     "source": "century21",
     "url": "https://www.century21.pt/ref/C0406-02577"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t2-novo-com-garagem-e-arrumo-the-yard-tagus-tagus-park-oeiras-IDJAG2G.html"
    }
   ],
   "id": "de26eb1ff1",
@@ -428704,6 +428074,10 @@
    {
     "source": "remax",
     "url": "https://www.remax.pt/pt/imoveis/venda-moradia-t4-ponte-de-lima-arcozelo/127331015-135"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t4-remodelada-em-oliveira-do-douro-IDJBVZM.html"
    }
   ],
   "id": "6b80381bb2",
@@ -435568,6 +434942,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t3-conforto-habitacional-e-excelente-localizao-IDJs0e6.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/venda-de-moradia-v3-com-terrao-prxima-do-hospital-so-joo-em-IDJx9Zl.html"
    }
   ]
  },
@@ -435971,6 +435349,10 @@
    {
     "source": "remax",
     "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t3-oeiras-barcarena/120211535-32"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t3-para-venda-IDJAIdR.html"
    }
   ],
   "id": "a3bcdf5738",
@@ -436641,6 +436023,12 @@
   "build_why": [
    "portal field build year 2028 (future)",
    "portal field build year 2028"
+  ],
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamentos-t3-pedrouos-maia-IDJAArs.html"
+   }
   ]
  },
  {
@@ -443201,46 +442589,6 @@
   "town": "Cavaleira, Algueirão-Mem Martins",
   "typology": "T2",
   "property_type": "apartment",
-  "price": 375000,
-  "size": "92 m²",
-  "garden": "No garden mentioned (check listing)",
-  "note": "Apartamento T2 remodelado, localizado na Cavaleira, uma zona residencial tranquila de Algueirão-Mem Martins, no concelho de Sintra, com excelentes acessos a …",
-  "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t2-remodelado-cavaleira-algueirao-mem-martins-ID1iwYV",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 10.2,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Im5weTZweHlzcjFtbDMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.oMYSUMqFpGpjO9s6N3WqFTDnfuOL-FgCpcm-mR29aq8/image;s=655x491;q=80",
-  "lat": 38.80593,
-  "lon": -9.35282,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 2,
-  "size_m2": 92,
-  "stretch": "10.2 km from the coast (limit 8 km)",
-  "also_on": [
-   {
-    "source": "olx",
-    "url": "https://www.olx.pt/d/anuncio/t2-remodelado-urbanizao-moinho-da-cavaleira-IDJBM2D.html"
-   }
-  ],
-  "id": "1260d3fb73",
-  "municipality": "Sintra",
-  "garden_yes": false,
-  "title": "Apartamento T2 Remodelado | Cavaleira | Algueirão-Mem Martins",
-  "new_build": false,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": false,
-  "terrace": false,
-  "build_why": []
- },
- {
-  "section": "ready",
-  "town": "Cavaleira, Algueirão-Mem Martins",
-  "typology": "T2",
-  "property_type": "apartment",
   "price": 355000,
   "size": "95 m²",
   "garden": "No garden mentioned (check listing)",
@@ -447129,40 +446477,6 @@
  },
  {
   "section": "ready",
-  "town": "Campinas, Queluz e Belas",
-  "typology": "T2",
-  "property_type": "apartment",
-  "price": 425000,
-  "size": "100 m²",
-  "garden": "No garden mentioned (check listing)",
-  "note": "Apartamento T2 Belas, Remodelado com Parqueamento e Arrecadação Pensado ao detalhe, onde o conforto, a modernidade e a funcionalidade se encontram para propo…",
-  "url": "https://www.imovirtual.com/pt/anuncio/t2-com-suite-parqueamento-arrecadacao-e-remodelacao-de-excelencia-b-ID1iZP3",
-  "also": false,
-  "first_seen": "2026-10-10",
-  "source": "imovirtual",
-  "auto": true,
-  "coast_km": 10.8,
-  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InI5eG4xMm9mZnN0MDMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.Xz2XqNjWlswG8UfVEvjkcrT137pnVGxOwdeS21hKd44/image;s=655x491;q=80",
-  "lat": 38.76702,
-  "lon": -9.27251,
-  "coord_approx": false,
-  "coord_note": "listing map pin",
-  "bedrooms": 2,
-  "size_m2": 100,
-  "stretch": "10.8 km from the coast (limit 8 km)",
-  "id": "fd9d0fb153",
-  "municipality": "Sintra",
-  "garden_yes": false,
-  "title": "T2 com Suíte, Parqueamento/Arrecadação e Remodelação de Excelência | B",
-  "new_build": false,
-  "unfinished": false,
-  "needs_work": false,
-  "balcony": false,
-  "terrace": false,
-  "build_why": []
- },
- {
-  "section": "ready",
   "town": "Monte Abraão, Massamá e Monte Abraão",
   "typology": "T3",
   "property_type": "apartment",
@@ -447823,10 +447137,6 @@
     "url": "https://www.olx.pt/d/anuncio/andar-de-moradia-t3-com-entrada-independente-e-espao-exterior-na-q-IDJpjYU.html"
    },
    {
-    "source": "imovirtual",
-    "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-em-banda-quinta-do-conde-sesimbra-ID1iyzQ"
-   },
-   {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t3-em-banda-quinta-do-conde-sesimbra-IDJu5n3.html"
    },
@@ -448327,6 +447637,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/t3-com-suite-no-monte-abrao-oportunidade-IDJA9kl.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t3-com-suite-no-monte-abrao-oportunidade-IDJAGfl.html"
    }
   ]
  },
@@ -463810,6 +463124,10 @@
    {
     "source": "casasapo",
     "url": "https://casa.sapo.pt/comprar-moradia-t0-matosinhos-2d6b0988-c48d-11f1-9c13-060000000051.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-geminada-em-matosinhos-e-lea-da-palmeira-de-222-3-m2-IDJDlcv.html"
    }
   ],
   "id": "83064ef268",
@@ -466226,7 +465544,13 @@
   "needs_work": false,
   "balcony": false,
   "terrace": true,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/luxuosa-moradia-t2-duplex-com-jardim-privativo-povoa-de-varzim-IDJCs2Z.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -469045,6 +468369,10 @@
    {
     "source": "imovirtual",
     "url": "https://www.imovirtual.com/pt/anuncio/moradia-espacosa-com-dois-jardins-no-centro-da-cotovia-ID1j062"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-no-centro-da-cotovia-sesimbra-IDJDMq3.html"
    }
   ],
   "id": "90b1624fdc",
@@ -469522,6 +468850,18 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-oeiras-IDJEcUH.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-venda-totalmente-remodelado-IDJxyRa.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t2-oeiras-remodelado-IDJuUHY.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-em-oeiras-remodelado-IDJA5Ts.html"
    }
   ]
  },
@@ -469685,6 +469025,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t4-para-venda-IDJEsCZ.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t4-em-oeiras-localizao-privilegiada-IDJxzsV.html"
    }
   ]
  },
@@ -472558,6 +471902,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/moradia-t4-venda-em-cascais-IDJD4R8.html"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-moradia-t4-cascais-sao-domingos-de-rana-caparide-85e79b71-c471-11f1-9aaf-060000000054.html"
    }
   ]
  },
@@ -474586,7 +473934,13 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/t3-no-le-parc-faro-4-andar-terrao-varanda-2-estacionamentos-IDJAHnY.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -475260,6 +474614,10 @@
    {
     "source": "century21",
     "url": "https://www.century21.pt/ref/0739-04651"
+   },
+   {
+    "source": "casasapo",
+    "url": "https://casa.sapo.pt/comprar-apartamento-t3-almada-charneca-de-caparica-e-sobreda-7a94ad27-c984-11f1-9c13-060000000051.html"
    }
   ],
   "id": "3c64b33eeb",
@@ -480038,6 +479396,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-novo-junto-ao-el-corte-ingls-vila-nova-de-gaic-IDJDXqK.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-de-construo-recente-junto-ao-el-corte-ingls-IDJwedM.html"
    }
   ]
  },
@@ -481870,7 +481232,13 @@
   "needs_work": false,
   "balcony": true,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t3-para-venda-IDJxzPF.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -482469,6 +481837,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-com-2-varandas-parqueamento-e-arrecadao-no-centro-de-mafra-IDJEkJE.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-com-2-varandas-parqueamento-e-arrecadao-no-centro-de-mafra-144m2-IDJEkJE.html"
    }
   ]
  },
@@ -486453,7 +485825,13 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/lourel-excelente-apartamento-t3-com-garagem-e-arrecadao-IDJEiTt.html"
+   }
+  ]
  },
  {
   "section": "ready",
@@ -486566,6 +485944,10 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/apartamento-t2-para-venda-IDJEjTD.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-para-venda-IDJEjTP.html"
    }
   ],
   "id": "826eacd07f",
@@ -489428,6 +488810,14 @@
    {
     "source": "olx",
     "url": "https://www.olx.pt/d/anuncio/quinta-do-conde-moradia-geminada-t3-1-em-excelente-estado-conservao-IDJEc8I.html"
+   },
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/quinta-do-conde-moradia-geminada-t3-1-IDJEykF.html"
+   },
+   {
+    "source": "imovirtual",
+    "url": "https://www.imovirtual.com/pt/anuncio/quinta-do-conde-moradia-geminada-t3-1-ID1j2kn"
    }
   ],
   "id": "3e2e07c5a1",
@@ -492615,7 +492005,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "",
+  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C8759/P30062684/Tphoto/ID5cb8ca01-0000-0500-0000-0000195ba189.jpg",
   "bedrooms": 3,
   "size_m2": 140,
   "stretch": "€515k – above the €500k budget",
@@ -492636,7 +492026,8 @@
    "text: \"s dados do imovel estado em construcao area util 140m2 area bru\"",
    "portal field estado=em construção",
    "text: \"moradia t3 nova\""
-  ]
+  ],
+  "image_from": null
  },
  {
   "section": "ready",
@@ -493693,7 +493084,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "",
+  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C10629/P29474905/Tphoto/ID59c0c101-0000-0500-0000-00001888d939.jpg",
   "bedrooms": 3,
   "size_m2": 220,
   "id": "80be6ed38a",
@@ -493709,7 +493100,8 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "image_from": null
  },
  {
   "section": "ready",
@@ -494092,7 +493484,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "",
+  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C4100/P29425973/Tphoto/ID3501c101-0000-0500-0000-000018973d67.jpg",
   "bedrooms": 3,
   "size_m2": 92,
   "id": "834c496f7b",
@@ -494108,7 +493500,8 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "image_from": null
  },
  {
   "section": "ready",
@@ -494472,7 +493865,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "",
+  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C14986/P29120803/Tphoto/ID2359bc01-0000-0500-0000-000018297f8a.jpg",
   "bedrooms": 5,
   "size_m2": 215,
   "id": "46481e12df",
@@ -494488,7 +493881,8 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "image_from": null
  },
  {
   "section": "ready",
@@ -494505,7 +493899,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "",
+  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C9139/P25378582/Tphoto/ID163f8301-0000-0500-0000-000013e5dac9.jpg",
   "bedrooms": null,
   "size_m2": 122,
   "id": "5295d5ee42",
@@ -494521,7 +493915,8 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "image_from": null
  },
  {
   "section": "ready",
@@ -494743,7 +494138,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "",
+  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C6411/P24995555/Tphoto/IDe3667d01-0000-0500-0000-0000132f76a9.jpg",
   "bedrooms": 3,
   "size_m2": 114,
   "id": "0ebded7998",
@@ -494762,7 +494157,8 @@
   "build_why": [
    "text: \"tamento de tipologia t3, em construcao, num condominio com pisc\"",
    "portal field estado=em construção"
-  ]
+  ],
+  "image_from": null
  },
  {
   "section": "ready",
@@ -494779,7 +494175,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "",
+  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C5220/P25546516/Tphoto/ID14cf8501-0000-0500-0000-00001428f6c5.jpg",
   "bedrooms": null,
   "size_m2": 333,
   "id": "4247c4c845",
@@ -494795,7 +494191,8 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "image_from": null
  },
  {
   "section": "ready",
@@ -494882,7 +494279,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "",
+  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C3753/P26032123/Tphoto/IDfb378d01-0000-0500-0000-0000149b7824.jpg",
   "bedrooms": 5,
   "size_m2": 223,
   "id": "05cf33ae30",
@@ -494898,7 +494295,8 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "image_from": null
  },
  {
   "section": "ready",
@@ -495313,7 +494711,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "",
+  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C5449/P29953517/Tphoto/IDed0dc901-0000-0500-0000-00001936274f.jpg",
   "bedrooms": 3,
   "size_m2": 154,
   "stretch": "€520k – above the €500k budget",
@@ -495332,7 +494730,8 @@
   "terrace": true,
   "build_why": [
    "portal field build year 2024"
-  ]
+  ],
+  "image_from": null
  },
  {
   "section": "ready",
@@ -495548,7 +494947,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "",
+  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C5242/P31212656/Tphoto/ID7044dc01-0000-0500-0000-00001aa31839.jpg",
   "bedrooms": 2,
   "size_m2": 110,
   "id": "670cc77486",
@@ -495564,7 +494963,8 @@
   "needs_work": false,
   "balcony": false,
   "terrace": true,
-  "build_why": []
+  "build_why": [],
+  "image_from": null
  },
  {
   "section": "ready",
@@ -495647,7 +495047,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "",
+  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C12362/P31039004/Tphoto/ID1c9ed901-0000-0500-0000-00001a737305.jpg",
   "bedrooms": 2,
   "size_m2": 98,
   "id": "bcb02c1340",
@@ -495663,7 +495063,8 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "image_from": null
  },
  {
   "section": "ready",
@@ -496245,7 +495646,7 @@
   "source": "casasapo",
   "auto": true,
   "coast_km": null,
-  "image": "",
+  "image": "https://media.casasapo.pt/Z1440x1080/OAYES/S5/C4266/P25370917/Tphoto/ID25218301-0000-0500-0000-0000149d118d.JPG",
   "bedrooms": null,
   "size_m2": null,
   "id": "f97035b09b",
@@ -496261,7 +495662,8 @@
   "needs_work": false,
   "balcony": false,
   "terrace": false,
-  "build_why": []
+  "build_why": [],
+  "image_from": null
  },
  {
   "section": "reno",
@@ -497261,6 +496663,866 @@
   "id": "cddb76ae0f",
   "municipality": "Lisboa",
   "garden_yes": false,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": false,
+  "terrace": false,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Espinho, Espinho",
+  "typology": "T2",
+  "property_type": "apartment",
+  "price": 405000,
+  "size": "70 m²",
+  "garden": "No garden mentioned – has terraço (check listing)",
+  "note": "T2 EM ESPINHO COM TERRAÇO DE 66M2.",
+  "url": "https://www.imovirtual.com/pt/anuncio/t2-em-espinho-com-terraco-de-66m2-ID1iqDB",
+  "also": false,
+  "first_seen": "2026-10-19",
+  "source": "imovirtual",
+  "auto": true,
+  "coast_km": 1.6,
+  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Ink2cWZxMzUxZ3p6MzMtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.MQw30PLWqXSRb5vxtzKjkhq7LfTsIpuwIp5bxQaH2-E/image;s=655x491;q=80",
+  "lat": 41.0084,
+  "lon": -8.6361,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 2,
+  "size_m2": 70,
+  "id": "086376e366",
+  "municipality": "Espinho",
+  "garden_yes": false,
+  "title": "T2 EM ESPINHO COM TERRAÇO DE 66M2!",
+  "new_build": true,
+  "unfinished": true,
+  "needs_work": false,
+  "balcony": true,
+  "terrace": true,
+  "build_why": [
+   "portal field construction_status=to_completion",
+   "portal field build year 2029 (future)",
+   "portal field market=primary (developer/new)",
+   "portal field build year 2029"
+  ]
+ },
+ {
+  "section": "ready",
+  "town": "Mindelo",
+  "typology": "T3",
+  "property_type": "house",
+  "price": 379000,
+  "size": "105 m²",
+  "garden": "Yes – mentions 'jardim' (check listing)",
+  "note": "Não é apenas mais um apartamento junto à praia.",
+  "url": "https://www.olx.pt/d/anuncio/t3-com-vivncia-de-andar-moradia-jardim-e-terrao-privativos-a-150-IDJyu2r.html",
+  "also": false,
+  "first_seen": "2026-10-19",
+  "source": "olx",
+  "auto": true,
+  "coast_km": 1.6,
+  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/ijylvstw02f12-PT/image;s=640x480",
+  "lat": 41.31116,
+  "lon": -8.73857,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 3,
+  "size_m2": 105,
+  "also_on": [
+   {
+    "source": "century21",
+    "url": "https://www.century21.pt/ref/C0406-02839"
+   }
+  ],
+  "id": "b3f8db5e53",
+  "municipality": "Vila do Conde",
+  "garden_yes": true,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": true,
+  "terrace": true,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Esposende, Marinhas e Gandra, Esposende",
+  "typology": "T3",
+  "property_type": "house",
+  "price": 379000,
+  "size": "155 m²",
+  "garden": "Yes – mentions 'jardim' (check listing)",
+  "note": "Procura uma moradia espaçosa, com jardim em uma localização privilegiada?",
+  "url": "https://www.imovirtual.com/pt/anuncio/moradia-t3-terrea-e-isolada-em-esposende-ID1j2jv",
+  "also": false,
+  "first_seen": "2026-10-19",
+  "source": "imovirtual",
+  "auto": true,
+  "coast_km": 2.1,
+  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjgxeXRmdjkweWVlbjEtRUNPU1lTVEVNIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.tv6F1Xc1hywClDMWIaiv0RBkE2EF4cjVnlvWgKqmjIc/image;s=655x491;q=80",
+  "lat": 41.51964,
+  "lon": -8.76525,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 3,
+  "size_m2": 155,
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/moradia-t3-trrea-e-isolada-em-esposende-IDJExq4.html"
+   }
+  ],
+  "id": "a5337d8cb5",
+  "municipality": "Esposende",
+  "garden_yes": true,
+  "title": "Moradia T3 térrea e isolada em Esposende",
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": true,
+  "terrace": true,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Anta e Guetim, Espinho",
+  "typology": "T2",
+  "property_type": "house",
+  "price": 350000,
+  "size": "115 m²",
+  "garden": "No garden mentioned (check listing)",
+  "note": "Apresentamos esta Moradia em Fase de Restauração, em Esmoriz.Se procura um imóvel com potencial de valorização, numa localização privilegiada em Esmoriz, est…",
+  "url": "https://www.custojusto.pt/aveiro/imobiliario/moradias/moradia-terrea-em-face-de-rest-45232007",
+  "also": false,
+  "first_seen": "2026-10-19",
+  "source": "custojusto",
+  "auto": true,
+  "coast_km": 2.1,
+  "image": "https://prod-images.custojusto.pt/gallery/4465671738-moradia-terrea-em-face-de-restauracao-em-esmoriz.jpg",
+  "lat": 41.01196,
+  "lon": -8.63076,
+  "coord_approx": true,
+  "coord_note": "listing map pin (approximate area)",
+  "bedrooms": 2,
+  "size_m2": 115,
+  "id": "0b6e629ced",
+  "municipality": "Espinho",
+  "garden_yes": false,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": false,
+  "terrace": false,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Póvoa de Varzim, Beiriz e Argivai, Póvoa de Varzim",
+  "typology": "T2",
+  "property_type": "apartment",
+  "price": 398000,
+  "size": "98 m²",
+  "garden": "No garden mentioned – has varanda (check listing)",
+  "note": "Quero convidá-lo a entrar!",
+  "url": "https://www.imovirtual.com/pt/anuncio/apartamento-t2-seminovo-povoa-de-varzim-ID1j2hh",
+  "also": false,
+  "first_seen": "2026-10-19",
+  "source": "imovirtual",
+  "auto": true,
+  "coast_km": 2.3,
+  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImlleXAwcjBpYWE3bi1FQ09TWVNURU0iLCJ3IjpbeyJmbiI6IjY5bmxwYTdlY3FtNzEtQVBUIiwicyI6IjE2IiwiYSI6IjAiLCJwIjoiMTAsLTEwIn1dfQ.xoPxKbjNet8QmkrOqdUUKt2KJy6QXkWnomo6598YSeA/image;s=655x491;q=80",
+  "lat": 41.39037,
+  "lon": -8.75312,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 2,
+  "size_m2": 98,
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-seminovo-pvoa-de-varzim-IDJEw69.html"
+   }
+  ],
+  "id": "c67498576b",
+  "municipality": "Póvoa de Varzim",
+  "garden_yes": false,
+  "title": "Apartamento T2 seminovo Póvoa de Varzim",
+  "new_build": true,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": true,
+  "terrace": false,
+  "build_why": [
+   "portal field build year 2025"
+  ]
+ },
+ {
+  "section": "ready",
+  "town": "Oeiras E São Julião Da Barra, Paço De Arcos E Caxias",
+  "typology": "T2",
+  "property_type": "apartment",
+  "price": 399000,
+  "size": "70 m²",
+  "garden": "No garden mentioned – has varanda (check listing)",
+  "note": "T2 Renovado com Varandas junto ao Parque dos Poetas - Oeiras Apresentamos este excelente T2 totalmente renovado, situado numa localização privilegiada em Oei…",
+  "url": "https://www.olx.pt/d/anuncio/apartamento-2-quartos-oeiras-oeiras-e-so-juli-IDJxxW2.html",
+  "also": false,
+  "first_seen": "2026-10-19",
+  "source": "olx",
+  "auto": true,
+  "coast_km": 2.3,
+  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/j4lvdhzw1n3a2-PT/image;s=640x480",
+  "lat": 38.69488,
+  "lon": -9.3104,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 2,
+  "size_m2": 70,
+  "also_on": [
+   {
+    "source": "remax",
+    "url": "https://www.remax.pt/pt/imoveis/venda-apartamento-t2-oeiras-oeiras-e-sao-juliao-da-barra-paco-de-arcos-e-caxias/123791167-199"
+   }
+  ],
+  "id": "aa153a3c9d",
+  "municipality": "Oeiras",
+  "garden_yes": false,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": true,
+  "terrace": false,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Oeiras E São Julião Da Barra, Paço De Arcos E Caxias",
+  "typology": "T2",
+  "property_type": "apartment",
+  "price": 395000,
+  "size": "68 m²",
+  "garden": "No garden mentioned (check listing)",
+  "note": "Apartamento T2 em Oeiras | 87 m² | Pronto a Habitar | Vista Mar nas Zonas Comuns Conforto, comodidade e qualidade de vida numa localização privilegiada em Oe…",
+  "url": "https://www.olx.pt/d/anuncio/apartamento-t2-para-venda-IDJEy5y.html",
+  "also": false,
+  "first_seen": "2026-10-19",
+  "source": "olx",
+  "auto": true,
+  "coast_km": 2.4,
+  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/zs9kn3kmr49s1-PT/image;s=640x480",
+  "lat": 38.69568,
+  "lon": -9.30872,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 2,
+  "size_m2": 68,
+  "id": "d9ff6d266e",
+  "municipality": "Oeiras",
+  "garden_yes": false,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": false,
+  "terrace": false,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Oeiras E São Julião Da Barra, Paço De Arcos E Caxias",
+  "typology": "T2",
+  "property_type": "apartment",
+  "price": 455000,
+  "size": "86 m²",
+  "garden": "Yes – mentions 'jardim' (check listing)",
+  "note": "Situado numa localização privilegiada em Oeiras, este apartamento novo de 86 metros quadrados oferece uma combinação perfeita de conforto, funcionalidade e e…",
+  "url": "https://www.olx.pt/d/anuncio/apartamento-t2-remodelado-em-oeiras-IDJE9jz.html",
+  "also": false,
+  "first_seen": "2026-10-19",
+  "source": "olx",
+  "auto": true,
+  "coast_km": 2.4,
+  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/z6mo3dsp5urw2-PT/image;s=640x480",
+  "lat": 38.69493,
+  "lon": -9.30806,
+  "coord_approx": true,
+  "coord_note": "listing map pin (approximate area)",
+  "bedrooms": 2,
+  "size_m2": 86,
+  "id": "90b02903a9",
+  "municipality": "Oeiras",
+  "garden_yes": true,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": true,
+  "terrace": false,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Oeiras E São Julião Da Barra, Paço De Arcos E Caxias",
+  "typology": "T2",
+  "property_type": "apartment",
+  "price": 455000,
+  "size": "84 m²",
+  "garden": "No garden mentioned (check listing)",
+  "note": "Este apartamento T2, situado em Oeiras, Lisboa, apresenta um conforto notável e excelente acessibilidade à A5 e ao Oeiras Parque.",
+  "url": "https://www.olx.pt/d/anuncio/apartamento-t2-em-oeiras-com-elevador-IDJE5On.html",
+  "also": false,
+  "first_seen": "2026-10-19",
+  "source": "olx",
+  "auto": true,
+  "coast_km": 2.4,
+  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/lkeie6vwbnp62-PT/image;s=640x480",
+  "lat": 38.69525,
+  "lon": -9.30856,
+  "coord_approx": true,
+  "coord_note": "listing map pin (approximate area)",
+  "bedrooms": 2,
+  "size_m2": 84,
+  "id": "792c6545a8",
+  "municipality": "Oeiras",
+  "garden_yes": false,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": true,
+  "terrace": false,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Oeiras E São Julião Da Barra, Paço De Arcos E Caxias",
+  "typology": "T2",
+  "property_type": "apartment",
+  "price": 475000,
+  "size": "81 m²",
+  "garden": "No garden mentioned – has varanda (check listing)",
+  "note": "T2 em Oeiras – Com Varanda, Arrecadação e Excelente Localização!",
+  "url": "https://www.olx.pt/d/anuncio/apartamento-t2-em-oeiras-com-varanda-arrecadao-e-excelente-loc-IDJw01k.html",
+  "also": false,
+  "first_seen": "2026-10-19",
+  "source": "olx",
+  "auto": true,
+  "coast_km": 2.4,
+  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/uiisoqfskpbl1-PT/image;s=640x480",
+  "lat": 38.69496,
+  "lon": -9.30815,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 2,
+  "size_m2": 81,
+  "id": "b7ab1933b5",
+  "municipality": "Oeiras",
+  "garden_yes": false,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": true,
+  "terrace": false,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Oeiras E São Julião Da Barra, Paço De Arcos E Caxias",
+  "typology": "T2",
+  "property_type": "apartment",
+  "price": 455000,
+  "size": "91 m²",
+  "garden": "No garden mentioned – has varanda (check listing)",
+  "note": "EXCELENTE OPORTUNIDADE PARA HABITAÇÃO OU INVESTIMENTO APARTAMENTO T2 TOTALMENTE REMODELADO EM OEIRAS Apresentamos este fantástico apartamento T2, totalmente …",
+  "url": "https://www.olx.pt/d/anuncio/apartamento-t2-remodelado-no-centro-de-oeiras-IDJxhUR.html",
+  "also": false,
+  "first_seen": "2026-10-19",
+  "source": "olx",
+  "auto": true,
+  "coast_km": 2.4,
+  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/6hceijjhzt7n2-PT/image;s=640x480",
+  "lat": 38.69496,
+  "lon": -9.30815,
+  "coord_approx": true,
+  "coord_note": "listing map pin (approximate area)",
+  "bedrooms": 2,
+  "size_m2": 91,
+  "id": "a8411512d1",
+  "municipality": "Oeiras",
+  "garden_yes": false,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": true,
+  "terrace": false,
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "olx",
+    "url": "https://www.olx.pt/d/anuncio/apartamento-t2-remodelado-no-centro-de-oeiras-IDJxgJo.html"
+   }
+  ]
+ },
+ {
+  "section": "ready",
+  "town": "Oeiras E São Julião Da Barra, Paço De Arcos E Caxias",
+  "typology": "T2",
+  "property_type": "apartment",
+  "price": 455000,
+  "size": "80 m²",
+  "garden": "No garden mentioned – has varanda (check listing)",
+  "note": "Apartamento T2 completamente renovado Descubra este magnífico apartamento T2 com 91 m² de área bruta e 80 m² úteis, situado no primeiro andar com elevador na…",
+  "url": "https://www.olx.pt/d/anuncio/apartamento-t2-renovado-oeiras-IDJAb16.html",
+  "also": false,
+  "first_seen": "2026-10-19",
+  "source": "olx",
+  "auto": true,
+  "coast_km": 2.4,
+  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/2gfgvhz2vbi5-PT/image;s=640x480",
+  "lat": 38.69525,
+  "lon": -9.30856,
+  "coord_approx": true,
+  "coord_note": "listing map pin (approximate area)",
+  "bedrooms": 2,
+  "size_m2": 80,
+  "id": "7ec004cb0e",
+  "municipality": "Oeiras",
+  "garden_yes": false,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": true,
+  "terrace": false,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Oeiras E São Julião Da Barra, Paço De Arcos E Caxias",
+  "typology": "T2",
+  "property_type": "apartment",
+  "price": 455000,
+  "size": "91 m²",
+  "garden": "No garden mentioned – has varanda (check listing)",
+  "note": "T2 REMODELADO EM OEIRAS | 91 m2 | 2 WC | ARRECADAÇÃO | EXCELENTE LOCALIZAÇÃO Apartamento T2 remodelado, com acabamentos novos, excelente luminosidade e local…",
+  "url": "https://www.olx.pt/d/anuncio/apartamento-t2-remodelado-em-oeiras-IDJDSyw.html",
+  "also": false,
+  "first_seen": "2026-10-19",
+  "source": "olx",
+  "auto": true,
+  "coast_km": 2.4,
+  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/uuqpkh8c083w-PT/image;s=640x480",
+  "lat": 38.69503,
+  "lon": -9.30857,
+  "coord_approx": true,
+  "coord_note": "listing map pin (approximate area)",
+  "bedrooms": 2,
+  "size_m2": 91,
+  "id": "09b916ec98",
+  "municipality": "Oeiras",
+  "garden_yes": false,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": true,
+  "terrace": false,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Centro de Ramalde - Pereiró, Ramalde",
+  "typology": "T3",
+  "property_type": "apartment",
+  "price": 510000,
+  "size": "167 m²",
+  "garden": "No garden mentioned (check listing)",
+  "note": "Excelente oportunidade de T3 no Porto, em Pinheiro Manso/Bessa/Foco/Boavista, amplo, c/ carregamento elétrico para auto, dois apartamentos e dois elevadores …",
+  "url": "https://www.imovirtual.com/pt/anuncio/t3-porto-pinheiro-manso-boavista-amplo-carregamento-2-auto-eletricos-ID1iFa3",
+  "also": false,
+  "first_seen": "2026-10-19",
+  "source": "imovirtual",
+  "auto": true,
+  "coast_km": 2.8,
+  "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjFubWk2OTBxa3NuMjMtQVBUIiwidyI6W3siZm4iOiI2OW5scGE3ZWNxbTcxLUFQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.ujU1FUKnGl3luWhFpHW8dhB5nTdBdsJUxTko62lFV10/image;s=655x491;q=80",
+  "lat": 41.16799,
+  "lon": -8.65391,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 3,
+  "size_m2": 167,
+  "stretch": "€510k – above the €500k budget",
+  "id": "ef919abd5f",
+  "municipality": "Porto",
+  "garden_yes": false,
+  "title": "T3, Porto-Pinheiro Manso/Boavista,amplo,carregamento 2 auto elétricos",
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": true,
+  "terrace": false,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Glória E Vera Cruz",
+  "typology": "T3",
+  "property_type": "apartment",
+  "price": 450000,
+  "size": "149 m²",
+  "garden": "No garden mentioned – has varanda (check listing)",
+  "note": "450.000 € | Apartamento T3 | Condomínio fechado | 2 lugares de estacionamento | Arrumo fechado O privilégio de viver no centro de Aveiro, com espaço, tranqui…",
+  "url": "https://www.olx.pt/d/anuncio/t3-no-pateo-vera-cruz-condomnio-fechado-boas-reas-dois-lugares-d-IDJDR39.html",
+  "also": false,
+  "first_seen": "2026-10-19",
+  "source": "olx",
+  "auto": true,
+  "coast_km": 8.4,
+  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/35yi8a4wc0ze3-PT/image;s=640x480",
+  "lat": 40.64256,
+  "lon": -8.64173,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 3,
+  "size_m2": 149,
+  "stretch": "8.4 km from the coast (limit 8 km)",
+  "id": "d122844112",
+  "municipality": "Aveiro",
+  "garden_yes": false,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": true,
+  "terrace": false,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Cidade Da Maia",
+  "typology": "T3",
+  "property_type": "apartment",
+  "price": 425000,
+  "size": "143 m²",
+  "garden": "No garden mentioned – has varanda (check listing)",
+  "note": "Apartamento T3 no centro da Maia, com varanda e garagem box para 4 carros.",
+  "url": "https://www.olx.pt/d/anuncio/fantstico-t3-no-centro-da-maia-com-garagem-box-para-4-carros-IDJE9Rr.html",
+  "also": false,
+  "first_seen": "2026-10-19",
+  "source": "olx",
+  "auto": true,
+  "coast_km": 8.5,
+  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/hsawj55orkf3-PT/image;s=640x480",
+  "lat": 41.23952,
+  "lon": -8.61974,
+  "coord_approx": true,
+  "coord_note": "listing map pin (approximate area)",
+  "bedrooms": 3,
+  "size_m2": 143,
+  "stretch": "8.5 km from the coast (limit 8 km)",
+  "id": "d65c25769a",
+  "municipality": "Maia",
+  "garden_yes": false,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": true,
+  "terrace": false,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Pedrouços",
+  "typology": "T4",
+  "property_type": "house",
+  "price": 420000,
+  "size": "260 m²",
+  "garden": "Yes – mentions 'jardim' (check listing)",
+  "note": "Moradia T4, localizada em Pedrouços, ideal para quem procura espaço, conforto e uma localização privilegiada.",
+  "url": "https://www.olx.pt/d/anuncio/moradia-t4-com-jardim-garagem-para-3-carros-e-quintal-pedrouos-IDJvTN1.html",
+  "also": false,
+  "first_seen": "2026-10-19",
+  "source": "olx",
+  "auto": true,
+  "coast_km": 8.8,
+  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/qlr1sy84t5q52-PT/image;s=640x480",
+  "lat": 41.18987,
+  "lon": -8.5885,
+  "coord_approx": true,
+  "coord_note": "listing map pin (approximate area)",
+  "bedrooms": 4,
+  "size_m2": 260,
+  "private": true,
+  "stretch": "8.8 km from the coast (limit 8 km)",
+  "id": "9917a4d7cc",
+  "municipality": "Maia",
+  "garden_yes": true,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": false,
+  "terrace": false,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Cidade Da Maia",
+  "typology": "T3",
+  "property_type": "apartment",
+  "price": 425000,
+  "size": "143 m²",
+  "garden": "No garden mentioned – has varanda (check listing)",
+  "note": "Apresentamos este magnífico apartamento T3 com 143 m² de área, ideal para quem valoriza a amplitude, a qualidade de vida e uma excelente distribuição dos esp…",
+  "url": "https://www.olx.pt/d/anuncio/exclusivo-apartamento-t3-com-143-m2-e-varanda-conforto-espao-e-luz-IDJAHYH.html",
+  "also": false,
+  "first_seen": "2026-10-19",
+  "source": "olx",
+  "auto": true,
+  "coast_km": 8.8,
+  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/jmjiiqhdot7k2-PT/image;s=640x480",
+  "lat": 41.23354,
+  "lon": -8.61386,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 3,
+  "size_m2": 143,
+  "stretch": "8.8 km from the coast (limit 8 km)",
+  "id": "971cd11f45",
+  "municipality": "Maia",
+  "garden_yes": false,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": true,
+  "terrace": false,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Barcarena",
+  "typology": "T2",
+  "property_type": "apartment",
+  "price": 382500,
+  "size": "85 m²",
+  "garden": "No garden mentioned – has varanda (check listing)",
+  "note": "Se procura uma casa prática, acolhedora e bem situada para a sua família, este apartamento pode ser a escolha certa.",
+  "url": "https://www.olx.pt/d/anuncio/apartamento-t2-1-em-barcarena-IDJDSFc.html",
+  "also": false,
+  "first_seen": "2026-10-19",
+  "source": "olx",
+  "auto": true,
+  "coast_km": 8.9,
+  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/1zqxcwb86ae92-PT/image;s=640x480",
+  "lat": 38.74508,
+  "lon": -9.26928,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 2,
+  "size_m2": 85,
+  "stretch": "8.9 km from the coast (limit 8 km)",
+  "id": "6ab2f9d6ab",
+  "municipality": "Oeiras",
+  "garden_yes": false,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": true,
+  "terrace": false,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Pedrouços",
+  "typology": "T3",
+  "property_type": "apartment",
+  "price": 415000,
+  "size": "110 m²",
+  "garden": "No garden mentioned – has varanda (check listing)",
+  "note": "Apartamento T3 em Pedrouços, Maia, com acabamentos de qualidade, soluções de conforto e eficiência energética, a cerca de 15 minutos do centro da Maia e 20 m…",
+  "url": "https://www.olx.pt/d/anuncio/apartamento-t3-empedrouos-maia-IDJxzLu.html",
+  "also": false,
+  "first_seen": "2026-10-19",
+  "source": "olx",
+  "auto": true,
+  "coast_km": 9.0,
+  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/yxjwqx4ogjjh-PT/image;s=640x480",
+  "lat": 41.18977,
+  "lon": -8.58642,
+  "coord_approx": true,
+  "coord_note": "listing map pin (approximate area)",
+  "bedrooms": 3,
+  "size_m2": 110,
+  "stretch": "9.0 km from the coast (limit 8 km)",
+  "id": "8b29f5b932",
+  "municipality": "Maia",
+  "garden_yes": false,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": true,
+  "terrace": true,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Cidade Da Maia",
+  "typology": "T4",
+  "property_type": "apartment",
+  "price": 369000,
+  "size": "240 m²",
+  "garden": "Yes – mentions 'terreno' (check listing)",
+  "note": "Apresentamos este acolhedor andar moradia T2+2 nos Altos, Vermoim, Maia.",
+  "url": "https://www.olx.pt/d/anuncio/venda-de-apartamento-em-rua-adelino-amaro-da-costa-66-IDJEuTE.html",
+  "also": false,
+  "first_seen": "2026-10-19",
+  "source": "olx",
+  "auto": true,
+  "coast_km": 9.0,
+  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/200y4d05fbju2-PT/image;s=640x480",
+  "lat": 41.23876,
+  "lon": -8.61329,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 4,
+  "size_m2": 240,
+  "private": true,
+  "stretch": "9.0 km from the coast (limit 8 km)",
+  "id": "1faf946365",
+  "municipality": "Maia",
+  "garden_yes": true,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": false,
+  "terrace": false,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Cidade Da Maia",
+  "typology": "T3",
+  "property_type": "apartment",
+  "price": 375000,
+  "size": "135 m²",
+  "garden": "No garden mentioned (check listing)",
+  "note": "Descubra este excelente apartamento T3, situado na Rua D.",
+  "url": "https://www.olx.pt/d/anuncio/apartamento-t3-na-avenida-d-manuel-ii-centro-da-maia-IDJEj88.html",
+  "also": false,
+  "first_seen": "2026-10-19",
+  "source": "olx",
+  "auto": true,
+  "coast_km": 9.0,
+  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/pkrr61nzp1xe2-PT/image;s=640x480",
+  "lat": 41.23674,
+  "lon": -8.6119,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 3,
+  "size_m2": 135,
+  "stretch": "9.0 km from the coast (limit 8 km)",
+  "id": "8ff2fd22a1",
+  "municipality": "Maia",
+  "garden_yes": false,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": false,
+  "terrace": false,
+  "build_why": []
+ },
+ {
+  "section": "ready",
+  "town": "Alcântara",
+  "typology": "T2",
+  "property_type": "apartment",
+  "price": 499000,
+  "size": "100 m²",
+  "garden": "No garden mentioned – has terraço (check listing)",
+  "note": "Imagine chegar a casa e ter um oásis só seu, no coração de Lisboa.",
+  "url": "https://www.olx.pt/d/anuncio/t2-renovado-com-terrao-privado-de-50-m-rua-da-indstria-alcntara-IDJEjX2.html",
+  "also": false,
+  "first_seen": "2026-10-19",
+  "source": "olx",
+  "auto": true,
+  "coast_km": 9.0,
+  "image": "https://ireland.apollo.olxcdn.com:443/v1/files/2dqk7s6c8z5x-PT/image;s=640x480",
+  "lat": 38.70584,
+  "lon": -9.1793,
+  "coord_approx": false,
+  "coord_note": "listing map pin",
+  "bedrooms": 2,
+  "size_m2": 100,
+  "stretch": "9.0 km from the coast (limit 8 km)",
+  "id": "67b94f9e09",
+  "municipality": "Lisboa",
+  "garden_yes": false,
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": false,
+  "terrace": true,
+  "build_why": []
+ },
+ {
+  "section": "reno",
+  "town": "Sandim, Vila Nova de Gaia",
+  "typology": "T3",
+  "property_type": "house",
+  "price": 190000,
+  "size": "200 m²",
+  "garden": "No garden mentioned (check listing)",
+  "note": "Moradia T3 em Sandim, Vila Nova De Gaia Procura uma moradia com espaço exterior e potencial para criar uma casa à sua medida?",
+  "url": "https://www.idealista.pt/imovel/35411917/",
+  "also": false,
+  "first_seen": "2026-10-19",
+  "source": "idealista",
+  "auto": true,
+  "coast_km": null,
+  "image": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/da/d0/ba/331888831.jpg",
+  "bedrooms": 3,
+  "size_m2": 200,
+  "id": "0012fc9fcd",
+  "municipality": "Vila Nova de Gaia",
+  "garden_yes": false,
+  "lat": 41.03662,
+  "lon": -8.51271,
+  "coord_approx": true,
+  "coord_note": "approx. – centre of Sandim, Vila Nova de Gaia",
+  "new_build": false,
+  "unfinished": false,
+  "needs_work": false,
+  "balcony": false,
+  "terrace": false,
+  "build_why": [],
+  "also_on": [
+   {
+    "source": "idealista",
+    "url": "https://www.idealista.pt/imovel/35408183/"
+   }
+  ]
+ },
+ {
+  "section": "reno",
+  "town": "Pedroso, Vila Nova de Gaia",
+  "typology": "T3",
+  "property_type": "house",
+  "price": 180000,
+  "size": "100 m²",
+  "garden": "Yes – mentions 'quintal' (check listing)",
+  "note": "Moradia térrea para restauro.",
+  "url": "https://www.idealista.pt/imovel/33776478/",
+  "also": false,
+  "first_seen": "2026-10-19",
+  "source": "idealista",
+  "auto": true,
+  "coast_km": null,
+  "image": "",
+  "bedrooms": 3,
+  "size_m2": 100,
+  "id": "f138b48919",
+  "municipality": "Vila Nova de Gaia",
+  "garden_yes": true,
+  "title": null,
+  "lat": 41.06414,
+  "lon": -8.55722,
+  "coord_approx": true,
+  "coord_note": "approx. – centre of Pedroso, Vila Nova de Gaia",
   "new_build": false,
   "unfinished": false,
   "needs_work": false,
