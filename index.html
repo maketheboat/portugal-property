@@ -546,7 +546,7 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
   <a class="thumb" href="${esc(x.url)}" target="_blank" rel="noopener"><span class="ph">🏡</span>${img}<span class="chips">${PPVW.has(x.id)?'<span class="chip vw">👁 Viewed</span>':""}${allNotes(x.id).length?`<span class="chip nt">📝 ${allNotes(x.id).length}</span>`:""}${status}${isNew?'<span class="chip new">New</span>':""}</span></a>
   <span class="acts"><button class="fav${lf?" on":""}" data-act="fav" title="Favourite" aria-label="Favourite">${lf?"♥":"♡"}</button>${noteBtn(x.id,"act")}<button class="vwb${PPVW.has(x.id)?" on":""}" data-x="vw" type="button" title="${PPVW.has(x.id)?"Viewed (tap to undo)":"Mark as viewed"}" aria-label="Viewed" aria-pressed="${PPVW.has(x.id)}">👁</button>${rm?"":'<button data-act="rem" title="Remove (hide)" aria-label="Remove">×</button>'}</span>
   <div class="body"><div class="price">${x.price?fmt(x.price):"Price n/a"}${x.section==="rent"&&x.price?" <small>/month</small>":""}</div><h3>${esc(x.town)}</h3>
-   <div class="meta"><span>${esc(x.typology)}</span><span>${esc(x.size)}</span>${x.municipality?`<span>${esc(x.municipality)}</span>`:""}</div>
+   <div class="meta"><span>${esc(x.typology)}</span>${x.size?`<span>${esc(x.size)}</span>`:""}${x.municipality?`<span>${esc(x.municipality)}</span>`:""}</div>
    <div class="tags">${tags.join("")}</div>${agRow(x.id)}
    ${x._dist!=null?`<div class="dist">${x.coord_approx?"≈ ":""}${x._dist.toFixed(1)} km from ${esc(state.loc||"chosen point")}${x.coord_approx?" (approx. location)":""}</div>`:""}
    ${x.section==="rent"?rentRow(x):""}<div class="garden">🌿 Garden/land: ${esc(x.garden)}</div><p>${esc(x.note)}</p>${notePreview(x.id)}
