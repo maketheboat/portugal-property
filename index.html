@@ -248,14 +248,6 @@ body.locked>*:not(#lock){display:none!important}
 .lkmsg{font-size:.88rem;min-height:1.2em}.lkmsg.err{color:#c0392b}.lkmsg.ok{color:#1b7f4b}
 .ascan{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:10px;padding:8px 10px;border-radius:10px;background:var(--chip,#f2f4f7);font-size:13px;color:var(--muted)}
 .ascan:empty{display:none}.ascan span{flex:1;min-width:180px}.ascan b{color:var(--fg,inherit)}.ascan .ib{padding:4px 10px}
-/* ---- edit a home / fix a pin ---- */
-#editm .dlg{max-width:560px;height:auto;max-height:min(94vh,900px)}
-.edft{display:flex;gap:8px;align-items:center;justify-content:flex-end;padding:10px 16px;border-top:1px solid var(--line)}.edft .err{flex:1;font-size:.84rem;color:#b3261e;min-width:0}
-.edmap{height:190px;border-radius:10px;border:1px solid var(--line);margin-top:4px;z-index:0}
-.edloc{display:flex;gap:6px;align-items:flex-end}.edloc label{flex:1}.edloc .ib{height:36px;flex:none}
-.edhint{font-size:.76rem;color:var(--muted);margin:4px 0 0}
-.edb{background:none;border:1px solid var(--line);border-radius:999px;padding:3px 10px;cursor:pointer;font:inherit;font-size:.82rem;color:var(--ink)}.edb:hover{border-color:var(--accent);color:var(--accent)}
-@media(max-width:640px){#editm .dlg{max-height:none}.edmap{height:170px}}
 </style></head><body class="boot">
 <header id="hdr"><div class="wrap"><div class="htitle"><h1>Home</h1></div>
 <div class="hacts"><div class="seg mode" id="mode" role="group" aria-label="Buy or rent"><button data-v="buy" class="on" type="button">Buy</button><button data-v="rent" type="button">Rent</button></div><button class="hbtn" id="addbtn" type="button" aria-label="Add property" title="Add property"><span aria-hidden="true">＋</span><span class="bl"> Add property</span></button><button class="hbtn" id="agentsbtn" type="button" aria-label="Agents" title="Agents"><span aria-hidden="true">👥</span><span class="bl"> Agents</span></button><button class="hbtn acct out" id="acctbtn" type="button" aria-label="Sign in"><span aria-hidden="true">👤</span></button><button class="hbtn" id="sharebtn" type="button" aria-label="My lists" title="My lists (favourites, share code)"><span aria-hidden="true">♥</span><span class="bl"> My lists</span></button></div></div></header>
@@ -371,11 +363,6 @@ body.locked>*:not(#lock){display:none!important}
   <div id="ax_out"></div>
  </div>
 </div></div>
-<div id="editm" class="modal sheet" role="dialog" aria-modal="true" aria-labelledby="edh"><div class="dlg">
- <div class="sh"><h2 id="edh">Edit home</h2><button class="ib" type="button" data-edclose aria-label="Close">✕</button></div>
- <div class="sb" id="edbody"></div>
- <div class="edft"><span class="err" id="ed_err" role="status"></span><button class="ib" type="button" data-edclose>Cancel</button><button class="ib pri" type="button" id="ed_save">Save</button></div>
-</div></div>
 <div id="toast"></div>
 <div id="migr" class="migr" hidden role="region" aria-label="Upload saved lists"></div>
 <div id="apierr" class="apierr" hidden role="alert"></div>
@@ -383,7 +370,7 @@ body.locked>*:not(#lock){display:none!important}
 
 <script>
 "use strict";
-const DATA={"labels":{"imovirtual":"Imovirtual","casasapo":"Casa Sapo","remax":"RE/MAX","century21":"Century 21","olx":"OLX","custojusto":"CustoJusto","idealista":"Idealista","ego":"eGO agencies","improxy":"Improxy agencies","maismls":"maisMLS agencies","kw":"KW agencies","housinganywhere":"HousingAnywhere","era":"ERA","jsonld":"Local agencies (JSON-LD)","supercasa":"SuperCasa","bpi":"BPI Expresso Imobiliário","engel":"Engel & Völkers","zome":"Zome","iad":"iad Portugal","coldwell":"Coldwell Banker","kyero":"Kyero","idealista_rss":"Idealista RSS","decisoes":"Decisões e Soluções","greenacres":"Green-Acres","rightmove":"Rightmove Overseas","aplaceinthesun":"A Place in the Sun","predimed":"Predimed","casaiberia":"Casaiberia","cgd":"Caixa Imobiliário (CGD)","rainhavip":"Rainha VIP","westlife":"West Life","mrhouse":"Mr House","veigas":"Veigas Imobiliária","jcouto":"J Couto Imobiliária","dulceenoivo":"Dulce e Noivo","imonazare":"IMO Nazaré","smin":"S.M.I.N. Nazaré","jzegre":"JZegre Sesimbra","lnhouse":"LN House","landa":"L&A Real Estate","redereal":"Rede Real","vistasalgarve":"Vistas do Algarve","eurovivenda":"Eurovivenda","analima":"Ana Lima Real Estate","kwalfa":"KW Alfa","casasdeprata":"Casas de Prata"},"portals":["imovirtual","casasapo","remax","century21","olx","custojusto","idealista","ego","improxy","maismls","kw","housinganywhere","era","jsonld"],"regions":{"north":"North coast","centre":"Centre & Silver Coast","lisbon":"Lisbon & Setúbal","alentejo":"Alentejo coast","algarve":"Algarve"},"sharedFavs":[],"sharedNotes":{},"api":"https://portugal-property-api.maketheboat.workers.dev","key":"pp-shared-7f3a91","munis":{"lisbon":["Almada","Amadora","Cascais","Lisboa","Mafra","Oeiras","Palmela","Seixal","Sesimbra","Setúbal","Sintra","Torres Vedras"],"centre":["Alcobaça","Aveiro","Bombarral","Cadaval","Caldas da Rainha","Cantanhede","Estarreja","Figueira da Foz","Leiria","Lourinhã","Marinha Grande","Mira","Murtosa","Nazaré","Ovar","Peniche","Rio Maior","Santa Maria da Feira","Vagos","Ílhavo","Óbidos"],"alentejo":["Alcácer do Sal","Grândola","Odemira","Santiago do Cacém","Sines"],"algarve":["Albufeira","Aljezur","Castro Marim","Faro","Huelva","Lagoa","Lagos","Loulé","Olhão","Portimão","Silves","Tavira","Vila Real de Santo António","Vila do Bispo"],"north":["Arcos de Valdevez","Barcelos","Caminha","Espinho","Esposende","Gondomar","Maia","Matosinhos","Porto","Póvoa de Varzim","Santa Maria da Feira","Trofa","Viana do Castelo","Vila Nova de Cerveira","Vila Nova de Gaia","Vila do Conde"]},"gazsrc":"gaz.json?v=3e54d5910b","today":"2026-11-04","updated":"04 Nov 2026, 09:42"};
+const DATA={"labels":{"imovirtual":"Imovirtual","casasapo":"Casa Sapo","remax":"RE/MAX","century21":"Century 21","olx":"OLX","custojusto":"CustoJusto","idealista":"Idealista","ego":"eGO agencies","improxy":"Improxy agencies","maismls":"maisMLS agencies","kw":"KW agencies","housinganywhere":"HousingAnywhere","era":"ERA","jsonld":"Local agencies (JSON-LD)","supercasa":"SuperCasa","bpi":"BPI Expresso Imobiliário","engel":"Engel & Völkers","zome":"Zome","iad":"iad Portugal","coldwell":"Coldwell Banker","kyero":"Kyero","idealista_rss":"Idealista RSS","decisoes":"Decisões e Soluções","greenacres":"Green-Acres","rightmove":"Rightmove Overseas","aplaceinthesun":"A Place in the Sun","predimed":"Predimed","casaiberia":"Casaiberia","cgd":"Caixa Imobiliário (CGD)","rainhavip":"Rainha VIP","westlife":"West Life","mrhouse":"Mr House","veigas":"Veigas Imobiliária","jcouto":"J Couto Imobiliária","dulceenoivo":"Dulce e Noivo","imonazare":"IMO Nazaré","smin":"S.M.I.N. Nazaré","jzegre":"JZegre Sesimbra","lnhouse":"LN House","landa":"L&A Real Estate","redereal":"Rede Real","vistasalgarve":"Vistas do Algarve","eurovivenda":"Eurovivenda","analima":"Ana Lima Real Estate","kwalfa":"KW Alfa","casasdeprata":"Casas de Prata"},"portals":["imovirtual","casasapo","remax","century21","olx","custojusto","idealista","ego","improxy","maismls","kw","housinganywhere","era","jsonld"],"regions":{"north":"North coast","centre":"Centre & Silver Coast","lisbon":"Lisbon & Setúbal","alentejo":"Alentejo coast","algarve":"Algarve"},"sharedFavs":[],"sharedNotes":{},"api":"https://portugal-property-api.maketheboat.workers.dev","key":"pp-shared-7f3a91","munis":{"lisbon":["Almada","Amadora","Cascais","Lisboa","Mafra","Oeiras","Palmela","Seixal","Sesimbra","Setúbal","Sintra","Torres Vedras"],"centre":["Alcobaça","Aveiro","Bombarral","Cadaval","Caldas da Rainha","Cantanhede","Estarreja","Figueira da Foz","Leiria","Lourinhã","Marinha Grande","Mira","Murtosa","Nazaré","Ovar","Peniche","Rio Maior","Santa Maria da Feira","Vagos","Ílhavo","Óbidos"],"alentejo":["Alcácer do Sal","Grândola","Odemira","Santiago do Cacém","Sines"],"algarve":["Albufeira","Aljezur","Castro Marim","Faro","Huelva","Lagoa","Lagos","Loulé","Olhão","Portimão","Silves","Tavira","Vila Real de Santo António","Vila do Bispo"],"north":["Arcos de Valdevez","Barcelos","Caminha","Espinho","Esposende","Gondomar","Maia","Matosinhos","Porto","Póvoa de Varzim","Santa Maria da Feira","Trofa","Viana do Castelo","Vila Nova de Cerveira","Vila Nova de Gaia","Vila do Conde"]},"gazsrc":"gaz.json?v=3e54d5910b","today":"2026-11-04","updated":"04 Nov 2026, 15:07"};
 // a hotlinked photo that fails (throttling, flaky network) gets one retry after 2 s before the placeholder shows
 function ppImgErr(el){if(!el.dataset.retry){el.dataset.retry="1";const u=el.getAttribute("src");setTimeout(()=>{el.src=u+(u.includes("?")?"&":"?")+"r=1";},2000);}else el.remove();}
 if(typeof window!=="undefined")window.ppImgErr=ppImgErr;
@@ -923,8 +910,7 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
  const AGM=$("agm"),PKM=$("pickm"),AGB=$("agbody");let agView=null,agAll=[],pickFor=null;
  const agName=id=>(PPAG.list.find(a=>a.id===id)||{}).name||"Agent";
  const initials=n=>String(n||"?").split(/\s+/).filter(Boolean).slice(0,2).map(w=>w[0].toUpperCase()).join("");
- function agRow(id){const a=PPAG.la[id]||[];return `<div class="agrow" data-lid="${id}">${a.map(i=>`<button type="button" class="agchip" data-x="agopen" data-ag="${i}">👤 ${esc(agName(i))}</button>`).join("")}<button type="button" class="agadd" data-x="agpick">${a.length?"＋":"＋ Agent"}</button>${editBtn(id)}</div>`;}
- function editBtn(id){const x=byId.get(id);if(!x)return "";return x.added||x.source==="added"?'<button type="button" class="edb" data-x="edit" title="Edit this home">✎ Edit</button>':'<button type="button" class="edb" data-x="edit" title="Fix the location" aria-label="Fix the location">📍</button>';}
+ function agRow(id){const a=PPAG.la[id]||[];return `<div class="agrow" data-lid="${id}">${a.map(i=>`<button type="button" class="agchip" data-x="agopen" data-ag="${i}">👤 ${esc(agName(i))}</button>`).join("")}<button type="button" class="agadd" data-x="agpick">${a.length?"＋":"＋ Agent"}</button></div>`;}
  function shortCard(x,act){return `<li data-lid="${x.id}">${x.image?`<img src="${esc(x.image)}" alt="" loading="lazy" referrerpolicy="no-referrer">`:'<span class="ph2"></span>'}<span class="pi"><b>${x.price?fmt(x.price):"Price n/a"}${x.section==="rent"?"/mo":""} · ${esc(x.typology||"")}</b><span>${esc(x.town||x.title||"")}</span></span>${act}</li>`;}
  function agentsChanged(){return PPAPI.get("/state").then(st=>{store=storeFrom(st);fillAgentSel();render(false);});}
  function openAgents(id){AGM.classList.add("open");document.body.style.overflow="hidden";id?showAgent(id):showAgents();}
@@ -1073,69 +1059,18 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
    const d=(axRes&&axRes.draft)||{};b.disabled=true;
    if(v.agent_id==="new"){v.agent=d.agent;v.agent_id="";}
    PPAPI.send("POST","/add",{...v,price:+String(v.price).replace(/[^\d]/g,"")||null,size_m2:+v.size_m2||null,rent:v.sec==="rent",reno:v.sec==="reno",title:d.title||"",image:d.image||"",note:d.note||"",lat:d.lat||null,lon:d.lon||null,approx:!d.lat})
-    .then(r=>{closeAdd2();window.PPWROTE=Date.now();if(r.known){toast("Already on Home.");jumpTo(r.id,"map");return;}byId.set(r.id,r.j);const ag=r.agent;toast(!ag?"Added to Home.":ag.created?`Added. New agent ${ag.name}${r.scan?" – checking their site for more homes":""}.`:ag.name?`Added and linked to ${ag.name}.`:"Added to Home.");agentsChanged().then(()=>jumpTo(r.id,r.j.lat!=null?"map":"list"));})
+    .then(r=>{closeAdd2();if(r.known){toast("Already on Home.");jumpTo(r.id,"map");return;}byId.set(r.id,r.j);const ag=r.agent;toast(!ag?"Added to Home.":ag.created?`Added. New agent ${ag.name}${r.scan?" – checking their site for more homes":""}.`:ag.name?`Added and linked to ${ag.name}.`:"Added to Home.");agentsChanged().then(()=>jumpTo(r.id,r.j.lat!=null?"map":"list"));})
     .catch(e=>{b.disabled=false;toast(e.message);});}
   if(a==="addagent"){const v={origin:axImg?"photo":"link",origin_ref:$("ax_url").value.trim()||null};AXO.querySelectorAll("[data-a]").forEach(el=>v[el.dataset.a]=el.value.trim());
    if(!v.name){toast("Name is needed.");return;}b.disabled=true;
    PPAPI.send("POST","/agents",v).then(r=>{closeAdd2();agentsChanged();openAgents(r.agent.id);toast(r.existing?`${r.agent.name} is already saved${r.scan?" – checking their site again":""}.`:r.scan?"Agent saved. Checking their site for homes…":"Agent saved. Add their homes below.");}).catch(e=>{b.disabled=false;toast(e.message);});}});
  // jump to a home: map (centred, popup open) or list (searched by its town)
  function jumpTo(id,how){const go=x=>{byId.set(x.id,x);
-   if(how==="map"&&x.lat!=null){state.view="map";render();let n=0,moved=false;
-    // centre first, then wait for this home's own marker (pins load per viewport) and open it; fall back to a plain popup
-    const t=setInterval(()=>{n++;if(!map){if(n>60)clearInterval(t);return;}
-     if(!moved){moved=true;userMoved=true;map.closePopup();map.setView([x.lat,x.lon],15);return;}
-     const m=mk.get(x.id);if(m&&m.getLatLng&&Math.abs(m.getLatLng().lat-x.lat)<1e-6){clearInterval(t);setTimeout(()=>{const vis=!layer||!layer.getVisibleParent||layer.getVisibleParent(m)===m;if(vis)m.openPopup();else layer.zoomToShowLayer(m,()=>m.openPopup());},350);}
-     else if(n>60){clearInterval(t);window.L.popup().setLatLng([x.lat,x.lon]).setContent(popupHtml(x)).openOn(map);}},150);}
+   if(how==="map"&&x.lat!=null){state.view="map";render();let n=0;const t=setInterval(()=>{if((map&&mk.size)||++n>40){clearInterval(t);if(!map)return;userMoved=true;map.closePopup();map.setView([x.lat,x.lon],15);
+     const m=mk.get(x.id);if(m&&layer&&layer.zoomToShowLayer)layer.zoomToShowLayer(m,()=>m.openPopup());else window.L.popup().setLatLng([x.lat,x.lon]).setContent(popupHtml(x)).openOn(map);}},150);}
    else{state.view="list";state.q=String(x.town||"").split(",")[0];toUI();render();setTimeout(()=>{const c=document.querySelector(`.card[data-id="${x.id}"]`);if(c){c.scrollIntoView({block:"center"});c.style.outline="3px solid var(--accent)";}},1500);}};
   const x=byId.get(id);x?go(x):PPAPI.get("/listing/"+id).then(go).catch(e=>toast(e.message));}
  window.PPJUMP=jumpTo;
-
- // ===== edit a home added by hand / fix the pin of any other home =====
- const EDM=$("editm"),EDB=$("edbody");let edId=null,edMap=null,edPin=null,edSet=false;
- function closeEdit(){EDM.classList.remove("open");document.body.style.overflow="";if(edMap){edMap.remove();edMap=null;}edId=null;}
- EDM.addEventListener("click",e=>{if(e.target===EDM||e.target.closest("[data-edclose]"))closeEdit();});
- document.addEventListener("keydown",e=>{if(e.key==="Escape"&&EDM.classList.contains("open"))closeEdit();});
- document.addEventListener("click",e=>{const b=e.target.closest('[data-x="edit"]');if(!b||b.closest("#agm"))return;e.preventDefault();e.stopPropagation();
-  if(AUTH.required&&!AUTH.user){openLogin("Please sign in to edit homes.");return;}openEdit(b.closest("[data-lid]").dataset.lid);},true);
- const isCustom=x=>!!(x.added||x.source==="added");
- function openEdit(id){const x=byId.get(id);if(!x)return;edId=id;edSet=false;const cu=isCustom(x),sec=x.section||"ready",ag=(PPAG.la[id]||[])[0]||"";
-  $("edh").textContent=cu?"Edit home":"Fix the location";$("ed_err").textContent="";$("ed_save").disabled=false;
-  EDB.innerHTML=`${cu?"":`<p class="edhint" style="margin:0 0 8px">${esc(x.town||"")} – from ${esc(x.source||"a portal")}. Only the map pin and place name can be changed here; the daily update keeps your fix.</p>`}
-   <div class="aform">
-    <label class="w">${cu?"Town or address *":"Place name (optional)"}<input data-e="address" value="${esc(cu?x.town||"":x.loc_fixed?x.town||"":"")}" placeholder="${cu?"e.g. Rua do Mar 5, Ferrel, Peniche":esc(x.town||"")}"></label>
-    <div class="w"><div class="edloc"><label>Lat<input data-e="lat" inputmode="decimal" value="${x.lat??""}"></label><label>Lng<input data-e="lon" inputmode="decimal" value="${x.lon??""}"></label><button class="ib" type="button" id="ed_find" title="Find the address on the map">Find address</button></div>
-     <div class="edmap" id="edmap"></div><p class="edhint" id="ed_hint">Drag the pin or tap the map to set the exact spot.</p></div>
-    ${cu?`<label class="w">Title<input data-e="title" value="${esc(x.title||"")}"></label>
-    <label>Price (€)<input data-e="price" inputmode="numeric" value="${x.price||""}"></label><label>Bedrooms (T)<input data-e="typology" value="${esc(x.typology||"")}" placeholder="T3"></label>
-    <label>Size (m²)<input data-e="size_m2" inputmode="numeric" value="${x.size_m2||""}"></label>
-    <label>Type<select data-e="property_type" class="ctl"><option value="house">House</option><option value="apartment"${x.property_type==="apartment"?" selected":""}>Apartment</option></select></label>
-    <label>For<select data-e="sec" class="ctl"><option value="ready">Buy</option><option value="reno"${sec==="reno"?" selected":""}>Buy – needs work</option><option value="rent"${sec==="rent"?" selected":""}>Rent</option></select></label>
-    <label>Agent<select data-e="agent_id" class="ctl"><option value="">None</option>${PPAG.list.map(a=>`<option value="${a.id}"${a.id===ag?" selected":""}>${esc(a.name)}</option>`).join("")}</select></label>
-    <label class="w">Link<input data-e="url" type="url" value="${esc(/google\.com\/maps/.test(x.url||"")?"":x.url||"")}" placeholder="https://…"></label>
-    <label class="w">Photo link<input data-e="image" type="url" value="${esc(x.image||"")}" placeholder="https://… (image address)"></label>`:""}
-   </div>${!cu&&x.loc_fixed?'<div class="acts2"><button class="ib dng" type="button" id="ed_undo">Undo my fix</button></div>':""}`;
-  EDM.classList.add("open");document.body.style.overflow="hidden";
-  const F=k=>EDB.querySelector(`[data-e="${k}"]`),setLL=(la,lo,manual)=>{F("lat").value=(+la).toFixed(6);F("lon").value=(+lo).toFixed(6);if(manual)edSet=true;if(edPin)edPin.setLatLng([la,lo]);};
-  ensureLeaflet().then(()=>{if(edId!==id)return;const Lf=window.L,c=x.lat!=null?[x.lat,x.lon]:[39.5,-8.6];
-   edMap=Lf.map("edmap",{zoomControl:true,attributionControl:false}).setView(c,x.lat!=null?15:6);Lf.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19}).addTo(edMap);
-   edPin=Lf.marker(c,{draggable:true}).addTo(edMap);edPin.on("dragend",()=>{const p=edPin.getLatLng();setLL(p.lat,p.lng,true);});
-   edMap.on("click",e=>setLL(e.latlng.lat,e.latlng.lng,true));setTimeout(()=>edMap&&edMap.invalidateSize(),60);});
-  ["lat","lon"].forEach(k=>F(k).addEventListener("change",()=>{const la=+F("lat").value,lo=+F("lon").value;if(la&&lo){edSet=true;if(edPin){edPin.setLatLng([la,lo]);edMap.setView([la,lo]);}}}));
-  F("address").addEventListener("input",()=>{edSet=false;$("ed_hint").textContent="The pin moves to the new address when you save (or tap Find address).";});
-  $("ed_find").onclick=()=>{const q=F("address").value.trim();if(!q){$("ed_err").textContent="Type an address first.";return;}$("ed_find").disabled=true;
-   PPAPI.send("POST","/geocode",{q}).then(r=>{if(!r.ok){$("ed_err").textContent="Could not find that address. Drag the pin instead.";return;}$("ed_err").textContent="";setLL(r.lat,r.lon,true);if(edMap)edMap.setView([r.lat,r.lon],15);$("ed_hint").textContent="Found it. Drag the pin if it is not quite right.";})
-    .catch(e=>{$("ed_err").textContent=e.message;}).finally(()=>{if($("ed_find"))$("ed_find").disabled=false;});};
-  if($("ed_undo"))$("ed_undo").onclick=()=>{PPAPI.send("DELETE","/locfix/"+id).then(r=>{edited(r.j,"Back to the listing's own location.");}).catch(e=>{$("ed_err").textContent=e.message;});};
-  $("ed_save").onclick=()=>{const v={};EDB.querySelectorAll("[data-e]").forEach(el=>v[el.dataset.e]=el.value.trim());
-   if(cu&&!v.address){$("ed_err").textContent="Add a town or address so it can go on the map.";return;}
-   if(!edSet){delete v.lat;delete v.lon;}
-   $("ed_save").disabled=true;$("ed_err").textContent="";
-   const req=cu?PPAPI.send("PUT","/custom/"+id,v):PPAPI.send("PUT","/locfix/"+id,{address:v.address,lat:edSet?v.lat:"",lon:edSet?v.lon:""});
-   req.then(r=>{edited(r.j,cu?"Saved.":"Location fixed.");if(cu)agentsChanged();}).catch(e=>{$("ed_save").disabled=false;$("ed_err").textContent=e.message;});};}
- function edited(j,msg){if(!j)return;byId.set(j.id,j);window.PPWROTE=Date.now();closeEdit();toast(msg);
-  const m=mk.get(j.id);if(m&&j.lat!=null){m.setLatLng([j.lat,j.lon]);if(m._pp){m._pp={...m._pp,lat:j.lat,lon:j.lon};}if(m.isPopupOpen&&m.isPopupOpen())m.getPopup().setContent(popupHtml(j));}
-  const c=document.querySelector(`.card[data-id="${j.id}"]`);if(c){const t=document.createElement("div");t.innerHTML=card(j);c.replaceWith(t.firstElementChild);}
-  if(state.view==="map")jumpTo(j.id,"map");}
  window.PPUI={choose,showSug,drawMap,setR,textSearch,openDrawer,closeDrawer};
  toUI();render(false);
 })();};
@@ -1143,7 +1078,7 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
  // ---- session (bearer token in this browser) + magic-link landing (#login=…) ----
  const TOK="pp.session",authH=()=>{const t=localStorage.getItem(TOK);return t?{"authorization":"Bearer "+t}:{};};
  const jfetch=(p,o)=>fetch(API+p,o).then(r=>r.json().catch(()=>({})).then(j=>{if(r.status===401&&!p.startsWith("/auth/")&&localStorage.getItem(TOK)&&document.body.classList.contains("live")){localStorage.removeItem(TOK);location.reload();}if(!r.ok){const e=new Error(j.error||("HTTP "+r.status));e.status=r.status;throw e;}return j;}));
- window.PPAPI={get:p=>jfetch(window.PPWROTE&&Date.now()-window.PPWROTE<60000&&/^\/(listings|map|facets)\?/.test(p)?p+"&_w="+window.PPWROTE:p,{headers:authH()}),
+ window.PPAPI={get:p=>jfetch(p,{headers:authH()}),
   send:(m,p,b)=>jfetch(p,{method:m,headers:{"content-type":"application/json","x-pp-key":DATA.key,...authH()},body:b?JSON.stringify(b):undefined})};
  const lm=location.hash.match(/^#login=([A-Za-z0-9_-]+)/);
  const landed=lm?(history.replaceState(null,"",location.pathname+location.search),PPAPI.send("POST","/auth/verify",{token:lm[1]}).then(r=>{localStorage.setItem(TOK,r.token);window.PPLOGIN="ok";}).catch(e=>{window.PPLOGIN=e.message;})):Promise.resolve();
