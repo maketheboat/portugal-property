@@ -256,6 +256,16 @@ body.locked>*:not(#lock){display:none!important}
 .edhint{font-size:.76rem;color:var(--muted);margin:4px 0 0}
 .edb{background:none;border:1px solid var(--line);border-radius:999px;padding:3px 10px;cursor:pointer;font:inherit;font-size:.82rem;color:var(--ink)}.edb:hover{border-color:var(--accent);color:var(--accent)}
 @media(max-width:640px){#editm .dlg{max-height:none}.edmap{height:170px}}
+
+/* ---- similar homes ---- */
+.simb{display:inline-block;margin-top:6px;background:none;border:0;padding:0;font:inherit;font-size:.82rem;color:var(--accent);cursor:pointer;text-decoration:underline;text-underline-offset:2px}
+.simb[hidden]{display:none!important}.simb:hover{color:var(--ink)}
+.pop .simb{margin-top:4px;font-size:.78rem}
+#simm .dlg{display:flex;flex-direction:column}
+#simm .sb{overflow:auto;flex:1}
+#simm .plist li{cursor:pointer}#simm .plist li:hover{background:#f6fafb}
+#simm .why{display:block;color:var(--muted);font-size:.76rem;margin-top:2px}
+@media(max-width:640px){#simm .dlg{max-height:none;height:100%;border-radius:0}}
 </style></head><body class="boot">
 <header id="hdr"><div class="wrap"><div class="htitle"><h1>Home</h1></div>
 <div class="hacts"><div class="seg mode" id="mode" role="group" aria-label="Buy or rent"><button data-v="buy" class="on" type="button">Buy</button><button data-v="rent" type="button">Rent</button></div><button class="hbtn" id="addbtn" type="button" aria-label="Add property" title="Add property"><span aria-hidden="true">＋</span><span class="bl"> Add property</span></button><button class="hbtn" id="agentsbtn" type="button" aria-label="Agents" title="Agents"><span aria-hidden="true">👥</span><span class="bl"> Agents</span></button><button class="hbtn acct out" id="acctbtn" type="button" aria-label="Sign in"><span aria-hidden="true">👤</span></button><button class="hbtn" id="sharebtn" type="button" aria-label="My lists" title="My lists (favourites, share code)"><span aria-hidden="true">♥</span><span class="bl"> My lists</span></button></div></div></header>
@@ -371,6 +381,10 @@ body.locked>*:not(#lock){display:none!important}
   <div id="ax_out"></div>
  </div>
 </div></div>
+<div id="simm" class="modal sheet" role="dialog" aria-modal="true" aria-labelledby="simh"><div class="dlg" style="max-width:480px;height:auto;max-height:min(88vh,720px)">
+ <div class="sh"><h2 id="simh">Similar homes</h2><button class="ib" type="button" data-simclose aria-label="Close">✕</button></div>
+ <div class="sb"><p class="empty2" id="simsub" style="padding-top:0;margin:0 0 8px"></p><ul class="plist" id="simlist"></ul></div>
+</div></div>
 <div id="editm" class="modal sheet" role="dialog" aria-modal="true" aria-labelledby="edh"><div class="dlg">
  <div class="sh"><h2 id="edh">Edit home</h2><button class="ib" type="button" data-edclose aria-label="Close">✕</button></div>
  <div class="sb" id="edbody"></div>
@@ -383,7 +397,7 @@ body.locked>*:not(#lock){display:none!important}
 
 <script>
 "use strict";
-const DATA={"labels":{"imovirtual":"Imovirtual","casasapo":"Casa Sapo","remax":"RE/MAX","century21":"Century 21","olx":"OLX","custojusto":"CustoJusto","idealista":"Idealista","ego":"eGO agencies","improxy":"Improxy agencies","maismls":"maisMLS agencies","kw":"KW agencies","housinganywhere":"HousingAnywhere","era":"ERA","jsonld":"Local agencies (JSON-LD)","supercasa":"SuperCasa","bpi":"BPI Expresso Imobiliário","engel":"Engel & Völkers","zome":"Zome","iad":"iad Portugal","coldwell":"Coldwell Banker","kyero":"Kyero","idealista_rss":"Idealista RSS","decisoes":"Decisões e Soluções","greenacres":"Green-Acres","rightmove":"Rightmove Overseas","aplaceinthesun":"A Place in the Sun","predimed":"Predimed","casaiberia":"Casaiberia","cgd":"Caixa Imobiliário (CGD)","rainhavip":"Rainha VIP","westlife":"West Life","mrhouse":"Mr House","veigas":"Veigas Imobiliária","jcouto":"J Couto Imobiliária","dulceenoivo":"Dulce e Noivo","imonazare":"IMO Nazaré","smin":"S.M.I.N. Nazaré","jzegre":"JZegre Sesimbra","lnhouse":"LN House","landa":"L&A Real Estate","redereal":"Rede Real","vistasalgarve":"Vistas do Algarve","eurovivenda":"Eurovivenda","analima":"Ana Lima Real Estate","kwalfa":"KW Alfa","casasdeprata":"Casas de Prata"},"portals":["imovirtual","casasapo","remax","century21","olx","custojusto","idealista","ego","improxy","maismls","kw","housinganywhere","era","jsonld"],"regions":{"north":"North coast","centre":"Centre & Silver Coast","lisbon":"Lisbon & Setúbal","alentejo":"Alentejo coast","algarve":"Algarve"},"sharedFavs":[],"sharedNotes":{},"api":"https://portugal-property-api.maketheboat.workers.dev","key":"pp-shared-7f3a91","munis":{"lisbon":["Almada","Amadora","Cascais","Lisboa","Mafra","Oeiras","Palmela","Seixal","Sesimbra","Setúbal","Sintra","Torres Vedras"],"centre":["Alcobaça","Aveiro","Bombarral","Cadaval","Caldas da Rainha","Cantanhede","Estarreja","Figueira da Foz","Leiria","Lourinhã","Marinha Grande","Mira","Murtosa","Nazaré","Ovar","Peniche","Rio Maior","Santa Maria da Feira","Vagos","Ílhavo","Óbidos"],"alentejo":["Alcácer do Sal","Grândola","Odemira","Santiago do Cacém","Sines"],"algarve":["Albufeira","Aljezur","Castro Marim","Faro","Huelva","Lagoa","Lagos","Loulé","Olhão","Portimão","Silves","Tavira","Vila Real de Santo António","Vila do Bispo"],"north":["Arcos de Valdevez","Barcelos","Caminha","Espinho","Esposende","Gondomar","Maia","Matosinhos","Porto","Póvoa de Varzim","Santa Maria da Feira","Trofa","Viana do Castelo","Vila Nova de Cerveira","Vila Nova de Gaia","Vila do Conde"]},"gazsrc":"gaz.json?v=3e54d5910b","today":"2026-11-05","updated":"05 Nov 2026, 09:55"};
+const DATA={"labels":{"imovirtual":"Imovirtual","casasapo":"Casa Sapo","remax":"RE/MAX","century21":"Century 21","olx":"OLX","custojusto":"CustoJusto","idealista":"Idealista","ego":"eGO agencies","improxy":"Improxy agencies","maismls":"maisMLS agencies","kw":"KW agencies","housinganywhere":"HousingAnywhere","era":"ERA","jsonld":"Local agencies (JSON-LD)","supercasa":"SuperCasa","bpi":"BPI Expresso Imobiliário","engel":"Engel & Völkers","zome":"Zome","iad":"iad Portugal","coldwell":"Coldwell Banker","kyero":"Kyero","idealista_rss":"Idealista RSS","decisoes":"Decisões e Soluções","greenacres":"Green-Acres","rightmove":"Rightmove Overseas","aplaceinthesun":"A Place in the Sun","predimed":"Predimed","casaiberia":"Casaiberia","cgd":"Caixa Imobiliário (CGD)","rainhavip":"Rainha VIP","westlife":"West Life","mrhouse":"Mr House","veigas":"Veigas Imobiliária","jcouto":"J Couto Imobiliária","dulceenoivo":"Dulce e Noivo","imonazare":"IMO Nazaré","smin":"S.M.I.N. Nazaré","jzegre":"JZegre Sesimbra","lnhouse":"LN House","landa":"L&A Real Estate","redereal":"Rede Real","vistasalgarve":"Vistas do Algarve","eurovivenda":"Eurovivenda","analima":"Ana Lima Real Estate","kwalfa":"KW Alfa","casasdeprata":"Casas de Prata"},"portals":["imovirtual","casasapo","remax","century21","olx","custojusto","idealista","ego","improxy","maismls","kw","housinganywhere","era","jsonld"],"regions":{"north":"North coast","centre":"Centre & Silver Coast","lisbon":"Lisbon & Setúbal","alentejo":"Alentejo coast","algarve":"Algarve"},"sharedFavs":[],"sharedNotes":{},"api":"https://portugal-property-api.maketheboat.workers.dev","key":"pp-shared-7f3a91","munis":{"lisbon":["Almada","Amadora","Cascais","Lisboa","Mafra","Oeiras","Palmela","Seixal","Sesimbra","Setúbal","Sintra","Torres Vedras"],"centre":["Alcobaça","Aveiro","Bombarral","Cadaval","Caldas da Rainha","Cantanhede","Estarreja","Figueira da Foz","Leiria","Lourinhã","Marinha Grande","Mira","Murtosa","Nazaré","Ovar","Peniche","Rio Maior","Santa Maria da Feira","Vagos","Ílhavo","Óbidos"],"alentejo":["Alcácer do Sal","Grândola","Odemira","Santiago do Cacém","Sines"],"algarve":["Albufeira","Aljezur","Castro Marim","Faro","Huelva","Lagoa","Lagos","Loulé","Olhão","Portimão","Silves","Tavira","Vila Real de Santo António","Vila do Bispo"],"north":["Barcelos","Caminha","Espinho","Esposende","Gondomar","Maia","Matosinhos","Porto","Póvoa de Varzim","Santa Maria da Feira","Viana do Castelo","Vila Nova de Cerveira","Vila Nova de Gaia","Vila do Conde"]},"gazsrc":"gaz.json?v=3e54d5910b","today":"2026-11-05","updated":"30 Oct 2026, 13:03"};
 // a hotlinked photo that fails (throttling, flaky network) gets one retry after 2 s before the placeholder shows
 function ppImgErr(el){if(!el.dataset.retry){el.dataset.retry="1";const u=el.getAttribute("src");setTimeout(()=>{el.src=u+(u.includes("?")?"&":"?")+"r=1";},2000);}else el.remove();}
 if(typeof window!=="undefined")window.ppImgErr=ppImgErr;
@@ -923,7 +937,8 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
  const AGM=$("agm"),PKM=$("pickm"),AGB=$("agbody");let agView=null,agAll=[],pickFor=null;
  const agName=id=>(PPAG.list.find(a=>a.id===id)||{}).name||"Agent";
  const initials=n=>String(n||"?").split(/\s+/).filter(Boolean).slice(0,2).map(w=>w[0].toUpperCase()).join("");
- function agRow(id){const a=PPAG.la[id]||[];return `<div class="agrow" data-lid="${id}">${a.map(i=>`<button type="button" class="agchip" data-x="agopen" data-ag="${i}">👤 ${esc(agName(i))}</button>`).join("")}<button type="button" class="agadd" data-x="agpick">${a.length?"＋":"＋ Agent"}</button>${editBtn(id)}</div>`;}
+ function agRow(id){const a=PPAG.la[id]||[];return `<div class="agrow" data-lid="${id}">${a.map(i=>`<button type="button" class="agchip" data-x="agopen" data-ag="${i}">👤 ${esc(agName(i))}</button>`).join("")}<button type="button" class="agadd" data-x="agpick">${a.length?"＋":"＋ Agent"}</button>${editBtn(id)}</div>${simBtn(id)}`;}
+ function simBtn(id){return `<button type="button" class="simb" data-x="sim" data-lid="${id}" hidden>View <span class="simn">0</span> similar</button>`;}
  function editBtn(id){const x=byId.get(id);if(!x)return "";return x.added||x.source==="added"?'<button type="button" class="edb" data-x="edit" title="Edit this home">✎ Edit</button>':'<button type="button" class="edb" data-x="edit" title="Fix the location" aria-label="Fix the location">📍</button>';}
  function shortCard(x,act){return `<li data-lid="${x.id}">${x.image?`<img src="${esc(x.image)}" alt="" loading="lazy" referrerpolicy="no-referrer">`:'<span class="ph2"></span>'}<span class="pi"><b>${x.price?fmt(x.price):"Price n/a"}${x.section==="rent"?"/mo":""} · ${esc(x.typology||"")}</b><span>${esc(x.town||x.title||"")}</span></span>${act}</li>`;}
  function agentsChanged(){return PPAPI.get("/state").then(st=>{store=storeFrom(st);fillAgentSel();render(false);});}
@@ -1136,6 +1151,35 @@ if(typeof document!=="undefined"&&DATA){if(!DATA.listings&&window.PPDATA)Object.
   const m=mk.get(j.id);if(m&&j.lat!=null){m.setLatLng([j.lat,j.lon]);if(m._pp){m._pp={...m._pp,lat:j.lat,lon:j.lon};}if(m.isPopupOpen&&m.isPopupOpen())m.getPopup().setContent(popupHtml(j));}
   const c=document.querySelector(`.card[data-id="${j.id}"]`);if(c){const t=document.createElement("div");t.innerHTML=card(j);c.replaceWith(t.firstElementChild);}
   if(state.view==="map")jumpTo(j.id,"map");}
+
+ // ===== similar homes =====
+ const SIMM=$("simm"); let simFor=null, simBusy=null;
+ function fillSimCounts(ids){const L=[...new Set((ids||[]).filter(Boolean))].slice(0,60); if(!L.length) return;
+  const miss=L.filter(id=>{const b=document.querySelector(`.simb[data-lid="${id}"]`); return b && b.hidden;});
+  // always refresh counts for ids we have a button for
+  const want=L.filter(id=>document.querySelector(`.simb[data-lid="${id}"]`)); if(!want.length) return;
+  const key=want.join(","); if(simBusy===key) return; simBusy=key;
+  PPAPI.get("/similar?ids="+want.join(",")+"&counts=1").then(C=>{
+    for(const id of want){const n=C[id]|0; document.querySelectorAll(`.simb[data-lid="${id}"]`).forEach(b=>{
+      if(n<1){b.hidden=true; return;} b.hidden=false; const shown=n>12?"12+":String(n); const s=b.querySelector(".simn"); if(s) s.textContent=shown; else b.textContent="View "+shown+" similar";
+      b.setAttribute("aria-label","View "+shown+" similar home"+(n===1?"":"s"));});}
+  }).catch(()=>{}).finally(()=>{if(simBusy===key) simBusy=null;});}
+ function closeSimilar(){SIMM.classList.remove("open"); document.body.style.overflow=""; simFor=null;}
+ function openSimilar(id){simFor=id; const x=byId.get(id); $("simh").textContent="Similar homes"; $("simsub").textContent=x?((x.price?fmt(x.price):"Price n/a")+(x.section==="rent"&&x.price?"/mo":"")+" · "+(x.typology||"")+" · "+(x.town||"")):""; $("simlist").innerHTML='<li class="empty2">Looking…</li>';
+  SIMM.classList.add("open"); document.body.style.overflow="hidden";
+  PPAPI.get("/similar/"+id+"?limit=10").then(r=>{
+    if(simFor!==id) return; const n=r.n|0; $("simh").textContent=n?`Similar homes (${Math.min(n,r.items.length)}${n>r.items.length?" of "+n:""})`:"Similar homes";
+    if(!r.items||!r.items.length){$("simlist").innerHTML='<li class="empty2">No close matches right now.</li>'; return;}
+    $("simlist").innerHTML=r.items.map(it=>{const j=it.j||{}; byId.set(j.id,j); const why=(it.why||[]).join(" · ");
+      return shortCard(j,`<span class="why">${esc(why)}</span>`).replace("<li ","<li data-simjump=\"1\" ");}).join("");
+  }).catch(e=>{if(simFor===id) $("simlist").innerHTML=`<li class="empty2">${esc(e.message)}</li>`;});}
+ SIMM.addEventListener("click",e=>{if(e.target===SIMM||e.target.closest("[data-simclose]")){closeSimilar(); return;}
+  const li=e.target.closest("#simlist li[data-lid]"); if(!li) return; const id=li.dataset.lid; closeSimilar(); jumpTo(id, state.view==="map"?"map":"list");});
+ document.addEventListener("click",e=>{const b=e.target.closest('[data-x="sim"]'); if(!b) return; e.preventDefault(); e.stopPropagation();
+  if(AUTH.required&&!AUTH.user){openLogin("Please sign in to see similar homes."); return;} openSimilar(b.dataset.lid||b.closest("[data-lid]").dataset.lid);},true);
+ document.addEventListener("keydown",e=>{if(e.key==="Escape"&&SIMM.classList.contains("open")) closeSimilar();});
+ {const p0=prep; prep=function(L){const a=p0(L); queueMicrotask(()=>fillSimCounts(a.map(x=>x.id))); return a;};}
+ {const ph=popupHtml; popupHtml=function(x){const h=ph(x); queueMicrotask(()=>fillSimCounts([x.id])); return h;};}
  window.PPUI={choose,showSug,drawMap,setR,textSearch,openDrawer,closeDrawer};
  toUI();render(false);
 })();};
